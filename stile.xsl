@@ -45,25 +45,54 @@
                                 </div>
                             </div>
                         </article>
-                        
-                        
+
+                          <div class="gyeah">
+                            <h3 id="about">Riferimenti</h3>
+                            <xsl:apply-templates select="//tei:editionStmt"/>
+                            <p>Traduzione di: <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></p>
+                        </div>
+
+
                     </div>
                 </div>
                 <article id="p10">
                 </article>
                 <article id="p11">
                 </article>
-                
-                <footer>
-                    <xsl:apply-templates select="//tei:titleStmt" />
-                    <div>
-                        <xsl:apply-templates select="//tei:editionStmt" />
-                    </div>
-                    <div>
-                        <xsl:apply-templates select="//tei:publicationStmt" />
-                    </div>
-                </footer>
+                <!-- <script type="text/javascript">some script here</script>-->
             </body>
         </html>
+ </xsl:template>
+
+
+<!-- Da qui in poi le definizioni generali dei template applicati poi sopra -->
+
+ <!-- Informazioni sull'edizione -->
+ <xsl:template match="tei:editionStmt">
+    <p><xsl:value-of select="current()/tei:edition"></xsl:value-of></p>
+    <p>Progetto a cura di: <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='CB']"></xsl:value-of> e <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='VS']"></xsl:value-of></p>
+    <p>Coordinato da: <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='AMDG']"></xsl:value-of></p>
+  </xsl:template>
+
+
+  <!-- Storia editoriale -->
+    <xsl:template match="tei:history">
+      <xsl:element name="div">
+        <xsl:attribute name="id">history</xsl:attribute>
+        <xsl:element name="h4">Cenni storici</xsl:element>
+        <xsl:element name="h5">Origine della bozza</xsl:element>
+        <xsl:element name="div">
+          <xsl:attribute name="class">info</xsl:attribute>
+          <xsl:attribute name="id">docOrigin</xsl:attribute>
+          <xsl:apply-templates select="current()/tei:origin" />
+        </xsl:element>
+        <xsl:element name="h5">Acquisizione</xsl:element>
+        <xsl:element name="div">
+          <xsl:attribute name="class">info</xsl:attribute>
+          <xsl:attribute name="id">docAcq</xsl:attribute>
+          <xsl:apply-templates select="current()/tei:acquisition" />
+        </xsl:element>
+      </xsl:element>
     </xsl:template>
+
 </xsl:stylesheet>
