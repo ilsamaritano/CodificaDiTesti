@@ -10,6 +10,7 @@
             <head>
                 <title>Progetto di Codifica di Testi - Prolusioni 10 e 11 di F. De Saussure</title>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
+                <script type="text/javascript" src="script.js"></script>
             </head>
             <body>
                 <header>
@@ -46,20 +47,41 @@
                             </div>
                         </article>
                         
-                        <div class="gyeah">
-                            <h3 id="about">Riferimenti</h3>
-                            <xsl:apply-templates select="//tei:editionStmt"/>
-                            <p>Traduzione di: <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></p>
-                        </div>
-                        
                         
                     </div>
                 </div>
                 <article id="p10">
+                    <h2> Pagina 10 </h2>
+                    <div class="page">
+                        <div class="img">
+                            <!--<xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
+                                 <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> -->
+                            <div>
+                                <input type="checkbox" id="ruotapag10" /> Mostra retro
+                            </div>
+                        </div>
+                        <div class="text">
+                            <xsl:apply-templates select="//tei:body/tei:div[@n = '10']" />
+                        </div>
+                    </div>
                 </article>
                 <article id="p11">
+                    <h2> Pagina 11 </h2>
+                    <div class="page">
+                        <div class="img">
+                            <!--<xsl:apply-templates select="//tei:surface[@xml:id='P2_11']" /> -->
+                        </div>
+                        <div class="text">
+                            <xsl:apply-templates select="//tei:body/tei:div[@n = '11']" />
+                        </div>
+                    </div>
                 </article>
-                <!-- <script type="text/javascript">some script here</script>-->
+                
+                <div id="append">
+                    <h3 id="about">Riferimenti</h3>
+                    <xsl:apply-templates select="//tei:editionStmt"/>
+                    <p>Traduzione di: <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></p>
+                </div>
             </body>
         </html>
     </xsl:template>
@@ -91,6 +113,246 @@
                 <xsl:attribute name="class">info</xsl:attribute>
                 <xsl:attribute name="id">docAcq</xsl:attribute>
                 <xsl:apply-templates select="current()/tei:acquisition" />
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    
+    <!-- Templates dei fenomeni del documento -->
+    
+    <xsl:template match="tei:abbr">
+        <abbr><xsl:value-of select="current()" /></abbr>
+    </xsl:template>
+    
+    <xsl:template match="tei:expan">
+        <xsl:element name="span">
+            <xsl:attribute name="class">expan</xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:add">
+        <ins><xsl:apply-templates /></ins>
+    </xsl:template>
+    
+    <xsl:template match="tei:del">
+        <del><xsl:apply-templates /></del>
+    </xsl:template>
+    
+    <xsl:template match="tei:foreign | tei:hi[@rend = 'italic']">
+        <i><xsl:apply-templates /></i>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend = 'bold']">
+        <strong><xsl:apply-templates /></strong>
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend = 'underline']">
+        <u><xsl:apply-templates /></u>
+    </xsl:template>
+    
+    <xsl:template match="tei:gap">
+        <span class="gap">?</span>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb">
+        <br />
+        <xsl:element name="span">
+            <xsl:attribute name="class">lineNumber</xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
+            </xsl:attribute>
+            <xsl:value-of select="@n" />
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:pb">
+        <xsl:element name="span">
+            <xsl:attribute name="class">pageNumber</xsl:attribute>
+            <xsl:attribute name="id">page_<xsl:value-of select="current()/@n" /></xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:ptr">
+        <xsl:element name="span">
+            <xsl:element name="a">
+                <xsl:attribute name="href">
+                    <xsl:value-of select="@target" />
+                </xsl:attribute>
+                <xsl:attribute name="class">noteIndex</xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="concat('n_', substring(current()/@target, 2))" />
+                </xsl:attribute>
+                <xsl:value-of select="substring(current()/@target, 10)" />
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:list[@type='notes']">
+        <xsl:element name="div">
+            <xsl:attribute name="class">noteList</xsl:attribute>
+            <xsl:for-each select="current()/tei:item">
+                
+                <xsl:element name="span">
+                    <xsl:attribute name="class">noteIndex</xsl:attribute>
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="concat('i_', current()//@xml:id)" />
+                    </xsl:attribute>
+                    <xsl:value-of select="@n" />
+                </xsl:element>
+                
+                <xsl:element name="span">
+                    <xsl:attribute name="class">noteDesc</xsl:attribute>
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="current()//@xml:id" />
+                    </xsl:attribute>
+                    <xsl:apply-templates select="current()/tei:note" />
+                </xsl:element>
+                
+                <br />
+            </xsl:for-each>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:term | tei:persName | tei:placeName">
+        
+        <xsl:element name="div">
+            <xsl:attribute name="class">key</xsl:attribute>
+            <xsl:element name="span">
+                <xsl:choose>
+                    <xsl:when test="name() = 'term'">
+                        <xsl:attribute name="class">keyword</xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('k_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when test="name() = 'persName'">
+                        <xsl:attribute name="class">
+                            <xsl:value-of select="name()" />
+                        </xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('pr_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
+                    </xsl:when>
+                    <xsl:when test="name() = 'placeName'">
+                        <xsl:attribute name="class">
+                            <xsl:value-of select="name()" />
+                        </xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('pl_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
+                    </xsl:when>
+                </xsl:choose>
+                
+                <xsl:apply-templates />
+            </xsl:element>
+            
+            <!-- Descrizione dei termini -->
+            
+            <xsl:element name="div">
+                <xsl:choose>
+                    <xsl:when test="name() = 'term'">
+                        <xsl:attribute name="class">tooltip keyDesc</xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('kD_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
+                        <xsl:apply-templates select="//tei:gloss[@target=current()/@ref]" />
+                    </xsl:when>
+                    
+                    <xsl:when test="name() = 'persName'">
+                        <xsl:attribute name="class">tooltip persDesc</xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('prD_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
+                        
+                        <xsl:element name="span">
+                            
+                            <xsl:attribute name="class">fullName</xsl:attribute>
+                            <xsl:for-each select="//tei:person[concat('#', @xml:id) = current()/@ref]//tei:forename">
+                                <xsl:apply-templates /><xsl:text> </xsl:text>
+                            </xsl:for-each>
+                            <xsl:text> </xsl:text>
+                            <xsl:for-each select="//tei:person[concat('#', @xml:id) = current()/@ref]//tei:surname">
+                                <xsl:apply-templates /><xsl:text> </xsl:text>
+                            </xsl:for-each>
+                            <xsl:element name="img">
+                                <xsl:attribute name="class">icon</xsl:attribute>
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="concat('src/', //tei:person[concat('#', @xml:id) = current()/@ref]/tei:sex, '.ico')" />
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">
+                                    <xsl:value-of select="concat('Sesso ', //tei:person[concat('#', @xml:id) = current()/@ref]/tei:sex)" />
+                                </xsl:attribute>
+                            </xsl:element>
+                        </xsl:element> <br />
+                        
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">birth</xsl:attribute>
+                            <xsl:element name="img">
+                                <xsl:attribute name="class">icon</xsl:attribute>
+                                <xsl:attribute name="src">src/birth.png</xsl:attribute>
+                                <xsl:attribute name="alt">Icon nascita</xsl:attribute>
+                                <xsl:text> </xsl:text>
+                                <span><xsl:value-of select="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:birth//tei:settlement[@type='municipality']" /></span>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:birth/tei:date" />
+                            </xsl:element>
+                        </xsl:element> <br />
+                        
+                        <xsl:if test="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death">
+                            <xsl:element name="span">
+                                <xsl:attribute name="class">death</xsl:attribute>
+                                <xsl:element name="img">
+                                    <xsl:attribute name="class">icon</xsl:attribute>
+                                    <xsl:attribute name="src">src/death.png</xsl:attribute>
+                                    <xsl:attribute name="alt">Icon morte</xsl:attribute>
+                                    <xsl:text> </xsl:text>
+                                    <span><xsl:value-of select="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death//tei:settlement[@type='municipality']" /></span>
+                                    <xsl:text>, </xsl:text>
+                                    <xsl:value-of select="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death/tei:date" />
+                                </xsl:element>
+                            </xsl:element>
+                        </xsl:if>
+                        
+                    </xsl:when>
+                    
+                    <xsl:when test="name() = 'placeName'">
+                        <xsl:attribute name="class">tooltip placeDesc</xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('plD_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">settlement</xsl:attribute>
+                            <xsl:choose>
+                                <xsl:when test="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement/@type = 'canton'">
+                                    Cantone
+                                </xsl:when>
+                                <xsl:when test="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement/@type = 'state'">
+                                    Stato
+                                </xsl:when>
+                                <xsl:when test="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement/@type = 'region'">
+                                    Regione
+                                </xsl:when>
+                            </xsl:choose>
+                            <strong>
+                                <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />
+                            </strong>
+                        </xsl:element>
+                        <br />
+                        <xsl:element name="span">
+                            <xsl:attribute name="class">country</xsl:attribute>
+                            <xsl:element name="img">
+                                <xsl:attribute name="class">icon</xsl:attribute>
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="concat('src/', //tei:place[concat('#', @xml:id) = current()/@ref]/tei:country/@key, '.png')" />
+                                </xsl:attribute>
+                                <xsl:attribute name="alt">
+                                    <xsl:value-of select="concat('Bandiera ', //tei:place[concat('#', @xml:id) = current()/@ref]/tei:country)" />
+                                </xsl:attribute>
+                            </xsl:element>
+                            <strong><xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" /></strong>
+                        </xsl:element>
+                    </xsl:when>
+                </xsl:choose>
             </xsl:element>
         </xsl:element>
     </xsl:template>

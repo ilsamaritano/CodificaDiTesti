@@ -478,6 +478,10 @@
                     Très possible qu’on dise <choice><orig>1</orig><reg>une</reg></choice> fois <mentioned xml:lang="fr">j’<emph rend="underline">achte</emph></mentioned> (j’ai déjà entendu <add place="below"><mentioned xml:lang="fr">je <emph rend="underline">cachte</emph></mentioned></add> <add place="margin"><mentioned xml:lang="fr" rend="underline">récolter</mentioned></add>
                 </ab>
             </div>
+            
+            <!-- Traduzione -->
+            <div type="traduzione">
+            </div>
         </body>
     </text>
 </TEI>
