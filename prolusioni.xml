@@ -12,11 +12,11 @@
             <titleStmt>
                 <title xml:lang="fr">Trois premières conférences à l'Université</title>
                 <title xml:lang="it">Le prime tre conferenze all'Università</title>
-                <author>Ferdinand De Saussure</author>
+                <author xml:id="FDS">Ferdinand De Saussure</author>
                 <respStmt>
                     <!-- Contiene responsabili del contenuto -->
                     <resp>Traduzione a cura di:</resp>
-                    <name>Emanuele Fadda</name>
+                    <name xml:id="EF">Emanuele Fadda</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -27,12 +27,12 @@
                 </edition>
                 <respStmt>
                     <resp>Progetto coordinato da:</resp>
-                    <name>Angelo Mario Del Grosso</name>
+                    <name xml:id="AMDG">Angelo Mario Del Grosso</name>
                 </respStmt>
                 <respStmt>
                     <resp>Codifica a cura di:</resp>
-                    <name>Corrado Baccheschi</name>
-                    <name>Vincenzo Sammartino</name>
+                    <name xml:id="CB">Corrado Baccheschi</name>
+                    <name xml:id="VS">Vincenzo Sammartino</name>
                 </respStmt>
             </editionStmt>
             <publicationStmt>
@@ -61,25 +61,26 @@
                             </author>
                             <title xml:lang="fr">
                                 Trois premières conférences à l'Université (cours d'ouverture,
-                                <date when="1891-11">Novembre 1891</date>)
+                                <date when="1891-11">Novembre 1891</date>
+                                )
                             </title>
                         </msItem>
                     </msContents>
                     <physDesc>
                         <objectDesc form="folio">
                             <supportDesc material="paper">
-                                <support>Fogli di carta.</support>
-                                <extent>67 pagine ed un foglietto, nello specifico 30 + 15 + 22 pagine + 1 foglietto.</extent>
-                                <condition>Le pagine sono relativamente in buone condizioni e non si evidenziano particolari danni, il manoscritto risulta quindi abbastanza leggibile.</condition>
+                                <support>Fogli di carta. </support>
+                                <extent>67 pagine ed un foglietto, nello specifico 30 + 15 + 22 pagine + 1 foglietto. </extent>
+                                <condition>Le pagine sono relativamente in buone condizioni e non si evidenziano particolari danni, il manoscritto risulta quindi abbastanza leggibile. </condition>
                             </supportDesc>
                             <layoutDesc>
                                 <layout columns="1" ruledLines="20 30">
-                                    <p>Le pagine hanno in media tra 20 e 30 righe, inoltre vi sono molte note a margine e al di sopra del testo.</p>
+                                    <p>Le pagine hanno in media tra 20 e 30 righe, inoltre vi sono molte note a margine e al di sopra del testo. </p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <handDesc hands="1">
-                            <p>Il testo è stato scritto interamente dalla mano dell'autore.</p>
+                            <p>Il testo è stato scritto interamente dalla mano dell'autore. </p>
                         </handDesc>
                         <typeDesc>
                             <p>Essendo degli appunti la scrittura è in caratteri corsivi che a volte risultano di difficile comprensione.
@@ -136,7 +137,6 @@
             </settingDesc>
         </profileDesc>
     </teiHeader>
-    
     <facsimile>
         <!-- Prolusioni 2 - Pagina 10 -->
         <surface n="1" xml:id="P2_10">
