@@ -9,8 +9,13 @@
         <html>
             <head>
                 <title>Progetto di Codifica di Testi - Prolusioni 10 e 11 di F. De Saussure</title>
+                <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+                <!-- <link rel="stylesheet" href="/resources/demos/style.css" /> -->
+                <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+                <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+                <script src="tooltip.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
-                <script type="text/javascript" src="script.js"></script>
+                
             </head>
             <body>
                 <header>
@@ -277,7 +282,7 @@
                             <xsl:element name="img">
                                 <xsl:attribute name="class">icon</xsl:attribute>
                                 <xsl:attribute name="src">
-                                    <xsl:value-of select="concat('src/', //tei:person[concat('#', @xml:id) = current()/@ref]/tei:sex, '.ico')" />
+                                    <xsl:value-of select="concat('', //tei:person[concat('#', @xml:id) = current()/@ref]/tei:sex, 'M.ico')" />
                                 </xsl:attribute>
                                 <xsl:attribute name="alt">
                                     <xsl:value-of select="concat('Sesso ', //tei:person[concat('#', @xml:id) = current()/@ref]/tei:sex)" />
@@ -343,7 +348,7 @@
                             <xsl:element name="img">
                                 <xsl:attribute name="class">icon</xsl:attribute>
                                 <xsl:attribute name="src">
-                                    <xsl:value-of select="concat('src/', //tei:place[concat('#', @xml:id) = current()/@ref]/tei:country/@key, '.png')" />
+                                    <xsl:value-of select="concat('', //tei:place[concat('#', @xml:id) = current()/@ref]/tei:country/@key, 'CH.png')" />
                                 </xsl:attribute>
                                 <xsl:attribute name="alt">
                                     <xsl:value-of select="concat('Bandiera ', //tei:place[concat('#', @xml:id) = current()/@ref]/tei:country)" />
