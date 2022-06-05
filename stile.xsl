@@ -130,6 +130,17 @@
     
     <!-- Templates dei fenomeni del documento -->
     
+    <!-- Cancellature -->
+    <xsl:template match="tei:del">
+        <del><xsl:apply-templates /></del>
+    </xsl:template>
+    
+    <!-- Aggiunte -->
+    <xsl:template match="tei:add">
+        <ins><xsl:apply-templates /></ins>
+    </xsl:template>
+    
+    <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
         <abbr><xsl:value-of select="current()" /></abbr>
     </xsl:template>
@@ -141,30 +152,30 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:add">
-        <ins><xsl:apply-templates /></ins>
-    </xsl:template>
-    
-    <xsl:template match="tei:del">
-        <del><xsl:apply-templates /></del>
-    </xsl:template>
-    
-    <xsl:template match="tei:foreign | tei:hi[@rend = 'italic']">
-        <i><xsl:apply-templates /></i>
-    </xsl:template>
-    
-    <xsl:template match="tei:hi[@rend = 'bold']">
-        <strong><xsl:apply-templates /></strong>
-    </xsl:template>
-    
-    <xsl:template match="tei:hi[@rend = 'underline']">
-        <u><xsl:apply-templates /></u>
-    </xsl:template>
-    
+    <!-- Elementi mancanti --> 
     <xsl:template match="tei:gap">
         <span class="gap">?</span>
     </xsl:template>
     
+    <!-- Termini stranieri e corsivo --> 
+    <xsl:template match="tei:foreign | tei:hi[@rend = 'italic']">
+        <i><xsl:apply-templates /></i>
+    </xsl:template>
+    
+    <!-- Sottolineature --> 
+    <xsl:template match="tei:hi[@rend = 'underline']">
+        <u><xsl:apply-templates /></u>
+    </xsl:template>
+    
+    <!-- Page beginning --> 
+    <xsl:template match="tei:pb">
+        <xsl:element name="span">
+            <xsl:attribute name="class">pageNumber</xsl:attribute>
+            <xsl:attribute name="id">page_<xsl:value-of select="current()/@n" /></xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+    
+    <!-- Line beginning --> 
     <xsl:template match="tei:lb">
         <br />
         <xsl:element name="span">
@@ -173,13 +184,6 @@
                 <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
             </xsl:attribute>
             <xsl:value-of select="@n" />
-        </xsl:element>
-    </xsl:template>
-    
-    <xsl:template match="tei:pb">
-        <xsl:element name="span">
-            <xsl:attribute name="class">pageNumber</xsl:attribute>
-            <xsl:attribute name="id">page_<xsl:value-of select="current()/@n" /></xsl:attribute>
         </xsl:element>
     </xsl:template>
     
