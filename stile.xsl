@@ -144,14 +144,14 @@
     <xsl:template match="tei:abbr">
         <abbr><xsl:value-of select="current()" /></abbr>
     </xsl:template>
-    
-    <xsl:template match="tei:expan">
-        <xsl:element name="span">
-            <xsl:attribute name="class">expan</xsl:attribute>
-            <xsl:value-of select="current()" />
-        </xsl:element>
-    </xsl:template>
-    
+    <!--
+         <xsl:template match="tei:expan">
+         <xsl:element name="span">
+         <xsl:attribute name="class">expan</xsl:attribute>
+         <xsl:value-of select="current()" />
+         </xsl:element>
+         </xsl:template>
+    -->
     <!-- Elementi mancanti --> 
     <xsl:template match="tei:gap">
         <span class="gap">?</span>
@@ -187,46 +187,6 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:ptr">
-        <xsl:element name="span">
-            <xsl:element name="a">
-                <xsl:attribute name="href">
-                    <xsl:value-of select="@target" />
-                </xsl:attribute>
-                <xsl:attribute name="class">noteIndex</xsl:attribute>
-                <xsl:attribute name="id">
-                    <xsl:value-of select="concat('n_', substring(current()/@target, 2))" />
-                </xsl:attribute>
-                <xsl:value-of select="substring(current()/@target, 10)" />
-            </xsl:element>
-        </xsl:element>
-    </xsl:template>
-    
-    <xsl:template match="tei:list[@type='notes']">
-        <xsl:element name="div">
-            <xsl:attribute name="class">noteList</xsl:attribute>
-            <xsl:for-each select="current()/tei:item">
-                
-                <xsl:element name="span">
-                    <xsl:attribute name="class">noteIndex</xsl:attribute>
-                    <xsl:attribute name="id">
-                        <xsl:value-of select="concat('i_', current()//@xml:id)" />
-                    </xsl:attribute>
-                    <xsl:value-of select="@n" />
-                </xsl:element>
-                
-                <xsl:element name="span">
-                    <xsl:attribute name="class">noteDesc</xsl:attribute>
-                    <xsl:attribute name="id">
-                        <xsl:value-of select="current()//@xml:id" />
-                    </xsl:attribute>
-                    <xsl:apply-templates select="current()/tei:note" />
-                </xsl:element>
-                
-                <br />
-            </xsl:for-each>
-        </xsl:element>
-    </xsl:template>
     
     <xsl:template match="tei:term | tei:persName | tei:placeName">
         
@@ -338,9 +298,6 @@
                         <xsl:element name="span">
                             <xsl:attribute name="class">settlement</xsl:attribute>
                             <xsl:choose>
-                                <xsl:when test="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement/@type = 'canton'">
-                                    Cantone
-                                </xsl:when>
                                 <xsl:when test="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement/@type = 'state'">
                                     Stato
                                 </xsl:when>
@@ -372,18 +329,87 @@
         </xsl:element>
     </xsl:template>
     
-    <!-- Traduzione -->
-    
-    <xsl:template match="//tei:div[@type='translation']">
-        <xsl:for-each select="current()/tei:ab">
-            <xsl:element name="p">
-                <xsl:attribute name="class">trslText</xsl:attribute>
-                <xsl:attribute name="id">
-                    <xsl:value-of select="concat('tr_', substring(@corresp, 2))" />
-                </xsl:attribute>
-                <xsl:apply-templates />
-            </xsl:element>
-        </xsl:for-each>
+    <xsl:template match="tei:surface">
+        <xsl:attribute name="src">
+            <xsl:value-of select="concat('src/', @xml:id, '.jpg')" />
+        </xsl:attribute>
     </xsl:template>
+    
+    
+    <!-- Template immagini -->
+    <xsl:template match="tei:surface">
+        <xsl:element name="img">
+            <xsl:attribute name="class">document
+                <xsl:choose>
+                    <xsl:when test="current()/@n mod 2 = 0"> iVerso </xsl:when>
+                    <xsl:when test="current()/@n mod 2 = 1"> iRecto </xsl:when>
+                </xsl:choose>
+            </xsl:attribute>
+            <xsl:attribute name="id">
+                <xsl:value-of select="concat(@xml:id, '_page')" />
+            </xsl:attribute>
+            <xsl:attribute name="src">
+                <xsl:value-of select="concat('src/', @xml:id, '.jpg')" />
+            </xsl:attribute>
+            <xsl:attribute name="alt">
+                <xsl:value-of select="concat('Immagine ', @xml:id)" />
+            </xsl:attribute>
+            <xsl:attribute name="width">350px</xsl:attribute>
+            <xsl:attribute name="usemap">
+                <xsl:value-of select="concat('#Pagemap_', @xml:id)" />
+            </xsl:attribute>
+        </xsl:element>
+        <xsl:element name="map">
+            <xsl:attribute name="name">
+                <xsl:value-of select="concat('Pagemap_', @xml:id)" />
+            </xsl:attribute>
+            
+            <xsl:for-each select="current()/tei:zone">
+                <xsl:variable name="ulx" select="@ulx" />
+                <xsl:variable name="uly" select="@uly" />
+                <xsl:variable name="lrx" select="@lrx" />
+                <xsl:variable name="lry" select="@lry" />
+                <xsl:variable name="width" select="translate(tei:graphic/@width, 'px', '')" />
+                <xsl:variable name="height" select="translate(tei:graphic/@height, 'px', '')" />
+                <xsl:variable name="ratio" select="350 div $width" />
+                <xsl:variable name="w" select="$width * $ratio" />
+                <xsl:variable name="h" select="$height * $ratio" />
+                
+                <xsl:element name="area">
+                    <xsl:attribute name="shape">rect</xsl:attribute>
+                    <xsl:attribute name="coords">
+                        <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)" />
+                    </xsl:attribute>
+                    <xsl:attribute name="href">
+                        <xsl:choose>
+                            <xsl:when test="../@n mod 2 = 1">
+                                <xsl:value-of select="concat('#line', substring(@xml:id, 6, 1), '_', (position() - 1))" />
+                            </xsl:when>
+                            <xsl:when test="../@n mod 2 = 0">
+                                <xsl:value-of select="concat('#line', substring(@xml:id, 6, 1), 'a_', (position() - 1))" />
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="@xml:id" />
+                    </xsl:attribute>
+                    <xsl:attribute name="style">
+                        position: absolute;
+                        left: <xsl:value-of select="$ulx * $ratio" />; <!-- ??? -->
+                        top: <xsl:value-of select="$uly * $ratio" />; <!-- ??? -->
+                        width: <xsl:value-of select="($lrx - $ulx) * $ratio" />;
+                        height: <xsl:value-of select="($lry - $uly) * $ratio" />;
+                        <!-- background-color: rgba(220, 220, 255, 0.3);
+                             z-index: 2; -->
+                     </xsl:attribute>
+                </xsl:element>
+            </xsl:for-each>
+            
+        </xsl:element>
+        
+        
+    </xsl:template>
+    
+    <!-- Template traduzione -->
     
 </xsl:stylesheet>

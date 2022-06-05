@@ -180,7 +180,7 @@
         <!-- Retro -->
         <surface n="2" xml:id="P2_10R">
             <graphic url='ms_fr_03951_01_2_p010v_mili.jpg' width='2623.6px' height='3159.6px' />
-            <zone ulx="266" uly="210" lrx="2385" lry="2879" xml:id="P11Retro" />
+            <zone ulx="266" uly="210" lrx="2385" lry="2879" xml:id="P10Retro" />
         </surface>
         
         <!-- Prolusioni 2 - Pagina 11 -->
