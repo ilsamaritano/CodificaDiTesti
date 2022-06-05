@@ -67,6 +67,10 @@
                         <div class="text">
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '10']" />
                         </div>
+                        
+                        <div id="traduzionepag10">
+                            <xsl:apply-templates select="//tei:div[@type='traduzionepag10']" />
+                        </div>
                     </div>
                 </article>
                 <article id="p11">
@@ -77,6 +81,9 @@
                         </div>
                         <div class="text">
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '11']" />
+                        </div>
+                        <div id="traduzionepag11">
+                            <xsl:apply-templates select="//tei:div[@type='traduzionepag11']" />
                         </div>
                     </div>
                 </article>
@@ -359,6 +366,20 @@
                 </xsl:choose>
             </xsl:element>
         </xsl:element>
+    </xsl:template>
+    
+    <!-- Traduzione -->
+    
+    <xsl:template match="//tei:div[@type='translation']">
+        <xsl:for-each select="current()/tei:ab">
+            <xsl:element name="p">
+                <xsl:attribute name="class">trslText</xsl:attribute>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="concat('tr_', substring(@corresp, 2))" />
+                </xsl:attribute>
+                <xsl:apply-templates />
+            </xsl:element>
+        </xsl:for-each>
     </xsl:template>
     
 </xsl:stylesheet>
