@@ -349,11 +349,11 @@
                     <lb xml:id="P2_10_L28" n="28" facs="#P10_R28" />
                     <del rend="overstrike">l'ideé et nouvelle</del> à chaque instant.
                 </ab>
-                <ab type="paragrafo" n="12" xml:id="P2_1O_N2">
+                <ab type="paragrafo" n="13" xml:id="P2_1O_N2">
                     <!-- lb? -->
                     Or il le fabriquera <abbr>touj<am>.</am></abbr><expan><ex>ours</ex></expan> d’après le <term ref="#pdanalogie">procédé d’<abbr>anal</abbr><expan><ex>ogie</ex></expan></term>.
                 </ab>
-                <ab type="paragrafo" n="12" xml:id="P2_1O_N3">
+                <ab type="paragrafo" n="14" xml:id="P2_1O_N3">
                     Il est possible que <choice><orig></orig><reg>,</reg></choice> si <del rend="overstrike">notre facul</del>
                     <lb xml:id="P2_10_L29" n="29" facs="#P10_R29" />
                     la puissance
@@ -479,16 +479,88 @@
                 </ab>
             </div>
             
-            <!-- Traduzione -->
-            <div type="traduzione">
+            <!-- Traduzione --> <!-- vanno aggiunti i tag fr -->
+            <div type="traduzionepag10">
                 <ab n="1" corresp="#P2_10_Par1" xml:lang="it">
                     in forme esistenti fornite dalla memoria;
                 </ab>
                 <ab n="2" corresp="#P2_10_Par2" xml:lang="it">
                     <hi rend="italic">punirai, punir</hi>, o meglio, se vogliamo, il suffisso <hi rend="italic">–ir</hi>, il suffisso <hi rend="italic">–irai</hi>, e il loro rapporto di significazione.
                 </ab>
+                <ab n="3" corresp="#P2_10_N1" xml:lang="it">
+                    Senza la presenza di tali elementi, <hi rend="italic">venirai</hi> è semplicemente impossibile.
+                </ab>
+                <ab n="4" corresp="#P2_10_Par4" xml:lang="it">
+                    Non vi sarà dunque mai creazione <hi rend="italic">ex nihilo</hi>, ma ogni innovazione non sarà che una applicazione nuova di elementi forniti dallo stato anteriore del linguaggio.
+                </ab>
+                <ab n="5" corresp="#P2_10_Par5" xml:lang="it">
+                    È così che il rinnovamento analogico, che in un senso è molto distruttivo, tuttavia non fa altro se non continuare senza mai poterla spezzare la catena degli elementi trasmessi fin dall’origine delle lingue.
+                </ab>
+                <ab n="6" corresp="#P2_10_Par6" xml:lang="it">
+                    Notiamo così immediatamente la ragione che ha fatto assegnare il nome di operazioni d’<hi rend="italic">analogia</hi>, fatti d’<hi rend="italic">analogia</hi> a tutte queste operazioni psicologiche.
+                </ab>
+                <ab n="7" corresp="#P2_10_Par7" xml:lang="it">
+                    Il termine è stato preso dalla grammatica antica dei greci, che vi associava un’altra idea e si poneva da un punto di vista assai differente dal nostro; ma è risultato applicabile nel senso che il risultato di tali operazioni tende a ristabilire un’analogia o una simmetria tra le forme;
+                </ab>
+                <ab n="8" corresp="#P2_10_Par8" xml:lang="it">
+                    così <hi rend="italic">viendrai</hi> non è simmetrico a <hi rend="italic">punirai</hi>.
+                </ab>
+                <ab n="9" corresp="#P2_10_Par9" xml:lang="it">
+                    È su una <hi rend="italic">analogia</hi> che viene effettuato il ragionamento che è alla base del fenomeno.
+                </ab>
+                <ab n="10" corresp="#P2_10_Par10" xml:lang="it">
+                    Più in generale, tale fenomeno rappresenta una <hi rend="italic">associazione di forme</hi> nella mente, che è dettata dall’<hi rend="italic">associazione delle idee rappresentate</hi>.
+                </ab>
+                <ab n="11" corresp="#P2_10_Par11" xml:lang="it">
+                    L’operazione di analogia è più viva e più fertile nel bambino, perché la sua memoria non ha ancora avuto il tempo di immagazzinare un segno proprio per ogni idea, ed egli si vede obbligato, di conseguenza, a confezionare ogni volta questo segno che sé.
+                </ab>
+                <ab n="12" corresp="#P2_10_Par12" xml:lang="it">
+                    Ora, egli lo fabbricherà sempre attraverso il procedimento di analogia.
+                </ab>
+                <ab n="13" corresp="#P2_10_N3" xml:lang="it">
+                    È possibile che, se la potenza e la nettezza della nostra memoria fossero infinitamente superiori a ciò che sono, le nuove formazioni per analogia sarebbero ridotte a quasi niente nella vita del linguaggio.
+                </ab>
+                <ab n="14" corresp="#P2_10_N3" xml:lang="it">
+                    
+                </ab>
+            </div>
+            
+            <div type="traduzionepag11">
+                <ab n="1" corresp="#P2_10_Par1" xml:lang="it">
+                    Ma di fatto le cose non vanno così, e una lingua qualsiasi a un momento qualsiasi non è altro che un vasto coacervo di formazioni analogiche, alcune assolutamente recenti, altre risalenti così addietro che si può solo ipotizzarle.
+                </ab>
+                <ab n="2" corresp="#P2_10_Par2" xml:lang="it">
+                    Chiedere a un linguista di citare delle formazioni analogiche, è come se si chiedesse a un mineralogista di citare dei minerali, o a un astronomo di citare qualche stella, e io inizio subito col dire questo perché non vi sia nessuna sottovalutazione del valore che noi attribuiamo a tali fatti:
+                </ab>
                 <ab n="3" corresp="#P2_10_Par3" xml:lang="it">
-                    Senza la presenza di tali elementi, venirai è semplicemente impossibile.
+                    non sono fatti eccezionali e aneddotici, non sono <hi rend="italic">curiosità</hi> o anomalie,
+                </ab>
+                <ab n="4" corresp="#P2_10_Par4" xml:lang="it">
+                    ma è la sostanza più chiara del linguaggio dovunque e in ogni epoca, è la sua storia di ogni giorno e di ogni epoca:
+                </ab>
+                <ab n="5" corresp="#P2_10_Par5" xml:lang="it"> <!-- NOTA DA CODIFICARE --> 
+                    <hi rend="italic">je treuve, nous trouvons</hi> come <hi rend="italic">je meurs, nous mourons</hi>. Perché? C’è una ragione eccellente, ma [il francese moderno ha invece <hi rend="italic">je trouve</hi>]. Si diceva <hi rend="italic">je lève, nous levons</hi>, e noi diciamo <hi rend="italic">je lave, nous lavons</hi>.
+                </ab>
+                <ab n="6" corresp="#P2_10_Par6" xml:lang="it">
+                    I preteriti forti tedeschi sono quasi sempre del tipo zog, wir zogen; lieh, liehen; band, banden; half, halfen; ward, wurden.
+                </ab>
+                <ab n="7" corresp="#P2_10_Par7" xml:lang="it">
+                    Sempre nella storia del preterito un esempio: che anche le forme più familiari alla mente – cosa singolare – sono soggette [all’analogia].
+                </ab>
+                <ab n="8" corresp="#P2_10_N1" xml:lang="it">
+                    Si è detto per secoli grand, femm. grand, contro bon, femm. bone, perché [grandis indicava maschile e femminile.] Già all’XI sec. Si attesta la forma grande.
+                </ab>
+                <ab n="9" corresp="#P2_10_Par8" xml:lang="it">
+                    Contemporaneo: per esempio j’achète, nous achetons. Una donna non dice più je me décollette, ma je me décolte! Magnifica formazione analogica!
+                </ab>
+                <ab n="10" corresp="#P2_10_Par9" xml:lang="it">
+                    È chiaro, non già che bisogna dire (perché non bisogna dire proprio nulla; tutto ciò che si dice ha la sua ragion d’essere) – ma è chiaro che si è detto fino a un’epoca recente [je me décollette, nous nous décolletons] come j’achète, [nous achetons].
+                </ab>
+                <ab n="11" corresp="#P2_10_Par10" xml:lang="it">
+                    Ben possibile che prima o poi si dica j’achte (ho già sentito je cachte) – o récolter.
+                </ab>
+                <ab n="12" corresp="#P2_10_Par11" xml:lang="it">
+                    
                 </ab>
             </div>
         </body>
