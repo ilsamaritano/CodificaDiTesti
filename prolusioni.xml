@@ -481,6 +481,15 @@
             
             <!-- Traduzione -->
             <div type="traduzione">
+                <ab n="1" corresp="#P2_10_Par1" xml:lang="it">
+                    in forme esistenti fornite dalla memoria;
+                </ab>
+                <ab n="2" corresp="#P2_10_Par2" xml:lang="it">
+                    <hi rend="italic">punirai, punir</hi>, o meglio, se vogliamo, il suffisso <hi rend="italic">–ir</hi>, il suffisso <hi rend="italic">–irai</hi>, e il loro rapporto di significazione.
+                </ab>
+                <ab n="3" corresp="#P2_10_Par3" xml:lang="it">
+                    Senza la presenza di tali elementi, venirai è semplicemente impossibile.
+                </ab>
             </div>
         </body>
     </text>
