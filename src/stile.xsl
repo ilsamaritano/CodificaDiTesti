@@ -14,6 +14,7 @@
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
                 <script src="tooltip.js"></script>
                 <script src="imgjs.js"></script>
+                <script src="del.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
