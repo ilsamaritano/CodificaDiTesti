@@ -58,8 +58,8 @@
                     <h2> Pagina 10 </h2>
                     <div class="page">
                         <div class="img">
-                            <!--<xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
-                                 <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> -->
+                            <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
+                                 <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> 
                             <div>
                                 <input type="checkbox" id="ruotapag10" /> Mostra retro
                             </div>
@@ -144,14 +144,14 @@
     <xsl:template match="tei:abbr">
         <abbr><xsl:value-of select="current()" /></abbr>
     </xsl:template>
-    <!--
+
          <xsl:template match="tei:expan">
          <xsl:element name="span">
          <xsl:attribute name="class">expan</xsl:attribute>
          <xsl:value-of select="current()" />
          </xsl:element>
          </xsl:template>
-    -->
+
     <!-- Elementi mancanti --> 
     <xsl:template match="tei:gap">
         <span class="gap">?</span>
@@ -330,9 +330,11 @@
     </xsl:template>
     
     <xsl:template match="tei:surface">
+        <xsl:element name="img">
         <xsl:attribute name="src">
-            <xsl:value-of select="concat('src/', @xml:id, '.jpg')" />
+            <xsl:value-of select="concat('', @xml:id, '.jpg')" />
         </xsl:attribute>
+        </xsl:element>
     </xsl:template>
     
     
