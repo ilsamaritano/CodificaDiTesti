@@ -12,8 +12,14 @@ function mark(elem, color) {
 
     $("#mark").on("click", function(){
 
-        mark($(".termini"), "yellow")
+       num = $(".termini").length();
+       vect = $(".termini");
 
+        for(i=0, i<=num; i++) {
+
+        mark(vect[i], "yellow");
+
+        }
 
     });
 
