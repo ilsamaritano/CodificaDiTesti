@@ -169,14 +169,14 @@
     
     <!-- Page beginning --> 
     <xsl:template match="tei:pb">
-        <xsl:element name="span">
+        <xsl:element name="div">
             <xsl:attribute name="id">pagina_<xsl:value-of select="current()/@n" /></xsl:attribute>
         </xsl:element>
     </xsl:template>
     
     <!-- Line beginning --> 
     <xsl:template match="tei:lb">
-        <xsl:element name="span">
+        <xsl:element name="div">
             <xsl:attribute name="class">numeroRiga</xsl:attribute>
             <b><xsl:value-of select="@n" /></b>
         </xsl:element>
