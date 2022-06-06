@@ -40,8 +40,13 @@ ul li a {
 }
 
 #p10 img, #p11 img{
+<<<<<<< Updated upstream
     margin: 40px;
     width: 65%;
+=======
+    margin: 40px 5px 0 5px;
+    width: 60%;
+>>>>>>> Stashed changes
 }
 
 .flexbox {
@@ -55,7 +60,7 @@ reg {
 
 .flexbox div {
     margin: 2%;
-    width: 96%;
+    /* width: 96%; */
 }
 
 button {
