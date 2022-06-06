@@ -64,6 +64,7 @@
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> 
                             <div>
                                 <button type="button" id="ruotapag10"> Mostra retro </button>
+                                <button type="button" id="del">Cancellazioni</button>
                             </div>
                         </div>
                         <div class="text">
