@@ -44,7 +44,8 @@ img{
 }
 
 .flexbox {
-    display: flex;
+    display: grid;
+    grid-template-columns: 35% 30% 30%;
 }
 
 reg{
@@ -52,4 +53,5 @@ reg{
 }
 .flexbox div {
     margin: 2%;
+    width: 96%;
 }

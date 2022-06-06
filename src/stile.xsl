@@ -185,12 +185,9 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:lb">
-        <br />
-    </xsl:template>
-    
     <!-- Line beginning --> 
     <xsl:template match="tei:lb">
+        <br />
         <xsl:element name="span">
             <xsl:attribute name="class">numeroRiga</xsl:attribute>
             <b><xsl:value-of select="@n" /></b>
