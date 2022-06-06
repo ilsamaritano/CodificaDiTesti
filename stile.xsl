@@ -191,7 +191,7 @@
         <xsl:element name="div">
             <xsl:choose>
                 <xsl:when test="name() = 'term'">
-                    <xsl:attribute name="class">keyword</xsl:attribute>
+                    <xsl:attribute name="class">termini</xsl:attribute>
                     <xsl:attribute name="id">
                         <xsl:value-of select="concat('k_', substring(current()/@ref, 2))" />
                     </xsl:attribute>
@@ -324,16 +324,17 @@
         </xsl:element>
     </xsl:template>
     
+    <!-- Template immagini -->
     <xsl:template match="tei:surface">
         <xsl:element name="img">
             <xsl:attribute name="src">
-                <xsl:value-of select="concat('', @xml:id, '.jpg')" />
+                <xsl:value-of select="concat(@xml:id, '.jpg')" />
             </xsl:attribute>
         </xsl:element>
     </xsl:template>
     
     
-    <!-- Template immagini -->
+    
     
     
     <!-- Template traduzione -->
