@@ -195,7 +195,7 @@
     
     <xsl:template match="tei:term | tei:persName | tei:placeName">
         
-        <xsl:element name="div">
+        <xsl:element name="span">
             <xsl:choose>
                 <xsl:when test="name() = 'term'">
                     <xsl:attribute name="class">termini</xsl:attribute>
