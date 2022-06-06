@@ -146,7 +146,7 @@
         <orig><xsl:apply-templates /></orig>
     </xsl:template>
     
-    <!-- Forma corretta -->
+    <!-- Forma corretta (reg) -->
     <xsl:template match="tei:reg">
         <reg><xsl:apply-templates /></reg>
     </xsl:template>
