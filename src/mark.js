@@ -15,7 +15,7 @@ function mark(elem, color) {
        num = $(".termini").length();
        vect = $(".termini");
 
-        for(i=0, i<=num; i++) {
+        for(i=0; i<=num; i++) {
 
         mark(vect[i], "yellow");
 
