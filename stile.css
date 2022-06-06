@@ -42,3 +42,7 @@ ul li a {
 img{
     width: 30%;
 }
+
+.flexbox {
+    display: flex;
+}
