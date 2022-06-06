@@ -1,0 +1,48 @@
+body {
+    font-family: serif;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+}
+
+li {
+    margin: 10px;
+}
+
+nav {
+    width: 45%;
+    margin: auto;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.expan {
+    display: none;
+}
+
+img{
+    width: 30%;
+}
+
+.flexbox {
+    display: flex;
+}
