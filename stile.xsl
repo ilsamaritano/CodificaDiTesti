@@ -187,11 +187,6 @@
         </xsl:element>
     </xsl:template>
     
-    <!--Anonymous block -->
-    <xsl:template match="tei:ab">
-        <br />
-    </xsl:template>
-    
     <xsl:template match="tei:term | tei:persName | tei:placeName">
         
         <xsl:element name="div">
