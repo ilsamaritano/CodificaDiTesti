@@ -62,7 +62,7 @@ reg {
 
 button {
     position: relative;
-    font-size: 17px;
+    font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 1em 2.5em;
