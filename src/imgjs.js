@@ -35,8 +35,9 @@ $(document).ready(function(){
 
     $("#ruotapag10").on("click", function (e) {
 
+        $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
-        $("img[src='P2_10.jpg']").fadeOut();
+        $(this).html("Mostra fronte");
 
 
     });
