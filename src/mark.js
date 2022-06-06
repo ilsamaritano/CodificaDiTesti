@@ -12,7 +12,7 @@ function mark(elem, color) {
 
     $("#mark").on("click", function(){
 
-       num = $(".termini").length();
+       num = $(".termini").length;
        vect = $(".termini");
 
         for(i=0; i<=num; i++) {
