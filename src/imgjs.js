@@ -25,7 +25,8 @@ $(document).ready(function(){
 
             opacity: '1',
             height: '400px',
-            width: '300px'
+            width: '300px',
+            margin: '20px'
         },
         {
         duration: "slow"
