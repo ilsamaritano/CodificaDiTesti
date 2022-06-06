@@ -14,6 +14,7 @@
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
                 <script src="tooltip.js"></script>
                 <script src="imgjs.js"></script>
+                <script src="del.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
@@ -60,11 +61,12 @@
                     <div class="flexbox">
                         <div class="img">
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
-                            <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> 
+                            <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" />
+                        </div>
                             <div>
                                 <button type="button" id="ruotapag10"> Mostra retro </button>
+                                <button type="button" id="del">Cancellazioni</button>
                             </div>
-                        </div>
                         <div class="text">
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '10']" />
                         </div>
