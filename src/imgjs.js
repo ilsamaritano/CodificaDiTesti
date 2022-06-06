@@ -8,10 +8,9 @@ $(document).ready(function(){
 
         $(current).animate({
 
-            left: '250px',
             opacity: '1',
-            height: '150px',
-            width: '150px'
+            height: '400px',
+            width: '300px'
         },
         {
         duration: "slow"
