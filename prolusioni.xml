@@ -185,7 +185,7 @@
         
         <!-- Prolusioni 2 - Pagina 11 -->
         <surface n="3" xml:id="P2_11">
-            <graphic url='p2_11.jpg' width='4031.6px' height='4895.6px' />
+            <graphic url='P2_11.jpg' width='4031.6px' height='4895.6px' />
             <zone ulx="251" uly="264" lrx="3719" lry="4638" xml:id="P11Intera" />
             <zone ulx="749" uly="367" lrx="3725" lry="514" xml:id="P11_R1" />
             <zone ulx="755" uly="521" lrx="3710" lry="624" xml:id="P11_R2" />
