@@ -141,6 +141,16 @@
         <ins><xsl:apply-templates /></ins>
     </xsl:template>
     
+    <!-- Forma originale -->
+    <xsl:template match="tei:orig">
+        <orig><xsl:apply-templates /></orig>
+    </xsl:template>
+    
+    <!-- Forma corretta (reg) -->
+    <xsl:template match="tei:reg">
+        <reg><xsl:apply-templates /></reg>
+    </xsl:template>
+    
     <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
         <abbr><xsl:value-of select="current()" /></abbr>
@@ -337,4 +347,3 @@
     <!-- Template traduzione -->
     
 </xsl:stylesheet>
-
