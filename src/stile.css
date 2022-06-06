@@ -62,7 +62,7 @@ reg {
 
 button {
     position: relative;
-    font-size: 17px;
+    font-size: 12px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 1em 2.5em;
@@ -74,6 +74,7 @@ button {
     font-weight: 500;
     color: black;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 6px;
 }
 
 button:hover {
@@ -106,4 +107,8 @@ button::after {
 button:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+}
+
+img.icon{
+    width: 10px;
 }

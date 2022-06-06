@@ -54,7 +54,15 @@
                             </div>
                         </article>
                         
-                        
+                        <div id="fenomeni">
+                            <h3>Visualizza fenomeni notevoli</h3>
+                            <div id="bottoni">
+                                <button type="button" id="del">Cancellazioni</button>
+                                <button type="button" id="reg">Correzioni</button>
+                                <button type="button" id="gap">Gap</button>
+                                <button type="button" id="mark">Terminologia</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <article id="p10">
@@ -74,10 +82,8 @@
                         </div>
                     </div>
                     <div>
-                            <button type="button" id="ruotapag10"> Mostra retro </button>
-                            <button type="button" id="del">Cancellazioni</button>
-                            <button type="button" id="mark">Terminologia</button>
-                            </div>
+                        <button type="button" id="ruotapag10"> Mostra retro </button>
+                    </div>
                 </article>
                 <article id="p11">
                     <h2> Pagina 11 </h2>
@@ -85,7 +91,7 @@
                         <div class="img">
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_11']" />
                         </div>
-                        <div class="text">
+                        <div class="testo">
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '11']" />
                         </div>
                         <div id="traduzionepag11">
