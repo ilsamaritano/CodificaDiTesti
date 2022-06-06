@@ -17,6 +17,22 @@ $(document).ready(function(){
         });
     });
 
+    $("img[src='P2_11.jpg']").on("mouseover", function (e) {
+        
+        current = $(e.target);
+
+        $(current).animate({
+
+            opacity: '1',
+            height: '400px',
+            width: '300px',
+            margin: '20px'
+        },
+        {
+        duration: "slow"
+        });
+    });
+
 
     $("img[src='P2_10.jpg']").on("mouseout", function (e) {
         
@@ -38,7 +54,7 @@ $(document).ready(function(){
         $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
         $(this).html("Mostra fronte");
-
+          
 
     });
 
