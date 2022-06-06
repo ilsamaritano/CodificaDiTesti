@@ -50,3 +50,6 @@ img{
 reg{
     display: none;
 }
+.flexbox div {
+    margin: 2%;
+}
