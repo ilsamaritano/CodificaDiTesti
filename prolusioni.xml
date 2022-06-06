@@ -140,7 +140,7 @@
     <facsimile>
         <!-- Prolusioni 2 - Pagina 10 -->
         <surface n="1" xml:id="P2_10">
-            <graphic url='ms_fr_03951_01_2_p010_mili.jpg' width='4031.6px' height='4913.6px' />
+            <graphic url='P2_10.jpg' width='4031.6px' height='4913.6px' />
             <zone ulx="239" uly="298" lrx="3747" lry="4666" xml:id="P10Intera" />
             <zone ulx="742" uly="414" lrx="3712" lry="605" xml:id="P10_R1" />
             <zone ulx="777" uly="582" lrx="3660" lry="691" xml:id="P10_R2" />
@@ -157,7 +157,7 @@
             <zone ulx="1020" uly="1777" lrx="3538" lry="1838" xml:id="P10_R11" />
             <!-- RIGA 12 -->
             <zone ulx="788" uly="2078" lrx="3659" lry="2132" xml:id="P10_R13" />
-            <!-- RIGA 14 -->
+            <!-- RIGA 14 r-->
             <zone ulx="1020" uly="1777" lrx="3538" lry="1838" xml:id="P10_R15" />
             <zone ulx="824" uly="2354" lrx="3701" lry="2393" xml:id="P10_R16" />
             <zone ulx="839" uly="2478" lrx="3710" lry="2553" xml:id="P10_R17" />
@@ -179,13 +179,13 @@
         
         <!-- Retro -->
         <surface n="2" xml:id="P2_10R">
-            <graphic url='ms_fr_03951_01_2_p010v_mili.jpg' width='2623.6px' height='3159.6px' />
+            <graphic url='P2_10R.jpg' width='2623.6px' height='3159.6px' />
             <zone ulx="266" uly="210" lrx="2385" lry="2879" xml:id="P10Retro" />
         </surface>
         
         <!-- Prolusioni 2 - Pagina 11 -->
         <surface n="3" xml:id="P2_11">
-            <graphic url='ms_fr_03951_01_2_p011_mili.jpg' width='4031.6px' height='4895.6px' />
+            <graphic url='p2_11.jpg' width='4031.6px' height='4895.6px' />
             <zone ulx="251" uly="264" lrx="3719" lry="4638" xml:id="P11Intera" />
             <zone ulx="749" uly="367" lrx="3725" lry="514" xml:id="P11_R1" />
             <zone ulx="755" uly="521" lrx="3710" lry="624" xml:id="P11_R2" />
