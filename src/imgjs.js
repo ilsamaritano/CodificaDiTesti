@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+    $("img[src='P2_10R.jpg']").hide();
+
     $("img[src='P2_10.jpg']").on("mouseover", function (e) {
         
         current = $(e.target);
@@ -14,4 +17,5 @@ $(document).ready(function(){
         duration: "slow"
         });
     });
+    
 });
