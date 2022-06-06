@@ -58,6 +58,7 @@
                             <div id="bottoni">
                                 <button type="button" id="del">Cancellazioni</button>
                                 <button type="button" id="reg">Correzioni</button>
+                                <button type="button" id="gap">Gap</button>
                             </div>
                         </div>
                     </div>
