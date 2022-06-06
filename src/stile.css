@@ -39,8 +39,8 @@ ul li a {
     display: none;
 }
 
-img{
-    width: 30%;
+#p10 img, #p11 img{
+    width: 50%;
 }
 
 .flexbox {
@@ -54,4 +54,9 @@ reg{
 .flexbox div {
     margin: 2%;
     width: 96%;
+}
+
+article{
+    border-radius: 12px;
+    box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
 }
