@@ -59,6 +59,7 @@
                                 <button type="button" id="del">Cancellazioni</button>
                                 <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="gap">Gap</button>
+                                <button type="button" id="mark">Terminologia</button>
                             </div>
                         </div>
                     </div>
