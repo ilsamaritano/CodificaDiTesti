@@ -61,7 +61,7 @@
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> 
                             <div>
-                                <input type="button" id="ruotapag10" /> Mostra retro
+                                <button type="button" id="ruotapag10"> Mostra retro </button>
                             </div>
                         </div>
                         <div class="text">
