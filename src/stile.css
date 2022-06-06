@@ -48,7 +48,7 @@ ul li a {
 
 .flexbox {
     display: grid;
-    grid-template-columns: 35% 30% 30%;
+    grid-template-columns: 30% 35% 30%;
 }
 
 reg {
