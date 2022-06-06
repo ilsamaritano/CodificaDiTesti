@@ -341,10 +341,6 @@
         </xsl:element>
     </xsl:template>
     
-    
-    
-    
-    
     <!-- Template traduzione -->
     
 </xsl:stylesheet>
