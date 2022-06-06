@@ -170,19 +170,15 @@
     <!-- Page beginning --> 
     <xsl:template match="tei:pb">
         <xsl:element name="span">
-            <xsl:attribute name="class">pageNumber</xsl:attribute>
-            <xsl:attribute name="id">page_<xsl:value-of select="current()/@n" /></xsl:attribute>
+            <xsl:attribute name="id">pagina_<xsl:value-of select="current()/@n" /></xsl:attribute>
         </xsl:element>
     </xsl:template>
     
     <!-- Line beginning --> 
     <xsl:template match="tei:lb">
         <xsl:element name="span">
-            <xsl:attribute name="class">lineNumber</xsl:attribute>
-            <xsl:attribute name="id">
-                <xsl:value-of select="concat('line', substring(@xml:id, 6, 1), '_', @n)" />
-            </xsl:attribute>
-            <xsl:value-of select="@n" />
+            <xsl:attribute name="class">numeroRiga</xsl:attribute>
+            <b><xsl:value-of select="@n" /></b>
         </xsl:element>
     </xsl:template>
     
