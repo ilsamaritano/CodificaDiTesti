@@ -12,7 +12,7 @@ function mark(elem, color) {
 
     $("#mark").on("click", function(){
 
-        mark($("mentioned"), "yellow")
+        mark($(".termini"), "yellow")
 
 
     });
