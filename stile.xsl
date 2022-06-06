@@ -56,7 +56,7 @@
                 </div>
                 <article id="p10">
                     <h2> Pagina 10 </h2>
-                    <div class="page">
+                    <div class="flexbox">
                         <div class="img">
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> 
@@ -75,7 +75,7 @@
                 </article>
                 <article id="p11">
                     <h2> Pagina 11 </h2>
-                    <div class="page">
+                    <div class="flexbox">
                         <div class="img">
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_11']" />
                         </div>
