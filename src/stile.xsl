@@ -73,8 +73,8 @@
                         </div>
                     </div>
                     <div>
-                                <button type="button" id="ruotapag10"> Mostra retro </button>
-                                <button type="button" id="del">Cancellazioni</button>
+                            <button type="button" id="ruotapag10"> Mostra retro </button>
+                            <button type="button" id="del">Cancellazioni</button>
                             </div>
                 </article>
                 <article id="p11">
