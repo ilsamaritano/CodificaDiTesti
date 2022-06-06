@@ -59,7 +59,7 @@
                     <div class="page">
                         <div class="img">
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
-                                 <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> 
+                            <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" /> 
                             <div>
                                 <input type="checkbox" id="ruotapag10" /> Mostra retro
                             </div>
@@ -77,7 +77,7 @@
                     <h2> Pagina 11 </h2>
                     <div class="page">
                         <div class="img">
-                            <!--<xsl:apply-templates select="//tei:surface[@xml:id='P2_11']" /> -->
+                            <xsl:apply-templates select="//tei:surface[@xml:id='P2_11']" />
                         </div>
                         <div class="text">
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '11']" />
@@ -144,14 +144,14 @@
     <xsl:template match="tei:abbr">
         <abbr><xsl:value-of select="current()" /></abbr>
     </xsl:template>
-
-         <xsl:template match="tei:expan">
-         <xsl:element name="span">
-         <xsl:attribute name="class">expan</xsl:attribute>
-         <xsl:value-of select="current()" />
-         </xsl:element>
-         </xsl:template>
-
+    
+    <xsl:template match="tei:expan">
+        <xsl:element name="span">
+            <xsl:attribute name="class">expan</xsl:attribute>
+            <xsl:value-of select="current()" />
+        </xsl:element>
+    </xsl:template>
+    
     <!-- Elementi mancanti --> 
     <xsl:template match="tei:gap">
         <span class="gap">?</span>
@@ -331,9 +331,9 @@
     
     <xsl:template match="tei:surface">
         <xsl:element name="img">
-        <xsl:attribute name="src">
-            <xsl:value-of select="concat('', @xml:id, '.jpg')" />
-        </xsl:attribute>
+            <xsl:attribute name="src">
+                <xsl:value-of select="concat('', @xml:id, '.jpg')" />
+            </xsl:attribute>
         </xsl:element>
     </xsl:template>
     
