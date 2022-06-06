@@ -40,7 +40,7 @@ $(document).ready(function(){
         $(current).animate({
 
             opacity: '1',
-            width: "75%"
+            width: "65%"
         },
         {
         duration: "slow"
@@ -56,7 +56,7 @@ $(document).ready(function(){
         $(current).animate({
 
             opacity: '1',
-            width: '75%'
+            width: '65%'
         },
         {
         duration: "slow"

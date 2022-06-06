@@ -15,6 +15,7 @@
                 <script src="tooltip.js"></script>
                 <script src="imgjs.js"></script>
                 <script src="del.js"></script>
+                <script src="mark.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
@@ -75,6 +76,7 @@
                     <div>
                             <button type="button" id="ruotapag10"> Mostra retro </button>
                             <button type="button" id="del">Cancellazioni</button>
+                            <button type="button" id="mark">Terminologia</button>
                             </div>
                 </article>
                 <article id="p11">
