@@ -13,6 +13,7 @@
                 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
                 <script src="tooltip.js"></script>
+                <script src="immagini.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
@@ -176,7 +177,7 @@
     
     <!-- Line beginning --> 
     <xsl:template match="tei:lb">
-        <xsl:element name="div">
+        <xsl:element name="span">
             <xsl:attribute name="class">numeroRiga</xsl:attribute>
             <b><xsl:value-of select="@n" /></b>
         </xsl:element>
