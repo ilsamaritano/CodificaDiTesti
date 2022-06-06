@@ -150,7 +150,7 @@
     
     <!-- Aggiunte -->
     <xsl:template match="tei:add">
-        <ins><xsl:apply-templates /></ins>
+        <add><xsl:apply-templates /></add>
     </xsl:template>
     
     <!-- Forma originale -->
