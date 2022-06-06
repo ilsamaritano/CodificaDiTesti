@@ -177,7 +177,7 @@
     
     <!-- Line beginning --> 
     <xsl:template match="tei:lb">
-        <!-- <br /> -->
+        <br />
         <xsl:element name="span">
             <xsl:attribute name="class">lineNumber</xsl:attribute>
             <xsl:attribute name="id">
@@ -187,6 +187,10 @@
         </xsl:element>
     </xsl:template>
     
+    <!--Anonymous block -->
+    <xsl:template match="tei:ab">
+        <br />
+    </xsl:template>
     
     <xsl:template match="tei:term | tei:persName | tei:placeName">
         
