@@ -46,3 +46,7 @@ img{
 .flexbox {
     display: flex;
 }
+
+reg{
+    display: none;
+}
