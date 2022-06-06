@@ -34,3 +34,7 @@ ul li a {
     color: black;
     text-transform: uppercase;
 }
+
+.expan {
+    display: none;
+}
