@@ -163,6 +163,11 @@
         <reg><xsl:apply-templates /></reg>
     </xsl:template>
     
+    <!-- Esempio linguistico -->
+    <xsl:template match="tei:mentioned">
+        <mentioned><xsl:apply-templates /></mentioned>
+    </xsl:template>
+    
     <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
         <abbr><xsl:value-of select="current()" /></abbr>
