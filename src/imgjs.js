@@ -9,8 +9,7 @@ $(document).ready(function(){
         $(current).animate({
 
             opacity: '1',
-            height: '400px',
-            width: '300px',
+            width: '90%',
             margin: '20px'
         },
         {
@@ -25,8 +24,7 @@ $(document).ready(function(){
         $(current).animate({
 
             opacity: '1',
-            height: '400px',
-            width: '300px',
+            width: '90%',
             margin: '20px'
         },
         {
@@ -42,8 +40,7 @@ $(document).ready(function(){
         $(current).animate({
 
             opacity: '1',
-            height: '200px',
-            width: '150px'
+            width: "75%"
         },
         {
         duration: "slow"
@@ -59,8 +56,7 @@ $(document).ready(function(){
         $(current).animate({
 
             opacity: '1',
-            height: '200px',
-            width: '150px'
+            width: '75%'
         },
         {
         duration: "slow"

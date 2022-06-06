@@ -41,7 +41,7 @@ ul li a {
 
 #p10 img, #p11 img{
     margin: 40px;
-    width: 50%;
+    width: 65%;
 }
 
 .flexbox {
@@ -49,9 +49,10 @@ ul li a {
     grid-template-columns: 35% 30% 30%;
 }
 
-reg{
+reg {
     display: none;
 }
+
 .flexbox div {
     margin: 2%;
     width: 96%;
