@@ -185,6 +185,10 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:lb">
+        <br />
+    </xsl:template>
+    
     <!-- Line beginning --> 
     <xsl:template match="tei:lb">
         <xsl:element name="span">
@@ -225,7 +229,7 @@
             
             <!-- Descrizione dei termini -->
             
-            <xsl:element name="div">
+            <xsl:element name="span">
                 <xsl:choose>
                     <xsl:when test="name() = 'term'">
                         <xsl:attribute name="class">tooltip keyDesc</xsl:attribute>
