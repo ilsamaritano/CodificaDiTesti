@@ -63,10 +63,6 @@
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" />
                         </div>
-                            <div>
-                                <button type="button" id="ruotapag10"> Mostra retro </button>
-                                <button type="button" id="del">Cancellazioni</button>
-                            </div>
                         <div class="text">
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '10']" />
                         </div>
@@ -76,6 +72,10 @@
                             <xsl:apply-templates select="//tei:div[@type='traduzionepag10']" />
                         </div>
                     </div>
+                    <div>
+                                <button type="button" id="ruotapag10"> Mostra retro </button>
+                                <button type="button" id="del">Cancellazioni</button>
+                            </div>
                 </article>
                 <article id="p11">
                     <h2> Pagina 11 </h2>
