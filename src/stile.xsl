@@ -70,6 +70,7 @@
                         </div>
                         
                         <div id="traduzionepag10">
+                            <br />
                             <xsl:apply-templates select="//tei:div[@type='traduzionepag10']" />
                         </div>
                     </div>
@@ -84,6 +85,7 @@
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '11']" />
                         </div>
                         <div id="traduzionepag11">
+                            <br />
                             <xsl:apply-templates select="//tei:div[@type='traduzionepag11']" />
                         </div>
                     </div>
