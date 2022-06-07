@@ -15,7 +15,7 @@ function mark(elem, color, _id) {
 
         for(i=0; i<=num; i++) {
 
-        mark(vect[i], "yellow", term);
+        mark(vect[i], "yellow", "term");
 
         }
 
