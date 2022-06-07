@@ -62,9 +62,6 @@ ul li a {
   display: grid;
   grid-template-columns: auto auto;
 }
-reg {
-  display: none;
-}
 
 .flexbox div {
   margin: 2%;
@@ -138,4 +135,8 @@ img.icon {
 #traduzionepag11 > h3,
 #testoorig > h3 {
   margin-left: 8px;
+}
+
+#info > article > div > div:nth-child(2) > h3 {
+  margin-top: 0;
 }
