@@ -24,7 +24,7 @@ $(document).on("mouseover", ".termini", function (e) {
 
   var attr = $(e.target).attr("title"); // Ottengo l'attributo title del tag <abbr> correntemente selezionato
   var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale gloss si riferisce
-  var desc = $(`#${selettore}`).text(); // Ottengo la stringa descrittiva
+  var desc = $(".tooltipTermine").text(); // Ottengo la stringa descrittiva
 
   if (typeof attr == "undefined" || attr == false) {
     // Controllo se il "title" non esiste già...se non esiste...
