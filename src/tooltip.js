@@ -1,6 +1,5 @@
-$(document).ready(function(){
+/* $(document).ready(function(){
 
-  $(".tooltipTermine").hide();
 
   $(document).on("mouseover", "abbr", function (e) {
     e.preventDefault();
@@ -20,14 +19,20 @@ $(document).ready(function(){
         tooltipClass: "tooltip-styling"
        }); // A questo punto faccio apparire il tooltip
     }
-});
+}); */
 
-/* $(document).on("mouseover", ".termini", function (e) {
 
+$(document).ready(function(){
+
+  $(".tooltipTermine").hide();
+
+
+ $(document).on("mouseover", ".termini", function (e) {
+ 
   e.preventDefault();
 
   var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale gloss si riferisce
-  var desc = $("#desc_"+selettore).text(); // Ottengo la stringa descrittiva
+  var desc = $(`.tooltipTermine #desc_${selettore}`).text(); // Ottengo la stringa descrittiva
 
     $(e.target).attr("title", desc); // Allora lo aggiungo e ci inserisco la stringa
 
@@ -36,4 +41,4 @@ $(document).ready(function(){
      }); // A questo punto faccio apparire il tooltip
       
     });
-}); */
+});
