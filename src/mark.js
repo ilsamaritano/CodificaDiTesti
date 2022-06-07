@@ -33,7 +33,7 @@ $("#reg").on("click", function(){
 
         }
 
-        $("#regu").css("background-color", "red");
+       // $("#regu").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
@@ -41,6 +41,20 @@ $("#reg").on("click", function(){
         } else {
 
         $(".testoorig h3").html("Testo con correzioni");
+        }
+
+    });
+
+    $("#reg").on("click", function(){
+
+        $("gap").wrapInner("<span id='gaps'></span>").contents();
+
+        vect = $("gap");
+        
+        for(i=0;i<=vect.length;i++){
+
+            vect[i].style.background = "green";
+
         }
 
     });
