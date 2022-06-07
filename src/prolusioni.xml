@@ -684,11 +684,41 @@
                         <term ref="#orgndlng" xml:lang="it">origine delle lingue</term>
                     </label>
                     <item>
-                        <gloss target="#orgndlng" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
+                        <gloss target="#orgndlng" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
+                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
+                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="dnmr" xml:lang="fr">dénommer</term>
+                        <term ref="#dnmr" xml:lang="it">assegnare</term>
+                    </label>
+                    <item>
+                        <gloss target="#dnmr" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
                             Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="dnmr" xml:lang="fr">dénommer</term>
+                        <term ref="#dnmr" xml:lang="it">origine delle lingue</term>
+                    </label>
+                    <item>
+                        <gloss target="#dnmr" xml:lang="it" source="https://www.treccani.it/vocabolario/assegnare/">
+                            assegnare
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="dnmr" xml:lang="fr">dénommer</term>
+                        <term ref="#dnmr" xml:lang="it">assegnare</term>
+                    </label>
+                    <item>
+                        <gloss target="#dnmr" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
+                            Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
+                        </gloss>
+                    </item>
                     
                     
                 </list>
