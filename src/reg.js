@@ -1,5 +1,12 @@
 $(document).ready(function(){
 
+    function mark(elem, color) {
+
+        $(elem).wrapInner('<mark />').contents();
+        $("mark").css("background-color", color);
+      
+    }
+
     $("reg").hide();
 
     $("#reg").on("click", function(){
