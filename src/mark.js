@@ -28,18 +28,19 @@ $("#reg").on("click", function(){
         $("reg").fadeIn();
 
         vect = $("reg");
-
-        //$("reg").wrapInner("<span id='regu'></span>").contents();
         
         for(i=0;i<=vect.length;i++){
 
             vect[i].style.background = "red";
 
+
         }
+
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
             $(".testoorig h3").html("Testo con correzioni e cancellazioni");
+            
         } else {
 
         $(".testoorig h3").html("Testo con correzioni");
