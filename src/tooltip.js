@@ -1,6 +1,5 @@
-$(document).ready(function(){
+/* $(document).ready(function(){
 
-  $(".tooltipTermine").hide();
 
   $(document).on("mouseover", "abbr", function (e) {
     e.preventDefault();
@@ -20,9 +19,14 @@ $(document).ready(function(){
         tooltipClass: "tooltip-styling"
        }); // A questo punto faccio apparire il tooltip
     }
-});
+}); */
 
-/* $(document).on("mouseover", ".termini", function (e) {
+
+$(document).ready(function(){
+  
+ $(document).on("mouseover", ".termini", function (e) {
+
+  $(".tooltipTermine").hide();
 
   e.preventDefault();
 
@@ -36,4 +40,4 @@ $(document).ready(function(){
      }); // A questo punto faccio apparire il tooltip
       
     });
-}); */
+});
