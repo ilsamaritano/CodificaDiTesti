@@ -6,6 +6,12 @@ $(document).ready(function(){
         
         $("del").fadeIn();
 
+        if($(".testoorig h3:contains('Testo con correzioni')").length > 0) {
+             
+            $(".testoorig h3").html("Testo con correzioni e cancellazioni");
+        }
+
+        $(".testoorig h3").html("Testo con cancellazioni")
     });
 
 });
