@@ -695,28 +695,38 @@
                         <term ref="#dnmr" xml:lang="it">assegnare</term>
                     </label>
                     <item>
-                        <gloss target="#dnmr" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
-                            Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
-                        </gloss>
-                    </item>
-                    
-                    <label>
-                        <term xml:id="dnmr" xml:lang="fr">dénommer</term>
-                        <term ref="#dnmr" xml:lang="it">origine delle lingue</term>
-                    </label>
-                    <item>
                         <gloss target="#dnmr" xml:lang="it" source="https://www.treccani.it/vocabolario/assegnare/">
-                            assegnare
+                            Attribuire, dare, conferire.
                         </gloss>
                     </item>
                     
                     <label>
-                        <term xml:id="dnmr" xml:lang="fr">dénommer</term>
-                        <term ref="#dnmr" xml:lang="it">assegnare</term>
+                        <term xml:id="oprtnanlg" xml:lang="fr">opération d’analogie</term>
+                        <term ref="#oprtnanlg" xml:lang="it">operazioni d’analogia</term>
                     </label>
                     <item>
-                        <gloss target="#dnmr" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
-                            Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
+                        <gloss target="#oprtnanlg" xml:lang="it" source="https://it.wikipedia.org/wiki/">
+                            
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="ftsanlg" xml:lang="fr">faits d’analogie</term>
+                        <term ref="#ftsanlg" xml:lang="it">fatti d’analogia</term>
+                    </label>
+                    <item>
+                        <gloss target="#ftsanlg" xml:lang="it" source="https://it.wikipedia.org/wiki/">
+                            
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="oprtnspsclgq" xml:lang="fr">opérations psychologiques</term>
+                        <term ref="#oprtnspsclgq" xml:lang="it">operazioni psicologiche</term>
+                    </label>
+                    <item>
+                        <gloss target="#oprtnspsclgq" xml:lang="it" source="https://it.wikipedia.org/wiki/">
+                            
                         </gloss>
                     </item>
                     
