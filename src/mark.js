@@ -1,13 +1,10 @@
 $(document).ready(function(){
 
 
-function mark(elem, color) {
+function mark(elem, color, _id) {
 
-    // testo = elem.text();
-
-  // $(elem).replaceWith("<mark></mark>");
-  $(elem).wrapInner('<mark />').contents();
-  $("mark").css("background-color", color);
+    $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
+    $("mark #"+_id+"").css("background-color", color);
 
 }
 
@@ -18,8 +15,27 @@ function mark(elem, color) {
 
         for(i=0; i<=num; i++) {
 
-        mark(vect[i], "yellow");
+        mark(vect[i], "yellow", "term");
 
+        }
+
+    });
+
+    $("reg").hide();
+
+    $("#reg").on("click", function(){
+
+        $("orig").hide();
+        $("reg").fadeIn();
+
+        mark($("reg"), "red", "reg");
+
+        if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
+             
+            $(".testoorig h3").html("Testo con correzioni e cancellazioni");
+        } else {
+
+        $(".testoorig h3").html("Testo con correzioni");
         }
 
     });

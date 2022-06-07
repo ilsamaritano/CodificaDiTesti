@@ -1,14 +1,12 @@
-$(document).ready(function(){
+/* $(document).ready(function(){
 
-    $("reg").hide();
+    function mark(elem, color, _id) {
 
-    $("#reg").on("click", function(){
+        $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
+        $("mark #"+_id+"").css("background-color", color);
+      
+    }
 
-        $("orig").hide();
-        $("reg").animate({width: "60px"}, {duration: "slow"});
+  
 
-        $(".testoorig h3").html("Testo con correzioni")
-
-    });
-
-});
+}); */
