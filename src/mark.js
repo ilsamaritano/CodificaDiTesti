@@ -45,7 +45,7 @@ $("#reg").on("click", function(){
 
     $("#gap").on("click", function(){
 
-        $(".gap").show();
+        $("del").children().show();
         vect = $(".gap");
         
         for(i=0;i<=vect.length;i++){
