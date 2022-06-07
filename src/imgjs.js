@@ -67,7 +67,7 @@ $(document).ready(function(){
 
         $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
-        $(this).html("<button type='button' id='ruotafronte'>Mostra fronte</button>");
+        $("#ruotapag10").html("<button type='button' id='ruotafronte'>Mostra fronte</button>");
           
 
     });
@@ -81,7 +81,7 @@ $(document).ready(function(){
 
         $("img[src='P2_10R.jpg']").hide();
         $("img[src='P2_10.jpg']").fadeIn();
-        $(this).html("<button type='button' id='ruotapag10'>Mostra retro</button>");
+        $("#ruotafronte").html("<button type='button' id='ruotapag10'>Mostra retro</button>");
           
 
     });
