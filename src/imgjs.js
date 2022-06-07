@@ -80,7 +80,7 @@ $(document).on('click', '#ruotafronte', function(e) {
 
         $("img[src='P2_10R.jpg']").hide();
         $("img[src='P2_10.jpg']").fadeIn();
-        $("#ruotafronte").html("<a href='#' id='ruotapag10'>Mostra retro</a>");
+        $("#ruotafronte").replaceWith("<a href='#' id='ruotapag10'>Mostra retro</a>");
           
 
 });
