@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
 
-function mark(elem, color, _id) {
+/* function mark(elem, color, _id) {
 
     $(elem).wrapInner(`<span id=${_id}></span>`).contents();
-    $("#"+_id).css("background-color", color);
+    $("#").css("background-color", color);
 
-} 
+} */ 
 
     $("#mark").on("click", function(){
 
@@ -29,11 +29,9 @@ $("#reg").on("click", function(){
         
         for(i=0;i<=vect.length;i++){
 
-            mark(vect[i], "red", "regu");
+            vect[i].style.background = "red";
 
         }
-
-        $("#regu").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
@@ -41,6 +39,19 @@ $("#reg").on("click", function(){
         } else {
 
         $(".testoorig h3").html("Testo con correzioni");
+        }
+
+    });
+
+    $("#gap").on("click", function(){
+
+        $(".gap").fadeIn();
+        vect = $(".gap");
+        
+        for(i=0;i<=vect.length;i++){
+            
+            vect[i].style.background = "green";
+
         }
 
     });
