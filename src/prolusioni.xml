@@ -12,11 +12,11 @@
             <titleStmt>
                 <title xml:lang="fr">Trois premières conférences à l'Université</title>
                 <title xml:lang="it">Le prime tre conferenze all'Università</title>
-                <author xml:id="FDS">Ferdinand De Saussure</author>
+                <author ref="FDS">Ferdinand De Saussure</author>
                 <respStmt>
                     <!-- Contiene responsabili del contenuto -->
                     <resp>Traduzione a cura di:</resp>
-                    <name xml:id="EF">Emanuele Fadda</name>
+                    <name ref="EF">Emanuele Fadda</name>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -560,5 +560,269 @@
                 </ab>
             </div>
         </body>
+        
+        <back>
+            <!-- Appendice contentente elementi vari -->
+            <div type="appendice">
+                
+                <!-- Terminologia -->
+                <list type="terminologia">
+                    <label>
+                        <term xml:id="EdL" xml:lang="fr">Étude des langues</term>
+                        <term ref="#EdL" xml:lang="it">Studio delle lingue</term>
+                    </label>
+                    <item>
+                        <gloss target="#EdL" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica_storica">
+                            Lo <hi rend="bold">studio delle lingue</hi>, o <hi rend="bold">glottologia</hi>, si occupa dello studio storico delle lingue e delle loro famiglie e
+                            gruppi di appartenenza, delle origini etimologiche delle parole, considerando i loro rapporti e sviluppi
+                            in diacronia.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="EdLge" xml:lang="fr">Étude du language</term>
+                        <term ref="#EdLge" xml:lang="it">Studio del linguaggio</term>
+                    </label>
+                    <item>
+                        <gloss target="#EdLge" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica">
+                            Lo <hi rend="bold">studio del linguaggio</hi>, o <hi rend="bold">linguistica</hi>, include lo studio della fonetica, della grammatica, del lessico,
+                            della morfologia, della sintassi e della testualità. È una disciplina scientifica, in quanto si basa su
+                            approcci empirici e oggettivi. Un <hi rend="bold">linguista</hi> è una persona specializzata nell'ambito della linguistica.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="FdH" xml:lang="fr">Faculté de l'homme</term>
+                        <term ref="#FdH" xml:lang="it">Facoltà dell'uomo</term>
+                    </label>
+                    <item>
+                        <gloss target="#FdH" xml:lang="it" source="https://it.wikipedia.org/wiki/Facolt%C3%A0_(filosofia)">
+                            Per <hi rend="bold">facoltà</hi> la filosofia intende genericamente le potenzialità intellettive e
+                            psichiche dell'uomo di arrivare a capire fatti conoscitivi e provare sentimenti.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="fH" xml:lang="fr">Fait humain</term>
+                        <term ref="#fH" xml:lang="it">Fatto umano</term>
+                    </label>
+                    <item>
+                        <gloss target="#fH" xml:lang="it" resp="#CG">
+                            Per <hi rend="bold">fatto umano</hi> si intende un fenomeno relativo alla specie umana.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lgage" xml:lang="fr">Langage</term>
+                    </label>
+                    <item>
+                        <gloss target="#lgage" xml:lang="it" source="https://www.treccani.it/enciclopedia/linguaggio/">
+                            Il <hi rend="bold">linguaggio</hi> è una forma di condotta comunicativa atta a trasmettere informazioni e a stabilire un rapporto di interazione
+                            che utilizza simboli aventi identico valore per gli individui appartenenti a uno stesso ambiente socioculturale.
+                            Dalle peculiarità della lingua rispetto a ogni altro codice semiologico derivano le peculiarità del linguaggio
+                            verbale rispetto a ogni altro tipo di semiosi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="lgue" xml:lang="fr">Langue</term>
+                    </label>
+                    <item>
+                        <gloss target="#lgue" xml:lang="it" source="#CDLG">
+                            La <hi rend="bold">lingua</hi> è un prodotto sociale della facoltà del linguaggio ed un insieme di convenzioni necessarie,
+                            adottate dal corpo sociale per consentire l'esercizio di questa facoltà negli individui. [...]
+                            È in sé una totalità e un principio di classificazione. Dal momento in cui le assegnamo il primo posto
+                            tra i fatti di linguaggio, introduciamo un ordine naturale in un insieme che non si presta ad altra
+                            classificazione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="log" xml:lang="fr">Logique</term>
+                        <term ref="#log" xml:lang="it">Logica</term>
+                    </label>
+                    <item>
+                        <gloss target="#log" xml:lang="it" source="https://it.wikipedia.org/wiki/Logica https://www.treccani.it/enciclopedia/tag/logica/">
+                            La <hi rend="bold">logica</hi> è la disciplina che studia le condizioni di validità delle argomentazioni deduttive:
+                            lo studio del ragionamento e dell'argomentazione, rivolto in particolare a definire
+                            la correttezza dei procedimenti inferenziali del pensiero.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="phphe" xml:lang="fr">Philosophe</term>
+                        <term ref="#phphe" xml:lang="it">Filosofia</term>
+                    </label>
+                    <item>
+                        <gloss target="#phphe" xml:lang="it" source="https://it.wikipedia.org/wiki/Filosofia">
+                            La <hi rend="bold">filosofia</hi> è un campo di studi che si pone domande e riflette sul mondo e sull'essere umano,
+                            indaga sul senso dell'essere e dell'esistenza umana. Come intrinseco nel nome stesso la filosofia è
+                            l'amore per la conoscenza e la ricerca.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="phigie" xml:lang="fr">Physiologie</term>
+                        <term ref="#phigie" xml:lang="it">Fisiologia</term>
+                    </label>
+                    <item>
+                        <gloss target="#phigie" xml:lang="it" source="https://it.wikipedia.org/wiki/Fisiologia">
+                            La <hi rend="bold">fisiologia</hi> è la branca della biologia che studia il funzionamento degli organismi viventi, analizzando
+                            i principi chimico-fisici del funzionamento degli esseri viventi, siano essi mono o pluricellulari,
+                            animali o vegetali.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="pdV" xml:lang="fr">Point de vue</term>
+                        <term ref="#pdV" xml:lang="it">Punto di vista</term>
+                    </label>
+                    <item>
+                        <gloss target="#pdV" xml:lang="it" source="https://www.treccani.it/vocabolario/vista/">
+                            Per <hi rend="bold">punto di vista</hi> si intende il modo soggettivo di vedere i fatti, le situazioni e i problemi, e quindi di intendere, di valutare.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="pcpes" xml:lang="fr">Principe</term>
+                        <term ref="#pcpes" xml:lang="it">Principio</term>
+                    </label>
+                    <item>
+                        <gloss target="#pcpes" xml:lang="it" source="https://it.wikipedia.org/wiki/Principio">
+                            Un <hi rend="bold">principio</hi> è un concetto che indica le basi e i presupposti iniziali su cui si basa o poggia
+                            una teoria e che assumono, per convenzione o riconosciuto diritto, validità generale ed universale
+                            all'interno della teoria stessa.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="phygie" xml:lang="fr">Psychologie</term>
+                        <term ref="#phygie" xml:lang="it">Psicologia</term>
+                    </label>
+                    <item>
+                        <gloss target="#phygie" xml:lang="it" source="https://it.wikipedia.org/wiki/Psicologia">
+                            La <hi rend="bold">psicologia</hi> è la scienza che studia gli stati mentali e i suoi processi emotivi, cognitivi,
+                            sociali e comportamentali nelle loro componenti consce e inconsce, mediante l'uso del metodo scientifico
+                            e/o appoggiandosi ad una prospettiva soggettiva intrapersonale.
+                        </gloss>
+                    </item>
+                </list>
+                
+                <listPerson>
+                    <person xml:id="FDS">
+                        <persName role="linguist">
+                            <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure https://www.treccani.it/enciclopedia/ferdinand-de-saussure/" />
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1857-11-26">26 novembre 1857</date>
+                            <placeName ref="#GN">
+                                <settlement type="municipality">Ginevra</settlement>
+                                <settlement type="canton" key="Geneva">Ginevra</settlement>
+                                <country key="CH">Svizzera</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1913-02-22">22 febbraio 1913</date>
+                            <placeName ref="#VlC">
+                                <settlement type="municipality">Vufflens-le-Château</settlement>
+                                <settlement type="canton" key="Vaud">Vaud</settlement>
+                                <country key="CH">Svizzera</country>
+                            </placeName>
+                        </death>
+                    </person>
+                    <person xml:id="NC">
+                        <persName role="linguist">
+                            <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Noam_Chomsky https://www.treccani.it/enciclopedia/avram-noam-chomsky/" />
+                            <forename>Avram</forename>
+                            <forename>Noam</forename>
+                            <surname>Chomsky</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1928-12-07">7 dicembre 1928</date>
+                            <placeName ref="#PH">
+                                <settlement type="municipality">Philadelphia</settlement>
+                                <settlement type="state" key="PA">Pennsylvania</settlement>
+                                <country key="USA">Stati Uniti d'America</country>
+                            </placeName>
+                        </birth>
+                    </person>
+                </listPerson>
+                
+                <!-- Riferimenti bibiografici -->
+                <listBibl>
+                    <bibl xml:id="Fadda06">
+                        <author xml:id="EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </author>
+                        <title type="main" level="m">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <pubPlace><placeName ref="#ACR">Acireale</placeName></pubPlace>
+                        <pubPlace><placeName ref="#RM">Roma</placeName></pubPlace>
+                        <publisher>Bonanno Editore</publisher>
+                        <date when="2006">2006</date>
+                        <biblScope unit="volume">1</biblScope>
+                        <biblScope unit="page" from="88" to="88">88</biblScope>
+                    </bibl>
+                    
+                    <bibl xml:id="CDLG">
+                        <author ref="#FDS">
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </author>
+                        <author xml:id="TDM">
+                            <forename>Tullio</forename>
+                            <surname>De Mauro</surname>
+                        </author>
+                        <title type="main" level="m">Corso di linguistica generale</title>
+                        <title type="sub">Introduzione, traduzione e commento di Tullio De Mauro</title>
+                        <pubPlace><placeName ref="#RM">Roma</placeName></pubPlace>
+                        <pubPlace><placeName ref="#BA">Bari</placeName></pubPlace>
+                        <date when="1976">1976</date>
+                        <publisher>Editori Laterza</publisher>
+                        <note source="https://hls-dhs-dss.ch/it/articles/016165/2013-01-31/">
+                            Il <hi rend="italic">Corso di linguistica generale</hi> affronta la problematica del <term ref="#lgage">linguaggio</term>
+                            esaminandone le condizioni di esistenza, la sua struttura e la sua evoluzione; si interessa anche e soprattutto delle diverse modalità di apprendimento
+                            di questa istituzione sociale multiforme e complessa. Desiderando conferire alla linguistica una solidità
+                            scientifica, <persName ref="#FDS">De Saussure</persName> le attribuì un preciso dominio di indagine, quello della <term ref="#lgue">lingua</term>,
+                            concepita come un sistema di opposizioni differenziali. Egli tentò pure di istituire un metodo e dei criteri
+                            di valutazione per l'identificazione delle unità linguistiche.
+                        </note>
+                    </bibl>
+                    
+                    <bibl xml:id="CFS62" xml:lang="fr" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+                        <author ref="#AC">
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </author>
+                        <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+                        <pubPlace ref="#GN"><placeName ref="#GN">Ginevra</placeName></pubPlace>
+                        <publisher>Librairie Droz</publisher>
+                        <date when="2009">2009</date>
+                    </bibl>
+                </listBibl>
+                
+                <listPlace>
+                    <place xml:id="GN">
+                        <placeName ref="https://www.treccani.it/enciclopedia/ginevra/ https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
+                        <settlement type="canton" key="Geneva">Ginevra</settlement>
+                        <country key="CH">Svizzera</country>
+                    </place>
+                    <place xml:id="VlC">
+                        <placeName ref="https://it.wikipedia.org/wiki/Vufflens-le-Ch%C3%A2teau">Vufflens-le-Château</placeName>
+                        <settlement type="canton" key="Vaud">Vaud</settlement>
+                        <country key="CH">Svizzera</country>
+                    </place>
+                    <place xml:id="RM">
+                        <placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
+                        <settlement type="region" key="Latium">Lazio</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <place xml:id="BA">
+                        <placeName ref="https://it.wikipedia.org/wiki/Bari">Bari</placeName>
+                        <settlement type="region" key="Apulia">Puglia</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <place xml:id="ACR">
+                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
+                        <settlement type="region" key="Sicily">Sicilia</settlement>
+                        <country key="IT">Italia</country>
+                    </place>
+                </listPlace>
+            </div>
+        </back>
     </text>
 </TEI>
