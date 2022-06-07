@@ -44,6 +44,14 @@
                             <div>
                                 <div>
                                     <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
+                                    <br />
+                                    <b>Lingua: </b><xsl:apply-templates select="//tei:language" />
+                                    <br />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:settingDesc" />
+                                    <br />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
+                                    <br />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
                                     <h3>Storia editoriale</h3>
                                     <xsl:apply-templates select="//tei:history" />
                                 </div>
