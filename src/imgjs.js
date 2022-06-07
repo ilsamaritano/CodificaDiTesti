@@ -67,7 +67,7 @@ $(document).ready(function(){
         e.preventDefault();
         $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
-        $("#ruotapag10").html("<button type='button' id='ruotafronte'>Mostra fronte</button>");
+        $("#ruotapag10").html("<a href='#' id='ruotafronte'>Mostra fronte</a>");
           
 
     });
@@ -76,11 +76,11 @@ $(document).ready(function(){
 
 
 $(document).on('click', '#ruotafronte', function(e) {
-    e.preventDefault();
+        e.preventDefault();
 
         $("img[src='P2_10R.jpg']").hide();
         $("img[src='P2_10.jpg']").fadeIn();
-        $("#ruotafronte").html("<button type='button' id='ruotapag10'>Mostra retro</button>");
+        $("#ruotafronte").html("<a href='#' id='ruotapag10'>Mostra retro</a>");
           
 
 });
