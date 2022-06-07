@@ -24,10 +24,11 @@
 
 $(document).ready(function(){
 
- $(document).on("mouseover", ".termini", function (e) {
-
   $(".tooltipTermine").hide();
 
+
+ $(document).on("mouseover", ".termini", function (e) {
+ 
   e.preventDefault();
 
   var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale gloss si riferisce
