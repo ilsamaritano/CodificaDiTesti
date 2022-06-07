@@ -67,10 +67,23 @@ $(document).ready(function(){
 
         $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
-        $(this).html("Mostra fronte");
+        $(this).html("<button type='button' id='ruotafronte'>Mostra fronte</button>");
           
 
     });
 
-    
+});
+
+
+$(document).ready(function(){
+
+    $("#ruotafronte").on("click", function (e) {
+
+        $("img[src='P2_10R.jpg']").hide();
+        $("img[src='P2_10.jpg']").fadeIn();
+        $(this).html("<button type='button' id='ruotapag10'>Mostra retro</button>");
+          
+
+    });
+
 });
