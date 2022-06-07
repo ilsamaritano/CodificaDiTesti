@@ -43,7 +43,7 @@
                             <h3>Caratteristiche</h3>
                             <div>
                                 <div>
-                                    <xsl:apply-templates select="//tei:msContents" />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
                                     <h3>Storia editoriale</h3>
                                     <xsl:apply-templates select="//tei:history" />
                                 </div>
