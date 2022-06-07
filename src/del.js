@@ -9,9 +9,10 @@ $(document).ready(function(){
         if($(".testoorig h3:contains('Testo con correzioni')").length > 0) {
              
             $(".testoorig h3").html("Testo con correzioni e cancellazioni");
-        }
+        } else {
 
-        $(".testoorig h3").html("Testo con cancellazioni")
+        $(".testoorig h3").html("Testo con cancellazioni");
+        }
     });
 
 });
