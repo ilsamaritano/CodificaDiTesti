@@ -1,19 +1,21 @@
 $(document).ready(function(){
 
 
-/* function mark(elem, color, _id) {
+function mark(elem, color) {
 
-    $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
-    $("mark #"+_id+"").css("background-color", color);
+    $(elem).wrapInner("<span id='termi'></mark>").contents();
+    $("#termi").css("background-color", color);
 
-} */
+} 
 
     $("#mark").on("click", function(){
+       
+       vect = $(".termini");
+       num = $("termini").length;
 
-       el = $(".termini");
-
-       $(el).wrapInner("<span id='termi'></span>").contents();
-       $("#termi").css("background-color", "yellow");
+       for(i=0;i<=num;i++){
+           mark(vect[i], "yellow");
+       }
 
     });
 
@@ -22,7 +24,7 @@ $(document).ready(function(){
 });
 
 
-$(document).ready(function(){
+/*$(document).ready(function(){
 
     $("#reg").on("click", function(){
 
@@ -42,4 +44,4 @@ $(document).ready(function(){
 
     });
 
-});
+}); */
