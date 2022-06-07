@@ -46,10 +46,9 @@ $("#reg").on("click", function(){
     $("#gap").on("click", function(){
 
         vect = $(".gap");
-        vect.fadeIn();
         
         for(i=0;i<=vect.length;i++){
-
+            $(vect).fadeIn();
             vect[i].style.background = "green";
 
         }
