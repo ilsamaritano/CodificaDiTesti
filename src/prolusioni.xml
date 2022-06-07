@@ -98,8 +98,7 @@
                         </origin>
                         <acquisition>
                             <p>
-                                Il testo originale venne in seguito acquisito dalla Biblioteca di
-                                <placeName ref="#GN">Ginevra</placeName>.
+                                Il testo originale venne in seguito acquisito dalla Biblioteca di<placeName ref="#GN">Ginevra</placeName>.
                             </p>
                         </acquisition>
                     </history>
@@ -124,10 +123,8 @@
                 <setting>
                     <name>
                         Testi registrati nella Biblioteca di
-                        <placeName>Ginevra</placeName>
-                        ,
-                        <country>Svizzera</country>
-                        .
+                        <placeName>Ginevra</placeName>,
+                        <country>Svizzera</country>.
                     </name>
                     <time>
                         <date when="11-1891">Novembre 1891</date>
