@@ -1,7 +1,6 @@
 $(document).ready(function(){
 
-
-    $("#mark").one("click", function(){
+    $("#mark").on("click", function(){
 
        el = $(".termini");
 
@@ -10,14 +9,14 @@ $(document).ready(function(){
 
     });
 
-    $("reg").hide();
-
 });
 
 
 $(document).ready(function(){
 
-    $("#reg").one("click", function(){
+    $("reg").hide();
+
+    $("#reg").on("click", function(){
 
         $("orig").hide();
         $("reg").fadeIn();
