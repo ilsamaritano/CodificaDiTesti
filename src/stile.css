@@ -17,8 +17,8 @@ body {
 }
 #fenomeni {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 h1 {
   text-align: center;
@@ -100,6 +100,9 @@ ul li a {
   left: 34px;
 }
 
+#info > article > div:nth-child(2) {
+  margin-bottom: 30px;
+}
 button {
   position: relative;
   font-size: 12px;
