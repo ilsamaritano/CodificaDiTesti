@@ -24,7 +24,7 @@
                     <div>
                         <h2>doc. <xsl:value-of select="//tei:idno" /></h2>
                         <h1 class="fr"><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang='fr']" /></h1>
-                        <h1 class="it"><xsl:value-of select="//tei:title[@xml:lang='it']" /></h1>
+                        <h2 class="it"><xsl:value-of select="//tei:title[@xml:lang='it']" /></h2>
                         <h2>Autore: <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" /></h2>
                     </div>
                 </header>
@@ -72,12 +72,13 @@
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" />
                         </div>
-                        <div class="text">
+                        <div class="testoorig">
+                            <h3>Testo originale</h3>
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '10']" />
                         </div>
                         
                         <div id="traduzionepag10">
-                            <br />
+                            <h3>Traduzione</h3>
                             <xsl:apply-templates select="//tei:div[@type='traduzionepag10']" />
                         </div>
                     </div>
@@ -92,10 +93,11 @@
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_11']" />
                         </div>
                         <div class="testo">
+                            <h3>Testo originale</h3>
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '11']" />
                         </div>
                         <div id="traduzionepag11">
-                            <br />
+                            <h3>Traduzione</h3>
                             <xsl:apply-templates select="//tei:div[@type='traduzionepag11']" />
                         </div>
                     </div>
@@ -104,7 +106,6 @@
                 <div id="append">
                     <h3 id="about">Riferimenti</h3>
                     <xsl:apply-templates select="//tei:editionStmt"/>
-                    <p>Traduzione di: <xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></p>
                 </div>
             </body>
         </html>
@@ -116,8 +117,9 @@
     <!-- Informazioni sull'edizione -->
     <xsl:template match="tei:editionStmt">
         <p><xsl:value-of select="current()/tei:edition"></xsl:value-of></p>
-        <p>Progetto a cura di: <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='CB']"></xsl:value-of> e <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='VS']"></xsl:value-of></p>
-        <p>Coordinato da: <xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='AMDG']"></xsl:value-of></p>
+        <p>Progetto a cura di: <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='CB']"></xsl:value-of></i> e <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='VS']"></xsl:value-of></i></p>
+        <p>Coordinato da: <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='AMDG']"></xsl:value-of></i></p>
+        <p>Traduzione di: <i><xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></i></p>
     </xsl:template>
     
     
@@ -246,7 +248,7 @@
             <xsl:element name="span">
                 <xsl:choose>
                     <xsl:when test="name() = 'term'">
-                        <xsl:attribute name="class">tooltip keyDesc</xsl:attribute>
+                        <xsl:attribute name="class">tooltipTermine</xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="concat('kD_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
@@ -254,7 +256,7 @@
                     </xsl:when>
                     
                     <xsl:when test="name() = 'persName'">
-                        <xsl:attribute name="class">tooltip persDesc</xsl:attribute>
+                        <xsl:attribute name="class">tooltipPersona</xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="concat('prD_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
@@ -311,7 +313,7 @@
                     </xsl:when>
                     
                     <xsl:when test="name() = 'placeName'">
-                        <xsl:attribute name="class">tooltip placeDesc</xsl:attribute>
+                        <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="concat('plD_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
