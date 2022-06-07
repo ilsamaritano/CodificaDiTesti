@@ -25,15 +25,13 @@ $("#reg").on("click", function(){
 
         vect = $("reg");
 
-        $("reg").wrapInner("<span id='regu'></span>").contents();
+        //$("reg").wrapInner("<span id='regu'></span>").contents();
         
         for(i=0;i<=vect.length;i++){
 
             vect[i].style.background = "red";
 
         }
-
-       // $("#regu").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
@@ -47,9 +45,8 @@ $("#reg").on("click", function(){
 
     $("#gap").on("click", function(){
 
-        //$(".gap").wrapInner("<span id='gaps'></span>").contents();
-
         vect = $(".gap");
+        vect.fadeIn();
         
         for(i=0;i<=vect.length;i++){
 
