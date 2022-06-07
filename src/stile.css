@@ -175,3 +175,6 @@ img.icon {
 #info {
   margin-top: 30px;
 }
+.tooltipTermine {
+  display: none;
+}
