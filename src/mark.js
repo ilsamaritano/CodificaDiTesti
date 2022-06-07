@@ -12,8 +12,8 @@ $(document).ready(function(){
 
        el = $(".termini");
 
-       $(el).wrapInner("<mark id='term'></mark>").contents();
-       $("#term").css("background-color", "yellow");
+       $(el).wrapInner("<mark id='termi'></mark>").contents();
+       $("#termi").css("background-color", "yellow");
 
     });
 
