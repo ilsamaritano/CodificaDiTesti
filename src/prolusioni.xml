@@ -761,12 +761,12 @@
                     </item>
                     
                     <label>
-                        <term xml:id="grmr" xml:lang="fr">grammaire</term>
-                        <term ref="#grmr" xml:lang="it">grammatica</term>
+                        <term xml:id="pntdv" xml:lang="fr">point de vue</term>
+                        <term ref="#pntdv" xml:lang="it">punto di vista</term>
                     </label>
                     <item>
-                        <gloss target="#grmr" xml:lang="it" source="https://it.wikipedia.org/wiki/Grammatica">
-                            La <hi rend="bold">grammatica</hi> è quel complesso di regole necessarie alla costruzione di frasi, sintagmi e parole di una determinata lingua. Il termine si riferisce anche allo studio di dette regole.
+                        <gloss target="#pntdv" xml:lang="it" source="https://it.wiktionary.org/wiki/punto_di_vista">
+                            In senso figurato, si tratta dell'<hi rend="bold">opinione personale</hi>.
                         </gloss>
                     </item>
                     
