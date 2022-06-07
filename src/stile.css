@@ -184,5 +184,5 @@ img.icon {
 }
 
 .termini:hover {
-  cursor: help !important
+  cursor: help;
 }
