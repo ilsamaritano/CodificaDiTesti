@@ -22,22 +22,22 @@
             </head>
             <body>
                 <header>
-                    <div>
-                        <h2>doc. <xsl:value-of select="//tei:idno" /></h2>
-                        <h1 class="fr"><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang='fr']" /></h1>
-                        <h2 class="it"><xsl:value-of select="//tei:title[@xml:lang='it']" /></h2>
-                        <h2>Autore: <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" /></h2>
-                    </div>
+                    <nav class="navMenu">
+                        <ul> 
+                            <li><a href="#info">Informazioni</a></li>
+                            <li><a href="#p10">Pagina 10</a></li>
+                            <li><a href="#p11">Pagina 11</a></li>
+                            <li><a href="#append">Appendice</a></li>
+                        </ul>
+                    </nav>
                 </header>
+                <div id="infogenerali">
+                    <h2>doc. <xsl:value-of select="//tei:idno" /></h2>
+                    <h1 class="fr"><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang='fr']" /></h1>
+                    <h2 class="it"><xsl:value-of select="//tei:title[@xml:lang='it']" /></h2>
+                    <h2>Autore: <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" /></h2>
+                </div>
                 
-                <nav class="navMenu">
-                    <ul> 
-                        <li><a href="#info">Informazioni</a></li>
-                        <li><a href="#p10">Pagina 10</a></li>
-                        <li><a href="#p11">Pagina 11</a></li>
-                        <li><a href="#append">Appendice</a></li>
-                    </ul>
-                </nav>
                 <div>
                     <div id="info">
                         <article>
