@@ -730,6 +730,26 @@
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="trm" xml:lang="fr">terme</term>
+                        <term ref="#trm" xml:lang="it">termine</term>
+                    </label>
+                    <item>
+                        <gloss target="#trm" xml:lang="it" source="https://www.treccani.it/vocabolario/termine/">
+                            Parola o locuzione propria di un ambito definito (t. regionale, dialettale), o di una particolare disciplina (è un t. scientifico, filosofico).
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="oprtnspsclgq" xml:lang="fr">opérations psychologiques</term>
+                        <term ref="#oprtnspsclgq" xml:lang="it">operazioni psicologiche</term>
+                    </label>
+                    <item>
+                        <gloss target="#oprtnspsclgq" xml:lang="it" source="https://it.wikipedia.org/wiki/">
+                            
+                        </gloss>
+                    </item>
+                    
                     
                 </list>
                 
