@@ -678,6 +678,19 @@
                             Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
                         </gloss>
                     </item>
+                    
+                    <label>
+                        <term xml:id="orgndlng" xml:lang="fr">origine des langues</term>
+                        <term ref="#orgndlng" xml:lang="it">origine delle lingue</term>
+                    </label>
+                    <item>
+                        <gloss target="#orgndlng" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
+                            Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
+                        </gloss>
+                    </item>
+                    
+                    
+                    
                 </list>
                 
                 <listPerson>
