@@ -15,7 +15,11 @@ body {
   margin: auto;
   padding: 25px;
 }
-
+#fenomeni {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 h1 {
   text-align: center;
 }
@@ -94,6 +98,8 @@ ul li a {
 
 button {
   position: relative;
+  bottom: 250px;
+  left: 34px;
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
