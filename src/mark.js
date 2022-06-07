@@ -3,8 +3,8 @@ $(document).ready(function(){
 
 function mark(elem, color) {
 
-    $(elem).wrapInner("<span id='termi'></span>").contents();
-    $("#termi").css("background-color", color);
+    // $(elem).wrapInner("<span id='termi'></span>").contents();
+    $(elem).css("background-color", color);
 
 } 
 
