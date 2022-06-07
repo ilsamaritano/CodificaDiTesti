@@ -11,8 +11,12 @@ $(document).ready(function(){
     $("#mark").on("click", function(){
 
        el = $(".termini");
+       
+       for(i=0;i<=el.length;i++){
 
-       $(el).wrapInner("<mark id='termi'></mark>").contents();
+           el[i].style.background = "yellow";
+
+       }
 
     });
 
