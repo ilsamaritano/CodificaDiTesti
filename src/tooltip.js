@@ -23,12 +23,13 @@ $(document).on("mouseover", ".termini", function (e) {
   e.preventDefault();
 
   var attr = $(e.target).attr("title"); // Ottengo l'attributo title del tag <abbr> correntemente selezionato
-  var fratello = $(e.target).next().text(); // Ottengo il fratello, seguendo la gerarchia DOM, in questo caso la stringa descrittiva
+  var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale gloss si riferisce
+  var desc = $(`#${selettore}`).text(); // Ottengo la stringa descrittiva
 
   if (typeof attr == "undefined" || attr == false) {
     // Controllo se il "title" non esiste già...se non esiste...
 
-    $(e.target).attr("title", "Abbreviazione di: " + fratello + " "); // Allora lo aggiungo e ci inserisco la stringa
+    $(e.target).attr("title", desc); // Allora lo aggiungo e ci inserisco la stringa
 
     $(document).tooltip(); // A questo punto faccio apparire il tooltip
   }
