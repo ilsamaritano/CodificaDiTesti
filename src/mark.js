@@ -29,7 +29,7 @@ $(document).ready(function(){
         $("orig").hide();
         $("reg").fadeIn();
 
-        $("reg").wrapInner("<mark id='regu'></mark>").contents();
+        $("reg").wrapInner("<span id='regu'></span>").contents();
         $("#regu").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
