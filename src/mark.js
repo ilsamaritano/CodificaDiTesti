@@ -5,7 +5,8 @@ function mark(elem, color) {
 
     // testo = elem.text();
 
-  $(elem).replaceWith("<mark></mark>");
+  // $(elem).replaceWith("<mark></mark>");
+  $(elem).wrapInner('<mark />').contents();
   $("mark").css("background-color", color);
 
 }
