@@ -273,7 +273,7 @@
                         <gap reason="illegible" extent="12" atLeast="11" atMost="13" unit="chars"/>
                     </del>
                     <lb xml:id="P2_10_L10" n="10" facs="#P10_R10" />
-                    <add place="margin">sans jamais pouvoir</add> la briser la <term ref="#chn">chaîne</term> des <term ref="#el">éléments transmis</term> depuis l'<term ref="#orgndlng"><abbr>orig<am>.</am></abbr><expan><ex>ine</ex></expan> des langues.</term>
+                    <add place="margin">sans jamais pouvoir</add> la briser la <term ref="#chn">chaîne</term> des <term ref="#eltr">éléments transmis</term> depuis l'<term ref="#orgndlng"><abbr>orig<am>.</am></abbr><expan><ex>ine</ex></expan> des langues.</term>
                 </ab>
                 <ab type="paragrafo" n="6" xml:id="P2_1O_Par6">
                     <lb xml:id="P2_10_L11" n="11" facs="#P10_R11" />
@@ -608,11 +608,11 @@
                     </item>
                     
                     <label>
-                        <term xml:id="suffixe" xml:lang="fr">éléments</term>
-                        <term ref="#suffixe" xml:lang="it">Elementi</term>
+                        <term xml:id="el" xml:lang="fr">éléments</term>
+                        <term ref="#el" xml:lang="it">Elementi</term>
                     </label>
                     <item>
-                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Elemento">
+                        <gloss target="#el" xml:lang="it" source="https://it.wikipedia.org/wiki/Elemento">
                             In linguistica l'<hi rend="bold">elemento</hi> è parte di una parola o di una espressione.
                         </gloss>
                     </item>
@@ -660,17 +660,24 @@
                     </item>
                     
                     <label>
-                        <term xml:id="inno" xml:lang="fr">innovation</term>
-                        <term ref="#inno" xml:lang="it">innovazione</term>
+                        <term xml:id="chn" xml:lang="fr">chaîne</term>
+                        <term ref="#chn" xml:lang="it">catena</term>
                     </label>
                     <item>
-                        <gloss target="#inno" xml:lang="it" source="https://it.wikipedia.org/wiki/Innovazione">
-                            L'<hi rend="bold">innovazione</hi> è la dimensione applicativa di un'invenzione o di una scoperta.
-                            L'<hi rend="bold">innovazione</hi> riguarda un processo o un prodotto che garantisce risultati o benefici maggiori apportando quindi un progresso sociale, anche se a volte non sempre efficaci e migliorativi rispetto a ciò che va ad innovare.
-                            Il cambiamento che porta invece a un peggioramento delle condizioni sociali non è innovazione, ma "regresso". La mancanza di <hi rend="bold">innovazione</hi>, a prescindere da come sia giudicata, invece si può pensare come "tradizionalismo, conservatorismo"
+                        <gloss target="#chn" xml:lang="it" source="https://it.wiktionary.org/wiki/catena">
+                            Serie di elementi <hi rend="bold">connessi</hi> l'uno con l'altro.
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="eltr" xml:lang="fr">éléments transmis</term>
+                        <term ref="#eltr" xml:lang="it">elementi trasmessi</term>
+                    </label>
+                    <item>
+                        <gloss target="#eltr" xml:lang="it" source="https://it.wikipedia.org/wiki/Proprietà_del_linguaggio_umano">
+                            Ogni lingua è <hi rend="bold">trasmessa</hi> per tradizione all'interno della società come un fattore culturale. Le regole sintattiche, semantiche, morfologiche, fonetiche e lessicali fondanti il patrimonio lessicale di ogni lingua passano, da generazione in generazione, per insegnamento e apprendimento.
+                        </gloss>
+                    </item>
                 </list>
                 
                 <listPerson>
