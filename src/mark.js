@@ -1,14 +1,7 @@
 $(document).ready(function(){
 
 
-function mark(elem, color, _id) {
-
-    $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
-    $("mark #"+_id+"").css("background-color", color);
-
-}
-
-    $("#mark").on("click", function(){
+    $("#mark").one("click", function(){
 
        el = $(".termini");
 
@@ -19,8 +12,12 @@ function mark(elem, color, _id) {
 
     $("reg").hide();
 
+});
 
-    $("#reg").on("click", function(){
+
+$(document).ready(function(){
+
+    $("#reg").one("click", function(){
 
         $("orig").hide();
         $("reg").fadeIn();
@@ -37,4 +34,5 @@ function mark(elem, color, _id) {
         }
 
     });
+
 });
