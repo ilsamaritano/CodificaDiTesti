@@ -13,7 +13,7 @@ $(document).ready(function(){
        el = $(".termini");
 
        $(el).wrapInner("<mark id='term'></mark>").contents();
-       $("mark #term").css("background-color", "yellow");
+       $("#term").css("background-color", "yellow");
 
     });
 
@@ -30,7 +30,7 @@ $(document).ready(function(){
         $("reg").fadeIn();
 
         $("reg").wrapInner("<mark id='reg'></mark>").contents();
-        $("mark #reg").css("background-color", "red");
+        $("#reg").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
