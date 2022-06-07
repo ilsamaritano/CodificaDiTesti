@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
-    function mark(elem, color) {
+    function mark(elem, color, _id) {
 
-        $(elem).wrapInner('<mark />').contents();
-        $("mark").css("background-color", color);
+        $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
+        $("mark #"+_id+"").css("background-color", color);
       
     }
 
@@ -14,7 +14,7 @@ $(document).ready(function(){
         $("orig").hide();
         $("reg").fadeIn();
 
-        mark($("reg"), "red");
+        mark($("reg"), "red", "reg");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              

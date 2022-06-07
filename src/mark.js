@@ -1,13 +1,10 @@
 $(document).ready(function(){
 
 
-function mark(elem, color) {
+function mark(elem, color, _id) {
 
-    // testo = elem.text();
-
-  // $(elem).replaceWith("<mark></mark>");
-  $(elem).wrapInner('<mark />').contents();
-  $("mark").css("background-color", color);
+    $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
+    $("mark #"+_id+"").css("background-color", color);
 
 }
 
@@ -18,7 +15,7 @@ function mark(elem, color) {
 
         for(i=0; i<=num; i++) {
 
-        mark(vect[i], "yellow");
+        mark(vect[i], "yellow", term);
 
         }
 
