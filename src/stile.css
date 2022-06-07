@@ -136,7 +136,3 @@ img.icon {
 #testoorig > h3 {
   margin-left: 8px;
 }
-
-#info > article > div > div:nth-child(2) > h3 {
-  margin-top: 0;
-}
