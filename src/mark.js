@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
 
-function mark(elem, color, _id) {
+/* function mark(elem, color, _id) {
 
     $(elem).wrapInner(`<span id=${_id}></span>`).contents();
-    $("#"+_id).css("background-color", color);
+    $("#").css("background-color", color);
 
-} 
+} */ 
 
     $("#mark").on("click", function(){
 
@@ -25,11 +25,11 @@ $("#reg").on("click", function(){
 
         vect = $("reg");
 
-        //$("reg").wrapInner("<span id='regu'></span>").contents();
+        $("reg").wrapInner("<span id='regu'></span>").contents();
         
         for(i=0;i<=vect.length;i++){
 
-            mark(vect[i], "red", "regu");
+            vect[i].style.background = "red";
 
         }
 
