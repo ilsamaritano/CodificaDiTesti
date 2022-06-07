@@ -1,7 +1,14 @@
 $(document).ready(function(){
 
 
-    $("#mark").one("click", function(){
+/* function mark(elem, color, _id) {
+
+    $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
+    $("mark #"+_id+"").css("background-color", color);
+
+} */
+
+    $("#mark").on("click", function(){
 
        el = $(".termini");
 
@@ -17,7 +24,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 
-    $("#reg").one("click", function(){
+    $("#reg").on("click", function(){
 
         $("orig").hide();
         $("reg").fadeIn();
