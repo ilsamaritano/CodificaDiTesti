@@ -33,7 +33,7 @@ $(document).ready(function(){
 
   var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale gloss si riferisce
   selettore = selettore.replace("#", "").trim();
-  var desc = $(`.tooltipTermine #desc_${selettore}`).contents(); // Ottengo la stringa descrittiva
+  var desc = $(`.tooltipTermine #desc_${selettore}`).text(); // Ottengo la stringa descrittiva
 
     $(e.target).attr("title", desc); // Allora lo aggiungo e ci inserisco la stringa
 
