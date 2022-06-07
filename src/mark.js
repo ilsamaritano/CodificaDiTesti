@@ -29,7 +29,7 @@ $("#reg").on("click", function(){
         
         for(i=0;i<=vect.length;i++){
 
-            vect[i].style.background("color", "red");
+            vect[i].style.background = "red";
 
         }
 
