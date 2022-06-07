@@ -29,8 +29,8 @@ $(document).ready(function(){
         $("orig").hide();
         $("reg").fadeIn();
 
-        $("reg").wrapInner("<mark id='reg'></mark>").contents();
-        $("#reg").css("background-color", "red");
+        $("reg").wrapInner("<mark id='regu'></mark>").contents();
+        $("#regu").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
