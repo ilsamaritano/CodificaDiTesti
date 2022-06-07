@@ -24,7 +24,7 @@
 
 $(document).ready(function(){
 
-  $(".tooltipTermine").hide();
+  $(".tooltipTermine").css("display", "none");
 
 
  $(document).on("mouseover", ".termini", function (e) {
