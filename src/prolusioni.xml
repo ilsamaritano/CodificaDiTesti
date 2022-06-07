@@ -576,13 +576,44 @@
                             La <hi rend="bold">forma</hi> in linguistica analizza il rapporto tra l'espressione comunicativa e la forma linguistica.
                         </gloss>
                     </item>
+                    
                     <label>
                         <term xml:id="formes" xml:lang="fr">Mémoire</term>
                         <term ref="#formes" xml:lang="it">Memoria</term>
                     </label>
                     <item>
                         <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Forma">
-                            La <hi rend="bold">forma</hi> in linguisticaanalizza il rapporto tra l'espressione comunicativa e la forma linguistica.
+                            La <hi rend="bold">memoria</hi> è una funzione psichica e neurale di assimilazione, attraverso dati sensibili provenienti dall'ambiente esterno mediante fattori percettivi quali gli organi di senso, ed elaborazione di questi dati attraverso la mente e il cervello sotto-forma di ricordi ed esperienze al fine dell'apprendimento, dello sviluppo dell'intelligenza e delle capacità cognitive, psichiche e fisiche dell'individuo.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="suffixe" xml:lang="fr">Suffixe</term>
+                        <term ref="#suffixe" xml:lang="it">Suffisso</term>
+                    </label>
+                    <item>
+                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Suffisso">
+                            In linguistica il <hi rend="bold">suffisso</hi> è un elemento che è posto alla fine di un tema o di una radice per formare una parola. Esso può anche aggiungersi a una parola già compiuta, formando, per derivazione, una parola suffissata (suffissazione).
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="RdSignification" xml:lang="fr">Rapport de signification</term>
+                        <term ref="#RdSignification" xml:lang="it">Rapporto di significazione</term>
+                    </label>
+                    <item>
+                        <gloss target="#RdSignification" xml:lang="it" source="https://it.wikipedia.org/wiki/Significazione">
+                            Il termine <hi rend="bold">rapporto di significazione</hi> significazione è un concetto semiotico che indica la relazione tra un significante e un significato. Essa ha a che vedere con la ricchezza di senso tipica di ogni persona, oggetto, elemento del paesaggio naturale. Ogni cosa non ci appare come elemento astratto, bensì è per noi subito sensata, dotata di determinate caratteristiche.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="suffixe" xml:lang="fr">Suffixe</term>
+                        <term ref="#suffixe" xml:lang="it">Suffisso</term>
+                    </label>
+                    <item>
+                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Suffisso">
+                            In linguistica il <hi rend="bold">suffisso</hi> è un elemento che è posto alla fine di un tema o di una radice per formare una parola. Esso può anche aggiungersi a una parola già compiuta, formando, per derivazione, una parola suffissata (suffissazione).
                         </gloss>
                     </item>
                     

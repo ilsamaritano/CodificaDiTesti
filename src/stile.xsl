@@ -63,6 +63,7 @@
                                 <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="gap">Gap</button>
                                 <button type="button" id="mark">Terminologia</button>
+                                <button type="button" id="mark">Esempi linguistici</button>
                             </div>
                         </div>
                     </div>
