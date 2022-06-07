@@ -24,7 +24,7 @@
                     <div>
                         <h2>doc. <xsl:value-of select="//tei:idno" /></h2>
                         <h1 class="fr"><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang='fr']" /></h1>
-                        <h1 class="it"><xsl:value-of select="//tei:title[@xml:lang='it']" /></h1>
+                        <h2 class="it"><xsl:value-of select="//tei:title[@xml:lang='it']" /></h2>
                         <h2>Autore: <xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" /></h2>
                     </div>
                 </header>
