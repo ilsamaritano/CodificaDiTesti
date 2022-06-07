@@ -16,7 +16,9 @@ $(document).ready(function(){
 
       $(e.target).attr("title", "Abbreviazione di: " + newStr + " "); // Allora lo aggiungo e ci inserisco la stringa
 
-      $(document).tooltip(); // A questo punto faccio apparire il tooltip
+      $(document).tooltip({
+        tooltipClass: "tooltip-styling"
+       }); // A questo punto faccio apparire il tooltip
     }
 });
 
