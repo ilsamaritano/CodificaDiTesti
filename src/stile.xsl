@@ -16,6 +16,7 @@
                 <script src="imgjs.js"></script>
                 <script src="del.js"></script>
                 <script src="mark.js"></script>
+                <script src="reg.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
@@ -43,7 +44,15 @@
                             <h3>Caratteristiche</h3>
                             <div>
                                 <div>
-                                    <xsl:apply-templates select="//tei:msContents" />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
+                                    <br />
+                                    <b>Lingua: </b><xsl:apply-templates select="//tei:language" />
+                                    <br />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:settingDesc" />
+                                    <br />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
+                                    <br />
+                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
                                     <h3>Storia editoriale</h3>
                                     <xsl:apply-templates select="//tei:history" />
                                 </div>
