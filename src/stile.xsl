@@ -44,21 +44,21 @@
                             <h3>Caratteristiche</h3>
                             <div>
                                 <div>
-                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
+                                    <b>Titolo:</b><xsl:value-of select="//tei:msItem/tei:title" />
                                     <br />
-                                    <b>Lingua: </b><xsl:apply-templates select="//tei:language" />
+                                    <b>Autore:</b><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
                                     <br />
-                                    <b>Titolo:</b><xsl:apply-templates select="//tei:settingDesc" />
+                                    <b>Lingua: </b><xsl:value-of select="//tei:language" />
                                     <br />
-                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
+                                    <b>Acquisizione:</b><xsl:value-of select="//tei:settingDesc/tei:setting/tei:name" />
                                     <br />
-                                    <b>Titolo:</b><xsl:apply-templates select="//tei:msItem/tei:title" />
+                                    <b>Data:</b><xsl:value-of select="//tei:time" />
                                     <h3>Storia editoriale</h3>
-                                    <xsl:apply-templates select="//tei:history" />
+                                    <xsl:value-of select="//tei:history" />
                                 </div>
                                 <div>
                                     <h3>Descrizione fisica</h3>
-                                    <xsl:apply-templates select="//tei:physDesc" />
+                                    <xsl:value-of select="//tei:physDesc" />
                                 </div>
                             </div>
                         </article>
