@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("#reg").on("click", function(){
 
         $("orig").fadeOut();
-        $("reg").fadeIn();
+        $("#reg").animate({width: "300px"}, {duration: "slow"});
 
         $(".testoorig h3").html("Testo con correzioni")
 
