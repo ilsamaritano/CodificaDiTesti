@@ -45,7 +45,7 @@ $("#reg").on("click", function(){
 
     $("#gap").on("click", function(){
 
-        $(".gap").fadeIn();
+        $(".gap").show();
         vect = $(".gap");
         
         for(i=0;i<=vect.length;i++){
