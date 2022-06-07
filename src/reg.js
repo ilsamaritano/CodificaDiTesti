@@ -5,7 +5,9 @@ $(document).ready(function(){
     $("#reg").on("click", function(){
 
         $("orig").hide();
-        $("reg").animate({width: "60px"}, {duration: "slow"});
+        $("reg").fadeIn();
+
+        mark($("reg"), "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
