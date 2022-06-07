@@ -45,11 +45,11 @@ $("#reg").on("click", function(){
 
     });
 
-    $("#reg").on("click", function(){
+    $("#gap").on("click", function(){
 
-        $("gap").wrapInner("<span id='gaps'></span>").contents();
+        //$(".gap").wrapInner("<span id='gaps'></span>").contents();
 
-        vect = $("gap");
+        vect = $(".gap");
         
         for(i=0;i<=vect.length;i++){
 
