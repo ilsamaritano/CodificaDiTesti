@@ -182,3 +182,7 @@ img.icon {
   color: black !important;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%) !important;
 }
+
+.termini:hover {
+  cursor: help !important
+}
