@@ -3,9 +3,9 @@ $(document).ready(function(){
 
 function mark(elem, color) {
 
-    testo = elem.text();
+    // testo = elem.text();
 
-  $(elem).replaceWith(`<mark>${testo}</mark>`);
+  $(elem).replaceWith("<mark></mark>");
   $("mark").css("background-color", color);
 
 }
