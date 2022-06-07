@@ -64,7 +64,7 @@ $(document).ready(function(){
     });
 
     $("#ruotapag10").on("click", function (e) {
-
+        e.preventDefault();
         $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
         $("#ruotapag10").html("<button type='button' id='ruotafronte'>Mostra fronte</button>");
