@@ -741,12 +741,32 @@
                     </item>
                     
                     <label>
-                        <term xml:id="oprtnspsclgq" xml:lang="fr">opérations psychologiques</term>
-                        <term ref="#oprtnspsclgq" xml:lang="it">operazioni psicologiche</term>
+                        <term xml:id="grmr" xml:lang="fr">grammaire</term>
+                        <term ref="#grmr" xml:lang="it">grammatica</term>
                     </label>
                     <item>
-                        <gloss target="#oprtnspsclgq" xml:lang="it" source="https://it.wikipedia.org/wiki/">
-                            
+                        <gloss target="#grmr" xml:lang="it" source="https://it.wikipedia.org/wiki/Grammatica">
+                            La <hi rend="bold">grammatica</hi> è quel complesso di regole necessarie alla costruzione di frasi, sintagmi e parole di una determinata lingua. Il termine si riferisce anche allo studio di dette regole.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="idee" xml:lang="fr">idée</term>
+                        <term ref="#idee" xml:lang="it">idee</term>
+                    </label>
+                    <item>
+                        <gloss target="#idee" xml:lang="it" source="https://it.wikipedia.org/wiki/Idea">
+                            <hi rend="bold">Idea</hi> è un termine usato sin dagli albori della filosofia, indicante in origine un'essenza primordiale e sostanziale, ma che oggi ha assunto nel linguaggio comune un significato più ristretto, riferibile in genere ad una rappresentazione o un "disegno" della mente.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="grmr" xml:lang="fr">grammaire</term>
+                        <term ref="#grmr" xml:lang="it">grammatica</term>
+                    </label>
+                    <item>
+                        <gloss target="#grmr" xml:lang="it" source="https://it.wikipedia.org/wiki/Grammatica">
+                            La <hi rend="bold">grammatica</hi> è quel complesso di regole necessarie alla costruzione di frasi, sintagmi e parole di una determinata lingua. Il termine si riferisce anche allo studio di dette regole.
                         </gloss>
                     </item>
                     
