@@ -95,11 +95,13 @@ ul li a {
   margin: 2%;
   /* width: 96%; */
 }
+#ruotapag10 {
+  bottom: 250px;
+  left: 34px;
+}
 
 button {
   position: relative;
-  bottom: 250px;
-  left: 34px;
   font-size: 12px;
   text-transform: uppercase;
   text-decoration: none;
