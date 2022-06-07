@@ -248,7 +248,7 @@
             <xsl:element name="span">
                 <xsl:choose>
                     <xsl:when test="name() = 'term'">
-                        <xsl:attribute name="class">tooltip keyDesc</xsl:attribute>
+                        <xsl:attribute name="class">tooltipTermine</xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="concat('kD_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
@@ -256,7 +256,7 @@
                     </xsl:when>
                     
                     <xsl:when test="name() = 'persName'">
-                        <xsl:attribute name="class">tooltip persDesc</xsl:attribute>
+                        <xsl:attribute name="class">tooltipPersona</xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="concat('prD_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
@@ -313,7 +313,7 @@
                     </xsl:when>
                     
                     <xsl:when test="name() = 'placeName'">
-                        <xsl:attribute name="class">tooltip placeDesc</xsl:attribute>
+                        <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="concat('plD_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
