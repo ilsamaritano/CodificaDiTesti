@@ -7,7 +7,7 @@ $(document).ready(function(){
         $("orig").fadeOut();
         $("reg").fadeIn();
 
-        $(".testorig h3").html("Testo corretto")
+        $(".testoorig h3").html("Testo corretto")
 
     });
 
