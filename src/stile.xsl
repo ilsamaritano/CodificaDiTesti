@@ -46,7 +46,7 @@
                                 <div>
                                     <b>Titolo:</b><xsl:value-of select="//tei:msItem/tei:title" />
                                     <br />
-                                    <b>Autore:</b><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
+                                    <b>Autore: </b><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
                                     <br />
                                     <b>Lingua: </b><xsl:value-of select="//tei:language" />
                                     <br />
