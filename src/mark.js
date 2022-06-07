@@ -13,11 +13,7 @@ function mark(elem, color, _id) {
        num = $(".termini").length;
        vect = $(".termini");
 
-        for(i=0; i<=num; i++) {
-
-        mark(vect[i], "yellow", "term");
-
-        }
+        mark(vect, "yellow", "term");
 
     });
 
