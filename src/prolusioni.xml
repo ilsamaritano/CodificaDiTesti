@@ -640,12 +640,34 @@
                     </item>
                     
                     <label>
-                        <term xml:id="suffixe" xml:lang="fr">éléments</term>
-                        <term ref="#suffixe" xml:lang="it">Elementi</term>
+                        <term xml:id="etatadl" xml:lang="fr">état antérieur du langage</term>
+                        <term ref="#etatadl" xml:lang="it">stato anteriore del linguaggio</term>
                     </label>
                     <item>
-                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Elemento">
-                            In linguistica l'<hi rend="bold">elemento</hi> è parte di una parola o di una espressione.
+                        <gloss target="#etatadl" xml:lang="it" source="">
+                            
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="anlgq" xml:lang="fr">analogique</term>
+                        <term ref="#anlgq" xml:lang="it">analogico</term>
+                    </label>
+                    <item>
+                        <gloss target="#anlgq" xml:lang="it" source="https://it.wikipedia.org/wiki/Innovazione">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="inno" xml:lang="fr">innovation</term>
+                        <term ref="#inno" xml:lang="it">innovazione</term>
+                    </label>
+                    <item>
+                        <gloss target="#inno" xml:lang="it" source="https://it.wikipedia.org/wiki/Innovazione">
+                            L'<hi rend="bold">innovazione</hi> è la dimensione applicativa di un'invenzione o di una scoperta.
+                            L'<hi rend="bold">innovazione</hi> riguarda un processo o un prodotto che garantisce risultati o benefici maggiori apportando quindi un progresso sociale, anche se a volte non sempre efficaci e migliorativi rispetto a ciò che va ad innovare.
+                            Il cambiamento che porta invece a un peggioramento delle condizioni sociali non è innovazione, ma "regresso". La mancanza di <hi rend="bold">innovazione</hi>, a prescindere da come sia giudicata, invece si può pensare come "tradizionalismo, conservatorismo"
                         </gloss>
                     </item>
                     
