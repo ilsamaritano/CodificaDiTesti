@@ -568,133 +568,24 @@
                 <!-- Terminologia -->
                 <list type="terminologia">
                     <label>
-                        <term xml:id="EdL" xml:lang="fr">Étude des langues</term>
-                        <term ref="#EdL" xml:lang="it">Studio delle lingue</term>
+                        <term xml:id="formes" xml:lang="fr">Formes</term>
+                        <term ref="#formes" xml:lang="it">Forme</term>
                     </label>
                     <item>
-                        <gloss target="#EdL" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica_storica">
-                            Lo <hi rend="bold">studio delle lingue</hi>, o <hi rend="bold">glottologia</hi>, si occupa dello studio storico delle lingue e delle loro famiglie e
-                            gruppi di appartenenza, delle origini etimologiche delle parole, considerando i loro rapporti e sviluppi
-                            in diacronia.
+                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Forma">
+                            La <hi rend="bold">forma</hi> in linguistica analizza il rapporto tra l'espressione comunicativa e la forma linguistica.
                         </gloss>
                     </item>
                     <label>
-                        <term xml:id="EdLge" xml:lang="fr">Étude du language</term>
-                        <term ref="#EdLge" xml:lang="it">Studio del linguaggio</term>
+                        <term xml:id="formes" xml:lang="fr">Mémoire</term>
+                        <term ref="#formes" xml:lang="it">Memoria</term>
                     </label>
                     <item>
-                        <gloss target="#EdLge" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica">
-                            Lo <hi rend="bold">studio del linguaggio</hi>, o <hi rend="bold">linguistica</hi>, include lo studio della fonetica, della grammatica, del lessico,
-                            della morfologia, della sintassi e della testualità. È una disciplina scientifica, in quanto si basa su
-                            approcci empirici e oggettivi. Un <hi rend="bold">linguista</hi> è una persona specializzata nell'ambito della linguistica.
+                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Forma">
+                            La <hi rend="bold">forma</hi> in linguisticaanalizza il rapporto tra l'espressione comunicativa e la forma linguistica.
                         </gloss>
                     </item>
-                    <label>
-                        <term xml:id="FdH" xml:lang="fr">Faculté de l'homme</term>
-                        <term ref="#FdH" xml:lang="it">Facoltà dell'uomo</term>
-                    </label>
-                    <item>
-                        <gloss target="#FdH" xml:lang="it" source="https://it.wikipedia.org/wiki/Facolt%C3%A0_(filosofia)">
-                            Per <hi rend="bold">facoltà</hi> la filosofia intende genericamente le potenzialità intellettive e
-                            psichiche dell'uomo di arrivare a capire fatti conoscitivi e provare sentimenti.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="fH" xml:lang="fr">Fait humain</term>
-                        <term ref="#fH" xml:lang="it">Fatto umano</term>
-                    </label>
-                    <item>
-                        <gloss target="#fH" xml:lang="it" resp="#CG">
-                            Per <hi rend="bold">fatto umano</hi> si intende un fenomeno relativo alla specie umana.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="lgage" xml:lang="fr">Langage</term>
-                    </label>
-                    <item>
-                        <gloss target="#lgage" xml:lang="it" source="https://www.treccani.it/enciclopedia/linguaggio/">
-                            Il <hi rend="bold">linguaggio</hi> è una forma di condotta comunicativa atta a trasmettere informazioni e a stabilire un rapporto di interazione
-                            che utilizza simboli aventi identico valore per gli individui appartenenti a uno stesso ambiente socioculturale.
-                            Dalle peculiarità della lingua rispetto a ogni altro codice semiologico derivano le peculiarità del linguaggio
-                            verbale rispetto a ogni altro tipo di semiosi.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="lgue" xml:lang="fr">Langue</term>
-                    </label>
-                    <item>
-                        <gloss target="#lgue" xml:lang="it" source="#CDLG">
-                            La <hi rend="bold">lingua</hi> è un prodotto sociale della facoltà del linguaggio ed un insieme di convenzioni necessarie,
-                            adottate dal corpo sociale per consentire l'esercizio di questa facoltà negli individui. [...]
-                            È in sé una totalità e un principio di classificazione. Dal momento in cui le assegnamo il primo posto
-                            tra i fatti di linguaggio, introduciamo un ordine naturale in un insieme che non si presta ad altra
-                            classificazione.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="log" xml:lang="fr">Logique</term>
-                        <term ref="#log" xml:lang="it">Logica</term>
-                    </label>
-                    <item>
-                        <gloss target="#log" xml:lang="it" source="https://it.wikipedia.org/wiki/Logica https://www.treccani.it/enciclopedia/tag/logica/">
-                            La <hi rend="bold">logica</hi> è la disciplina che studia le condizioni di validità delle argomentazioni deduttive:
-                            lo studio del ragionamento e dell'argomentazione, rivolto in particolare a definire
-                            la correttezza dei procedimenti inferenziali del pensiero.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="phphe" xml:lang="fr">Philosophe</term>
-                        <term ref="#phphe" xml:lang="it">Filosofia</term>
-                    </label>
-                    <item>
-                        <gloss target="#phphe" xml:lang="it" source="https://it.wikipedia.org/wiki/Filosofia">
-                            La <hi rend="bold">filosofia</hi> è un campo di studi che si pone domande e riflette sul mondo e sull'essere umano,
-                            indaga sul senso dell'essere e dell'esistenza umana. Come intrinseco nel nome stesso la filosofia è
-                            l'amore per la conoscenza e la ricerca.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="phigie" xml:lang="fr">Physiologie</term>
-                        <term ref="#phigie" xml:lang="it">Fisiologia</term>
-                    </label>
-                    <item>
-                        <gloss target="#phigie" xml:lang="it" source="https://it.wikipedia.org/wiki/Fisiologia">
-                            La <hi rend="bold">fisiologia</hi> è la branca della biologia che studia il funzionamento degli organismi viventi, analizzando
-                            i principi chimico-fisici del funzionamento degli esseri viventi, siano essi mono o pluricellulari,
-                            animali o vegetali.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="pdV" xml:lang="fr">Point de vue</term>
-                        <term ref="#pdV" xml:lang="it">Punto di vista</term>
-                    </label>
-                    <item>
-                        <gloss target="#pdV" xml:lang="it" source="https://www.treccani.it/vocabolario/vista/">
-                            Per <hi rend="bold">punto di vista</hi> si intende il modo soggettivo di vedere i fatti, le situazioni e i problemi, e quindi di intendere, di valutare.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="pcpes" xml:lang="fr">Principe</term>
-                        <term ref="#pcpes" xml:lang="it">Principio</term>
-                    </label>
-                    <item>
-                        <gloss target="#pcpes" xml:lang="it" source="https://it.wikipedia.org/wiki/Principio">
-                            Un <hi rend="bold">principio</hi> è un concetto che indica le basi e i presupposti iniziali su cui si basa o poggia
-                            una teoria e che assumono, per convenzione o riconosciuto diritto, validità generale ed universale
-                            all'interno della teoria stessa.
-                        </gloss>
-                    </item>
-                    <label>
-                        <term xml:id="phygie" xml:lang="fr">Psychologie</term>
-                        <term ref="#phygie" xml:lang="it">Psicologia</term>
-                    </label>
-                    <item>
-                        <gloss target="#phygie" xml:lang="it" source="https://it.wikipedia.org/wiki/Psicologia">
-                            La <hi rend="bold">psicologia</hi> è la scienza che studia gli stati mentali e i suoi processi emotivi, cognitivi,
-                            sociali e comportamentali nelle loro componenti consce e inconsce, mediante l'uso del metodo scientifico
-                            e/o appoggiandosi ad una prospettiva soggettiva intrapersonale.
-                        </gloss>
-                    </item>
+                    
                 </list>
                 
                 <listPerson>

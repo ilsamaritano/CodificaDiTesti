@@ -108,7 +108,17 @@
                 <article>
                     <h2> Bibliografia </h2>
                     <div class="bibl">
-                        
+                        <label>
+                            <term xml:id="EdL" xml:lang="fr">Étude des langues</term>
+                            <term ref="#EdL" xml:lang="it">Studio delle lingue</term>
+                        </label>
+                        <item>
+                            <gloss target="#EdL" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguistica_storica">
+                                Lo <hi rend="bold">studio delle lingue</hi>, o <hi rend="bold">glottologia</hi>, si occupa dello studio storico delle lingue e delle loro famiglie e
+                                gruppi di appartenenza, delle origini etimologiche delle parole, considerando i loro rapporti e sviluppi
+                                in diacronia.
+                            </gloss>
+                        </item>
                     </div>
                 </article>
                 
