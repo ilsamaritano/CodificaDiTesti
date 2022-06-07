@@ -26,17 +26,14 @@ $(document).on("mouseover", ".termini", function (e) {
 
   e.preventDefault();
 
-  var attr = $(e.target).attr("title"); // Ottengo l'attributo title del tag <abbr> correntemente selezionato
   var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale gloss si riferisce
-  var desc = $(".tooltipTermine").text(); // Ottengo la stringa descrittiva
-
-  if (typeof attr == "undefined" || attr == false) {
-    // Controllo se il "title" non esiste già...se non esiste...
+  var desc = $("gloss #"+selettore).text(); // Ottengo la stringa descrittiva
 
     $(e.target).attr("title", desc); // Allora lo aggiungo e ci inserisco la stringa
 
-    $(document).tooltip().css("background-color", "grey"); // A questo punto faccio apparire il tooltip
-  }
+    $(document).tooltip({
+      tooltipClass: "tooltip-styling"
+     }); // A questo punto faccio apparire il tooltip
       
     });
 });
