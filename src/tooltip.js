@@ -22,7 +22,7 @@ $(document).ready(function(){
     }
 });
 
-$(document).on("mouseover", ".termini", function (e) {
+/* $(document).on("mouseover", ".termini", function (e) {
 
   e.preventDefault();
 
@@ -36,4 +36,4 @@ $(document).on("mouseover", ".termini", function (e) {
      }); // A questo punto faccio apparire il tooltip
       
     });
-});
+}); */
