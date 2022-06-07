@@ -33,7 +33,7 @@ $(document).on("mouseover", ".termini", function (e) {
 
     $(e.target).attr("title", desc); // Allora lo aggiungo e ci inserisco la stringa
 
-    $(document).tooltip(); // A questo punto faccio apparire il tooltip
+    $(document).tooltip().css("background-color", "grey"); // A questo punto faccio apparire il tooltip
   }
       
     });
