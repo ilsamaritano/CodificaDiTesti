@@ -12,7 +12,7 @@ $(document).ready(function(){
 
        el = $(".termini");
 
-       $(el).wrapInner("<mark id='termi'></mark>").contents();
+       $(el).wrapInner("<span id='termi'></span>").contents();
        $("#termi").css("background-color", "yellow");
 
     });
