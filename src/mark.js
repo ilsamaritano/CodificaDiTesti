@@ -1,13 +1,6 @@
 $(document).ready(function(){
 
 
-function mark(elem, color, _id) {
-
-    $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
-    $("mark #"+_id+"").css("background-color", color);
-
-}
-
     $("#mark").on("click", function(){
 
        el = $(".termini");
@@ -19,6 +12,10 @@ function mark(elem, color, _id) {
 
     $("reg").hide();
 
+});
+
+
+$(document).ready(function(){
 
     $("#reg").on("click", function(){
 
@@ -37,4 +34,5 @@ function mark(elem, color, _id) {
         }
 
     });
+
 });
