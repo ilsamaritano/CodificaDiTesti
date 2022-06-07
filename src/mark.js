@@ -12,8 +12,8 @@ $(document).ready(function(){
 
        el = $(".termini");
 
-       $(el).wrapInner("<mark id='termi'></mark>").contents();
-       $("#termi").css("background-color", "yellow");
+       $(el).wrapInner("<mark id='term'></mark>").contents();
+       $("mark #term").css("background-color", "yellow");
 
     });
 
@@ -29,8 +29,8 @@ $(document).ready(function(){
         $("orig").hide();
         $("reg").fadeIn();
 
-        $("reg").wrapInner("<mark id='regu'></mark>").contents();
-        $("#regu").css("background-color", "red");
+        $("reg").wrapInner("<mark id='reg'></mark>").contents();
+        $("mark #reg").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
