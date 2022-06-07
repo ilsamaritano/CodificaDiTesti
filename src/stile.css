@@ -112,3 +112,7 @@ button:hover::after {
 img.icon{
     width: 10px;
 }
+
+#append{
+    text-align: center;
+}
