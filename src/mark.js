@@ -19,12 +19,7 @@ $(document).ready(function(){
 
     $("reg").hide();
 
-});
-
-
-$(document).ready(function(){
-
-    $("#reg").on("click", function(){
+$("#reg").on("click", function(){
 
         $("orig").hide();
         $("reg").fadeIn();
