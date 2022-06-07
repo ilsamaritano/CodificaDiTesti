@@ -1,19 +1,19 @@
 $(document).ready(function(){
 
 
-function mark(elem, color, _id) {
+/* function mark(elem, color, _id) {
 
     $(elem).wrapInner(`<mark id=${_id}></mark>`).contents();
     $("mark #"+_id+"").css("background-color", color);
 
-}
+} */
 
     $("#mark").on("click", function(){
 
-       num = $(".termini").length;
-       vect = $(".termini");
+       el = $(".termini");
 
-        mark(vect, "yellow", "term");
+       $(el).wrapInner("<mark id='term'></mark>").contents();
+       $("mark #term").css("background-color", "yellow");
 
     });
 
@@ -24,7 +24,8 @@ function mark(elem, color, _id) {
         $("orig").hide();
         $("reg").fadeIn();
 
-        mark($("reg"), "red", "reg");
+        $("reg").wrapInner("<mark id='reg'></mark>").contents();
+        $("mark #reg").css("background-color", "red");
 
         if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
              
