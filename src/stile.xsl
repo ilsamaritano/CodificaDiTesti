@@ -43,22 +43,24 @@
                         <article>
                             <h3>Caratteristiche</h3>
                             <div>
-                                <div>
-                                    <b>Titolo:</b><xsl:value-of select="//tei:msItem/tei:title" />
-                                    <br />
-                                    <b>Autore:</b><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
-                                    <br />
-                                    <b>Lingua: </b><xsl:value-of select="//tei:language" />
-                                    <br />
-                                    <b>Acquisizione:</b><xsl:value-of select="//tei:settingDesc/tei:setting/tei:name" />
-                                    <br />
-                                    <b>Data:</b><xsl:value-of select="//tei:time" />
-                                    <h3>Storia editoriale</h3>
-                                    <xsl:value-of select="//tei:history" />
-                                </div>
+                                <b>Titolo:</b><xsl:value-of select="//tei:msItem/tei:title" />
+                                <br />
+                                <b>Autore: </b><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
+                                <br />
+                                <b>Lingua: </b><xsl:value-of select="//tei:language" />
+                                <br />
+                                <b>Acquisizione:</b><xsl:value-of select="//tei:settingDesc/tei:setting/tei:name" />
+                                <br />
+                                <b>Data:</b><xsl:value-of select="//tei:time" />
+                            </div>
+                            <div>
                                 <div>
                                     <h3>Descrizione fisica</h3>
                                     <xsl:value-of select="//tei:physDesc" />
+                                </div>
+                                <div>
+                                    <h3>Storia editoriale</h3>
+                                    <xsl:value-of select="//tei:history" />
                                 </div>
                             </div>
                         </article>
