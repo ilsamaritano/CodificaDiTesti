@@ -3,11 +3,18 @@ body {
   max-width: 95%;
   font-family: "Open Sans", sans-serif;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 0;
   background-color: antiquewhite;
   margin-bottom: 5%;
 }
 
+#infogenerali {
+  background-color: #fff;
+  border-radius: 30px;
+  width: fit-content;
+  margin: auto;
+  padding: 25px;
+}
 h1 {
   text-align: center;
 }
@@ -151,4 +158,8 @@ img.icon {
 #traduzionepag11 > h3,
 #testoorig > h3 {
   margin-left: 8px;
+}
+
+#info {
+  margin-top: 30px;
 }
