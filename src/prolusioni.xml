@@ -244,9 +244,9 @@
                     <term ref="#cexnh">création <emph rend="underline">ex nihilo</emph>
                     </term>, mais chaque <term ref="#inno">innovation</term> ne sera
                     <lb xml:id="P2_10_L5" n="5" facs="#P10_R5" />
-                    qu'<choice><orig>1</orig><reg>une</reg></choice> <abbr>applic<am>.</am></abbr><expan><ex>ation</ex></expan> nouvelle d'<term ref="#el">éléments</term> fournis par <term ref="#etat">l'état</term>
-                    <lb xml:id="P2_10_L6" n="6" facs="#P10_R6" />
-                    <term ref="#antdl">antèrieur du langage</term>.
+                    qu'<choice><orig>1</orig><reg>une</reg></choice> <abbr>applic<am>.</am></abbr><expan><ex>ation</ex></expan> nouvelle d'<term ref="#el">éléments</term> fournis par <term ref="#etatadl">l'état
+                        <lb xml:id="P2_10_L6" n="6" facs="#P10_R6" />
+                        antèrieur du langage</term>.
                 </ab>
                 <ab type="paragrafo" n="5" xml:id="P2_1O_Par5">
                     C'est ainsi que le renouvellement
@@ -578,11 +578,11 @@
                     </item>
                     
                     <label>
-                        <term xml:id="formes" xml:lang="fr">Mémoire</term>
-                        <term ref="#formes" xml:lang="it">Memoria</term>
+                        <term xml:id="memoire" xml:lang="fr">Mémoire</term>
+                        <term ref="#memoire" xml:lang="it">Memoria</term>
                     </label>
                     <item>
-                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Forma">
+                        <gloss target="#memoire" xml:lang="it" source="https://it.wikipedia.org/wiki/Forma">
                             La <hi rend="bold">memoria</hi> è una funzione psichica e neurale di assimilazione, attraverso dati sensibili provenienti dall'ambiente esterno mediante fattori percettivi quali gli organi di senso, ed elaborazione di questi dati attraverso la mente e il cervello sotto-forma di ricordi ed esperienze al fine dell'apprendimento, dello sviluppo dell'intelligenza e delle capacità cognitive, psichiche e fisiche dell'individuo.
                         </gloss>
                     </item>
@@ -640,12 +640,34 @@
                     </item>
                     
                     <label>
-                        <term xml:id="suffixe" xml:lang="fr">éléments</term>
-                        <term ref="#suffixe" xml:lang="it">Elementi</term>
+                        <term xml:id="etatadl" xml:lang="fr">état antérieur du langage</term>
+                        <term ref="#etatadl" xml:lang="it">stato anteriore del linguaggio</term>
                     </label>
                     <item>
-                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Elemento">
-                            In linguistica l'<hi rend="bold">elemento</hi> è parte di una parola o di una espressione.
+                        <gloss target="#etatadl" xml:lang="it" source="">
+                            
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="anlgq" xml:lang="fr">analogique</term>
+                        <term ref="#anlgq" xml:lang="it">analogico</term>
+                    </label>
+                    <item>
+                        <gloss target="#anlgq" xml:lang="it" source="https://it.wikipedia.org/wiki/Innovazione">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="inno" xml:lang="fr">innovation</term>
+                        <term ref="#inno" xml:lang="it">innovazione</term>
+                    </label>
+                    <item>
+                        <gloss target="#inno" xml:lang="it" source="https://it.wikipedia.org/wiki/Innovazione">
+                            L'<hi rend="bold">innovazione</hi> è la dimensione applicativa di un'invenzione o di una scoperta.
+                            L'<hi rend="bold">innovazione</hi> riguarda un processo o un prodotto che garantisce risultati o benefici maggiori apportando quindi un progresso sociale, anche se a volte non sempre efficaci e migliorativi rispetto a ciò che va ad innovare.
+                            Il cambiamento che porta invece a un peggioramento delle condizioni sociali non è innovazione, ma "regresso". La mancanza di <hi rend="bold">innovazione</hi>, a prescindere da come sia giudicata, invece si può pensare come "tradizionalismo, conservatorismo"
                         </gloss>
                     </item>
                     
@@ -654,7 +676,7 @@
                 <listPerson>
                     <person xml:id="FDS">
                         <persName role="linguist">
-                            <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure https://www.treccani.it/enciclopedia/ferdinand-de-saussure/" />
+                            <ref target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure" />
                             <forename>Ferdinand</forename>
                             <surname>De Saussure</surname>
                         </persName>
