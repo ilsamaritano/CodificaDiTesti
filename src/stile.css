@@ -15,6 +15,7 @@ body {
   margin: auto;
   padding: 25px;
 }
+
 h1 {
   text-align: center;
 }
@@ -39,7 +40,7 @@ nav ul {
 }
 
 ul li a {
-  text-decoration: none;
+  text-decoration: revert;
   color: black;
   text-transform: uppercase;
   list-style-type: none;
