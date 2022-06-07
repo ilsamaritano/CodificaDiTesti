@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  $(".tooltipTermine").hide();
+
   $(document).on("mouseover", "abbr", function (e) {
     e.preventDefault();
     // Nomino la funzione per gestire il target corrente
@@ -21,8 +23,6 @@ $(document).ready(function(){
 $(document).on("mouseover", ".termini", function (e) {
 
   e.preventDefault();
-
-  $(".tooltipTermine").hide();
 
   var attr = $(e.target).attr("title"); // Ottengo l'attributo title del tag <abbr> correntemente selezionato
   var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale gloss si riferisce
