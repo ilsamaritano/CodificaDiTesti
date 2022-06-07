@@ -105,6 +105,13 @@
                     </div>
                 </article>
                 
+                <article>
+                    <h2> Bibliografia </h2>
+                    <div class="bibl">
+                        
+                    </div>
+                </article>
+                
                 <div id="append">
                     <h2 id="about">Riferimenti</h2>
                     <xsl:apply-templates select="//tei:editionStmt"/>
