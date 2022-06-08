@@ -399,7 +399,7 @@
                     <lb xml:id="P2_11_L6" n="6" facs="#P11_R6" />
                     si l’on <del rend="overstrike">citait des</del> demandait à <choice><orig>1</orig><reg>un</reg></choice> <term ref="#mineralogiste">minéralogiste</term> de <term ref="#citer">citer</term> des <term ref="#mineraux">minéraux</term>,
                     <lb xml:id="P2_11_L7" n="7" facs="#P11_R7" />
-                    ou à <choice><orig>1</orig><reg>un</reg></choice> <term ref="astron"><abbr>astron<am>.</am></abbr><expan><ex>ome</ex></expan></term> de citer quelques étoiles, <del rend="overstrike">c'est</del>
+                    ou à <choice><orig>1</orig><reg>un</reg></choice> <term ref="astron"><abbr>astron<am>.</am></abbr><expan><ex>ome</ex></expan></term> de citer quelques <term ref="#etoiles">étoiles</term>, <del rend="overstrike">c'est</del>
                 </ab>
                 <ab type="paragrafo" n="3" xml:id="P2_11_Par3">
                     je commence par le dire pour
@@ -971,8 +971,8 @@
                         <term ref="#citer" xml:lang="it">citare</term>
                     </label>
                     <item>
-                        <gloss target="#citer" xml:lang="it" source="https://www.treccani.it/vocabolario/linguista/">
-                            Chi si dedica allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), soprattutto da un punto di vista teorico, sistematico e storico; studioso di linguistica.
+                        <gloss target="#citer" xml:lang="it" source="https://www.treccani.it/vocabolario/citare/">
+                            Allegare, riportare parole di persone o di testi autorevoli, ricordare fatti o episodî a conferma di quanto si sostiene; riferire passi di opere, sia per esemplificazione, sia anche per semplice diletto estetico.
                         </gloss>
                     </item>
                     
@@ -987,25 +987,54 @@
                     </item>
                     
                     <label>
-                        <term xml:id="mineraux" xml:lang="fr">minéraux</term>
-                        <term ref="#mineraux" xml:lang="it">minerale</term>
+                        <term xml:id="etoiles" xml:lang="fr">étoiles</term>
+                        <term ref="#etoiles" xml:lang="it">stelle</term>
                     </label>
                     <item>
-                        <gloss target="#mineraux" xml:lang="it" source="https://it.wikipedia.org/wiki/Minerale">
-                            I <hi rend="bold">minerali</hi> (dal latino medievale minerale, derivato del francese antico minière, "miniera") sono corpi inorganici e naturali, caratterizzati da un elevato ordinamento a scala atomica ed una composizione chimica ben definita (ma non fissa) o variabile in un campo ristretto; essi costituiscono la crosta terrestre e altri corpi celesti. Sono tutti solidi.
+                        <gloss target="#etoiles" xml:lang="it" source="https://it.wikipedia.org/wiki/Stella">
+                            Una <hi rend="bold">stella</hi> è un corpo celeste che brilla di luce propria. Si tratta di uno sferoide di plasma che attraverso processi di fusione nucleare nel proprio nucleo genera energia, irradiata nello spazio sotto forma di radiazione elettromagnetica (luminosità), flusso di particelle elementari (vento stellare) e neutrini.
                         </gloss>
                     </item>
                     
                     <label>
-                        <term xml:id="mineraux" xml:lang="fr">astronome</term>
-                        <term ref="#mineraux" xml:lang="it">astronomo</term>
+                        <term xml:id="astron" xml:lang="fr">astronome</term>
+                        <term ref="#astron" xml:lang="it">astronomo</term>
                     </label>
                     <item>
-                        <gloss target="#mineraux" xml:lang="it" source="https://it.wikipedia.org/wiki/Minerale">
-                            I <hi rend="bold">minerali</hi> (dal latino medievale minerale, derivato del francese antico minière, "miniera") sono corpi inorganici e naturali, caratterizzati da un elevato ordinamento a scala atomica ed una composizione chimica ben definita (ma non fissa) o variabile in un campo ristretto; essi costituiscono la crosta terrestre e altri corpi celesti. Sono tutti solidi.
+                        <gloss target="#astron" xml:lang="it" source="https://it.wikipedia.org/wiki/Astronomo">
+                            Un astronomo è uno scienziato che si occupa dello studio dei corpi e dei fenomeni esterni all'atmosfera terrestre. Per le sue ricerche egli si avvale principalmente della matematica e della fisica, ma anche di altre discipline a seconda del suo campo specifico di studi.
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="valeur" xml:lang="fr">valeur</term>
+                        <term ref="#valeur" xml:lang="it">valore</term>
+                    </label>
+                    <item>
+                        <gloss target="#valeur" xml:lang="it" source="https://www.treccani.it/vocabolario/valore/">
+                            Importanza che una cosa, materiale o astratta, ha, sia oggettivamente in sé stessa, sia soggettivamente nel giudizio dei singoli
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="faits" xml:lang="fr">faits</term>
+                        <term ref="#faits" xml:lang="it">fatti</term>
+                    </label>
+                    <item>
+                        <gloss target="#faits" xml:lang="it" source="https://www.treccani.it/vocabolario/fatto1/">
+                            Portato a termine, compiuto.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="anomalies" xml:lang="fr">anomalies</term>
+                        <term ref="#anomalies" xml:lang="it">anomalie</term>
+                    </label>
+                    <item>
+                        <gloss target="#anomalies" xml:lang="it" source="https://www.treccani.it/vocabolario/anomalia">
+                            Irregolarità, difformità dalla regola generale, o da una struttura, da un tipo che si considera come normale.
+                        </gloss>
+                    </item>
                     
                     
                     
