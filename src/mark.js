@@ -62,6 +62,8 @@ $(document).ready(function(){
 
         }
 
+        control(click1, vect, "red");
+
     });
 
     $("#gap").on("click", () => {
