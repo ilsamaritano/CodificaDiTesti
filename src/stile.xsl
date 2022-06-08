@@ -66,7 +66,11 @@
                                 <button type="button" id="esling">Esempi linguistici</button>
                             </div>
                             <div class="gap">
-                                <button type="button" id="gap">Gap</button>
+                                <label class="container" id="gap">Gap
+                                    <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </input>
+                                </label>
                             </div>
                         </div>
                     </div>
