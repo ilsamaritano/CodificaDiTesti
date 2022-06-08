@@ -65,8 +65,8 @@
                                     <li><span></span>Termine</li>
                                     <li><span></span>Esempio linguistico</li>
                                     <li><span></span>Gap</li>
-                                    <li><b>&lt;&gt;</b> Nota a margine</li>
-                                    <li><b>^</b> Nota</li>
+                                    <li><b>&lt;&gt;</b><br />Nota a margine</li>
+                                    <li><b>^</b> <br />Nota sul testo</li>
                                 </ul>
                             </div>
                             
