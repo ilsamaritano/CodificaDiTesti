@@ -17,7 +17,7 @@ $("#abbreviazioni").on("click", function(){
 
         if(click4 % 2 == 0) {
 
-        $(".abbr").css("font-weight", "none");
+        $(".abbr").css("font-weight", "normal");
         $(".expan").fadeOut();
 
 
