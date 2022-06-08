@@ -74,6 +74,7 @@ $(document).ready(function(){
 
         $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
+        $("#ruotapag10").text("Mostra fronte");
 
         }
 
@@ -81,6 +82,7 @@ $(document).ready(function(){
 
         $("img[src='P2_10.jpg']").fadeIn();
         $("img[src='P2_10R.jpg']").hide();
+        $("#ruotapag10").text("Mostra retro");
 
         }
           
