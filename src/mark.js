@@ -2,7 +2,6 @@ $(document).ready(function(){
 
     clicked = 0;
     click1 = 0;
-    click2 = 0;
     click3 = 0;
 
     function control(click, vettore, color) {
@@ -66,15 +65,6 @@ $(document).ready(function(){
 
     });
 
-    $("#gap").on("click", () => {
-
-            click2 += 1;
-
-            vect = $(".gap");
-
-            control(click2, vect, "green");
-
-        });
 
     $("#esling").each(function() {
 
