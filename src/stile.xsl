@@ -209,13 +209,13 @@
     
     <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
-        <abbr><xsl:value-of select="current()" /></abbr>
+        <b><xsl:value-of select="current()" /></b>
     </xsl:template>
     
     <xsl:template match="tei:expan">
         <xsl:element name="span">
             <xsl:attribute name="class">expan</xsl:attribute>
-            <xsl:value-of select="current()" />
+            (<i><xsl:value-of select="current()" /></i>)
         </xsl:element>
     </xsl:template>
     
