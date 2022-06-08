@@ -831,22 +831,22 @@
                     </item>
                     
                     <label>
-                        <term xml:id="symtrq" xml:lang="fr">symétrique</term>
-                        <term ref="#symtrq" xml:lang="it">simmetrico</term>
+                        <term xml:id="rsnm" xml:lang="fr">raisonnement</term>
+                        <term ref="#rsnm" xml:lang="it">ragionamento</term>
                     </label>
                     <item>
-                        <gloss target="#symtrq" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
-                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        <gloss target="#rsnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Il <hi rend="bold">ragionamento</hi> è il processo cognitivo che, partendo da determinate premesse, porta a una conclusione, facendo uso di procedimenti logici, tipico delle argomentazioni. I principali tipi di ragionamento, secondo ottiche diverse, possono essere l'inferenza, l'induzione, la deduzione, l'abduzione e il ragionamento per assurdo.
                         </gloss>
                     </item>
                     
                     <label>
-                        <term xml:id="symtrq" xml:lang="fr">symétrique</term>
-                        <term ref="#symtrq" xml:lang="it">simmetrico</term>
+                        <term xml:id="phnm" xml:lang="fr">phénomène</term>
+                        <term ref="#phnm" xml:lang="it">fenomeno</term>
                     </label>
                     <item>
-                        <gloss target="#symtrq" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
-                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        <gloss target="#phnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
                         </gloss>
                     </item>
                     
