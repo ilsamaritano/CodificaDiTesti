@@ -231,7 +231,7 @@
     <xsl:template match="tei:expan">
         <xsl:element name="span">
             <xsl:attribute name="class">expan</xsl:attribute>
-            (<i><xsl:value-of select="current()" /></i>)
+            -<i><xsl:value-of select="current()" /></i>-
         </xsl:element>
     </xsl:template>
     
