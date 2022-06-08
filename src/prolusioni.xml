@@ -915,8 +915,8 @@
                     </item>
                     
                     <label>
-                        <term xml:id="emgsnr" xml:lang="fr">emmagasiner</term>
-                        <term ref="#emgsnr" xml:lang="it">immagazzinare</term>
+                        <term xml:id="emgsnr" xml:lang="fr">vie du langage</term>
+                        <term ref="#emgsnr" xml:lang="it">vita del linguaggio</term>
                     </label>
                     <item>
                         <gloss target="#emgsnr" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
