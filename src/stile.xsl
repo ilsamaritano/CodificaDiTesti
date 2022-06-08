@@ -17,6 +17,7 @@
                 <script src="del.js"></script>
                 <script src="mark.js"></script>
                 <script src="reg.js"></script>
+                <script src="abbr.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
@@ -65,10 +66,9 @@
                                 <button type="button" id="mark">Terminologia</button>
                                 <button type="button" id="esling">Esempi linguistici</button>
                             </div>
-                            <div class="gap">
-                                <label class="container" id="gap">
+                            <div class="gaps">
+                                <label class="container">
                                     <input type="checkbox">
-                                        <span class="checkmark"></span>
                                     </input>
                                     Gap
                                 </label>
