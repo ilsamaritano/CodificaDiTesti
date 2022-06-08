@@ -805,11 +805,30 @@
                         <term ref="#symt" xml:lang="it">simmetria</term>
                     </label>
                     <item>
-                        <gloss target="#symt" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
-                            In genere, l’atto dell’operare, l’attività di chi <hi rend="bold">opera</hi>, di chi compie un lavoro o un’azione.
+                        <gloss target="#symt" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="symt" xml:lang="fr">symétrie</term>
+                        <term ref="#symt" xml:lang="it">simmetria</term>
+                    </label>
+                    <item>
+                        <gloss target="#symt" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="symt" xml:lang="fr">symétrie</term>
+                        <term ref="#symt" xml:lang="it">simmetria</term>
+                    </label>
+                    <item>
+                        <gloss target="#symt" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        </gloss>
+                    </item>
                     
                     
                     
