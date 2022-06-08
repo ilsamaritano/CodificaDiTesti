@@ -801,11 +801,11 @@
                     </item>
                     
                     <label>
-                        <term xml:id="oprtns" xml:lang="fr">opération</term>
-                        <term ref="#oprtns" xml:lang="it">operazione</term>
+                        <term xml:id="symt" xml:lang="fr">symétrie</term>
+                        <term ref="#symt" xml:lang="it">simmetria</term>
                     </label>
                     <item>
-                        <gloss target="#oprtns" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
+                        <gloss target="#symt" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
                             In genere, l’atto dell’operare, l’attività di chi <hi rend="bold">opera</hi>, di chi compie un lavoro o un’azione.
                         </gloss>
                     </item>
