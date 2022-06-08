@@ -233,7 +233,7 @@
     <xsl:template match="tei:hi[@rend = 'bold']">
         <b><xsl:apply-templates /></b>
     </xsl:template>
-
+    
     <!-- Sottolineature --> 
     <xsl:template match="tei:emph[@rend = 'underline']">
         <u><xsl:apply-templates /></u>
