@@ -183,6 +183,10 @@ img.icon {
   cursor: help;
 }
 
+.gaps {
+  display: none;
+}
+
 #fenomeni > div.gap {
   margin-right: 330px;
 }

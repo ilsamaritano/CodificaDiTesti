@@ -1,20 +1,22 @@
 $(document).ready(function(){
 
-    clicked = 0;
+    click5 = 0;
 
     $("del").hide();
 
     $("#del").on("click", function () {
 
-        clicked += 1;
+        click5 += 1;
 
-        if(clicked % 2 == 1) {
+        if(click5 % 2 == 1) {
         
         $("del").fadeIn();
+        $(".gaps").fadeIn();
 
         }
-        if(clicked % 2 == 0) {
+        if(click5 % 2 == 0) {
             $("del").fadeOut();
+            $(".gaps").fadeOut();
         }
     });
 
