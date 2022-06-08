@@ -60,21 +60,29 @@ $(document).ready(function(){
 
     });
 
-    $("#esling").on("click", (e) => {
+    $("#esling").each(function () {
+
+        $(this).on("click", function(e){
 
             e.preventDefault();
 
-            vect = $("mentioned");
+            vettore = $("mentioned");
 
-            for (i = 0; i <= vect.length; i++) {
+            for (i = 0; i <= vettore.length; i++) {
 
-                if(vect[i].style.background != "#dfedff") {
+                if (vettore[i].style.background != "#dfedff") {
+                    vettore[i].style.background = "#dfedff";
 
-                  vect[i].style.background = "#dfedff";
+                } else {
+                    if (vettore[i].style.background != "none") {
+                        vettore[i].style.background = "none";
+    
+                    }
+                }
+
             }
-              vect[i].style.background = "none";
-        
-       }
+
+        });
 
     });
 
