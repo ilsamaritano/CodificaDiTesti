@@ -65,6 +65,9 @@ ul li a {
   margin-top: 40px;
 }
 
+#bottoni {
+  margin-top: 80px;
+}
 .flexbox {
   display: grid;
   grid-template-columns: 35% 35% 30%;
