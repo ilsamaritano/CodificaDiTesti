@@ -164,6 +164,9 @@ img.icon {
 #append {
   text-align: center;
   margin-top: 60px;
+  width: fit-content;
+  margin: 30px auto 10px auto;
+  /* padding: 25px; */
 }
 
 #traduzionepag10,
@@ -226,7 +229,14 @@ div.gaps {
 #fenomeni > div.legenda > ul {
   font-size: 10px;
 }
-article,
+article {
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 25px;
+}
+body > article:nth-child(6) {
+  margin-top: 30px;
+}
 #fenomeni > div.legenda {
   background-color: #fff;
   border-radius: 25px;
