@@ -645,7 +645,7 @@
                     </label>
                     <item>
                         <gloss target="#etatadl" xml:lang="it" source="test">
-                            test
+                            
                         </gloss>
                     </item>
                     
@@ -654,7 +654,7 @@
                         <term ref="#anlgq" xml:lang="it">analogico</term>
                     </label>
                     <item>
-                        <gloss target="#anlgq" xml:lang="it" source="https://it.wikipedia.org/wiki/Innovazione">
+                        <gloss target="#anlgq" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
                             Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
                         </gloss>
                     </item>
@@ -785,7 +785,7 @@
                         <term ref="#oprtns" xml:lang="it">operazione</term>
                     </label>
                     <item>
-                        <gloss target="#oprtns" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
+                        <gloss target="#oprtns" xml:lang="it" source="https://www.treccani.it/vocabolario/operazione/">
                             In genere, l’atto dell’operare, l’attività di chi <hi rend="bold">opera</hi>, di chi compie un lavoro o un’azione.
                         </gloss>
                     </item>
@@ -797,16 +797,6 @@
                     <item>
                         <gloss target="#anlg" xml:lang="it" source="https://www.treccani.it/vocabolario/analogia/">
                             Rapporto di somiglianza tra due oggetti, tale che dall’eguaglianza o somiglianza constatata tra alcuni elementi di tali oggetti si possa dedurre l’eguaglianza o somiglianza anche di tutti gli altri loro elementi.
-                        </gloss>
-                    </item>
-                    
-                    <label>
-                        <term xml:id="symt" xml:lang="fr">symétrie</term>
-                        <term ref="#symt" xml:lang="it">simmetria</term>
-                    </label>
-                    <item>
-                        <gloss target="#symt" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
-                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
                         </gloss>
                     </item>
                     
@@ -835,7 +825,7 @@
                         <term ref="#rsnm" xml:lang="it">ragionamento</term>
                     </label>
                     <item>
-                        <gloss target="#rsnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                        <gloss target="#rsnm" xml:lang="it" source="https://www.treccani.it/vocabolario/ragionamento/">
                             Il <hi rend="bold">ragionamento</hi> è il processo cognitivo che, partendo da determinate premesse, porta a una conclusione, facendo uso di procedimenti logici, tipico delle argomentazioni. I principali tipi di ragionamento, secondo ottiche diverse, possono essere l'inferenza, l'induzione, la deduzione, l'abduzione e il ragionamento per assurdo.
                         </gloss>
                     </item>
@@ -845,17 +835,17 @@
                         <term ref="#phnm" xml:lang="it">fenomeno</term>
                     </label>
                     <item>
-                        <gloss target="#phnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                        <gloss target="#phnm" xml:lang="it" source="https://www.treccani.it/vocabolario/fenomeno/">
                             Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
                         </gloss>
                     </item>
                     
                     <label>
-                        <term xml:id="phnm" xml:lang="fr">phénomène</term>
-                        <term ref="#phnm" xml:lang="it">fenomeno</term>
+                        <term xml:id="asctndformes" xml:lang="fr">association de formes</term>
+                        <term ref="#asctndformes" xml:lang="it">associazione di forme</term>
                     </label>
                     <item>
-                        <gloss target="#phnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                        <gloss target="#asctndformes" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
                             Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
                         </gloss>
                     </item>
