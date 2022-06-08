@@ -17,6 +17,7 @@
                 <script src="del.js"></script>
                 <script src="mark.js"></script>
                 <script src="reg.js"></script>
+                <script src="abbr.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
