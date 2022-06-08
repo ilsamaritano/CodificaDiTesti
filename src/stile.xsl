@@ -179,7 +179,14 @@
     
     <!-- Aggiunte -->
     <xsl:template match="tei:add">
-        <add>(<i><xsl:apply-templates />)</i></add>
+    <xsl:choose>
+            <xsl:when test="current()[@place='margin']">
+                <add><b><--></b>(<i><xsl:apply-templates /></i>)</add>
+            </xsl:when>
+            <xsl:otherwise>
+                 <add><b>^</b>(<i><xsl:apply-templates /></i>)</add>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <!-- Forma originale -->
