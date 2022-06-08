@@ -936,6 +936,17 @@
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="moment" xml:lang="fr">moment</term>
+                        <term ref="#moment" xml:lang="it">momento</term>
+                    </label>
+                    <item>
+                        <gloss target="#moment" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
+                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
+                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                        </gloss>
+                    </item>
+                    
                     
                     
                     
