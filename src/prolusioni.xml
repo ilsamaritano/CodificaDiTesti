@@ -821,14 +821,36 @@
                     </item>
                     
                     <label>
-                        <term xml:id="symt" xml:lang="fr">symétrie</term>
-                        <term ref="#symt" xml:lang="it">simmetria</term>
+                        <term xml:id="symtrq" xml:lang="fr">symétrique</term>
+                        <term ref="#symtrq" xml:lang="it">simmetrico</term>
                     </label>
                     <item>
-                        <gloss target="#symt" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                        <gloss target="#symtrq" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
                             Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
                         </gloss>
                     </item>
+                    
+                    <label>
+                        <term xml:id="symtrq" xml:lang="fr">symétrique</term>
+                        <term ref="#symtrq" xml:lang="it">simmetrico</term>
+                    </label>
+                    <item>
+                        <gloss target="#symtrq" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="symtrq" xml:lang="fr">symétrique</term>
+                        <term ref="#symtrq" xml:lang="it">simmetrico</term>
+                    </label>
+                    <item>
+                        <gloss target="#symtrq" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Ordinata corrispondenza di forma o di posizione fra le parti di un oggetto o fra gli elementi d'un assetto.
+                        </gloss>
+                    </item>
+                    
+                    
                     
                     
                     
