@@ -51,7 +51,6 @@ ul li a {
   width: fit-content;
 }
 
-
 #p10 img,
 #p11 img {
   margin: 40px;
@@ -173,7 +172,7 @@ img.icon {
   margin-top: 30px;
 }
 
-.tooltip-styling{
+.tooltip-styling {
   color: #f3f3f3 !important;
   font-size: 0.9em !important;
   color: black !important;
@@ -182,4 +181,8 @@ img.icon {
 
 .termini:hover {
   cursor: help;
+}
+
+#fenomeni > div.gap {
+  margin-right: 330px;
 }
