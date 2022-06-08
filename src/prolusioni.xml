@@ -850,6 +850,25 @@
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="phnm" xml:lang="fr">phénomène</term>
+                        <term ref="#phnm" xml:lang="it">fenomeno</term>
+                    </label>
+                    <item>
+                        <gloss target="#phnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="phnm" xml:lang="fr">phénomène</term>
+                        <term ref="#phnm" xml:lang="it">fenomeno</term>
+                    </label>
+                    <item>
+                        <gloss target="#phnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
+                            Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
+                        </gloss>
+                    </item>
                     
                     
                     
