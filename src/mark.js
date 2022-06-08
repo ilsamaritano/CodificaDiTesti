@@ -2,7 +2,6 @@ $(document).ready(function(){
 
     clicked = 0;
 
-
     function control(click, vettore, color) {
 
         if (click % 2 == 1) {
@@ -42,43 +41,28 @@ $(document).ready(function(){
 
     $("#reg").on("click", function(){
 
+        clicked += 1;
+
         $("orig").hide();
         $("reg").fadeIn();
 
         vect = $("reg");
-        
-        for(i=0;i<=vect.length;i++){
 
-            vect[i].style.background = "red";
-
-
-        }
-
-
-        if($(".testoorig h3:contains('Testo con cancellazioni')").length > 0) {
-             
-            $(".testoorig h3").html("Testo con correzioni e cancellazioni");
-
-        }
-
-        $(".testoorig h3").html("Testo con correzioni");
+        control(clicked, vect, "red");
 
     });
 
-    $("#gap").on("click", function(){
+    $("#gap").on("click", () => {
 
-        $("del").children().show();
-        vect = $(".gap");
-        
-        for(i=0;i<=vect.length;i++){
-            
-            vect[i].style.background = "green";
+            clicked += 1;
 
-        }
+            vect = $(".gap");
 
-    });
+            control(clicked, vect, "green");
 
-    $("#esling").each(function () {
+        });
+
+    $("#esling").each(function() {
 
         $(this).on("click", function(e){
 
