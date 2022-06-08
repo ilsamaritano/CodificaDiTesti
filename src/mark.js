@@ -22,7 +22,7 @@ $(document).ready(function(){
 
     $("reg").hide();
 
-$("#reg").on("click", function(){
+    $("#reg").on("click", function(){
 
         $("orig").hide();
         $("reg").fadeIn();
@@ -70,8 +70,8 @@ $("#reg").on("click", function(){
 
         }
 
-    });
+        $(this).attr("class", "btnOff_ling");
 
-  
+    });
 
 });
