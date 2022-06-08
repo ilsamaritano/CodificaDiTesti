@@ -67,10 +67,11 @@
                                 <button type="button" id="esling">Esempi linguistici</button>
                             </div>
                             <div class="gap">
-                                <label class="container" id="gap">Gap
+                                <label class="container" id="gap">
                                     <input type="checkbox">
                                         <span class="checkmark"></span>
                                     </input>
+                                    Gap
                                 </label>
                             </div>
                         </div>
