@@ -64,34 +64,13 @@ $(document).ready(function(){
 
             e.preventDefault();
 
-            $("#esling").attr("class", "btnOff_ling");
-
             vect = $("mentioned");
 
             for (i = 0; i <= vect.length; i++) {
 
                 vect[i].style.background = "#dfedff";
 
-            }
-
-        });
-
-
-
-$(document).on("click", ".btnOff_ling", (e) => {
-
-        e.preventDefault();
-
-        $("#esling").attr("class", "");
-
-        vect = $("mentioned");
-
-        for (i = 0; i <= vect.length; i++) {
-
-            vect[i].style.background = "none";
-
-        }
-
+         }
 
     });
 
