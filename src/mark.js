@@ -60,7 +60,9 @@ $(document).ready(function(){
 
     });
 
-    $(document).on("click", "#esling",  function (e) {
+    $("#esling").each(function () {
+
+        $(this).on("click", function(e){
 
             e.preventDefault();
 
@@ -71,28 +73,17 @@ $(document).ready(function(){
                 if (vettore[i].style.background != "#dfedff") {
                     vettore[i].style.background = "#dfedff";
 
-
+                } else {
+                    if (vettore[i].style.background != "none") {
+                        vettore[i].style.background = "none";
+    
+                    }
                 }
 
             }
 
         });
 
-    $(document).on("click", "#esling", function (e) {
-
-            e.preventDefault();
-
-            vettore = $("mentioned");
-
-            for (i = 0; i <= vettore.length; i++) {
-
-                if (vettore[i].style.background != "none") {
-                    vettore[i].style.background = "none";
-
-                }
-
-            }
-
-        });
+    });
 
 });
