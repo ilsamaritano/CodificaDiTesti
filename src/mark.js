@@ -14,7 +14,7 @@ $(document).ready(function(){
 
         }
 
-        if (clicked % 2 == 0) {
+        if (click % 2 == 0) {
 
             for (i = 0; i <= vettore.length; i++) {
                     
@@ -27,13 +27,11 @@ $(document).ready(function(){
 
     $("#mark").on("click", function(){
 
-       el = $(".termini");
+       clicked += 1;
+
+       vect = $(".termini");
        
-       for(i=0;i<=el.length;i++){
-
-           el[i].style.background = "yellow";
-
-       }
+       control(clicked, vect, "yellow");
 
     });
 
