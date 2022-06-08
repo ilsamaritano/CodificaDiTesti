@@ -370,7 +370,7 @@
                     <lb xml:id="P2_10_L30" n="30" facs="#P10_R30" />
                     étaient <abbr>infin<am>.</am></abbr><expan><ex>iment</ex></expan> <abbr>supér<am>.</am></abbr><expan><ex>ieures</ex></expan> à ce qu’elles sont <choice><orig>est</orig><reg></reg></choice> les <term ref="#formnouvelles">formations nouvelles</term>
                     <lb xml:id="P2_10_L31" n="31" facs="#P10_R31" />
-                    par <term ref="#anlg">analogie</term> fussent réduites à presque rien <abbr>d</abbr><expan><ex>ans</ex></expan> la <term ref="#pdanalogie">vie du langage</term>.
+                    par <term ref="#anlg">analogie</term> fussent réduites à presque rien <abbr>d</abbr><expan><ex>ans</ex></expan> la <term ref="#viedulang">vie du langage</term>.
                 </ab>
             </div>
             
@@ -905,22 +905,34 @@
                     </item>
                     
                     <label>
-                        <term xml:id="emgsnr" xml:lang="fr">emmagasiner</term>
-                        <term ref="#emgsnr" xml:lang="it">immagazzinare</term>
+                        <term xml:id="formnouvelles" xml:lang="fr">formations nouvelles</term>
+                        <term ref="#formnouvelles" xml:lang="it">nuove formazioni</term>
                     </label>
                     <item>
-                        <gloss target="#emgsnr" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
-                            Accogliere nel proprio ambito mentale, accumulare nella memoria.
+                        <gloss target="#formnouvelles" xml:lang="it" source="https://www.treccani.it/vocabolario/formazione/#:~:text=formatio%20%2Donis%5D.,pi%C3%B9%20con%20funzioni%20di%20rappresentanza.">
+                            L’atto, il modo di formare.
                         </gloss>
                     </item>
                     
                     <label>
-                        <term xml:id="emgsnr" xml:lang="fr">emmagasiner</term>
-                        <term ref="#emgsnr" xml:lang="it">immagazzinare</term>
+                        <term xml:id="viedulang" xml:lang="fr">vie du langage</term>
+                        <term ref="#viedulang" xml:lang="it">vita del linguaggio</term>
                     </label>
                     <item>
-                        <gloss target="#emgsnr" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
-                            Accogliere nel proprio ambito mentale, accumulare nella memoria.
+                        <gloss target="#viedulang" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
+                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
+                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="langue" xml:lang="fr">langue</term>
+                        <term ref="#langue" xml:lang="it">lingua</term>
+                    </label>
+                    <item>
+                        <gloss target="#langue" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
+                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
+                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
                         </gloss>
                     </item>
                     
