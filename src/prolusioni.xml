@@ -771,11 +771,21 @@
                     </item>
                     
                     <label>
-                        <term xml:id="pntdv" xml:lang="fr">résultat</term>
-                        <term ref="#pntdv" xml:lang="it">risultato</term>
+                        <term xml:id="rsltt" xml:lang="fr">résultat</term>
+                        <term ref="#rsltt" xml:lang="it">risultato</term>
                     </label>
                     <item>
-                        <gloss target="#pntdv" xml:lang="it" source="https://it.wiktionary.org/wiki/punto_di_vista">
+                        <gloss target="#rsltt" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
+                            Ciò che <hi rend="bold">risulta</hi> come esito definitivo e conclusivo di un’azione, un’attività o un’operazione.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="rsltt" xml:lang="fr">résultat</term>
+                        <term ref="#rsltt" xml:lang="it">risultato</term>
+                    </label>
+                    <item>
+                        <gloss target="#rsltt" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
                             Ciò che <hi rend="bold">risulta</hi> come esito definitivo e conclusivo di un’azione, un’attività o un’operazione.
                         </gloss>
                     </item>
