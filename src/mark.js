@@ -62,6 +62,8 @@ $(document).ready(function(){
 
     $("#esling").on("click", function(){
 
+        $("#esling").attr("class", "btnOff_ling");
+
         vect = $("mentioned");
         
         for(i=0;i<=vect.length;i++){
@@ -69,8 +71,6 @@ $(document).ready(function(){
             vect[i].style.background = "#dfedff";
 
         }
-
-        $("#esling").attr("class", "btnOff_ling");
 
     });
 

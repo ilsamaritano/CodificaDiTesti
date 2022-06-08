@@ -432,7 +432,7 @@
                     et nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph><!--VIRGOLA--> nous <emph rend="underline">lavons</emph></mentioned>
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_11_Par7">
-                    <term>Prétérits forts</term> <!--glott--> allemands presque <choice><orig>tj.</orig><reg>toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="underline"><gap reason="illegible"/></del> wir zogen,
+                    <term>Prétérits forts</term> <!--glott--> allemands presque <choice><orig>tj.</orig><reg>toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
                         <lb xml:id="P2_11_L15" n="15" facs="#P11_R15" />
                         <emph rend="underline">lieh</emph>, <emph rend="underline">liehen</emph> ; <emph rend="underline">band</emph>, <emph rend="underline">banden</emph> ; <emph rend="underline">half</emph>, <emph rend="underline">halfen</emph> ;
                         <lb xml:id="P2_11_L16" n="16" facs="#P11_R16" />
