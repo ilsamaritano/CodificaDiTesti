@@ -1,12 +1,30 @@
 $(document).ready(function(){
 
+    clicked = 0;
 
-/* function mark(elem, color, _id) {
 
-    $(elem).wrapInner(`<span id=${_id}></span>`).contents();
-    $("#").css("background-color", color);
+    function control(click, vettore, color) {
 
-} */ 
+        if (click % 2 == 1) {
+
+            for (i = 0; i <= vettore.length; i++) {
+
+            vettore[i].style.background = color;
+
+            }
+
+        }
+
+        if (clicked % 2 == 0) {
+
+            for (i = 0; i <= vettore.length; i++) {
+                    
+            vettore[i].style.background = "none";
+
+            }
+        }
+    }
+
 
     $("#mark").on("click", function(){
 
@@ -60,34 +78,15 @@ $(document).ready(function(){
 
     });
 
-    var clicked=0;
-
     $("#esling").each(function () {
 
         $(this).on("click", function(e){
 
             clicked += 1;
 
-            vettore = $("mentioned");
+            vect = $("mentioned");
 
-                if (clicked % 2 == 1) {
-
-                    for (i = 0; i <= vettore.length; i++) {
-
-                    vettore[i].style.background = "#dfedff";
-
-                    }
-
-                }
-
-                if (clicked % 2 == 0) {
-
-                    for (i = 0; i <= vettore.length; i++) {
-                            
-                    vettore[i].style.background = "none";
-    
-                    }
-                }
+            control(clicked, vect, "#dfedff");
 
             });
 
