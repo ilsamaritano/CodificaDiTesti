@@ -312,11 +312,11 @@
                     <lb xml:id="P2_10_L20" n="20" facs="#P10_R20" />
                     généralement, ce <term ref="#phnm"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term> représent une <term ref="#asctndformes"><emph rend="underline">association de formes</emph></term>
                     <lb xml:id="P2_10_L21" n="21" facs="#P10_R21" />
-                    dans l'<term ref="#esprt">esprit</term>, qui est dictée par l’<term ref="#adir" rend="underline">association des idées représentées</term>.
+                    dans l'<term ref="#esprt">esprit</term>, qui est dictée par l’<term ref="#adir"><emph rend="underline">association des idées repré-</emph></term>
                 </ab>
                 <ab type="paragrafo" n="11" xml:id="P2_1O_Par11">
                     <lb xml:id="P2_10_L22" n="22" facs="#P10_R22" />
-                    <!-- SALUTI OK -->
+                    <term ref="#adir"><emph rend="underline">sentées</emph></term>.<del rend="overstrike"><gap reason="illegible"/></del>
                 </ab>
                 <ab type="paragrafo" n="12" xml:id="P2_1O_Par12">
                     <lb xml:id="P2_10_L23" n="23" facs="#P10_R23" />
