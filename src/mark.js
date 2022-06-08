@@ -74,4 +74,21 @@ $(document).ready(function(){
 
     });
 
+
+
+$(document).on("click", ".btnOff_ling", function(){
+
+    $("#esling").attr("class", "");
+
+    vect = $("mentioned");
+        
+    for(i=0;i<=vect.length;i++){
+        
+        vect[i].style.background = "none";
+
+    }
+
+
+    });
+
 });

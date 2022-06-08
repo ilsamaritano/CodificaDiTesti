@@ -424,7 +424,7 @@
                 </ab>
                 <ab type="paragrafo" n="6" xml:id="P2_11_Par6">
                     <lb xml:id="P2_11_L12" n="12" facs="#P11_R12" />
-                    <add place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous trouvons, <add place="above">comme je meurs, nous mourons</add> </mentioned>
+                    <add place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous <emph rend="underline">trouvons</emph>, <add place="above">comme je <emph rend="underline">meurs</emph>, nous mourons</add> </mentioned>
                     Pourquoi ? il y a une raison excellente
                     <lb xml:id="P2_11_L13" n="13" facs="#P11_R13" />
                     mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <!--VIRGOLA--> nous <!--VIRGOLA--> <emph rend="underline">lavons</emph></mentioned> et
