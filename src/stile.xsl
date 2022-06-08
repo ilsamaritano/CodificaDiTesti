@@ -152,7 +152,7 @@
     </xsl:template>
     
     
-    <!-- Storia editoriale -->
+    <!-- Storia -->
     <xsl:template match="tei:history">
         <xsl:apply-templates select="current()/tei:origin" />
     </xsl:template>
@@ -382,16 +382,7 @@
                         </xsl:element>
                         
                         <xsl:element name="span">
-                            <xsl:attribute name="class">country</xsl:attribute>
-                            <xsl:element name="img">
-                                <xsl:attribute name="class">icon</xsl:attribute>
-                                <xsl:attribute name="src">
-                                    <xsl:value-of select="concat('', //tei:place[concat('#', @xml:id) = current()/@ref]/tei:country/@key, 'CH.png')" />
-                                </xsl:attribute>
-                                <xsl:attribute name="alt">
-                                    <xsl:value-of select="concat('Bandiera ', //tei:place[concat('#', @xml:id) = current()/@ref]/tei:country)" />
-                                </xsl:attribute>
-                            </xsl:element>
+                            <xsl:attribute name="id">paese</xsl:attribute>
                             <b><xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" /></b>
                         </xsl:element>
                     </xsl:when>
