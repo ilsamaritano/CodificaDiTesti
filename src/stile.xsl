@@ -200,20 +200,20 @@
     
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
-    <xsl:if test="mentioned[rend='underline']">
-        <mentioned>
-        <u>
-        <xsl:apply-templates />
-        </u>
-        </mentioned>
+        <xsl:if test="mentioned[rend='underline']">
+            <mentioned>
+                <u>
+                    <xsl:apply-templates />
+                </u>
+            </mentioned>
         </xsl:if>
         <xsl:if test="mentioned[rend!='underline']">
-        <mentioned>
-        <xsl:apply-templates />
-        </mentioned>
+            <mentioned>
+                <xsl:apply-templates />
+            </mentioned>
         </xsl:if>
     </xsl:template>
-
+    
     
     <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
