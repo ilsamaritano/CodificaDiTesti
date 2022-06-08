@@ -875,12 +875,52 @@
                     </item>
                     
                     <label>
-                        <term xml:id="esprt" xml:lang="fr">esprit</term>
-                        <term ref="#esprt" xml:lang="it">mente</term>
+                        <term xml:id="emgsnr" xml:lang="fr">emmagasiner</term>
+                        <term ref="#emgsnr" xml:lang="it">immagazzinare</term>
                     </label>
                     <item>
-                        <gloss target="#esprt" xml:lang="it" source="https://it.wikipedia.org/wiki/Mente">
-                            Il termine <hi rend="bold">mente</hi> è comunemente utilizzato per descrivere l'insieme delle funzioni superiori del cervello e, in particolare, quelle di cui si può avere soggettivamente coscienza in diverso grado, quali la sensazione, il pensiero, l'intuizione, la ragione, la memoria, la volontà.
+                        <gloss target="#emgsnr" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
+                            Accogliere nel proprio ambito mentale, accumulare nella memoria.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="sgn" xml:lang="fr">signe</term>
+                        <term ref="#sgn" xml:lang="it">segno</term>
+                    </label>
+                    <item>
+                        <gloss target="#sgn" xml:lang="it" source="https://it.wikipedia.org/wiki/segno">
+                            Rappresentazione, concreta e convenzionale, di un oggetto astratto: tali le note e gli accidenti musicali, i numeri, le lettere dell'alfabeto, ecc.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="pdanalogie" xml:lang="fr">procédé d’analogie</term>
+                        <term ref="#pdanalogie" xml:lang="it">procedimento d'analogia</term>
+                    </label>
+                    <item>
+                        <gloss target="#pdanalogie" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="emgsnr" xml:lang="fr">emmagasiner</term>
+                        <term ref="#emgsnr" xml:lang="it">immagazzinare</term>
+                    </label>
+                    <item>
+                        <gloss target="#emgsnr" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
+                            Accogliere nel proprio ambito mentale, accumulare nella memoria.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="emgsnr" xml:lang="fr">emmagasiner</term>
+                        <term ref="#emgsnr" xml:lang="it">immagazzinare</term>
+                    </label>
+                    <item>
+                        <gloss target="#emgsnr" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
+                            Accogliere nel proprio ambito mentale, accumulare nella memoria.
                         </gloss>
                     </item>
                     
