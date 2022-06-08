@@ -64,25 +64,23 @@ $(document).ready(function(){
 
             e.preventDefault();
 
-            $("#esling").attr("class", "btnOff_ling");
-
             vect = $("mentioned");
 
             for (i = 0; i <= vect.length; i++) {
 
                 vect[i].style.background = "#dfedff";
 
-            }
+         }
 
-        });
+         $("#esling").addClass("btnOff_ling");
+
+    });
 
 
 
 $(document).on("click", ".btnOff_ling", (e) => {
 
         e.preventDefault();
-
-        $("#esling").attr("class", "");
 
         vect = $("mentioned");
 
@@ -91,6 +89,8 @@ $(document).on("click", ".btnOff_ling", (e) => {
             vect[i].style.background = "none";
 
         }
+
+        $("#esling").removeClass("btnOff_ling");
 
 
     });
