@@ -22,7 +22,7 @@ $(document).ready(function(){
 
     $("reg").hide();
 
-$("#reg").on("click", function(){
+    $("#reg").on("click", function(){
 
         $("orig").hide();
         $("reg").fadeIn();
@@ -66,12 +66,12 @@ $("#reg").on("click", function(){
         
         for(i=0;i<=vect.length;i++){
             
-            vect[i].style.background = "blue";
+            vect[i].style.background = "#dfedff";
 
         }
 
-    });
+        $("#esling").attr("class", "btnOff_ling");
 
-  
+    });
 
 });
