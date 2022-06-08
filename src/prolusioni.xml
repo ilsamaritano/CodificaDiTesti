@@ -281,7 +281,7 @@
                     <lb xml:id="P2_10_L12" n="12" facs="#P10_R12" />
                     <term ref="#oprtnanlg">opération d'<emph rend="underline">analogie</emph>
                     </term>,                <term ref="#ftsanlg">faits <emph rend="underline">d'analogie</emph>
-                    </term> toutes ces <term ref="#oprtnspsclgq"><abbr>opérat<am>.</am></abbr><expan><ex>ions</ex></expan> psychologiques</term>.
+                    </term> <choice><origin>ttes</origin><reg>toutes</reg></choice> ces <term ref="#oprtnspsclgq"><abbr>opérat<am>.</am></abbr><expan><ex>ions</ex></expan> psychologiques</term>.
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_1O_Par7">
                     <lb xml:id="P2_10_L13" n="13" facs="#P10_R13" />
