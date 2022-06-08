@@ -68,7 +68,7 @@
                             </div>
                             <div class="gaps">
                                 <label class="container">
-                                    <input type="checkbox" id="gapbut">
+                                    <input type="checkbox" id="gap">
                                         <span class="checkmark"></span>
                                     </input>
                                     Gap

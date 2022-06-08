@@ -66,7 +66,7 @@ $(document).ready(function(){
 
     });
 
-    $("#gap").on("click", () => {
+    $("gap").on("click", () => {
 
             click2 += 1;
 
