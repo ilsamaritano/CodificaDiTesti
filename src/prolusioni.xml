@@ -277,7 +277,7 @@
                 </ab>
                 <ab type="paragrafo" n="6" xml:id="P2_1O_Par6">
                     <lb xml:id="P2_10_L11" n="11" facs="#P10_R11" />
-                    Notons aussi tout de suite la raison qui a fait <term ref="#dnmr">dénommer</term>
+                    Notons aussi <choice><orig>tt</orig><reg>tout</reg></choice> de suite la raison qui a fait <term ref="#dnmr">dénommer</term>
                     <lb xml:id="P2_10_L12" n="12" facs="#P10_R12" />
                     <term ref="#oprtnanlg">opération d'<emph rend="underline">analogie</emph>
                     </term>,                <term ref="#ftsanlg">faits <emph rend="underline">d'analogie</emph>
