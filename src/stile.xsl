@@ -63,7 +63,7 @@
                                 <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="gap">Gap</button>
                                 <button type="button" id="mark">Terminologia</button>
-                                <button type="button" id="mark">Esempi linguistici</button>
+                                <button type="button" id="esling">Esempi linguistici</button>
                             </div>
                         </div>
                     </div>
@@ -200,18 +200,18 @@
     
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
-    <xsl:if test="mentioned[rend='underline']">
-        <mentioned>
-        <u>
-        <xsl:apply-templates />
-        </u>
-        </mentioned>
+        <xsl:if test="mentioned[rend='underline']">
+            <mentioned>
+                <u>
+                    <xsl:apply-templates />
+                </u>
+            </mentioned>
         </xsl:if>
         <mentioned>
         <xsl:apply-templates />
         </mentioned>
     </xsl:template>
-
+    
     
     <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
