@@ -68,6 +68,8 @@ $(document).ready(function(){
     $("#ruotapag10").on("click", function (e) {
         e.preventDefault();
 
+        clicked += 1;
+
         if(clicked % 2 == 1) {
 
         $("img[src='P2_10.jpg']").hide();
