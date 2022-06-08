@@ -51,7 +51,7 @@
                     <msIdentifier>
                         <country key="CH">Switzerland</country>
                         <settlement>Ginevra</settlement>
-                        <repository role="library">Biblioteca di Ginevra</repository>
+                        <repository role="library">Biblioteca di <placeName ref="#GN">Ginevra</placeName></repository>
                         <idno>BGE Ms. fr. 3951/1.1-3</idno>
                     </msIdentifier>
                     <msContents>
