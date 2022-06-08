@@ -58,22 +58,32 @@
                         </article>
                         
                         <div id="fenomeni">
-                            <h3>Visualizza fenomeni notevoli</h3>
+                            <div class='legenda'>
+                                <h3>Legenda</h3>
+                                <ul class='legend-labels'>
+                                    <li><span></span>Correzione</li>
+                                    <li><span></span>Termine</li>
+                                    <li><span></span>Esempio linguistico</li>
+                                    <li><span></span>Gap</li>
+                                </ul>
+                            </div>
+                            
                             <div id="bottoni">
+                                <h3>Visualizza fenomeni notevoli</h3>
                                 <button type="button" id="abbreviazioni">Abbreviazioni</button>
                                 <button type="button" id="del">Cancellazioni</button>
                                 <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="mark">Terminologia</button>
                                 <button type="button" id="esling">Esempi linguistici</button>
                             </div>
-                            <div class="gaps">
-                                <label class="container">
-                                    <input type="checkbox">
-                                    </input>
-                                    Gap
-                                </label>
-                            </div>
                         </div>
+                    </div>
+                    <div class="gaps">
+                        <label class="container">
+                            <input type="checkbox">
+                            </input>
+                            Gap
+                        </label> 
                     </div>
                 </div>
                 <article id="p10">
@@ -137,7 +147,7 @@
         <b><xsl:value-of select="current()/tei:edition"></xsl:value-of></b>
         <p><b>Progetto a cura di: </b> <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='CB']"></xsl:value-of></i> e <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='VS']"></xsl:value-of></i></p>
         <p><b>Coordinato da: </b> <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='AMDG']"></xsl:value-of></i></p>
-        <p><b>Traduzione di: </b> <i><xsl:value-of select="//tei:name[@xml:id='EF']"></xsl:value-of></i></p>
+        <p><b>Traduzione di: </b> <i><xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></i></p>
     </xsl:template>
     
     
