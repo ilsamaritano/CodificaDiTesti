@@ -58,32 +58,32 @@
                         </article>
                         
                         <div id="fenomeni">
-                            <div class='titolo-legenda'>Legenda</div>
                             <div class='legenda'>
+                                <h3>Legenda</h3>
                                 <ul class='legend-labels'>
-                                    <li><span></span>One</li>
-                                    <li><span></span>Two</li>
-                                    <li><span></span>Three</li>
-                                    <li><span></span>Four</li>
-                                    <li><span></span>etc</li>
+                                    <li><span></span>Correzione</li>
+                                    <li><span></span>Termine</li>
+                                    <li><span></span>Esempio linguistico</li>
+                                    <li><span></span>Gap</li>
                                 </ul>
                             </div>
-                            <h3>Visualizza fenomeni notevoli</h3>
+                            
                             <div id="bottoni">
+                                <h3>Visualizza fenomeni notevoli</h3>
                                 <button type="button" id="abbreviazioni">Abbreviazioni</button>
                                 <button type="button" id="del">Cancellazioni</button>
                                 <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="mark">Terminologia</button>
                                 <button type="button" id="esling">Esempi linguistici</button>
                             </div>
-                            <div class="gaps">
-                                <label class="container">
-                                    <input type="checkbox">
-                                    </input>
-                                    Gap
-                                </label>
-                            </div>
                         </div>
+                    </div>
+                    <div class="gaps">
+                        <label class="container">
+                            <input type="checkbox">
+                            </input>
+                            Gap
+                        </label> 
                     </div>
                 </div>
                 <article id="p10">
