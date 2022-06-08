@@ -420,7 +420,7 @@
                         <mod type="subst">
                             <del rend="overwritten"><gap reason="illegible"></gap></del>
                             <add place="superimposed">époque</add>
-                        </mod></term> c’est son <term ref="#histoire">histoire</term> de tous les jours et de tous les temps
+                        </mod></term> c’est son <term ref="#histoire">histoire</term> de tous les jours et de tous les <term ref="#temps">temps</term>
                 </ab>
                 <ab type="paragrafo" n="6" xml:id="P2_11_Par6">
                     <lb xml:id="P2_11_L12" n="12" facs="#P11_R12" />
@@ -432,7 +432,7 @@
                     et nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph><!--VIRGOLA--> nous <emph rend="underline">lavons</emph></mentioned>
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_11_Par7">
-                    <term>Prétérits forts</term> <!--glott--> allemands presque <choice><orig>tj.</orig><reg>toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
+                    <term ref="pretforts">Prétérits forts</term> <!--glott--> allemands presque <choice><orig>tj.</orig><reg>toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
                         <lb xml:id="P2_11_L15" n="15" facs="#P11_R15" />
                         <emph rend="underline">lieh</emph>, <emph rend="underline">liehen</emph> ; <emph rend="underline">band</emph>, <emph rend="underline">banden</emph> ; <emph rend="underline">half</emph>, <emph rend="underline">halfen</emph> ;
                         <lb xml:id="P2_11_L16" n="16" facs="#P11_R16" />
@@ -1057,16 +1057,64 @@
                     </item>
                     
                     <label>
-                        <term xml:id="langage" xml:lang="fr">mineralogiste</term>
-                        <term ref="#langage" xml:lang="it">mineralogista</term>
+                        <term xml:id="mineralogiste" xml:lang="fr">mineralogiste</term>
+                        <term ref="#mineralogiste" xml:lang="it">mineralogista</term>
                     </label>
                     <item>
-                        <gloss target="#langage" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguaggio">
+                        <gloss target="#mineralogiste" xml:lang="it" source="https://it.wikipedia.org/wiki/Mineralogia">
                             La mineralogia è la scienza che studia la composizione chimica, la struttura cristallina e le caratteristiche fisiche (ad esempio durezza, magnetismo e proprietà ottiche) dei minerali, nonché la loro genesi, trasformazione e utilizzo da parte dell'uomo.
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="tepoque" xml:lang="fr">toute époque</term>
+                        <term ref="#tepoque" xml:lang="it">ogni epoca</term>
+                    </label>
+                    <item>
+                        <gloss target="#tepoque" xml:lang="it" source="https://www.treccani.it/vocabolario/epoca/">
+                            Punto fisso nella storia, segnato da qualche avvenimento memorabile, da cui si comincia a contare una nuova serie di anni; o spazio di tempo compreso fra due di tali punti o momenti della storia.
+                        </gloss>
+                    </item>
                     
+                    <label>
+                        <term xml:id="histoire" xml:lang="fr">histoire</term>
+                        <term ref="#histoire" xml:lang="it">storia</term>
+                    </label>
+                    <item>
+                        <gloss target="#histoire" xml:lang="it" source="https://www.treccani.it/vocabolario/storia/">
+                            Esposizione ordinata di fatti e avvenimenti umani del passato, quali risultano da un’indagine critica volta ad accertare sia la verità di essi, sia le connessioni reciproche per cui è lecito riconoscere in essi un’unità di sviluppo.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="temps" xml:lang="fr">temps</term>
+                        <term ref="#temps" xml:lang="it">epoca</term>
+                    </label>
+                    <item>
+                        <gloss target="#temps" xml:lang="it" source="https://www.treccani.it/vocabolario/epoca/">
+                            Punto fisso nella storia, segnato da qualche avvenimento memorabile, da cui si comincia a contare una nuova serie di anni; o spazio di tempo compreso fra due di tali punti o momenti della storia.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="pretforts" xml:lang="fr">Prétérits forts</term>
+                        <term ref="#pretforts" xml:lang="it">preteriti forti</term>
+                    </label>
+                    <item>
+                        <gloss target="#pretforts" xml:lang="it">
+                            Verbi forti tedeschi.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="temps" xml:lang="fr">temps</term>
+                        <term ref="#temps" xml:lang="it">epoca</term>
+                    </label>
+                    <item>
+                        <gloss target="#temps" xml:lang="it" source="https://www.treccani.it/vocabolario/epoca/">
+                            Punto fisso nella storia, segnato da qualche avvenimento memorabile, da cui si comincia a contare una nuova serie di anni; o spazio di tempo compreso fra due di tali punti o momenti della storia.
+                        </gloss>
+                    </item>
                     
                     
                     
