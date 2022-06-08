@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    clicked = 0;
+
     $("img[src='P2_10R.jpg']").hide();
 
     $("img[src='P2_10.jpg']").on("mouseover", function (e) {
@@ -65,22 +67,26 @@ $(document).ready(function(){
 
     $("#ruotapag10").on("click", function (e) {
         e.preventDefault();
+
+        clicked += 1;
+
+        if(clicked % 2 == 1) {
+
         $("img[src='P2_10.jpg']").hide();
         $("img[src='P2_10R.jpg']").fadeIn();
-        $("#ruotapag10").html("<a href='#' id='ruotafronte'>Mostra fronte</a>");
+        $("#ruotapag10").text("Mostra fronte");
+
+        }
+
+        if(clicked % 2 == 0){
+
+        $("img[src='P2_10.jpg']").fadeIn();
+        $("img[src='P2_10R.jpg']").hide();
+        $("#ruotapag10").text("Mostra retro");
+
+        }
           
 
     });
-
-});
-
-
-$(document).on('click', '#ruotafronte', function(e) {
-        e.preventDefault();
-
-        $("img[src='P2_10R.jpg']").hide();
-        $("img[src='P2_10.jpg']").fadeIn();
-        $("#ruotafronte").replaceWith("<a href='#' id='ruotapag10'>Mostra retro</a>");
-          
 
 });
