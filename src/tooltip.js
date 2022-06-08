@@ -39,7 +39,8 @@ $(document).ready(function(){
   var selettore = $(e.target).attr("id"); // Ottengo l'id per sapere a quale  si riferisce
   selett= selettore.replace("#", "").trim(); // Rimuovo l'#
   var desc = $(`#desc_${selett}`).html(); // Ottengo la stringa descrittiva
-  var final = desc.parseHTML();
+  var final = $.parseHTML( desc );
+  
 
     $(e.target).attr("title", final); // Allora lo aggiungo e ci inserisco la stringa
 
