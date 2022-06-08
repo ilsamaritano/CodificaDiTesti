@@ -200,18 +200,20 @@
     
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
-        <xsl:if test="current()[@rend='underline']">
-            <mentioned>
-                <u>
+        <xsl:choose>
+            <xsl:when test="current()[@rend='underline']">
+                <mentioned>
+                    <u>
+                        <xsl:apply-templates />
+                    </u>
+                </mentioned>
+            </xsl:when>
+            <xsl:otherwise>
+                <mentioned>
                     <xsl:apply-templates />
-                </u>
-            </mentioned>
-        </xsl:if>
-        <xsl:if test="current()[@rend!='underline']">
-            <mentioned>
-                <xsl:apply-templates />
-            </mentioned>
-        </xsl:if>
+                </mentioned>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     
