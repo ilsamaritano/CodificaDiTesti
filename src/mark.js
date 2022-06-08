@@ -60,30 +60,37 @@ $(document).ready(function(){
 
     });
 
+    var clicked=0;
+
     $("#esling").each(function () {
 
         $(this).on("click", function(e){
 
-            e.preventDefault();
+            clicked += 1;
 
             vettore = $("mentioned");
 
-            for (i = 0; i <= vettore.length; i++) {
+                if (clicked % 2 == 1) {
 
-                if (vettore[i].style.background != "#dfedff") {
+                    for (i = 0; i <= vettore.length; i++) {
+
                     vettore[i].style.background = "#dfedff";
 
-                } else {
-                    if (vettore[i].style.background != "none") {
-                        vettore[i].style.background = "none";
+                    }
+
+                }
+
+                if (clicked % 2 == 0) {
+
+                    for (i = 0; i <= vettore.length; i++) {
+                            
+                    vettore[i].style.background = "none";
     
                     }
                 }
 
-            }
+            });
 
         });
 
     });
-
-});
