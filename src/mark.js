@@ -40,9 +40,6 @@ $(document).ready(function(){
 
         clicked += 1;
 
-        $("orig").hide();
-        $("reg").fadeIn();
-
         vect = $("reg");
 
         control(clicked, vect, "red");
