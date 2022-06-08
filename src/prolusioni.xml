@@ -791,12 +791,12 @@
                     </item>
                     
                     <label>
-                        <term xml:id="oprtns" xml:lang="fr">opération</term>
-                        <term ref="#oprtns" xml:lang="it">operazione</term>
+                        <term xml:id="anlg" xml:lang="fr">analogie</term>
+                        <term ref="#anlg" xml:lang="it">analogia</term>
                     </label>
                     <item>
-                        <gloss target="#oprtns" xml:lang="it" source="https://www.treccani.it/vocabolario/risultato/">
-                            In genere, l’atto dell’operare, l’attività di chi <hi rend="bold">opera</hi>, di chi compie un lavoro o un’azione.
+                        <gloss target="#anlg" xml:lang="it" source="https://www.treccani.it/vocabolario/analogia/">
+                            Rapporto di somiglianza tra due oggetti, tale che dall’eguaglianza o somiglianza constatata tra alcuni elementi di tali oggetti si possa dedurre l’eguaglianza o somiglianza anche di tutti gli altri loro elementi.
                         </gloss>
                     </item>
                     
