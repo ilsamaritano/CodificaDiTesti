@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
     clicked = 0;
+    click1 = 0;
+    click2 = 0;
+    click3 = 0;
 
     function control(click, vettore, color) {
 
@@ -14,7 +17,7 @@ $(document).ready(function(){
 
         }
 
-        if (clicked % 2 == 0) {
+        if (click % 2 == 0) {
 
             for (i = 0; i <= vettore.length; i++) {
                     
@@ -31,6 +34,7 @@ $(document).ready(function(){
 
        vect = $(".termini");
        
+       control(clicked, vect, "yellow");
 
     });
 
@@ -38,35 +42,37 @@ $(document).ready(function(){
 
     $("#reg").on("click", function(){
 
-        clicked += 1;
+        click1 += 1;
 
         $("reg").fadeIn();
 
         vect = $("reg");
 
-        if (clicked % 2 == 1) {
+        if (click1 % 2 == 1) {
 
             $("orig").hide();
             $("reg").fadeIn();
 
         }
 
-        if (clicked % 2 == 0) {
+        if (click1 % 2 == 0) {
                     
             $("orig").fadeIn();
             $("reg").hide();
 
         }
 
+        control(click1, vect, "red");
+
     });
 
     $("#gap").on("click", () => {
 
-            clicked += 1;
+            click2 += 1;
 
             vect = $(".gap");
 
-            control(clicked, vect, "green");
+            control(click2, vect, "green");
 
         });
 
@@ -74,11 +80,11 @@ $(document).ready(function(){
 
         $(this).on("click", function(e){
 
-            clicked += 1;
+            click3 += 1;
 
             vect = $("mentioned");
 
-            control(clicked, vect, "#dfedff");
+            control(click3, vect, "#dfedff");
 
             });
 
