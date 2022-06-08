@@ -52,7 +52,7 @@
                                 </div>
                                 <div>
                                     <h3>Storia editoriale</h3>
-                                    <xsl:value-of select="//tei:history" />
+                                    <xsl:apply-templates select="//tei:history" />
                                 </div>
                             </div>
                         </article>
@@ -154,22 +154,7 @@
     
     <!-- Storia editoriale -->
     <xsl:template match="tei:history">
-        <xsl:element name="div">
-            <xsl:attribute name="id">history</xsl:attribute>
-            <xsl:element name="h4">Cenni storici</xsl:element>
-            <xsl:element name="h5">Origine della bozza</xsl:element>
-            <xsl:element name="div">
-                <xsl:attribute name="class">info</xsl:attribute>
-                <xsl:attribute name="id">docOrigin</xsl:attribute>
-                <xsl:apply-templates select="current()/tei:origin" />
-            </xsl:element>
-            <xsl:element name="h5">Acquisizione</xsl:element>
-            <xsl:element name="div">
-                <xsl:attribute name="class">info</xsl:attribute>
-                <xsl:attribute name="id">docAcq</xsl:attribute>
-                <xsl:apply-templates select="current()/tei:acquisition" />
-            </xsl:element>
-        </xsl:element>
+        <xsl:apply-templates select="current()/tei:origin" />
     </xsl:template>
     
     <!-- Template msContents -->
