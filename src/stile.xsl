@@ -207,11 +207,9 @@
         </u>
         </mentioned>
         </xsl:if>
-        <xsl:if test="mentioned[rend!='underline']">
         <mentioned>
         <xsl:apply-templates />
         </mentioned>
-        </xsl:if>
     </xsl:template>
 
     

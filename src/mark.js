@@ -42,7 +42,7 @@ $("#reg").on("click", function(){
             $(".testoorig h3").html("Testo con correzioni e cancellazioni");
 
         }
-        
+
         $(".testoorig h3").html("Testo con correzioni");
 
     });
@@ -59,5 +59,19 @@ $("#reg").on("click", function(){
         }
 
     });
+
+    $("#esling").on("click", function(){
+
+        vect = $("mentioned");
+        
+        for(i=0;i<=vect.length;i++){
+            
+            vect[i].style.background = "blue";
+
+        }
+
+    });
+
+  
 
 });
