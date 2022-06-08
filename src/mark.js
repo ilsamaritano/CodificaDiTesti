@@ -74,7 +74,7 @@ $(document).ready(function(){
 
                     for (i = 0; i <= vettore.length; i++) {
 
-                    vettore[i].style.background = "none";
+                    vettore[i].style.background = "#dfedff";
 
                     }
 
@@ -84,7 +84,7 @@ $(document).ready(function(){
 
                     for (i = 0; i <= vettore.length; i++) {
                             
-                    vettore[i].style.background = "#dfedff";
+                    vettore[i].style.background = "none";
     
                     }
                 }
