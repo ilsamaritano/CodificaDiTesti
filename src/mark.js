@@ -69,10 +69,14 @@ $(document).ready(function(){
             for (i = 0; i <= vect.length; i++) {
 
                 if(vect[i].style.background != "#dfedff") {
+                    vect[i].style.background = "#dfedff";
+                  
 
-                  vect[i].style.background = "#dfedff";
             }
-              vect[i].style.background = "none";
+            if(vect[i].style.background == "#dfedff") {
+                vect[i].style.background = "none";
+            
+        }
         
        }
 
