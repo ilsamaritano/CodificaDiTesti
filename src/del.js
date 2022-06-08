@@ -1,17 +1,20 @@
 $(document).ready(function(){
 
+    clicked = 0;
+
     $("del").hide();
 
     $("#del").on("click", function () {
+
+        clicked += 1;
+
+        if(clicked % 2 == 1) {
         
         $("del").fadeIn();
 
-        if($(".testoorig h3:contains('Testo con correzioni')").length > 0) {
-             
-            $(".testoorig h3").html("Testo con correzioni e cancellazioni");
-        } else {
-
-        $(".testoorig h3").html("Testo con cancellazioni");
+        }
+        if(clicked % 2 == 0) {
+            $("del").fadeOut();
         }
     });
 
