@@ -20,7 +20,7 @@ body {
   margin-top: 80px;
   margin-bottom: 60px;
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 12% 88%;
 }
 h1 {
   text-align: center;
@@ -59,6 +59,10 @@ ul li a {
   width: 65%;
   margin: 40px 5px 0 5px;
   width: 60%;
+}
+
+#p11 {
+  margin-top: 40px;
 }
 
 .flexbox {
@@ -195,9 +199,33 @@ div.gaps {
   font-size: 14px;
 }
 #fenomeni > div.legenda > ul > li > span {
-  width: 40px;
-  height: 30px;
+  width: 35px;
+  height: 25px;
   display: block;
-  border-style: solid;
   text-align: center;
+}
+
+#fenomeni > div.legenda > ul > li:nth-child(1) > span {
+  background-color: red;
+}
+
+#fenomeni > div.legenda > ul > li:nth-child(2) > span {
+  background-color: yellow;
+}
+
+#fenomeni > div.legenda > ul > li:nth-child(3) > span {
+  background: rgb(223, 237, 255);
+}
+
+#fenomeni > div.legenda > ul > li:nth-child(4) > span {
+  background-color: green;
+}
+#fenomeni > div.legenda > ul {
+  font-size: 10px;
+}
+article,
+#fenomeni > div.legenda {
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 15px;
 }

@@ -75,16 +75,17 @@
                                 <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="mark">Terminologia</button>
                                 <button type="button" id="esling">Esempi linguistici</button>
+                                <div class="gaps">
+                                    <label class="container">
+                                        <input type="checkbox">
+                                        </input>
+                                        Gap
+                                    </label> 
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="gaps">
-                        <label class="container">
-                            <input type="checkbox">
-                            </input>
-                            Gap
-                        </label> 
-                    </div>
+                    
                 </div>
                 <article id="p10">
                     <h2> Pagina 10 </h2>
