@@ -770,6 +770,16 @@
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="pntdv" xml:lang="fr">résultat</term>
+                        <term ref="#pntdv" xml:lang="it">risultato</term>
+                    </label>
+                    <item>
+                        <gloss target="#pntdv" xml:lang="it" source="https://it.wiktionary.org/wiki/punto_di_vista">
+                            In senso figurato, si tratta dell'<hi rend="bold">opinione personale</hi>.
+                        </gloss>
+                    </item>
+                    
                     
                 </list>
                 
