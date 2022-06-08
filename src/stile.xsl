@@ -17,7 +17,6 @@
                 <script src="del.js"></script>
                 <script src="mark.js"></script>
                 <script src="reg.js"></script>
-                <script src="abbr.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
                 
             </head>
@@ -66,9 +65,9 @@
                                 <button type="button" id="mark">Terminologia</button>
                                 <button type="button" id="esling">Esempi linguistici</button>
                             </div>
-                            <div class="gaps">
-                                <label class="container">
-                                    <input type="checkbox" id="gap">
+                            <div class="gap">
+                                <label class="container" id="gap">
+                                    <input type="checkbox">
                                         <span class="checkmark"></span>
                                     </input>
                                     Gap
@@ -138,7 +137,7 @@
         <b><xsl:value-of select="current()/tei:edition"></xsl:value-of></b>
         <p><b>Progetto a cura di: </b> <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='CB']"></xsl:value-of></i> e <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='VS']"></xsl:value-of></i></p>
         <p><b>Coordinato da: </b> <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='AMDG']"></xsl:value-of></i></p>
-        <p><b>Traduzione di: </b> <i><xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></i></p>
+        <p><b>Traduzione di: </b> <i><xsl:value-of select="//tei:name[@xml:id='EF']"></xsl:value-of></i></p>
     </xsl:template>
     
     
@@ -219,8 +218,8 @@
     <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
         <xsl:element name="span">
-        <xsl:attribute name="class">abbr</xsl:attribute>
-        <xsl:value-of select="current()" />
+            <xsl:attribute name="class">abbr</xsl:attribute>
+            <xsl:value-of select="current()" />
         </xsl:element>
     </xsl:template>
     
