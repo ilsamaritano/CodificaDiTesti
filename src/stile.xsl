@@ -59,11 +59,18 @@
                         <div id="fenomeni">
                             <h3>Visualizza fenomeni notevoli</h3>
                             <div id="bottoni">
+                                <button type="button" id="abbreviazioni">Abbreviazioni</button>
                                 <button type="button" id="del">Cancellazioni</button>
                                 <button type="button" id="reg">Correzioni</button>
-                                <button type="button" id="gap">Gap</button>
                                 <button type="button" id="mark">Terminologia</button>
                                 <button type="button" id="esling">Esempi linguistici</button>
+                            </div>
+                            <div class="gap">
+                                <label class="container" id="gap">Gap
+                                    <input type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </input>
+                                </label>
                             </div>
                         </div>
                     </div>
