@@ -72,27 +72,6 @@ $(document).ready(function(){
 
          }
 
-         $("#esling").addClass("btnOff_ling");
-
-    });
-
-
-
-$(document).on("click", ".btnOff_ling", (e) => {
-
-        e.preventDefault();
-
-        vect = $("mentioned");
-
-        for (i = 0; i <= vect.length; i++) {
-
-            vect[i].style.background = "none";
-
-        }
-
-        $("#esling").removeClass("btnOff_ling");
-
-
     });
 
 });
