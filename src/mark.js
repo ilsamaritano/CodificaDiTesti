@@ -72,6 +72,7 @@ $(document).ready(function(){
 
                   vect[i].style.background = "#dfedff";
             }
+              vect[i].style.background = "none";
         
        }
 
