@@ -1036,6 +1036,27 @@
                         </gloss>
                     </item>
                     
+                    <label>
+                        <term xml:id="substance" xml:lang="fr">substance</term>
+                        <term ref="#substance" xml:lang="it">sostanza</term>
+                    </label>
+                    <item>
+                        <gloss target="#substance" xml:lang="it" source="https://www.treccani.it/vocabolario/sostanza">
+                            Termine che, fin dalle origini del pensiero filosofico, designa genericamente ciò che permane al di sotto delle mutevoli apparenze.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="langage" xml:lang="fr">langage</term>
+                        <term ref="#langage" xml:lang="it">linguaggio</term>
+                    </label>
+                    <item>
+                        <gloss target="#langage" xml:lang="it" source="https://www.treccani.it/vocabolario/sostanza">
+                            Termine che, fin dalle origini del pensiero filosofico, designa genericamente ciò che permane al di sotto delle mutevoli apparenze.
+                        </gloss>
+                    </item>
+                    
+                    
                     
                     
                     
