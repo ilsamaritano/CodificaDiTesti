@@ -941,9 +941,38 @@
                         <term ref="#moment" xml:lang="it">momento</term>
                     </label>
                     <item>
-                        <gloss target="#moment" xml:lang="it" source="https://it.wikipedia.org/wiki/Origine_del_linguaggio_umano">
-                            L'<hi rend="bold">origine del linguaggio umano</hi> è un argomento che ha attratto una considerevole attenzione nel corso della storia dell'uomo. L'uso della lingua è uno dei tratti più cospicui che distingue l'Homo sapiens da altre specie. 
-                            A differenza della scrittura, l'oralità non lascia tracce evidenti della sua natura o della sua stessa esistenza, perciò, i linguisti devono ricorrere a metodi indiretti per decifrare le sue origini.
+                        <gloss target="#moment" xml:lang="it" source="https://www.treccani.it/vocabolario/momento">
+                            Minima frazione di tempo, tempo brevissimo. 
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="formanalog" xml:lang="fr">formations analogiques</term>
+                        <term ref="#formanalog" xml:lang="it">formazioni analogiche</term>
+                    </label>
+                    <item>
+                        <gloss target="#formanalog" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="linguiste" xml:lang="fr">linguiste</term>
+                        <term ref="#linguiste" xml:lang="it">linguista</term>
+                    </label>
+                    <item>
+                        <gloss target="#linguiste" xml:lang="it" source="https://www.treccani.it/vocabolario/linguista/">
+                            Chi si dedica allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), soprattutto da un punto di vista teorico, sistematico e storico; studioso di linguistica.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="linguiste" xml:lang="fr">linguiste</term>
+                        <term ref="#linguiste" xml:lang="it">linguista</term>
+                    </label>
+                    <item>
+                        <gloss target="#linguiste" xml:lang="it" source="https://www.treccani.it/vocabolario/linguista/">
+                            Chi si dedica allo studio delle lingue (o anche soltanto, o in modo specifico, della propria lingua), soprattutto da un punto di vista teorico, sistematico e storico; studioso di linguistica.
                         </gloss>
                     </item>
                     
