@@ -644,8 +644,8 @@
                         <term ref="#etatadl" xml:lang="it">stato anteriore del linguaggio</term>
                     </label>
                     <item>
-                        <gloss target="#etatadl" xml:lang="it" source="">
-                            
+                        <gloss target="#etatadl" xml:lang="it" source="test">
+                        test
                         </gloss>
                     </item>
                     
