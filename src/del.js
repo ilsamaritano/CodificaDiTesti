@@ -1,52 +1,33 @@
-$(document).ready(function(){
+$(document).ready(function () {
+  click5 = 0;
+  click2 = 0;
 
-    click5 = 0;
-    click2 = 0;
+  $("del").hide();
 
-    $("del").hide();
+  $("#del").on("click", () => {
+    click5 += 1;
 
-    $("#del").on("click", () => {
+    if (click5 % 2 == 1) {
+      $("del").fadeIn();
+      $(".gaps").fadeIn();
+    }
+    if (click5 % 2 == 0) {
+      $("del").fadeOut();
+      $(".gaps").fadeOut();
+    }
+  });
 
-            click5 += 1;
+  $('input[type="checkbox"]').click(function () {
+    if ($(this).prop("checked") == true) {
+      gaps = $(".gap");
 
-            if (click5 % 2 == 1) {
-
-                $("del").fadeIn();
-                $(".gaps").fadeIn();
-
-            }
-            if (click5 % 2 == 0) {
-                $("del").fadeOut();
-                $(".gaps").fadeOut();
-            }
-     });
-
-
-
-
-$('input[type="checkbox"]').click(function() {
-
-            if($(this).prop("checked") == true) {
-
-                gaps = $(".gap");
-
-                for (i = 0; i <= gaps.length; i++) {
-
-                    gaps[i].style.background = "green";
-        
-                    }
-
-            }  
-              else if($(this).prop("checked") == false) {
-                
-                for (i = 0; i <= gaps.length; i++) {
-
-                    gaps[i].style.background = "none";
-        
-                    }
-
-              }
-
-       });
-
+      for (i = 0; i <= gaps.length; i++) {
+        gaps[i].style.background = "green";
+      }
+    } else if ($(this).prop("checked") == false) {
+      for (i = 0; i <= gaps.length; i++) {
+        gaps[i].style.background = "none";
+      }
+    }
+  });
 });

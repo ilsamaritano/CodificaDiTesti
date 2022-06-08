@@ -1,30 +1,19 @@
-$(document).ready(function(){
+$(document).ready(function () {
+  click4 = 0;
 
-click4 = 0;
+  $(".expan").hide();
 
-$(".expan").hide();
+  $("#abbreviazioni").on("click", function () {
+    click4 += 1;
 
-$("#abbreviazioni").on("click", function(){
+    if (click4 % 2 == 1) {
+      $(".abbr").css("font-weight", "bold");
+      $(".expan").fadeIn();
+    }
 
-        click4 += 1;
-
-        if(click4 % 2 == 1) {
-
-        $(".abbr").css("font-weight", "bold");
-        $(".expan").fadeIn();
-
-        }
-
-        if(click4 % 2 == 0) {
-
-        $(".abbr").css("font-weight", "normal");
-        $(".expan").fadeOut();
-
-
-        }
-
-
-    })
-
-
+    if (click4 % 2 == 0) {
+      $(".abbr").css("font-weight", "normal");
+      $(".expan").fadeOut();
+    }
+  });
 });

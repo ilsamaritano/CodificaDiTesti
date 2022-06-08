@@ -456,7 +456,7 @@
                     <lb xml:id="P2_11_L21" n="21" facs="#P11_R21" />
                     <del rend="overstrike"></del> Une femme ne dit plus <mentioned xml:lang="fr" rend="underline">je me décollette</mentioned>,
                     <lb xml:id="P2_11_L22" n="22" facs="#P11_R22" />
-                    mais<!-- IN PIU --> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <term><choice><orig></orig><reg>!</reg></choice> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
+                    mais<!-- IN PIU --> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <choice><orig></orig><reg>!</reg></choice> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref=""><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
                     <del rend="overstike"><gap reason="illegible" /></del>             
                 </ab>
                 <ab type="paragrafo" n="11" xml:id="P2_11_Par10">
@@ -1107,6 +1107,36 @@
                     </item>
                     
                     <label>
+                        <term xml:id="preterit" xml:lang="fr">prétérit</term>
+                        <term ref="#preterit" xml:lang="it">preterito</term>
+                    </label>
+                    <item>
+                        <gloss target="#preterit" xml:lang="it">
+                            Verbo, parola.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="exemple" xml:lang="fr">exemple</term>
+                        <term ref="#exemple" xml:lang="it">esempio</term>
+                    </label>
+                    <item>
+                        <gloss target="#exemple" xml:lang="it" source="https://www.treccani.it/vocabolario/esempio/">
+                            Fatto particolare che serve a illustrare un’affermazione generica, a dare evidenza a un principio teorico.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="fem" xml:lang="fr">fém.</term>
+                        <term ref="#fem" xml:lang="it">fem.</term>
+                    </label>
+                    <item>
+                        <gloss target="#fem" xml:lang="it">
+                            Femminile
+                        </gloss>
+                    </item>
+                    
+                    <label>
                         <term xml:id="temps" xml:lang="fr">temps</term>
                         <term ref="#temps" xml:lang="it">epoca</term>
                     </label>
@@ -1114,10 +1144,7 @@
                         <gloss target="#temps" xml:lang="it" source="https://www.treccani.it/vocabolario/epoca/">
                             Punto fisso nella storia, segnato da qualche avvenimento memorabile, da cui si comincia a contare una nuova serie di anni; o spazio di tempo compreso fra due di tali punti o momenti della storia.
                         </gloss>
-                    </item>
-                    
-                    
-                    
+                    </item>                 
                     
                 </list>
                 
