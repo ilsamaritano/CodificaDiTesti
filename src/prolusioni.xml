@@ -1051,8 +1051,18 @@
                         <term ref="#langage" xml:lang="it">linguaggio</term>
                     </label>
                     <item>
-                        <gloss target="#langage" xml:lang="it" source="https://www.treccani.it/vocabolario/sostanza">
-                            Termine che, fin dalle origini del pensiero filosofico, designa genericamente ciò che permane al di sotto delle mutevoli apparenze.
+                        <gloss target="#langage" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguaggio">
+                            Il linguaggio è una forma di comunicazione tra due o più individui attraverso un complesso determinato di suoni, gesti, simboli e movimenti dotati di significato, che definiscono una lingua comune ad uno specifico ambiente di interazione.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="langage" xml:lang="fr">langage</term>
+                        <term ref="#langage" xml:lang="it">linguaggio</term>
+                    </label>
+                    <item>
+                        <gloss target="#langage" xml:lang="it" source="https://it.wikipedia.org/wiki/Linguaggio">
+                            Il linguaggio è una forma di comunicazione tra due o più individui attraverso un complesso determinato di suoni, gesti, simboli e movimenti dotati di significato, che definiscono una lingua comune ad uno specifico ambiente di interazione.
                         </gloss>
                     </item>
                     
