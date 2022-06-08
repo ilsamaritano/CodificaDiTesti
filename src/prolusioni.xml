@@ -592,7 +592,7 @@
                         <term ref="#suffixe" xml:lang="it">Suffisso</term>
                     </label>
                     <item>
-                        <gloss target="#formes" xml:lang="it" source="https://it.wikipedia.org/wiki/Suffisso">
+                        <gloss target="#suffixe" xml:lang="it" source="https://it.wikipedia.org/wiki/Suffisso">
                             In linguistica il <hi rend="bold">suffisso</hi> è un elemento che è posto alla fine di un tema o di una radice per formare una parola. Esso può anche aggiungersi a una parola già compiuta, formando, per derivazione, una parola suffissata (suffissazione).
                         </gloss>
                     </item>
