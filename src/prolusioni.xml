@@ -905,12 +905,12 @@
                     </item>
                     
                     <label>
-                        <term xml:id="emgsnr" xml:lang="fr">emmagasiner</term>
-                        <term ref="#emgsnr" xml:lang="it">immagazzinare</term>
+                        <term xml:id="formnouvelles" xml:lang="fr">formations nouvelles</term>
+                        <term ref="#formnouvelles" xml:lang="it">nuove formazioni</term>
                     </label>
                     <item>
-                        <gloss target="#emgsnr" xml:lang="it" source="https://it.wikipedia.org/wiki/Immagazzinare">
-                            Accogliere nel proprio ambito mentale, accumulare nella memoria.
+                        <gloss target="#formnouvelles" xml:lang="it" source="https://www.treccani.it/vocabolario/formazione/#:~:text=formatio%20%2Donis%5D.,pi%C3%B9%20con%20funzioni%20di%20rappresentanza.">
+                            L’atto, il modo di formare.
                         </gloss>
                     </item>
                     
