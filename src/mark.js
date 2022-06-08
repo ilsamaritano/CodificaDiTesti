@@ -40,9 +40,9 @@ $(document).ready(function(){
 
         clicked += 1;
 
-        vect = $("reg");
+        $("reg").fadeIn();
 
-        control(clicked, vect, "red");
+        vect = $("reg");
 
         if (clicked % 2 == 1) {
 
@@ -56,7 +56,7 @@ $(document).ready(function(){
             $("orig").fadeIn();
             $("reg").hide();
 
-            }
+        }
 
     });
 
