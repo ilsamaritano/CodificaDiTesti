@@ -201,13 +201,17 @@
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
         <mentioned>
-        <xsl:if test="rend='underline'">
-        <u><xsl:apply-templates /></u>
-
-</xsl:if>
         <xsl:apply-templates />
         </mentioned>
     </xsl:template>
+
+
+     <!-- Esempio linguistico sottolineato 
+    <xsl:template match="tei:mentioned[@rend = 'underline]">
+        <mentioned>
+        <u><xsl:apply-templates /></u>
+        </mentioned>
+    </xsl:template>  -->
 
     
     <!-- Abbreviazioni -->
