@@ -179,7 +179,7 @@
     
     <!-- Aggiunte -->
     <xsl:template match="tei:add">
-        <add><xsl:apply-templates /></add>
+        <add>(<i><xsl:apply-templates />)</i></add>
     </xsl:template>
     
     <!-- Forma originale -->
