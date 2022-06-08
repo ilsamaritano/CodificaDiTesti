@@ -60,33 +60,37 @@ $(document).ready(function(){
 
     });
 
-    $("#esling").on("click", function(){
+    $("#esling").on("click", (e) => {
 
-        $("#esling").attr("class", "btnOff_ling");
+            e.preventDefault();
+
+            $("#esling").attr("class", "btnOff_ling");
+
+            vect = $("mentioned");
+
+            for (i = 0; i <= vect.length; i++) {
+
+                vect[i].style.background = "#dfedff";
+
+            }
+
+        });
+
+
+
+$(document).on("click", ".btnOff_ling", (e) => {
+
+        e.preventDefault();
+
+        $("#esling").attr("class", "");
 
         vect = $("mentioned");
-        
-        for(i=0;i<=vect.length;i++){
-            
-            vect[i].style.background = "#dfedff";
+
+        for (i = 0; i <= vect.length; i++) {
+
+            vect[i].style.background = "none";
 
         }
-
-    });
-
-
-
-$(document).on("click", ".btnOff_ling", function(){
-
-    $("#esling").attr("class", "");
-
-    vect = $("mentioned");
-        
-    for(i=0;i<=vect.length;i++){
-        
-        vect[i].style.background = "none";
-
-    }
 
 
     });
