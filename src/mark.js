@@ -70,7 +70,7 @@ $(document).ready(function(){
 
         }
 
-        $(this).attr("class", "btnOff_ling");
+        $("#esling").attr("class", "btnOff_ling");
 
     });
 
