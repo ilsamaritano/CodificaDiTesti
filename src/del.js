@@ -28,8 +28,24 @@ $('input[type="checkbox"]').click(function() {
 
             if($(this).prop("checked") == true) {
 
-              alert("Checkbox is checked");
-            }
+                gaps = $(".gap");
+
+                for (i = 0; i <= gaps.length; i++) {
+
+                    gaps[i].style.background = "green";
+        
+                    }
+
+            }  
+              else if($(this).prop("checked") == false) {
+                
+                for (i = 0; i <= gaps.length; i++) {
+
+                    gaps[i].style.background = "none";
+        
+                    }
+
+              }
 
        });
 
