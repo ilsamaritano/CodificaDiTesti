@@ -68,9 +68,12 @@ $(document).ready(function(){
 
             for (i = 0; i <= vect.length; i++) {
 
-                vect[i].style.background = "#dfedff";
+                if(vect[i].style.background != "#dfedff") {
 
-         }
+                  vect[i].style.background = "#dfedff";
+            }
+        
+       }
 
     });
 
