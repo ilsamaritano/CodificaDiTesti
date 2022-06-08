@@ -137,7 +137,7 @@
         <b><xsl:value-of select="current()/tei:edition"></xsl:value-of></b>
         <p><b>Progetto a cura di: </b> <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='CB']"></xsl:value-of></i> e <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='VS']"></xsl:value-of></i></p>
         <p><b>Coordinato da: </b> <i><xsl:value-of select="current()/tei:respStmt/tei:name[@xml:id='AMDG']"></xsl:value-of></i></p>
-        <p><b>Traduzione di: </b> <i><xsl:value-of select="//tei:name[@xml:id='EF']"></xsl:value-of></i></p>
+        <p><b>Traduzione di: </b> <i><xsl:value-of select="//tei:fileDesc/tei:titleStmt/tei:respStmt/tei:name[@xml:id='EF']"></xsl:value-of></i></p>
     </xsl:template>
     
     
