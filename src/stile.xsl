@@ -58,6 +58,16 @@
                         </article>
                         
                         <div id="fenomeni">
+                            <div class='titolo-legenda'>Legenda</div>
+                            <div class='legenda'>
+                                <ul class='legend-labels'>
+                                    <li><span></span>One</li>
+                                    <li><span></span>Two</li>
+                                    <li><span></span>Three</li>
+                                    <li><span></span>Four</li>
+                                    <li><span></span>etc</li>
+                                </ul>
+                            </div>
                             <h3>Visualizza fenomeni notevoli</h3>
                             <div id="bottoni">
                                 <button type="button" id="abbreviazioni">Abbreviazioni</button>
