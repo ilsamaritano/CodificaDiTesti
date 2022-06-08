@@ -200,8 +200,15 @@
     
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
-        <mentioned><xsl:apply-templates /></mentioned>
+        <mentioned>
+        <xsl:if test="rend='underline'">
+        <u><xsl:apply-templates /></u>
+
+</xsl:if>
+        <xsl:apply-templates />
+        </mentioned>
     </xsl:template>
+
     
     <!-- Abbreviazioni -->
     <xsl:template match="tei:abbr">
@@ -226,7 +233,7 @@
     </xsl:template>
     
     <!-- Sottolineature --> 
-    <xsl:template match="tei:hi[@rend = 'underline']">
+    <xsl:template match="tei:emph[@rend = 'underline']">
         <u><xsl:apply-templates /></u>
     </xsl:template>
     
