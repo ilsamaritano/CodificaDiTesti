@@ -845,20 +845,45 @@
                         <term ref="#asctndformes" xml:lang="it">associazione di forme</term>
                     </label>
                     <item>
-                        <gloss target="#asctndformes" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
-                            Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
+                        <gloss target="#asctndformes" xml:lang="it" source="https://www.lumsa.it/sites/default/files/UTENTI/u1239/Saussure_Nascita%20e%20principi%20di%20semiotica%20strutturale.pdf">
+                            Per De Saussure l’associazione tra significante e significato è fondata sull’arbitrarietà. 
+                            Per cui non ci sarebbe alcuna motivazione naturale a fondare il legame 
+                            segnico, ma solo una ragione convenzionale.
                         </gloss>
                     </item>
                     
                     <label>
-                        <term xml:id="phnm" xml:lang="fr">phénomène</term>
-                        <term ref="#phnm" xml:lang="it">fenomeno</term>
+                        <term xml:id="esprt" xml:lang="fr">esprit</term>
+                        <term ref="#esprt" xml:lang="it">mente</term>
                     </label>
                     <item>
-                        <gloss target="#phnm" xml:lang="it" source="https://www.treccani.it/vocabolario/simmetria/">
-                            Il termine <hi rend="bold">fenomeno</hi> (dal greco antico: fainòmenon, «che appare») è riferito a tutto quello che si presenta come oggettivamente costituito all'osservatore che quindi lo può cogliere attraverso l'apparato sensibile.
+                        <gloss target="#esprt" xml:lang="it" source="https://it.wikipedia.org/wiki/Mente">
+                            Il termine <hi rend="bold">mente</hi> è comunemente utilizzato per descrivere l'insieme delle funzioni superiori del cervello e, in particolare, quelle di cui si può avere soggettivamente coscienza in diverso grado, quali la sensazione, il pensiero, l'intuizione, la ragione, la memoria, la volontà.
                         </gloss>
                     </item>
+                    
+                    <label>
+                        <term xml:id="adir" xml:lang="fr">association des idées représentées</term>
+                        <term ref="#adir" xml:lang="it">associazione di idee rappresentate</term>
+                    </label>
+                    <item>
+                        <gloss target="#adir" xml:lang="it" source="https://www.lumsa.it/sites/default/files/UTENTI/u1239/Saussure_Nascita%20e%20principi%20di%20semiotica%20strutturale.pdf">
+                            Per De Saussure l’associazione tra significante e significato è fondata sull’arbitrarietà. 
+                            Per cui non ci sarebbe alcuna motivazione naturale a fondare il legame 
+                            segnico, ma solo una ragione convenzionale.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="esprt" xml:lang="fr">esprit</term>
+                        <term ref="#esprt" xml:lang="it">mente</term>
+                    </label>
+                    <item>
+                        <gloss target="#esprt" xml:lang="it" source="https://it.wikipedia.org/wiki/Mente">
+                            Il termine <hi rend="bold">mente</hi> è comunemente utilizzato per descrivere l'insieme delle funzioni superiori del cervello e, in particolare, quelle di cui si può avere soggettivamente coscienza in diverso grado, quali la sensazione, il pensiero, l'intuizione, la ragione, la memoria, la volontà.
+                        </gloss>
+                    </item>
+                    
                     
                     
                     
