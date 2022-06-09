@@ -309,13 +309,13 @@
             
             <xsl:apply-templates />
             
-            <!-- Descrizione dei termini / persone / luoghi -->
+            <!-- Descrizione dei termini -->
             
             <xsl:element name="span">
                 <xsl:choose>
                     <xsl:when test="name() = 'term'">
                         <xsl:attribute name="class">tooltipTermine</xsl:attribute>
-                        <xsl:attribute name="class">
+                        <xsl:attribute name="id">
                             <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
                         <xsl:apply-templates select="//tei:gloss[@target=current()/@ref]" />
@@ -323,7 +323,7 @@
                     
                     <xsl:when test="name() = 'persName'">
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
-                        <xsl:attribute name="class">
+                        <xsl:attribute name="id">
                             <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         
@@ -367,7 +367,7 @@
                     
                     <xsl:when test="name() = 'placeName'">
                         <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
-                        <xsl:attribute name="class">
+                        <xsl:attribute name="id">
                             <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         <xsl:element name="span">
@@ -376,6 +376,7 @@
                                 <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
                                 <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" />
                             </b>
+                            
                         </xsl:element>
                     </xsl:when>
                 </xsl:choose>
