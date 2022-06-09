@@ -1,4 +1,27 @@
+
 $(document).ready(function () {
+
+  $(".tooltipTermine").css("display", "none");
+
+  $(document).on("mouseover", ".termini", function (e) {
+    e.preventDefault();
+  
+    var target = $(e.target);
+    if( target.is(".termini") ) {
+
+      var selettore = target.attr('id');
+      alert('The mouse was over'+ selettore );
+    } else {
+      if( target.is(".abbr")){
+       alert("Abbreviazione");
+      }
+    }
+
+  });
+
+});
+
+/* $(document).ready(function () {
   $(".tooltipTermine").css("display", "none");
 
   $(document).on("mouseover", ".termini", function (e) {
@@ -32,4 +55,4 @@ $(document).ready(function () {
   });
 
 
-});
+}); */
