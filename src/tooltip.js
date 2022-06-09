@@ -12,7 +12,7 @@ $(document).ready(function () {
       var selettore = target.attr('id');
       alert('The mouse was over'+ selettore );
     } else {
-      if( target.is("abbr")){
+      if( target.is(".abbr")){
        alert("Abbreviazione");
       }
     }
