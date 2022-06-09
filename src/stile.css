@@ -83,7 +83,7 @@ ul li a {
 }
 #info > article > div {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   max-width: 95%;
   margin: auto;
 }
