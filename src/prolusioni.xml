@@ -1234,26 +1234,6 @@
                         <settlement type="canton" key="Geneva">Ginevra</settlement>
                         <country key="CH">Svizzera</country>
                     </place>
-                    <place xml:id="VlC">
-                        <placeName ref="https://it.wikipedia.org/wiki/Vufflens-le-Ch%C3%A2teau">Vufflens-le-Château</placeName>
-                        <settlement type="canton" key="Vaud">Vaud</settlement>
-                        <country key="CH">Svizzera</country>
-                    </place>
-                    <place xml:id="RM">
-                        <placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
-                        <settlement type="region" key="Latium">Lazio</settlement>
-                        <country key="IT">Italia</country>
-                    </place>
-                    <place xml:id="BA">
-                        <placeName ref="https://it.wikipedia.org/wiki/Bari">Bari</placeName>
-                        <settlement type="region" key="Apulia">Puglia</settlement>
-                        <country key="IT">Italia</country>
-                    </place>
-                    <place xml:id="ACR">
-                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
-                        <settlement type="region" key="Sicily">Sicilia</settlement>
-                        <country key="IT">Italia</country>
-                    </place>
                 </listPlace>
             </div>
         </back>
