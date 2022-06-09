@@ -190,11 +190,23 @@ img.icon {
 }
 
 .tooltip-styling {
-  color: #f3f3f3 !important;
-  font-size: 0.9em !important;
-  color: black !important;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 20%) !important;
+  color: #f3f3f3;
+  font-size: 0.9em;
+  color: black;
+  line-height: 1.3em;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
+
+.tooltip-styling-place {
+  color: #f3f3f3;
+  font-size: 0.9em;
+  background-color: black;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+
 
 .termini:hover {
   cursor: help;
