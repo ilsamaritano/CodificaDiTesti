@@ -190,17 +190,12 @@ img.icon {
 }
 
 .tooltip-styling {
-
+  color: #f3f3f3 !important;
   font-size: 0.9em !important;
   color: black !important;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%) !important;
 }
 
-.tooltip-styling-place {
-  color: #fff !important;
-  font-size: 0.9em !important;
-  background-color: black !important;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 20%) !important;
 
 .termini:hover {
   cursor: help;
