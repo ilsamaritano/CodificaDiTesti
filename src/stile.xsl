@@ -367,7 +367,7 @@
                     <xsl:when test="name() = 'placeName'">
                         <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="current()/@ref" />
+                            <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
                         </xsl:attribute>
                         <b>
                             <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
