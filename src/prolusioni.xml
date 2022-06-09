@@ -23,7 +23,7 @@
                 <!-- Gruppo di informazioni relative a un'edizione di un testo -->
                 <edition>
                     Edizione Digitale -
-                    <date when="2022-06">Giugno 2022</date>
+                    <date when="06-2022">Giugno 2022</date>
                 </edition>
                 <respStmt>
                     <resp>Progetto coordinato da:</resp>
@@ -41,7 +41,7 @@
                 <availability status="free">
                     <p>Opera ad accesso libero</p>
                 </availability>
-                <date when="2022-06"> 2022 </date>
+                <date when="2022"> 2022 </date>
             </publicationStmt>
             
             <sourceDesc>
@@ -61,7 +61,7 @@
                             </author>
                             <title xml:lang="fr">
                                 Trois premières conférences à l'Université (cours d'ouverture,
-                                <date when="1891-11">Novembre 1891</date>)
+                                <date when="11-1981">Novembre 1891</date>)
                             </title>
                         </msItem>
                     </msContents>
@@ -1156,18 +1156,16 @@
                         </persName>
                         <sex>M</sex>
                         <birth>
-                            <date when="1857-11-26">26 novembre 1857</date>
+                            <date when="26-11-1857">26 novembre 1857</date>
                             <placeName ref="#GN">
                                 <settlement type="municipality">Ginevra</settlement>
-                                <settlement type="canton" key="Geneva">Ginevra</settlement>
                                 <country key="CH">Svizzera</country>
                             </placeName>
                         </birth>
                         <death>
-                            <date when="1913-02-22">22 febbraio 1913</date>
+                            <date when="22-02-1913">22 febbraio 1913</date>
                             <placeName ref="#VlC">
                                 <settlement type="municipality">Vufflens-le-Château</settlement>
-                                <settlement type="canton" key="Vaud">Vaud</settlement>
                                 <country key="CH">Svizzera</country>
                             </placeName>
                         </death>
