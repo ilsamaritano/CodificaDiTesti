@@ -14,9 +14,7 @@
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
                 <script src="tooltip.js"></script>
                 <script src="imgjs.js"></script>
-                <script src="del.js"></script>
                 <script src="mark.js"></script>
-                <script src="reg.js"></script>
                 <script src="abbr.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
             </head>
@@ -35,13 +33,18 @@
                     <h3>doc. <xsl:value-of select="//tei:idno" /></h3>
                     <h1><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang='fr']" /></h1>
                     <h3><xsl:value-of select="//tei:title[@xml:lang='it']" /></h3>
-                    <h2>di <xsl:apply-templates select="//tei:author[@ref='FDS'] name()" /></h2>
+                    <h2>di <xsl:apply-templates select="//tei:author[@ref='FDS']" /></h2>
                 </div>
                 
                 <div>
                     <div id="info">
                         <article>
                             <h2>Caratteristiche</h2>
+                            <xsl:element name="img">
+                                <xsl:attribute name="src">
+                                    <xsl:value-of select="concat(//tei:author[@ref='FDS']/@ref, '.jpg')" />
+                                </xsl:attribute>
+                            </xsl:element>
                             <div>
                                 <xsl:apply-templates select="//tei:msContents" />
                             </div>
@@ -434,9 +437,7 @@
         <xsl:for-each select="current()/tei:bibl">
             <xsl:element name="li">
                 <xsl:value-of></xsl:value-of>
-                <xsl:element name="a">
-                    <xsl:apply-templates select="current()//tei:layout" />
-                </xsl:element>
+                
                 
                 <xsl:for-each select="current()//tei:author">
                     <xsl:element name="span">
