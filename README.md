@@ -5,14 +5,17 @@ Il progetto contenuto in questo <i>repository</i> è stato realizzato per l'esam
 
 - <i>Vincenzo Sammartino</i> (mat. 599203)
 
-Il progetto è stato validato con Xerces.
+Il progetto è stato validato con Xerces con il seguente comando:
 
 ## Comando per la validazione con Xerces
 
 ```shell
 $ java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesImpl.jar;Xerces-J-bin.2.12.1/xerces-2_12_1/xercesSamples.jar" dom.Counter prolusioni.xml
 ```
-## Comando per la trasformazione con il tool di trasformazione XML Saxon-HE
+
+I file XML e XSL sono stati trasformati con Saxon-HE 10.3 con il seguente comando:
+
+## Comando per la trasformazione con il processore XSLT "Saxon-HE 10.3"
 
 ```shell
 $ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:prolusioni.xml -xsl:stile.xsl -o:prolusioni.html
