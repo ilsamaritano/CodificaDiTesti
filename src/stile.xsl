@@ -35,7 +35,7 @@
                     <h3>doc. <xsl:value-of select="//tei:idno" /></h3>
                     <h1><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title[@xml:lang='fr']" /></h1>
                     <h3><xsl:value-of select="//tei:title[@xml:lang='it']" /></h3>
-                    <h2>di <xsl:apply-templates select="//tei:author[@ref='FDS']" /></h2>
+                    <h2>di <xsl:apply-templates select="//tei:author[@ref='FDS'] name()" /></h2>
                 </div>
                 
                 <div>
@@ -367,7 +367,7 @@
                     <xsl:when test="name() = 'placeName'">
                         <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
+                            <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         <b>
                             <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
@@ -433,10 +433,10 @@
     <xsl:template match="tei:listBibl">
         <xsl:for-each select="current()/tei:bibl">
             <xsl:element name="li">
-                <xsl:attribute name="class">bBook</xsl:attribute>
-                <xsl:attribute name="id">
-                    <xsl:value-of select="@xml:id" />
-                </xsl:attribute>
+                <xsl:value-of></xsl:value-of>
+                <xsl:element name="a">
+                    <xsl:apply-templates select="current()//tei:layout" />
+                </xsl:element>
                 
                 <xsl:for-each select="current()//tei:author">
                     <xsl:element name="span">
