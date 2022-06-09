@@ -1,4 +1,18 @@
-$(document).ready(function () {
+
+function handler(ev) {
+
+  $(".tooltipTermine").css("display", "none");
+  
+  var target = $(ev.target);
+  var selettore = target.attr('id');
+  if( target.is(".tooltipTermine") ) {
+     alert('The mouse was over'+ selettore );
+  }
+}
+$(".tooltipTermine").mouseleave(handler);
+
+
+/* $(document).ready(function () {
   $(".tooltipTermine").css("display", "none");
 
   $(document).on("mouseover", ".termini", function (e) {
@@ -32,4 +46,4 @@ $(document).ready(function () {
   });
 
 
-});
+}); */
