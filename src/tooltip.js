@@ -10,6 +10,8 @@ jQuery.fn.getParent = function(num) {
 $(document).ready(function () {
 
   $(".tooltipTermine").css("display", "none");
+  $(".tooltipLuogo").css("display", "none");
+
 
   $(document).on("mouseover", ".termini", function (e) {
     e.preventDefault();
@@ -40,16 +42,28 @@ $(document).ready(function () {
 
   });
 
-});
 
-  $(document).on("mouseover", ".tooltipLuogo", function(f){
+  $(document).on("mouseover", ".placeName", function(f){
+
 
       f.preventDefault();
 
-    $(f.target).attr("title", "Suca suca");
+      target = $(f.target);
+
+      if(target.is(".placeName")) {
+
+        var selettore = target.attr('id');
+        selett = selettore.replace("#", "").trim(); // Rimuovo l'#
+        var desc = $(`#desc_${selett}`).text(); // Ottengo la stringa descrittiva
+  
+      }
+
+    $(f.target).attr("title", desc);
       
     $(document).tooltip({
       tooltipClass: "tooltip-styling",
     }); // A questo punto faccio apparire il tooltip
 
   });
+
+});
