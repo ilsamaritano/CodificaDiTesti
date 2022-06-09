@@ -383,9 +383,6 @@
                             <b>
                                 <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />
                             </b>
-                        </xsl:element>
-                        
-                        <xsl:element name="span">
                             <xsl:attribute name="id">paese</xsl:attribute>
                             <b><xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" /></b>
                         </xsl:element>
