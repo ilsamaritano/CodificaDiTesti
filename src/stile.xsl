@@ -316,7 +316,7 @@
                     <xsl:when test="name() = 'persName'">
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="concat('prD_', substring(current()/@ref, 2))" />
+                            <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         
                         <xsl:element name="span">
