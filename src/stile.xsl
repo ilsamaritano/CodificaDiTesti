@@ -365,9 +365,7 @@
                     </xsl:when>
                     
                     <xsl:when test="name() = 'placeName'">
-                        <xsl:attribute name="class">
-                            tooltipLuogo
-                        </xsl:attribute>
+                        <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
