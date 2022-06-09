@@ -23,10 +23,10 @@ $(document).ready(function () {
       var desc = $(`#desc_${selett}`).text(); // Ottengo la stringa descrittiva
 
     } else {
-      if(target.is(".abbr")){
+      if(target.is(".abbr")){   // Bugfix per le abbreviazioni
 
-       father = target.getParent(1);
-       var selettore = father.attr('id');
+       father = target.getParent(1); // E' necessario risalire il DOM e ritornare al padre span .termini
+       var selettore = father.attr('id');  // Riprendere il suo ID e stesso procedimento
        selett = selettore.replace("#", "").trim(); // Rimuovo l'#
        var desc = $(`#desc_${selett}`).text(); // Ottengo la stringa descrittiva
 
