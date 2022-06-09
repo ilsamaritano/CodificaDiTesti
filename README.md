@@ -1,5 +1,5 @@
 # Codifica Di Testi (2021/22)
-Il progetto contenuto in questo <i>repository</i> è stato realizzato per l'esame di <b>Codifica di Testi</b> con il professor <i>Angelo Mario Del Grosso</i> dagli studenti del <b>corso di Laurea di Informatica Umanistica (triennale)</b>:
+Il progetto contenuto in questo <i>repository</i> è stato realizzato per l'esame di <b>Codifica di Testi</b> con il professor <i>Angelo Mario Del Grosso</i> dagli studenti del <b>Corso di Laurea di Informatica Umanistica (triennale)</b>:
 
 - <i>Corrado Baccheschi</i> (mat. 599107)
 
