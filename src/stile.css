@@ -199,7 +199,7 @@ img.icon {
 .tooltip-styling-place {
   color: #f3f3f3;
   font-size: 0.9em;
-  color: black;
+  background-color: black;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
 
