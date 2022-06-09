@@ -371,7 +371,7 @@
                             <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         <xsl:element name="span">
-                            <xsl:attribute name="id">luogo</xsl:attribute>
+                            <xsl:attribute name="class">luogo</xsl:attribute>
                             <xsl:choose>
                                 <xsl:when test="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement/@type = 'state'">
                                     Stato
