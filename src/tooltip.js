@@ -1,3 +1,12 @@
+jQuery.fn.getParent = function(num) {
+  var last = this[0];
+  for (var i = 0; i < num; i++) {
+      last = last.parentNode;
+  }
+  return jQuery(last);
+};
+
+
 
 $(document).ready(function () {
 
@@ -7,15 +16,28 @@ $(document).ready(function () {
     e.preventDefault();
   
     var target = $(e.target);
-    if( target.is(".termini") ) {
+    if(target.is(".termini")) {
 
       var selettore = target.attr('id');
-      alert('The mouse was over'+ selettore );
+      selett = selettore.replace("#", "").trim(); // Rimuovo l'#
+      var desc = $(`#desc_${selett}`).text(); // Ottengo la stringa descrittiva
+
     } else {
-      if( target.is(".abbr")){
-       alert("Abbreviazione");
+      if(target.is(".abbr")){
+
+       father = target.getParent(1);
+       var selettore = father.attr('id');
+       selett = selettore.replace("#", "").trim(); // Rimuovo l'#
+       var desc = $(`#desc_${selett}`).text(); // Ottengo la stringa descrittiva
+
       }
     }
+
+    $(target).attr("title", desc); // aggiungo e ci inserisco la stringa
+
+    $(document).tooltip({
+      tooltipClass: "tooltip-styling",
+    }); // A questo punto faccio apparire il tooltip
 
   });
 
