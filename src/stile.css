@@ -193,6 +193,9 @@ img.icon {
   color: #f3f3f3;
   font-size: 0.9em;
   color: black;
+  line-height: 1.3em;
+  border-radius: 15px;
+  background-color: antiquewhite;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
 
@@ -200,6 +203,7 @@ img.icon {
   color: #f3f3f3;
   font-size: 0.9em;
   background-color: black;
+  border-radius: 15px;
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
 
