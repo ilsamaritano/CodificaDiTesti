@@ -286,7 +286,7 @@
                         <xsl:value-of select="name()" />
                     </xsl:attribute>
                     <xsl:attribute name="id">
-                        <xsl:value-of select="concat('pr_', substring(current()/@ref, 2))" />
+                        <xsl:value-of select="current()/@ref" />
                     </xsl:attribute>
                 </xsl:when>
                 <xsl:when test="name() = 'placeName'">
@@ -294,7 +294,7 @@
                         <xsl:value-of select="name()" />
                     </xsl:attribute>
                     <xsl:attribute name="id">
-                        <xsl:value-of select="concat('pl_', substring(current()/@ref, 2))" />
+                        <xsl:value-of select="current()/@ref" />
                     </xsl:attribute>
                 </xsl:when>
             </xsl:choose>
