@@ -1,9 +1,9 @@
 # Codifica Di Testi (2021/22)
 Il progetto contenuto in questo repository è stato realizzato dagli studenti del corso di Laurea di Informatica Umanistica (triennale):
 
--Corrado Baccheschi
+- Corrado Baccheschi
 
--Vincenzo Sammartino
+- Vincenzo Sammartino
 
 Il progetto è stato validato con Xerces.
 
