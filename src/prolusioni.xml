@@ -57,7 +57,7 @@
                     <msContents>
                         <msItem>
                             <author xml:lang="fr">
-                                <persName>Ferdinand De Saussure</persName>
+                                <persName ref="FDS">Ferdinand De Saussure</persName>
                             </author>
                             <title xml:lang="fr">
                                 Trois premières conférences à l'Université (cours d'ouverture,
@@ -281,7 +281,7 @@
                     <lb xml:id="P2_10_L12" n="12" facs="#P10_R12" />
                     <term ref="#oprtnanlg">opération d'<emph rend="underline">analogie</emph>
                     </term>,                <term ref="#ftsanlg">faits <emph rend="underline">d'analogie</emph>
-                    </term> <choice><origin>ttes</origin><reg>toutes</reg></choice> ces <term ref="#oprtnspsclgq"><abbr>opérat<am>.</am></abbr><expan><ex>ions</ex></expan> psychologiques</term>.
+                    </term> <choice><orig>ttes</orig><reg>toutes</reg></choice> ces <term ref="#oprtnspsclgq"><abbr>opérat<am>.</am></abbr><expan><ex>ions</ex></expan> psychologiques</term>.
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_1O_Par7">
                     <lb xml:id="P2_10_L13" n="13" facs="#P10_R13" />
@@ -1149,7 +1149,7 @@
                 
                 <listPerson>
                     <person xml:id="FDS">
-                        <persName role="linguist">
+                        <persName >
                             <ref target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure" />
                             <forename>Ferdinand</forename>
                             <surname>De Saussure</surname>
@@ -1171,23 +1171,6 @@
                                 <country key="CH">Svizzera</country>
                             </placeName>
                         </death>
-                    </person>
-                    <person xml:id="NC">
-                        <persName role="linguist">
-                            <ref xml:lang="it" target="https://it.wikipedia.org/wiki/Noam_Chomsky https://www.treccani.it/enciclopedia/avram-noam-chomsky/" />
-                            <forename>Avram</forename>
-                            <forename>Noam</forename>
-                            <surname>Chomsky</surname>
-                        </persName>
-                        <sex>M</sex>
-                        <birth>
-                            <date when="1928-12-07">7 dicembre 1928</date>
-                            <placeName ref="#PH">
-                                <settlement type="municipality">Philadelphia</settlement>
-                                <settlement type="state" key="PA">Pennsylvania</settlement>
-                                <country key="USA">Stati Uniti d'America</country>
-                            </placeName>
-                        </birth>
                     </person>
                 </listPerson>
                 
