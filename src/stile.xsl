@@ -163,7 +163,7 @@
     <xsl:template match="tei:msContents">
         <b>Titolo:</b><xsl:value-of select="//tei:msItem/tei:title" />
         <br />
-        <b>Autore: </b><xsl:value-of select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
+        <b>Autore: </b><xsl:apply-templates select="//tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author" />
         <br />
         <b>Lingua: </b><xsl:value-of select="//tei:language" />
         <br />
@@ -271,7 +271,7 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:term | tei:persName | tei:placeName">
+    <xsl:template match="tei:term | tei:persName | tei:placeName | tei:author">
         
         <xsl:element name="span">
             <xsl:choose>
@@ -290,6 +290,14 @@
                     </xsl:attribute>
                 </xsl:when>
                 <xsl:when test="name() = 'placeName'">
+                    <xsl:attribute name="class">
+                        <xsl:value-of select="name()" />
+                    </xsl:attribute>
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="current()/@ref" />
+                    </xsl:attribute>
+                </xsl:when>
+                <xsl:when test="name() = 'author'">
                     <xsl:attribute name="class">
                         <xsl:value-of select="name()" />
                     </xsl:attribute>
@@ -360,10 +368,10 @@
                     <xsl:when test="name() = 'placeName'">
                         <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="concat('plD_', substring(current()/@ref, 2))" />
+                            <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         <xsl:element name="span">
-                            <xsl:attribute name="class">settlement</xsl:attribute>
+                            <xsl:attribute name="id">luogo</xsl:attribute>
                             <xsl:choose>
                                 <xsl:when test="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement/@type = 'state'">
                                     Stato
