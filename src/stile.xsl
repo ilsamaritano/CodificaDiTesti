@@ -19,7 +19,6 @@
                 <script src="reg.js"></script>
                 <script src="abbr.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
-                
             </head>
             <body>
                 <header>
@@ -366,18 +365,17 @@
                     </xsl:when>
                     
                     <xsl:when test="name() = 'placeName'">
-                        <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
+                        <xsl:attribute name="class">
+                            tooltipLuogo
+                        </xsl:attribute>
                         <xsl:attribute name="id">
                             <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         <xsl:element name="span">
-                            <xsl:attribute name="id">
-                                <xsl:value-of select="current()/@ref" />
-                                <b>
-                                    <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
-                                    <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" />
-                                </b>
-                            </xsl:attribute>
+                            <b>
+                                <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
+                                <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" />
+                            </b>
                         </xsl:element>
                     </xsl:when>
                 </xsl:choose>
