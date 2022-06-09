@@ -1,16 +1,25 @@
 
-function handler(ev) {
+$(document).ready(function () {
 
   $(".tooltipTermine").css("display", "none");
-  
-  var target = $(ev.target);
-  var selettore = target.attr('id');
-  if( target.is(".tooltipTermine") ) {
-     alert('The mouse was over'+ selettore );
-  }
-}
-$(".tooltipTermine").mouseleave(handler);
 
+  $(document).on("mouseover", ".termini", function (e) {
+    e.preventDefault();
+  
+    var target = $(e.target);
+    if( target.is(".termini") ) {
+
+      var selettore = target.attr('id');
+      alert('The mouse was over'+ selettore );
+    } else {
+      if( target.is("abbr")){
+       alert("Abbreviazione");
+      }
+    }
+
+  });
+
+});
 
 /* $(document).ready(function () {
   $(".tooltipTermine").css("display", "none");
