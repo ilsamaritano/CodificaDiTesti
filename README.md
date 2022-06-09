@@ -1,9 +1,9 @@
 # Codifica Di Testi (2021/22)
-Il progetto contenuto in questo repository è stato realizzato dagli studenti del corso di Laurea di Informatica Umanistica (triennale):
+Il progetto contenuto in questo repository è stato realizzato per l'esame di Codifica di Testi con il professor Angelo Mario Del Grosso dagli studenti del corso di Laurea di Informatica Umanistica (triennale):
 
-- Corrado Baccheschi
+- Corrado Baccheschi (mat. 599107)
 
-- Vincenzo Sammartino
+- Vincenzo Sammartino (mat. 599203)
 
 Il progetto è stato validato con Xerces.
 
