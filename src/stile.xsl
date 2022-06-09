@@ -308,7 +308,7 @@
                     <xsl:when test="name() = 'term'">
                         <xsl:attribute name="class">tooltipTermine</xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
+                            <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
                         <xsl:apply-templates select="//tei:gloss[@target=current()/@ref]" />
                     </xsl:when>
