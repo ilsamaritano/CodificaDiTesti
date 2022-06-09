@@ -207,7 +207,6 @@ img.icon {
   box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
 }
 
-
 .termini:hover {
   cursor: help;
 }
@@ -260,4 +259,7 @@ body > article:nth-child(6) {
   background-color: #fff;
   border-radius: 25px;
   padding: 15px;
+}
+#info > article > img {
+  border-radius: 407px;
 }
