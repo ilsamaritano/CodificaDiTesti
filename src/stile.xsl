@@ -309,7 +309,7 @@
             
             <xsl:apply-templates />
             
-            <!-- Descrizione dei termini -->
+            <!-- Descrizione dei termini / persone / luoghi -->
             
             <xsl:element name="span">
                 <xsl:choose>
@@ -376,7 +376,6 @@
                                 <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
                                 <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" />
                             </b>
-                            
                         </xsl:element>
                     </xsl:when>
                 </xsl:choose>
