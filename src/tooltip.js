@@ -61,7 +61,7 @@ $(document).ready(function () {
     $(f.target).attr("title", desc);
       
     $(document).tooltip({
-      tooltipClass: "tooltip-styling",
+      tooltipClass: "tooltip-styling-place",
     }); // A questo punto faccio apparire il tooltip
 
   });
