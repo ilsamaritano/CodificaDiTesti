@@ -1,5 +1,9 @@
 # Codifica Di Testi (2021/22)
-Il progetto contenuto in questo repository è 
+Il progetto contenuto in questo repository è stato realizzato dagli studenti del corso di Laurea di Informatica Umanistica (triennale):
+
+-Corrado Baccheschi
+
+-Vincenzo Sammartino
 
 Il progetto è stato validato con Xerces.
 
@@ -15,8 +19,7 @@ $ java -cp \
 ## Comando per la trasformazione con il tool di trasformazione XML Saxon-HE
 
 ```shell
-$ java -jar \
-    SaxonHE10-3J/saxon-he-10.3.jar -s:test.xml -xsl:test.xsl -o:test.txt
+$ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:prolusioni.xml -xsl:stile.xsl -o:prolusioni.html
 ```
 
 ## verificare tool di query con xpath Saxon-HE
