@@ -107,8 +107,8 @@ ul li a {
   line-height: 1.6em;
 }
 #ruotapag10 {
-  bottom: 250px;
-  left: 34px;
+  /* bottom: 300px; */
+  left: 170px;
 }
 
 #info > article > div:nth-child(2) {
@@ -282,4 +282,7 @@ body > article:nth-child(6) {
   max-width: 85%;
   margin-left: auto;
   margin-right: auto;
+}
+#p10 > h2 {
+  margin-bottom: 0;
 }

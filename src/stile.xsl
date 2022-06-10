@@ -93,6 +93,7 @@
                 </div>
                 <article id="p10">
                     <h2> Pagina 10 </h2>
+                    <button type="button" id="ruotapag10"> Mostra retro </button>
                     <div class="flexbox">
                         <div class="img">
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
@@ -107,9 +108,6 @@
                             <h3>Traduzione</h3>
                             <xsl:apply-templates select="//tei:div[@type='traduzionepag10']" />
                         </div>
-                    </div>
-                    <div>
-                        <button type="button" id="ruotapag10"> Mostra retro </button>
                     </div>
                 </article>
                 <article id="p11">
