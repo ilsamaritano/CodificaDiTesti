@@ -167,7 +167,7 @@
         <br />
         <b>Lingua: </b><xsl:value-of select="//tei:language" />
         <br />
-        <b>Acquisizione:</b><xsl:value-of select="//tei:settingDesc/tei:setting/tei:name" />
+        <b>Acquisizione:</b><xsl:apply-templates select="//tei:settingDesc/tei:setting/tei:name" />
         <br />
         <b>Data:</b><xsl:value-of select="//tei:time" />
     </xsl:template>
@@ -297,7 +297,7 @@
                         <xsl:value-of select="current()/@ref" />
                     </xsl:attribute>
                 </xsl:when>
-                <xsl:when test="name() = 'author'">
+                <xsl:when test="name() = 'auth8or'">
                     <xsl:attribute name="class">
                         <xsl:value-of select="name()" />
                     </xsl:attribute>
@@ -323,10 +323,10 @@
                     
                     <xsl:when test="name() = 'persName'">
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
-                        <xsl:attribute name="id">
+                        <xsl:attribute name="class">
                             <xsl:value-of select="current()/@ref" />
                         </xsl:attribute>
-                        
+                        <xsl:value-of select="current()/tei:forename" />
                         <xsl:element name="span">
                             
                             <xsl:attribute name="class">fullName</xsl:attribute>
