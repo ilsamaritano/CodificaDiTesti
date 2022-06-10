@@ -104,7 +104,7 @@ ul li a {
 
 .flexbox div {
   margin: 2%;
-  /* width: 96%; */
+  line-height: 1.6em;
 }
 #ruotapag10 {
   bottom: 250px;
