@@ -15,7 +15,7 @@ $ java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/xml-apis.jar;Xerces-J-bin.2.12.1/x
 
 I file XML e XSL sono stati trasformati con Saxon-HE 10.3 in un file HTML "<i>prolusioni.html</i>" con il seguente comando:
 
-## Comando per la trasformazione con il processore XSLT "Saxon-HE 10.3"
+## Comando per la trasformazione con il processore XSLT "Saxon"
 
 ```shell
 $ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:prolusioni.xml -xsl:stile.xsl -o:prolusioni.html
