@@ -118,10 +118,27 @@ $(document).ready(function () {
          plainText+=elNodes[i].textContent;
        }
     }
-    console.log(plainText); // prints TEXT THAT I ONLY NEED
+    console.log(plainText); // prints TEXT THAT I ONLY NEED */
+
+  });
+
+
+  $(document).on("mouseout", ".numeroRiga", function(g){
+
+    target = $(this);
+
+    target.css("background", "none");
     
-    
-     target.nextUntil(".numeroRiga").css("background", "antiquewhite"); */
+    arr = target.getParent(0).nextUntil(".numeroRiga");
+    arra = target.getParent(0).nextUntil(".numeroRiga").contents();
+
+    for(i=0;i<arr.length;i++) {
+      $(arr[i]).css("background", "none");
+    }
+
+    for(i=0;i<arra.length;i++) {
+      $(arra[i]).css("background", "none");
+    }
 
   });
 
