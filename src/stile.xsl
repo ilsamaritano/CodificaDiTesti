@@ -436,8 +436,10 @@
     <xsl:template match="tei:listBibl">
         <xsl:for-each select="current()/tei:bibl">
             <xsl:element name="li">
-                <xsl:value-of></xsl:value-of>
-                
+                <xsl:for-each select="current()//tei:author">
+                    <xsl:value-of select="current()" />,
+                </xsl:for-each> 
+                <xsl:value-of select="current()/tei:title" />
                 
                 <xsl:for-each select="current()//tei:author">
                     <xsl:element name="span">
