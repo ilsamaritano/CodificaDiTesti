@@ -437,82 +437,12 @@
         <xsl:for-each select="current()/tei:bibl">
             <xsl:element name="li">
                 <xsl:for-each select="current()//tei:author">
-                    <xsl:value-of select="current()" />,
+                    <xsl:value-of select="normalize-space(current())" />,
                 </xsl:for-each> 
-                <i><xsl:value-of select="current()/tei:title" /></i>
-                
-                <xsl:for-each select="current()//tei:author">
-                    <xsl:element name="span">
-                        <xsl:attribute name="class">bAuth</xsl:attribute>
-                        <xsl:for-each select="current()//tei:surname">
-                            <xsl:apply-templates />
-                        </xsl:for-each>
-                        <xsl:text> </xsl:text>
-                        <xsl:for-each select="current()//tei:forename">
-                            <xsl:value-of select="concat(substring(current(), 1, 1), '. ')" />
-                        </xsl:for-each>
-                    </xsl:element>
-                    <xsl:text>, </xsl:text>
-                </xsl:for-each>
-                
-                <xsl:element name="span">
-                    <xsl:attribute name="class">bTitle</xsl:attribute>
-                    <xsl:element name="i">
-                        <xsl:for-each select="current()//tei:title">
-                            <xsl:apply-templates />
-                            <xsl:text>. </xsl:text>
-                        </xsl:for-each>
-                    </xsl:element>
-                </xsl:element>
-                
-                <xsl:element name="span">
-                    <xsl:attribute name="class">bPlace</xsl:attribute>
-                    <xsl:for-each select="current()//tei:pubPlace">
-                        <xsl:apply-templates />
-                        <xsl:text>, </xsl:text>
-                    </xsl:for-each>
-                </xsl:element>
-                
-                <xsl:element name="span">
-                    <xsl:attribute name="class">bPubl</xsl:attribute>
-                    <xsl:apply-templates select="current()//tei:publisher" />
-                </xsl:element>
-                <xsl:text>, </xsl:text>
-                
-                <xsl:element name="span">
-                    <xsl:attribute name="class">bDate</xsl:attribute>
-                    <xsl:apply-templates select="current()//tei:date" />
-                </xsl:element>
-                
-                <xsl:if test="current()//tei:biblScope">
-                    <xsl:text> (</xsl:text>
-                    <xsl:element name="span">
-                        <xsl:attribute name="class">bFormat</xsl:attribute>
-                        <xsl:if test="current()//@unit = 'volume'">
-                            <xsl:value-of select="concat('vol. ', //tei:biblScope[@unit = 'volume'])" />
-                            <xsl:text>, </xsl:text>
-                        </xsl:if>
-                        <xsl:if test="current()//@unit = 'page'">
-                            <xsl:value-of select="concat('p. ', //tei:biblScope[@unit = 'page'])" />
-                        </xsl:if>
-                    </xsl:element>
-                    <xsl:text>)</xsl:text>
-                </xsl:if>
-                <xsl:text>.</xsl:text>
-                
-                <xsl:if test="current()//tei:note">
-                    <br />
-                    <xsl:element name="div">
-                        <xsl:attribute name="class">bkDesc</xsl:attribute>
-                        <xsl:apply-templates select="current()//tei:note" />
-                        <br />
-                        <xsl:element name="span">
-                            <xsl:attribute name="class">closePanel</xsl:attribute>
-                            Chiudi
-                        </xsl:element>
-                    </xsl:element>
-                </xsl:if>
-                
+                <i><xsl:value-of select="current()/tei:title" /></i>. 
+                <xsl:apply-templates select="current()/tei:pubPlace" />,
+                <xsl:value-of select="current()/tei:publisher" />,
+                <xsl:value-of select="current()/tei:date" />.
             </xsl:element>
         </xsl:for-each>
     </xsl:template>

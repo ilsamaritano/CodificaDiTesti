@@ -1174,21 +1174,20 @@
                 
                 <!-- Riferimenti bibiografici -->
                 <listBibl>
-                    <bibl xml:id="Fadda06">
+                    <bibl xml:id="EFLib">
                         <author xml:id="EF">
                             <forename>Emanuele</forename>
                             <surname>Fadda</surname>
                         </author>
                         <title type="main" level="m">Lingua e mente sociale</title>
                         <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
-                        <pubPlace><placeName ref="#ACR">Acireale</placeName></pubPlace>
-                        <pubPlace><placeName ref="#RM">Roma</placeName></pubPlace>
+                        <pubPlace><placeName ref="#acireale">Acireale</placeName></pubPlace>
                         <publisher>Bonanno Editore</publisher>
                         <date when="2006">2006</date>
                         <biblScope unit="volume">1</biblScope>
                     </bibl>
                     
-                    <bibl xml:id="CDLG">
+                    <bibl xml:id="TDMLib">
                         <author ref="#FDS">
                             <forename>Ferdinand</forename>
                             <surname>De Saussure</surname>
@@ -1197,23 +1196,13 @@
                             <forename>Tullio</forename>
                             <surname>De Mauro</surname>
                         </author>
-                        <title type="main" level="m">Corso di linguistica generale</title>
-                        <title type="sub">Introduzione, traduzione e commento di Tullio De Mauro</title>
-                        <pubPlace><placeName ref="#RM">Roma</placeName></pubPlace>
-                        <pubPlace><placeName ref="#BA">Bari</placeName></pubPlace>
+                        <title>Corso di linguistica generale, introduzione, traduzione e commento di Tullio De Mauro</title>
+                        <pubPlace><placeName ref="#roma">Roma</placeName></pubPlace>
                         <date when="1976">1976</date>
                         <publisher>Editori Laterza</publisher>
-                        <note source="https://hls-dhs-dss.ch/it/articles/016165/2013-01-31/">
-                            Il <hi rend="italic">Corso di linguistica generale</hi> affronta la problematica del <term ref="#lgage">linguaggio</term>
-                            esaminandone le condizioni di esistenza, la sua struttura e la sua evoluzione; si interessa anche e soprattutto delle diverse modalità di apprendimento
-                            di questa istituzione sociale multiforme e complessa. Desiderando conferire alla linguistica una solidità
-                            scientifica, <persName ref="#FDS">De Saussure</persName> le attribuì un preciso dominio di indagine, quello della <term ref="#lgue">lingua</term>,
-                            concepita come un sistema di opposizioni differenziali. Egli tentò pure di istituire un metodo e dei criteri
-                            di valutazione per l'identificazione delle unità linguistiche.
-                        </note>
                     </bibl>
                     
-                    <bibl xml:id="CFS62" xml:lang="fr" source="https://www.jstor.org/stable/41427851?seq=1#metadata_info_tab_contents">
+                    <bibl xml:id="ACLib" xml:lang="fr">
                         <author ref="#AC">
                             <forename>Alessandro</forename>
                             <surname>Chidichimo</surname>
