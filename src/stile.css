@@ -270,6 +270,7 @@ body > article:nth-child(6) {
   float: right;
   width: 70%;
   margin-top: 100px;
+  line-height: 2em;
 }
 
 #info > article > div:nth-child(3) > b {
