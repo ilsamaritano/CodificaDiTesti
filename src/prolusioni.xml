@@ -1158,15 +1158,15 @@
                         <birth>
                             <date when="26-11-1857">26 novembre 1857</date>
                             <placeName ref="#GN">
-                                <settlement type="municipality">Ginevra</settlement>
-                                <country key="CH">Svizzera</country>
+                                <settlement>Ginevra</settlement>
+                                <country>Svizzera</country>
                             </placeName>
                         </birth>
                         <death>
                             <date when="22-02-1913">22 febbraio 1913</date>
-                            <placeName ref="#VlC">
-                                <settlement type="municipality">Vufflens-le-Château</settlement>
-                                <country key="CH">Svizzera</country>
+                            <placeName>
+                                <settlement>Vufflens-le-Château</settlement>
+                                <country>Svizzera</country>
                             </placeName>
                         </death>
                     </person>
