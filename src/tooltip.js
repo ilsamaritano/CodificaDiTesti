@@ -96,17 +96,14 @@ $(document).ready(function () {
   $(document).on("click", ".numeroRiga", function(g){
 
     target = $(this);
-    
-    target.nextUntil(".numeroRiga").wrapInner("<mark />");
+
     target.css("background", "antiquewhite");
 
     //target.nextUntil(".numeroRiga").css("background", "antiquewhite");
     
-    //target.nextUntil(".numeroRiga").children().css("background", "antiquewhite");
+    target.nextUntil(".numeroRiga").children().css("background", "antiquewhite");
 
 
   });
-
-
 
 });

@@ -268,6 +268,7 @@
         <xsl:element name="span">
             <xsl:attribute name="class">numeroRiga</xsl:attribute>
             <b><xsl:value-of select="@n" /></b>
+            <xsl:value-of select="text()"/>
         </xsl:element>
     </xsl:template>
     
