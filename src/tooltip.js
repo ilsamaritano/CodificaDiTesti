@@ -6,6 +6,31 @@ jQuery.fn.getParent = function(num) {
   return jQuery(last);
 };
 
+var nextUntil = function (elem, selector) {
+
+	// Setup siblings array
+	var siblings = [];
+
+	// Get the next sibling element
+	elem = elem.nextElementSibling;
+
+	// As long as a sibling exists
+	while (elem) {
+
+		// If we've reached our match, bail
+		if (elem.matches(selector)) break;
+
+		// Otherwise, push it to the siblings array
+		siblings.push(elem);
+
+		// Get the next sibling element
+		elem = elem.nextElementSibling;
+
+	}
+
+	return siblings;
+
+};
 
 $(document).ready(function () {
 
@@ -65,5 +90,23 @@ $(document).ready(function () {
     }); // A questo punto faccio apparire il tooltip
 
   });
+
+
+
+  $(document).on("click", ".numeroRiga", function(g){
+
+    target = $(this);
+    
+    target.nextUntil(".numeroRiga").wrapInner("<mark />");
+    target.css("background", "antiquewhite");
+
+    //target.nextUntil(".numeroRiga").css("background", "antiquewhite");
+    
+    //target.nextUntil(".numeroRiga").children().css("background", "antiquewhite");
+
+
+  });
+
+
 
 });

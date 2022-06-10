@@ -388,7 +388,7 @@
                 </ab>
                 <ab type="paragrafo" n="2" xml:id="P2_11_Par2">
                     <lb xml:id="P2_11_L5" n="5" facs="#P11_R5" />
-                    <add place="margin">Demander à <choice><orig>1</orig><reg>un</reg></choice> <term ref="#linguiste"><abbr>lingui<am>.</am></abbr><expan><ex>ste</ex></expan></term> <emph rend="underline">de</emph></add> <term ref="#citer">citer</term>
+                    <add place="margin"><abbr>Demand</abbr><expan><ex>er</ex></expan> à <choice><orig>1</orig><reg>un</reg></choice> <term ref="#linguiste"><abbr>lingui<am>.</am></abbr><expan><ex>ste</ex></expan></term> <emph rend="underline">de</emph></add> <term ref="#citer">citer</term>
                     
                     <mod type="subst">
                         <del rend="overwritten">l</del>     <!-- Modifica particolare: (les) viene sostituta da (des) cancellando "l", scrivendoci sopra "d"-->
