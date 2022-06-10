@@ -1216,9 +1216,19 @@
                 
                 <listPlace>
                     <place xml:id="GN">
-                        <placeName ref="https://www.treccani.it/enciclopedia/ginevra/ https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
-                        <settlement type="canton" key="Geneva">Ginevra</settlement>
-                        <country key="CH">Svizzera</country>
+                        <placeName ref="https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
+                        <settlement>Ginevra</settlement>
+                        <country>Svizzera</country>
+                    </place>
+                    <place xml:id="acireale">
+                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
+                        <settlement type="region">Sicilia</settlement>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="roma">
+                        <placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
+                        <settlement type="region">Lazio</settlement>
+                        <country>Italia</country>
                     </place>
                 </listPlace>
             </div>
