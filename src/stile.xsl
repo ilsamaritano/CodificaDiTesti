@@ -331,7 +331,7 @@
                         <xsl:element name="span">
                             <xsl:value-of select="current()/tei:forename" />
                         </xsl:element>
-                        
+                    
                     </xsl:element>
                     
                     <xsl:if test="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death">
