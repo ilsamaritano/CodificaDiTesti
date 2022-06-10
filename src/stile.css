@@ -83,10 +83,19 @@ ul li a {
 }
 #info > article > div {
   display: block;
-  grid-template-columns: auto;
   max-width: 95%;
   margin: auto;
   line-height: 2em;
+}
+#info > article > div:nth-child(4) {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+#info > article > div:nth-child(4) > div:nth-child(1) {
+  margin-right: 15px;
+}
+#info > article > div:nth-child(4) > div:nth-child(2) {
+  margin-left: 15px;
 }
 
 #info > article > div:nth-child(3) > div:nth-child(2) {
