@@ -51,7 +51,7 @@
                     <msIdentifier>
                         <country key="CH">Switzerland</country>
                         <settlement>Ginevra</settlement>
-                        <repository role="library">Biblioteca di <placeName ref="#GN">Ginevra</placeName></repository>
+                        <repository role="library">Biblioteca di <placeName ref="#ginevra">Ginevra</placeName></repository>
                         <idno>BGE Ms. fr. 3951/1.1-3</idno>
                     </msIdentifier>
                     <msContents>
@@ -90,7 +90,7 @@
                         <origin notAfter="11-1891">
                             <p>
                                 Si tratta di appunti per le prime conferenze all'Università di
-                                <placeName ref="#GN">Ginevra</placeName>, in parte utilizzati per le prime lezioni
+                                <placeName ref="#ginevra">Ginevra</placeName>, in parte utilizzati per le prime lezioni
                                 del corso di
                                 <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>. 
                                 Questi appunti erano probabilmente destinati alla pubblicazione di una brochure.
@@ -98,7 +98,7 @@
                         </origin>
                         <acquisition>
                             <p>
-                                Il testo originale venne in seguito acquisito dalla Biblioteca di <placeName ref="#GN">Ginevra</placeName>.
+                                Il testo originale venne in seguito acquisito dalla Biblioteca di <placeName ref="#ginevra">Ginevra</placeName>.
                             </p>
                         </acquisition>
                     </history>
@@ -1157,7 +1157,7 @@
                         <sex>M</sex>
                         <birth>
                             <date when="26-11-1857">26 novembre 1857</date>
-                            <placeName ref="#GN">
+                            <placeName ref="#ginevra">
                                 <settlement>Ginevra</settlement>
                                 <country>Svizzera</country>
                             </placeName>
@@ -1208,14 +1208,14 @@
                             <surname>Chidichimo</surname>
                         </author>
                         <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
-                        <pubPlace ref="#GN"><placeName ref="#GN">Ginevra</placeName></pubPlace>
+                        <pubPlace ref="#ginevra"><placeName ref="#ginevra">Ginevra</placeName></pubPlace>
                         <publisher>Librairie Droz</publisher>
                         <date when="2009">2009</date>
                     </bibl>
                 </listBibl>
                 
                 <listPlace>
-                    <place xml:id="GN">
+                    <place xml:id="ginevra">
                         <placeName ref="https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
                         <settlement>Ginevra</settlement>
                         <country>Svizzera</country>
