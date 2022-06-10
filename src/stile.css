@@ -86,6 +86,7 @@ ul li a {
   grid-template-columns: auto;
   max-width: 95%;
   margin: auto;
+  line-height: 2em;
 }
 
 #info > article > div:nth-child(3) > div:nth-child(2) {
