@@ -325,7 +325,9 @@
                     
                     <xsl:when test="name() = 'author'">
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
-                        
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
                         <xsl:element name="span">
                             Nato il <xsl:value-of select="//tei:person/tei:birth/tei:date" /> a <xsl:value-of select="//tei:person/tei:birth/tei:placeName/tei:settlement" />, <xsl:value-of select="//tei:person/tei:birth/tei:placeName/tei:country" />
                             <br />
