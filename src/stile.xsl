@@ -325,12 +325,10 @@
                     
                     <xsl:when test="name() = 'author'">
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
-                        <xsl:attribute name="class">
-                            
-                        </xsl:attribute>
                         
                         <xsl:element name="span">
-                            <xsl:value-of select="current()/tei:forename" />
+                            <xsl:value-of select="//tei:person/tei:birth/tei:date" />
+                            <xsl:value-of select="//tei:person/tei:death/tei:date" />
                         </xsl:element>
                         
                         
