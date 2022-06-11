@@ -88,4 +88,35 @@ $(document).ready(function () {
     }
   });
 
+
+  $('orig').on("mouseover",function () {
+    
+    $(this).css("background", "red");
+    $(this).next().show();
+    $(this).hide();
+    $(this).next().css("background", "red");
+
+  });
+
+  $('reg').on("mouseleave",function () {
+    
+    $('orig').css("background", "none");
+    $('orig').show();
+    $('reg').hide();
+    $('reg').css("background", "none");
+
+  });
+
+  $('.abbr').on("mouseover",function () {
+    
+    $(this).next().fadeIn();
+
+  });
+
+  $('.abbr').on("mouseleave",function () {
+    
+    $('.expan').hide();
+  });
+
+
 });
