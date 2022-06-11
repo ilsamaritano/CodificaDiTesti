@@ -326,24 +326,15 @@
                     <xsl:when test="name() = 'author'">
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
                         <xsl:attribute name="id">
-                            <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
+                            <xsl:value-of select="concat('desc_', substring(current()/@ref, 1))" />
                         </xsl:attribute>
                         <xsl:element name="span">
                             Nato il <xsl:value-of select="//tei:person/tei:birth/tei:date" /> a <xsl:value-of select="//tei:person/tei:birth/tei:placeName/tei:settlement" />, <xsl:value-of select="//tei:person/tei:birth/tei:placeName/tei:country" />
                             <br />
-                            Morto il <xsl:value-of select="//tei:person/tei:death/tei:date" /> a <xsl:value-of select="//tei:person/tei:death/tei:placeName/tei:settlement" />, <xsl:value-of select="//tei:person/tei:death/tei:placeName/tei:country" />
-                        </xsl:element>
-                        
-                        
-                        <xsl:if test="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death">
-                            <xsl:element name="span">
-                                <xsl:attribute name="id">morto</xsl:attribute>
-                                <xsl:element name="b">
-                                    <xsl:value-of select="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death/tei:date" />
-                                </xsl:element>
-                            </xsl:element>
-                        </xsl:if>
-                        
+                            <xsl:if test="//tei:person/tei:death">
+                                Morto il <xsl:value-of select="//tei:person/tei:death/tei:date" /> a <xsl:value-of select="//tei:person/tei:death/tei:placeName/tei:settlement" />, <xsl:value-of select="//tei:person/tei:death/tei:placeName/tei:country" />
+                            </xsl:if>
+                        </xsl:element>                        
                     </xsl:when>
                     
                     <xsl:when test="name() = 'placeName'">
