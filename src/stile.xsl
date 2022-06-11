@@ -327,8 +327,9 @@
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
                         
                         <xsl:element name="span">
-                            <xsl:value-of select="//tei:person/tei:birth/tei:date" />
-                            <xsl:value-of select="//tei:person/tei:death/tei:date" />
+                            Nato il <xsl:value-of select="//tei:person/tei:birth/tei:date" /> a <xsl:value-of select="//tei:person/tei:birth/tei:placeName/tei:settlement" />, <xsl:value-of select="//tei:person/tei:birth/tei:placeName/tei:country" />
+                            <br />
+                            Morto il <xsl:value-of select="//tei:person/tei:death/tei:date" /> a <xsl:value-of select="//tei:person/tei:death/tei:placeName/tei:settlement" />, <xsl:value-of select="//tei:person/tei:death/tei:placeName/tei:country" />
                         </xsl:element>
                         
                         
