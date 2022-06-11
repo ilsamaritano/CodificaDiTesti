@@ -326,107 +326,106 @@
                     <xsl:when test="name() = 'author'">
                         <xsl:attribute name="class">tooltipPersona</xsl:attribute>
                         <xsl:attribute name="class">
-                            <xsl:value-of select="current()/@ref" />
+                            
                         </xsl:attribute>
                         
                         <xsl:element name="span">
                             <xsl:value-of select="current()/tei:forename" />
                         </xsl:element>
-                    
-                    </xsl:element>
-                    
-                    <xsl:if test="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death">
-                        <xsl:element name="span">
-                            <xsl:attribute name="id">morto</xsl:attribute>
-                            <xsl:element name="b">
-                                <xsl:value-of select="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death/tei:date" />
+                        
+                        
+                        <xsl:if test="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death">
+                            <xsl:element name="span">
+                                <xsl:attribute name="id">morto</xsl:attribute>
+                                <xsl:element name="b">
+                                    <xsl:value-of select="//tei:person[concat('#', @xml:id) = current()/@ref]/tei:death/tei:date" />
+                                </xsl:element>
                             </xsl:element>
-                        </xsl:element>
-                    </xsl:if>
+                        </xsl:if>
+                        
+                    </xsl:when>
                     
-                </xsl:when>
-                
-                <xsl:when test="name() = 'placeName'">
-                    <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
-                    <xsl:attribute name="id">
-                        <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
-                    </xsl:attribute>
-                    <b>
-                        <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
-                        <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" />
-                    </b>
-                </xsl:when>
-            </xsl:choose>
+                    <xsl:when test="name() = 'placeName'">
+                        <xsl:attribute name="class">tooltipLuogo</xsl:attribute>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="concat('desc_', substring(current()/@ref, 2))" />
+                        </xsl:attribute>
+                        <b>
+                            <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:settlement" />, 
+                            <xsl:value-of select="//tei:place[concat('#', @xml:id) = current()/@ref]/tei:country" />
+                        </b>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:element>
         </xsl:element>
-    </xsl:element>
-</xsl:template>
-
-<!-- Template immagini -->
-<xsl:template match="tei:surface">
-    <xsl:element name="img">
-        <xsl:attribute name="src">
-            <xsl:value-of select="concat(@xml:id, '.jpg')" />
-        </xsl:attribute>
-    </xsl:element>
-</xsl:template>
-
-<!-- Template traduzione -->
-
-<!-- Template physDesc -->
-<xsl:template match="tei:physDesc">
-    <xsl:element name="div">
-        <xsl:element name="h3">Descrizione fisica</xsl:element>
+    </xsl:template>
+    
+    <!-- Template immagini -->
+    <xsl:template match="tei:surface">
+        <xsl:element name="img">
+            <xsl:attribute name="src">
+                <xsl:value-of select="concat(@xml:id, '.jpg')" />
+            </xsl:attribute>
+        </xsl:element>
+    </xsl:template>
+    
+    <!-- Template traduzione -->
+    
+    <!-- Template physDesc -->
+    <xsl:template match="tei:physDesc">
         <xsl:element name="div">
-            <b>Supporto: </b>
-            <xsl:element name="a">
-                <xsl:apply-templates select="current()//tei:support" />
-            </xsl:element> 
-            <br />
-            <b>Quantità: </b>
-            <xsl:element name="a">
-                <xsl:apply-templates select="current()//tei:extent" />
-            </xsl:element>
-            <br />
-            <b>Condizioni: </b>
-            <xsl:element name="a">
-                <xsl:apply-templates select="current()//tei:condition" />
-            </xsl:element>
-            <br />
-            <b>Layout:</b>
-            <xsl:element name="a">
-                <xsl:apply-templates select="current()//tei:layout" />
-            </xsl:element>
-            <br />
-            <b>Grafia: </b>
-            <xsl:element name="a">
-                <xsl:apply-templates select="current()//tei:typeDesc" />
-            </xsl:element> 
-            <br />
-            <b>Mani: </b>
-            <xsl:element name="a">
-                <xsl:apply-templates select="current()//tei:handDesc" />
+            <xsl:element name="h3">Descrizione fisica</xsl:element>
+            <xsl:element name="div">
+                <b>Supporto: </b>
+                <xsl:element name="a">
+                    <xsl:apply-templates select="current()//tei:support" />
+                </xsl:element> 
+                <br />
+                <b>Quantità: </b>
+                <xsl:element name="a">
+                    <xsl:apply-templates select="current()//tei:extent" />
+                </xsl:element>
+                <br />
+                <b>Condizioni: </b>
+                <xsl:element name="a">
+                    <xsl:apply-templates select="current()//tei:condition" />
+                </xsl:element>
+                <br />
+                <b>Layout:</b>
+                <xsl:element name="a">
+                    <xsl:apply-templates select="current()//tei:layout" />
+                </xsl:element>
+                <br />
+                <b>Grafia: </b>
+                <xsl:element name="a">
+                    <xsl:apply-templates select="current()//tei:typeDesc" />
+                </xsl:element> 
+                <br />
+                <b>Mani: </b>
+                <xsl:element name="a">
+                    <xsl:apply-templates select="current()//tei:handDesc" />
+                </xsl:element>
             </xsl:element>
         </xsl:element>
-    </xsl:element>
-</xsl:template>
-
-
-<!-- Template bibliografia -->
-<xsl:template match="tei:listBibl">
-    <xsl:for-each select="current()/tei:bibl">
-        <xsl:element name="li">
-            <xsl:for-each select="current()//tei:author">
-                <xsl:value-of select="normalize-space(current())" />,
-            </xsl:for-each> 
-            <i><xsl:value-of select="current()/tei:title" /></i>. 
-            <xsl:apply-templates select="current()/tei:pubPlace" />,
-            <xsl:value-of select="current()/tei:publisher" />,
-            <xsl:value-of select="current()/tei:date" />.
-        </xsl:element>
-    </xsl:for-each>
-</xsl:template>
-
-
-
-
+    </xsl:template>
+    
+    
+    <!-- Template bibliografia -->
+    <xsl:template match="tei:listBibl">
+        <xsl:for-each select="current()/tei:bibl">
+            <xsl:element name="li">
+                <xsl:for-each select="current()//tei:author">
+                    <xsl:value-of select="normalize-space(current())" />,
+                </xsl:for-each> 
+                <i><xsl:value-of select="current()/tei:title" /></i>. 
+                <xsl:apply-templates select="current()/tei:pubPlace" />,
+                <xsl:value-of select="current()/tei:publisher" />,
+                <xsl:value-of select="current()/tei:date" />.
+            </xsl:element>
+        </xsl:for-each>
+    </xsl:template>
+    
+    
+    
+    
 </xsl:stylesheet>
