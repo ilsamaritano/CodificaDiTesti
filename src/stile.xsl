@@ -266,7 +266,7 @@
         <br />
         <xsl:element name="span">
             <xsl:attribute name="class">numeroRiga</xsl:attribute>
-            <xsl:attribute name="id"><xsl:value-of select="current()/@id"/></xsl:attribute>
+            <xsl:attribute name="id"><xsl:value-of select="current()/@n"/></xsl:attribute>
             <b><xsl:value-of select="@n" /></b>
             <xsl:value-of select="text()"/>
         </xsl:element>
