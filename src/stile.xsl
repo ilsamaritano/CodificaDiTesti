@@ -382,7 +382,7 @@
                     </xsl:attribute>
                     
                     <xsl:attribute name="id">
-                        <xsl:value-of select="current()/@n" />
+                        <xsl:value-of select="@xml:id" />
                     </xsl:attribute>
                     <xsl:attribute name="style">
                         position: absolute;
