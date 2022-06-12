@@ -1,9 +1,9 @@
 $(document).ready(function () {
   clicked = 0;
 
-  /* $("img[src='P2_10R.jpg']").hide();
+  $("img[src='P2_10R.jpg']").hide();
 
-  $("img[src='P2_10.jpg']").on("mouseover", function (e) {
+  /* $("img[src='P2_10.jpg']").on("mouseover", function (e) {
     current = $(e.target);
 
     $(current).animate(
