@@ -12,6 +12,7 @@
                 <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
                 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+                <script src="JS/zoombar.js"></script>
                 <script src="tooltip.js"></script>
                 <script src="imgjs.js"></script>
                 <script src="mark.js"></script>
@@ -90,6 +91,10 @@
                     </div>
                     
                 </div>
+
+
+
+
                 <article id="p10">
                     <h2> Pagina 10 </h2>
                     <button type="button" id="ruotapag10"> Mostra retro </button>
@@ -98,6 +103,11 @@
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" />
                         </div>
+                    <div id="zoom-tool-bar">
+                        </div>
+                        <script type="text/javascript" src="JS/bar.js">
+                            
+                        </script>
                         <div class="testoorig">
                             <h3>Testo originale</h3>
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '10']" />
