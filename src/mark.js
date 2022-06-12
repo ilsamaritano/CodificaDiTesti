@@ -130,17 +130,5 @@ $(document).ready(function () {
 
   });
 
-  $('.abbr').on("mouseover",function () {
-    
-    $(this).next().fadeIn();
-
-  });
-
-  $('.abbr').on("mouseleave",function () {
-    
-    $('.expan').hide();
-
-  });
-
 
 });
