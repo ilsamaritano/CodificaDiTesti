@@ -2,7 +2,7 @@ $(document).ready(function () {
   clicked = 0;
 
   $("img[src='P2_10R.jpg']").hide();
-
+  /*
   $("img[src='P2_10.jpg']").on("mouseover", function (e) {
     current = $(e.target);
 
@@ -60,7 +60,7 @@ $(document).ready(function () {
       }
     );
   });
-
+*/
   $("#ruotapag10").on("click", function (e) {
     e.preventDefault();
 

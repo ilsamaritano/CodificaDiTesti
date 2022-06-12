@@ -310,7 +310,7 @@
                 </ab>
                 <ab type="paragrafo" n="10" xml:id="P2_1O_Par10">
                     <lb xml:id="P2_10_L20" n="20" facs="#P10_R20" />
-                    généralement, ce <term ref="#phnm"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term> représent une <term ref="#asctndformes"><emph rend="underline">association de formes</emph></term>
+                    généralement, ce <term ref="#phnm"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term> représent une <term ref="#asctndformes" rend="underline">association de formes</term>
                     <lb xml:id="P2_10_L21" n="21" facs="#P10_R21" />
                     dans l'<term ref="#esprt">esprit</term>, qui est dictée par l’<term ref="#adir"><emph rend="underline">association des idées repré-</emph></term>
                 </ab>
@@ -644,8 +644,8 @@
                         <term ref="#etatadl" xml:lang="it">stato anteriore del linguaggio</term>
                     </label>
                     <item>
-                        <gloss target="#etatadl" xml:lang="it" source="test">
-                            
+                        <gloss target="#etatadl" xml:lang="it">
+                            Si riferisce a qualcosa che è già presente nella memoria.
                         </gloss>
                     </item>
                     
@@ -705,8 +705,8 @@
                         <term ref="#oprtnanlg" xml:lang="it">operazioni d’analogia</term>
                     </label>
                     <item>
-                        <gloss target="#oprtnanlg" xml:lang="it" source="https://it.wikipedia.org/wiki/">
-                            
+                        <gloss target="#oprtnanlg" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
                         </gloss>
                     </item>
                     
@@ -715,8 +715,8 @@
                         <term ref="#ftsanlg" xml:lang="it">fatti d’analogia</term>
                     </label>
                     <item>
-                        <gloss target="#ftsanlg" xml:lang="it" source="https://it.wikipedia.org/wiki/">
-                            
+                        <gloss target="#ftsanlg" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
                         </gloss>
                     </item>
                     
@@ -725,8 +725,8 @@
                         <term ref="#oprtnspsclgq" xml:lang="it">operazioni psicologiche</term>
                     </label>
                     <item>
-                        <gloss target="#oprtnspsclgq" xml:lang="it" source="https://it.wikipedia.org/wiki/">
-                            
+                        <gloss target="#oprtnspsclgq" xml:lang="it">
+                            Si riferisce a quelle operazioni che hanno come fattore comune l'analogia.
                         </gloss>
                     </item>
                     
@@ -1144,7 +1144,7 @@
                         <gloss target="#fdanalogie" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
                             Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
                         </gloss>
-                    </item>                 
+                    </item> 
                 </list>
                 
                 <listPerson>
@@ -1173,7 +1173,18 @@
                 </listPerson>
                 
                 <!-- Riferimenti bibiografici -->
-                <listBibl>
+                <listBibl>                    
+                    <bibl xml:id="ACLib" xml:lang="fr">
+                        <author ref="#AC">
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </author>
+                        <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+                        <pubPlace ref="#ginevra"><placeName ref="#ginevra">Ginevra</placeName></pubPlace>
+                        <publisher>Librairie Droz</publisher>
+                        <date when="2009">2009</date>
+                    </bibl>
+                    
                     <bibl xml:id="EFLib">
                         <author xml:id="EF">
                             <forename>Emanuele</forename>
@@ -1200,17 +1211,6 @@
                         <pubPlace><placeName ref="#roma">Roma</placeName></pubPlace>
                         <date when="1976">1976</date>
                         <publisher>Editori Laterza</publisher>
-                    </bibl>
-                    
-                    <bibl xml:id="ACLib" xml:lang="fr">
-                        <author ref="#AC">
-                            <forename>Alessandro</forename>
-                            <surname>Chidichimo</surname>
-                        </author>
-                        <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
-                        <pubPlace ref="#ginevra"><placeName ref="#ginevra">Ginevra</placeName></pubPlace>
-                        <publisher>Librairie Droz</publisher>
-                        <date when="2009">2009</date>
                     </bibl>
                 </listBibl>
                 
