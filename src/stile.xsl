@@ -371,9 +371,6 @@
                 <xsl:variable name="lry" select="@lry" />
                 <xsl:variable name="width" select="translate(../tei:graphic/@width, 'px', '')" />
                 <xsl:variable name="height" select="translate(../tei:graphic/@height, 'px', '')" />
-                <!--  <xsl:variable name="ratio" select="350 div $width" />
-                     <xsl:variable name="w" select="$width * $ratio" />
-                     <xsl:variable name="h" select="$height * $ratio" />-->
                 
                 <xsl:element name="area">
                     <xsl:attribute name="shape">rect</xsl:attribute>
@@ -384,6 +381,16 @@
                     <xsl:attribute name="id">
                         <xsl:value-of select="@xml:id" />
                     </xsl:attribute>
+                    <xsl:attribute name="style">
+                        position: absolute;
+                        left: <xsl:value-of select="$ulx" />; <!-- ??? -->
+                        top: <xsl:value-of select="$uly" />; <!-- ??? -->
+                        width: <xsl:value-of select="($lrx - $ulx)" />;
+                        height: <xsl:value-of select="($lry - $uly)" />;
+                        <!-- background-color: rgba(220, 220, 255, 0.3);
+                             z-index: 2; -->
+                     </xsl:attribute>
+                    
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
