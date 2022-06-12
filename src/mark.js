@@ -3,7 +3,9 @@ $(document).ready(function () {
   click1 = 0;
   click2 = 0;
   click3 = 0;
+  click4 = 0;
   click5 = 0;
+  frombuttreg = false;
 
   function control(click, vettore, color) {
     if (click % 2 == 1) {
@@ -31,6 +33,7 @@ $(document).ready(function () {
 
   $("#reg").on("click", function () {
     click1 += 1;
+    frombuttreg= true;
 
     $("reg").fadeIn();
 
@@ -88,6 +91,22 @@ $(document).ready(function () {
     }
   });
 
+  $(".expan").hide();
+
+  $("#abbreviazioni").on("click", function () {
+    click4 += 1;
+
+    if (click4 % 2 == 1) {
+      $(".abbr").css("font-weight", "bold");
+      $(".expan").fadeIn();
+    }
+
+    if (click4 % 2 == 0) {
+      $(".abbr").css("font-weight", "normal");
+      $(".expan").fadeOut();
+    }
+  });
+
 
   $('orig').on("mouseover",function () {
     
@@ -95,15 +114,19 @@ $(document).ready(function () {
     $(this).next().show();
     $(this).hide();
     $(this).next().css("background", "red");
+    frombuttreg = false;
 
   });
 
   $('reg').on("mouseleave",function () {
     
+    if(!frombuttreg) {
     $('orig').css("background", "none");
     $('orig').show();
     $('reg').hide();
     $('reg').css("background", "none");
+
+    }
 
   });
 
@@ -116,6 +139,7 @@ $(document).ready(function () {
   $('.abbr').on("mouseleave",function () {
     
     $('.expan').hide();
+
   });
 
 
