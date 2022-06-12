@@ -387,9 +387,7 @@
                         top: <xsl:value-of select="$uly" />; <!-- ??? -->
                         width: <xsl:value-of select="($lrx - $ulx)" />;
                         height: <xsl:value-of select="($lry - $uly)" />;
-                        <!-- background-color: rgba(220, 220, 255, 0.3);
-                             z-index: 2; -->
-                     </xsl:attribute>
+                    </xsl:attribute>
                     
                 </xsl:element>
             </xsl:for-each>
