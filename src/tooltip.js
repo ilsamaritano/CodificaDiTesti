@@ -96,7 +96,12 @@ $(document).ready(function () {
   });
 
   $(document).on("mouseover", ".numeroRiga", function (g) {
-    target = $(this);
+
+    id = $(this).attr("id");
+
+    $("P10_R"+id).html("Suca");
+
+   /* target = $(this);
 
     target.css("background", "antiquewhite");
 
@@ -111,7 +116,7 @@ $(document).ready(function () {
       $(arra[i]).css("background", "antiquewhite");
     }
 
-    /* const el = document.getElementsByClassName("testoorig");
+   const el = document.getElementsByClassName("testoorig");
     const elNodes = el.childNodes;
     let plainText = "";
     for(i=0;i<elNodes.length;i++){
@@ -122,7 +127,7 @@ $(document).ready(function () {
     console.log(plainText); // prints TEXT THAT I ONLY NEED */
   });
 
-  $(document).on("mouseout", ".numeroRiga", function (g) {
+ /* $(document).on("mouseout", ".numeroRiga", function (g) {
     target = $(this);
 
     target.css("background", "none");
@@ -137,5 +142,5 @@ $(document).ready(function () {
     for (i = 0; i < arra.length; i++) {
       $(arra[i]).css("background", "none");
     }
-  });
-});
+  });  */
+ });
