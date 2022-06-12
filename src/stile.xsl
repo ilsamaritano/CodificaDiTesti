@@ -384,14 +384,7 @@
                     <xsl:attribute name="id">
                         <xsl:value-of select="@xml:id" />
                     </xsl:attribute>
-                    <!--<xsl:attribute name="style">
-                         position: absolute;
-                         left: <xsl:value-of select="$ulx" />;
-                         top: <xsl:value-of select="$uly" />;
-                         width: <xsl:value-of select="($lrx - $ulx)" />;
-                         height: <xsl:value-of select="($lry - $uly)" />; 
-                         </xsl:attribute> -->
-                 </xsl:element>
+                </xsl:element>
             </xsl:for-each>
         </xsl:element>
     </xsl:template>
