@@ -303,7 +303,7 @@
                     n'est pas <term ref="#symtrq">symétrique</term> à <mentioned xml:lang="fr" rend="underline">punirai</mentioned>.
                 </ab>
                 <ab type="paragrafo" n="9" xml:id="P2_1O_Par9">
-                    C'est sur une <term ref="#anlg"><emph rend="underline">analogie</emph></term>
+                    C'est sur une <term ref="#anlg" rend="underline">analogie</term>
                     <lb xml:id="P2_10_L19" n="19" facs="#P10_R18" />
                     que s'effectue le <term ref="#rsnm">raisonnement</term> qui est à la base du <term ref="#phnm"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term>. <!-- Abbreviazione-->
                     Plus
