@@ -375,7 +375,7 @@
                 <xsl:element name="area">
                     <xsl:attribute name="shape">rect</xsl:attribute>
                     <xsl:attribute name="coords">
-                        <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)" />
+                        <xsl:value-of select="concat(@ulx*0.2, ',', @uly*0.2, ',', @lrx*0.2, ',', @lry*0.2)" />
                     </xsl:attribute>
                     
                     <xsl:attribute name="id">
@@ -383,10 +383,10 @@
                     </xsl:attribute>
                     <xsl:attribute name="style">
                         position: absolute;
-                        left: <xsl:value-of select="$ulx" />; <!-- ??? -->
-                        top: <xsl:value-of select="$uly" />; <!-- ??? -->
-                        width: <xsl:value-of select="($lrx - $ulx)" />;
-                        height: <xsl:value-of select="($lry - $uly)" />;
+                        left: <xsl:value-of select="$ulx *0.2" />;
+                        top: <xsl:value-of select="$uly *0.2" />;
+                        width: <xsl:value-of select="($lrx - $ulx) *0.2" />;
+                        height: <xsl:value-of select="($lry - $uly) *0.2" />;
                     </xsl:attribute>
                     
                 </xsl:element>
