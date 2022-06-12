@@ -357,6 +357,10 @@
             <xsl:attribute name="src">
                 <xsl:value-of select="concat(@xml:id, '.jpg')" />
             </xsl:attribute>
+            <xsl:attribute name="width">350px</xsl:attribute>
+            <xsl:attribute name="usemap">
+                <xsl:value-of select="concat('#Pagemap_', @xml:id)" />
+            </xsl:attribute>
         </xsl:element>
         
         <xsl:element name="map">
@@ -395,9 +399,7 @@
                         top: <xsl:value-of select="$uly * $ratio" />; <!-- ??? -->
                         width: <xsl:value-of select="($lrx - $ulx) * $ratio" />;
                         height: <xsl:value-of select="($lry - $uly) * $ratio" />;
-                        <!-- background-color: rgba(220, 220, 255, 0.3);
-                             z-index: 2; -->
-                     </xsl:attribute>
+                    </xsl:attribute>
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
