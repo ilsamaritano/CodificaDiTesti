@@ -236,7 +236,7 @@
                     <term ref="#RdSignification">rapport de <abbr>signific<am>.</am></abbr><expan><ex>ation</ex></expan></term>
                 </ab>
                 <ab type="paragrafo" n="3" xml:id="P2_1O_N1">                    <!-- NOTA A MARGINE -->
-                    Sans la présence de ces <term ref="#el">éléments</term>, <mentioned xml:lang="fr">venirai</mentioned> est <abbr>simpl</abbr><expan><ex>ement</ex></expan><abbr>imp<am>.</am></abbr><expan><ex>ossible</ex></expan>
+                    Sans la présence de ces <term ref="#el">éléments</term>, <mentioned xml:lang="fr">venirai</mentioned> est <abbr>simpl</abbr><expan><ex>ement</ex></expan>  <abbr>imp<am>.</am></abbr><expan><ex>ossible</ex></expan>
                 </ab>
                 <ab type="paragrafo" n="4" xml:id="P2_1O_Par4">
                     Il n’y aura donc jamais de 
@@ -366,7 +366,7 @@
                             et la netteté
                         </add>
                     </mod>
-                    de notre <term ref="#memoire">mémoire</term><del rend="overstrike">fus</del>
+                    de notre <term ref="#memoire">mémoire</term> <del rend="overstrike">fus</del>
                     <lb xml:id="P2_10_L30" n="30" facs="#P10_R30" />
                     étaient <abbr>infin<am>.</am></abbr><expan><ex>iment</ex></expan> <abbr>supér<am>.</am></abbr><expan><ex>ieures</ex></expan> à ce qu’elles sont <choice><orig>est</orig><reg></reg></choice> les <term ref="#formnouvelles">formations nouvelles</term>
                     <lb xml:id="P2_10_L31" n="31" facs="#P10_R31" />
@@ -399,7 +399,7 @@
                     <lb xml:id="P2_11_L6" n="6" facs="#P11_R6" />
                     si l’on <del rend="overstrike">citait des</del> demandait à <choice><orig>1</orig><reg>un</reg></choice> <term ref="#mineralogiste">minéralogiste</term> de <term ref="#citer">citer</term> des <term ref="#mineraux">minéraux</term>,
                     <lb xml:id="P2_11_L7" n="7" facs="#P11_R7" />
-                    ou à <choice><orig>1</orig><reg>un</reg></choice> <term ref="astron"><abbr>astron<am>.</am></abbr><expan><ex>ome</ex></expan></term> de citer quelques <term ref="#etoiles">étoiles</term>, <del rend="overstrike">c'est</del>
+                    ou à <choice><orig>1</orig><reg>un</reg></choice> <term ref="#astron"><abbr>astron<am>.</am></abbr><expan><ex>ome</ex></expan></term> de citer quelques <term ref="#etoiles">étoiles</term>, <del rend="overstrike">c'est</del>
                 </ab>
                 <ab type="paragrafo" n="3" xml:id="P2_11_Par3">
                     je commence par le dire pour
@@ -432,7 +432,7 @@
                     et nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph><!--VIRGOLA--> nous <emph rend="underline">lavons</emph></mentioned>
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_11_Par7">
-                    <term ref="pretforts">Prétérits forts</term> <!--glott--> allemands presque <choice><orig>tj.</orig><reg>toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
+                    <term ref="#pretforts">Prétérits forts</term> <!--glott--> allemands presque <choice><orig>tj.</orig><reg>toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
                         <lb xml:id="P2_11_L15" n="15" facs="#P11_R15" />
                         <emph rend="underline">lieh</emph>, <emph rend="underline">liehen</emph> ; <emph rend="underline">band</emph>, <emph rend="underline">banden</emph> ; <emph rend="underline">half</emph>, <emph rend="underline">halfen</emph> ;
                         <lb xml:id="P2_11_L16" n="16" facs="#P11_R16" />
@@ -448,7 +448,7 @@
                     <lb xml:id="P2_11_L18" n="18" facs="#P11_R18" />
                     parce que
                     <lb xml:id="P2_11_L19" n="19" facs="#P11_R19" />
-                    <choice><orig></orig><reg><mentioned xml:lang="fr">grandis</mentioned> <term ref="masc">masc.</term> et <term ref="fem">fém.</term>.</reg></choice>. Déjà au <date>XIe siècle</date> <mentioned xml:lang="fr" rend="underline">grande</mentioned>.
+                    <choice><orig></orig><reg><mentioned xml:lang="fr">grandis</mentioned> <term ref="#masc">masc.</term> et <term ref="fem">fém.</term>.</reg></choice>. Déjà au <date>XIe siècle</date> <mentioned xml:lang="fr" rend="underline">grande</mentioned>.
                 </ab>
                 <ab type="paragrafo" n="10" xml:id="P2_11_Par9">
                     <lb xml:id="P2_11_L20" n="20" facs="#P11_R20" />
@@ -456,7 +456,7 @@
                     <lb xml:id="P2_11_L21" n="21" facs="#P11_R21" />
                     <del rend="overstrike"></del> Une femme ne dit plus <mentioned xml:lang="fr" rend="underline">je me décollette</mentioned>,
                     <lb xml:id="P2_11_L22" n="22" facs="#P11_R22" />
-                    mais<!-- IN PIU --> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <choice><orig></orig><reg>!</reg></choice> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref="fdanalogie"><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
+                    mais<!-- IN PIU --> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <choice><orig></orig><reg>!</reg></choice> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref="#fdanalogie"><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
                     <del rend="overstike"><gap reason="illegible" /></del>             
                 </ab>
                 <ab type="paragrafo" n="11" xml:id="P2_11_Par10">
@@ -757,6 +757,16 @@
                     <item>
                         <gloss target="#idee" xml:lang="it" source="https://it.wikipedia.org/wiki/Idea">
                             <hi rend="bold">Idea</hi> è un termine usato sin dagli albori della filosofia, indicante in origine un'essenza primordiale e sostanziale, ma che oggi ha assunto nel linguaggio comune un significato più ristretto, riferibile in genere ad una rappresentazione o un "disegno" della mente.
+                        </gloss>
+                    </item>
+                     
+                       <label>
+                        <term xml:id="cnsqnt" xml:lang="fr">conséquent</term>
+                        <term ref="#cnsqnt" xml:lang="it">conseguenza</term>
+                    </label>
+                     <item>
+                        <gloss target="#cnsqnt" xml:lang="it" source="https://www.treccani.it/vocabolario/conseguenza_%28Sinonimi-e-Contrari%29/">
+                        Conseguenza: conclusione che si deduce logicamente da una premessa.
                         </gloss>
                     </item>
                     
@@ -1135,6 +1145,16 @@
                             Femminile
                         </gloss>
                     </item>
+
+                     <label>
+                        <term xml:id="masc" xml:lang="fr">masc.</term>
+                        <term ref="#masc" xml:lang="it">masc.</term>
+                    </label>
+                    <item>
+                        <gloss target="#masc" xml:lang="it">
+                            Maschile
+                        </gloss>
+                    </item>
                     
                     <label>
                         <term xml:id="fdanalogie" xml:lang="fr">formation d’analogie</term>
@@ -1144,7 +1164,7 @@
                         <gloss target="#fdanalogie" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
                             Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
                         </gloss>
-                    </item> 
+                    </item>
                 </list>
                 
                 <listPerson>
