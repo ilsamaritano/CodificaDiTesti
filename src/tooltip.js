@@ -99,7 +99,7 @@ $(document).ready(function () {
 
     id = $(this).attr("id");
 
-    rid = "P10_R"+id;
+    rid = $("P10_R"+id).attr("shape");
 
     alert(rid);
 
