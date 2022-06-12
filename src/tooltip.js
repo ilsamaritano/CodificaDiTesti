@@ -99,7 +99,9 @@ $(document).ready(function () {
 
     id = $(this).attr("id");
 
-    $("P10_R"+id).html("Suca");
+    rid = $("P10_R"+id).attr("shape");
+
+    alert(rid);
 
    /* target = $(this);
 
