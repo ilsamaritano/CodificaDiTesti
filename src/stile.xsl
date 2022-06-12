@@ -103,11 +103,6 @@
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10']" />
                             <xsl:apply-templates select="//tei:surface[@xml:id='P2_10R']" />
                         </div>
-                    <div id="zoom-tool-bar">
-                        </div>
-                        <script type="text/javascript" src="JS/bar.js">
-                            
-                        </script>
                         <div class="testoorig">
                             <h3>Testo originale</h3>
                             <xsl:apply-templates select="//tei:body/tei:div[@n = '10']" />
