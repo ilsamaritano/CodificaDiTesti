@@ -370,11 +370,7 @@
                 <xsl:variable name="uly" select="@uly" />
                 <xsl:variable name="lrx" select="@lrx" />
                 <xsl:variable name="lry" select="@lry" />
-                <xsl:variable name="width" select="translate(../tei:graphic/@width, 'px', '')" />
-                <xsl:variable name="height" select="translate(../tei:graphic/@height, 'px', '')" />
                 <xsl:variable name="ratio" select="400 div 4032" />
-                <xsl:variable name="widthR" select="@width * $ratio" />
-                <xsl:variable name="heightR" select="@height * $ratio" />
                 
                 <xsl:element name="area">
                     <xsl:attribute name="shape">rect</xsl:attribute>

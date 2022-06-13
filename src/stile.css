@@ -24,7 +24,7 @@ body {
   /* display: inline-block; */
   /* grid-template-columns: 12% 88%; */
   width: fit-content;
-  margin: 50px auto 50px auto;
+  margin: 50px auto 80px auto;
 }
 
 h1 {
@@ -229,6 +229,7 @@ div.gaps {
   margin-right: 330px;
   text-transform: uppercase;
   font-size: 14px;
+  height: 10px;
 }
 #fenomeni > div.legenda > ul > li > span {
   width: 35px;
