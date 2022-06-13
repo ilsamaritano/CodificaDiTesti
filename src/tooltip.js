@@ -95,13 +95,13 @@ $(document).ready(function () {
     }); // A questo punto faccio apparire il tooltip
   });
 
- /* $(document).on("mouseover", ".numeroRiga", function (g) {
+ $(document).on("mouseover", ".numeroRiga", function (g) {
 
     id = $(this).attr("id");
     rid = "P10_R"+id;
 
-    /* $("#P10_R"+id).wrapInner("<div class='new'></div>"); 
-    /* $(".new").html(`Ciao sono l'area che stai chiamando con id sul testo ${id} e sul manoscritto ${rid}`);
+    /* $("#P10_R"+id).wrapInner("<div class='new'></div>");  */
+    /* $(".new").html(`Ciao sono l'area che stai chiamando con id sul testo ${id} e sul manoscritto ${rid}`); */
     $("#P10_R"+id).css("background", "antiquewhite");
     $(".new").css("font-weight", "bold"); 
 
@@ -121,7 +121,7 @@ $(document).ready(function () {
       $(arra[i]).css("background", "antiquewhite");
     }
 
-   const el = document.getElementsByClassName("testoorig");
+   /* const el = document.getElementsByClassName("testoorig");
     const elNodes = el.childNodes;
     let plainText = "";
     for(i=0;i<elNodes.length;i++){
@@ -147,5 +147,5 @@ $(document).ready(function () {
     for (i = 0; i < arra.length; i++) {
       $(arra[i]).css("background", "none");
     }
-  });  
- }); */
+  }); */ 
+ }); 
