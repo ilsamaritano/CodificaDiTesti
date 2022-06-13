@@ -28,7 +28,8 @@ var nextUntil = function (elem, selector) {
   return siblings;
 };
 
-$(document).ready(function () {
+$(function() {
+
   $(".tooltipTermine").css("display", "none");
   $(".tooltipLuogo").css("display", "none");
   $(".tooltipPersona").css("display", "none");
@@ -95,7 +96,7 @@ $(document).on("mouseover", ".author", function (f) {
     }); // A questo punto faccio apparire il tooltip
   });
 
-$(document).on("mouseover", ".numeroRiga", function (g) {    // Evidenzia la riga
+$(document).on("mouseover", ".numeroRiga", function () {    // Evidenzia la riga
 
     id = $(this).attr("id");
     rid = "P10_R"+id;
@@ -105,9 +106,7 @@ $(document).on("mouseover", ".numeroRiga", function (g) {    // Evidenzia la rig
     target = $(this);
 
     target.css("background", "antiquewhite");
-  });
-
-  $(document).on("mouseout", ".numeroRiga", function (g) {
+  }).on("mouseout", ".numeroRiga", function () {
 
     $("#P10_R"+id).css("background", "none");
     target = $(this);
