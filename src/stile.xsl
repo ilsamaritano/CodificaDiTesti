@@ -387,8 +387,8 @@
                     </xsl:attribute>
                     <xsl:attribute name="style">
                         position: absolute;
-                        top: <xsl:value-of select="concat(1796+($uly * $ratio), 'px')" />;
-                        left: <xsl:value-of select="concat(110+($ulx * $ratio), 'px')" />;
+                        top: <xsl:value-of select="concat(($uly * $ratio), 'px')" />;
+                        left: <xsl:value-of select="concat(($ulx * $ratio), 'px')" />;
                         width: <xsl:value-of select="concat(($lrx - $ulx) * $ratio, 'px')" />;
                         height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
                         opacity: 0.5;
