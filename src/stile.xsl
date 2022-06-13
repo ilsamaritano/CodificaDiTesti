@@ -362,10 +362,6 @@
             <xsl:attribute name="src">
                 <xsl:value-of select="concat(@xml:id, '.jpg')" />
             </xsl:attribute>
-            <xsl:attribute name="width">350px</xsl:attribute>
-            <xsl:attribute name="usemap">
-                <xsl:value-of select="concat('#Pagemap_', @xml:id)" />
-            </xsl:attribute>
         </xsl:element>
         
         <xsl:element name="map">
@@ -376,6 +372,9 @@
                 <xsl:variable name="lry" select="@lry" />
                 <xsl:variable name="width" select="translate(../tei:graphic/@width, 'px', '')" />
                 <xsl:variable name="height" select="translate(../tei:graphic/@height, 'px', '')" />
+                <xsl:variable name="ratio" select="500 div @width" />
+                <xsl:variable name="widthR" select="@width * $ratio" />
+                <xsl:variable name="heightR" select="@height * $ratio" />
                 
                 <xsl:element name="area">
                     <xsl:attribute name="shape">rect</xsl:attribute>
