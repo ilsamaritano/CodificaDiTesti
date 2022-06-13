@@ -100,8 +100,6 @@ $(document).ready(function () {
     id = $(this).attr("id");
     rid = "P10_R"+id;
 
-    /* $("#P10_R"+id).wrapInner("<div class='new'></div>");  */
-    /* $(".new").html(`Ciao sono l'area che stai chiamando con id sul testo ${id} e sul manoscritto ${rid}`); */
     $("#P10_R"+id).css("background", "antiquewhite");
 
 
@@ -131,7 +129,7 @@ $(document).ready(function () {
     console.log(plainText); // prints TEXT THAT I ONLY NEED */
   });
 
-  $(document).on("mouseover", ".numeroRiga", function (g) {
+  $(document).on("mouseout", ".numeroRiga", function (g) {
 
     $("#P10_R"+id).css("background", "none");
 
