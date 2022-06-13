@@ -96,10 +96,9 @@ $(document).on("mouseover", ".author", function (f) {
     }); // A questo punto faccio apparire il tooltip
   });
 
-$(document).on("mouseover", ".numeroRiga", function () {    // Evidenzia la riga
+$(document).on("mouseover", ".numeroRiga", function() {    // Evidenzia la riga
 
     id = $(this).attr("id");
-    rid = "P10_R"+id;
 
     $("#P10_R"+id).css("background", "antiquewhite");
 
@@ -111,6 +110,21 @@ $(document).on("mouseover", ".numeroRiga", function () {    // Evidenzia la riga
     $("#P10_R"+id).css("background", "none");
     target = $(this);
     target.css("background", "none");
+
+  });
+
+
+$(document).on("mouseover", "area", function(){    // Evidenzia la riga
+
+    aid = $(this).attr("id");
+
+    $(".numeroRiga #"+aid).css("background", "antiquewhite");
+
+  }).on("mouseout", "area", function() {
+
+    mid = $(this).attr("id");
+
+    $(".numeroRiga #"+mid).css("background", "none");
 
   });
 
