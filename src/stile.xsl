@@ -385,14 +385,29 @@
                     <xsl:attribute name="id">
                         <xsl:value-of select="@xml:id" />
                     </xsl:attribute>
-                    <xsl:attribute name="style">
-                        position: absolute;
-                        top: <xsl:value-of select="concat(1796+($uly * $ratio), 'px')" />;
-                        left: <xsl:value-of select="concat(110+($ulx * $ratio), 'px')" />;
-                        width: <xsl:value-of select="concat(($lrx - $ulx) * $ratio, 'px')" />;
-                        height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
-                        opacity: 0.5;
-                    </xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="starts-with(@xml:id, 'P10')">
+                            <xsl:attribute name="style">
+                                position: absolute;
+                                top: <xsl:value-of select="concat(1796+($uly * $ratio), 'px')" />;
+                                left: <xsl:value-of select="concat(80+($ulx * $ratio), 'px')" />;
+                                width: <xsl:value-of select="concat(($lrx - $ulx) * $ratio, 'px')" />;
+                                height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
+                                opacity: 0.5;
+                            </xsl:attribute>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="style">
+                                position: absolute;
+                                top: <xsl:value-of select="concat(3036+($uly * $ratio), 'px')" />;
+                                left: <xsl:value-of select="concat(110+($ulx * $ratio), 'px')" />;
+                                width: <xsl:value-of select="concat(($lrx - $ulx) * $ratio, 'px')" />;
+                                height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
+                                opacity: 0.5;
+                            </xsl:attribute>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
