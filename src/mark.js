@@ -71,16 +71,6 @@ $(document).ready(function () {
       $("del").fadeIn();
       $(".gaps").fadeIn();
 
-      vettore = $("area");
-
-      for(i=0;i<=vettore.length;i++) {
-    
-      results.push(getComputedStyle(vettore[i]).match(/top: \d*.\d*/));
-      d = c[0].match(/\d+.\d+/);
-      a = parseFloat(d);
-      a+=10;
-
-      }
  }
     if (click5 % 2 == 0) {
       $("del").fadeOut();
