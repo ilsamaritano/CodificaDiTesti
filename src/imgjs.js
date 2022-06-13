@@ -80,15 +80,6 @@ $(document).ready(function () {
   });
 
 
-  $("img[src='P2_10.jpg']").hover(
-    function() {
-        $(this).animate({ 'zoom': 4 }, 400);
-    },
-    function() {
-        $(this).animate({ 'zoom': 1 }, 400);
-    });
-
-
 });
 
 
