@@ -103,23 +103,22 @@ $(document).ready(function () {
     /* $("#P10_R"+id).wrapInner("<div class='new'></div>");  */
     /* $(".new").html(`Ciao sono l'area che stai chiamando con id sul testo ${id} e sul manoscritto ${rid}`); */
     $("#P10_R"+id).css("background", "antiquewhite");
-    $(".new").css("font-weight", "bold"); 
 
 
     target = $(this);
 
     target.css("background", "antiquewhite");
 
-    arr = target.getParent(0).nextUntil(".numeroRiga");
+    /* arr = target.getParent(0).nextUntil(".numeroRiga");
     arra = target.getParent(0).nextUntil(".numeroRiga").contents();
 
     for (i = 0; i < arr.length; i++) {
       $(arr[i]).css("background", "antiquewhite");
-    }
+    } 
 
     for (i = 0; i < arra.length; i++) {
       $(arra[i]).css("background", "antiquewhite");
-    }
+    }  */
 
    /* const el = document.getElementsByClassName("testoorig");
     const elNodes = el.childNodes;
@@ -131,6 +130,13 @@ $(document).ready(function () {
     }
     console.log(plainText); // prints TEXT THAT I ONLY NEED */
   });
+
+  $(document).on("mouseover", ".numeroRiga", function (g) {
+
+    $("#P10_R"+id).css("background", "none");
+
+  });
+
 
  /* $(document).on("mouseout", ".numeroRiga", function (g) {
     target = $(this);
