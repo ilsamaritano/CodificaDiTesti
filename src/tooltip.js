@@ -1,14 +1,37 @@
-$(function() {
+jQuery.fn.getParent = function (num) {
+  var last = this[0];
+  for (var i = 0; i < num; i++) {
+    last = last.parentNode;
+  }
+  return jQuery(last);
+};
+
+var nextUntil = function (elem, selector) {
+  // Setup siblings array
+  var siblings = [];
+
+  // Get the next sibling element
+  elem = elem.nextElementSibling;
+
+  // As long as a sibling exists
+  while (elem) {
+    // If we've reached our match, bail
+    if (elem.matches(selector)) break;
+
+    // Otherwise, push it to the siblings array
+    siblings.push(elem);
+
+    // Get the next sibling element
+    elem = elem.nextElementSibling;
+  }
+
+  return siblings;
+};
+
+$(document).ready(function () {
   $(".tooltipTermine").css("display", "none");
   $(".tooltipLuogo").css("display", "none");
   $(".tooltipPersona").css("display", "none");
-  $('.testoorig').contents().each((i, c) => {
-    // wrap text content nodes with a span
-    if (c.nodeType === 3) {
-      $(c).wrap('<span class="new-span" />');
-    }
-  });
-});
 
   $(document).on("mouseover", ".termini", function (e) {
     e.preventDefault();
@@ -70,21 +93,63 @@ $(function() {
     $(document).tooltip({
       tooltipClass: "tooltip-styling-place",
     }); // A questo punto faccio apparire il tooltip
-});
+  });
+
+ $(document).on("mouseover", ".numeroRiga", function (g) {
+
+    id = $(this).attr("id");
+    rid = "P10_R"+id;
+
+    $("#P10_R"+id).css("background", "antiquewhite");
 
 
-/******************************************** */
+    target = $(this);
 
-$(document).on('mouseover', '.numeroRiga', function() {
-  id = $(this).attr("id");
-  const target = $(this);
-  const lineEls = target.nextUntil('.numeroRiga').add(target);
-  rid = "P10_R"+id;
+    target.css("background", "antiquewhite");
 
-  lineEls.css('background', 'antiquewhite');
-  $("#P10_R"+id).css("background", "antiquewhite");
-})
-.on('mouseout', '.numeroRiga', function() {
-  $('.testoorig').children().css('background', '');
-  $("#P10_R"+id).css("background", '');
-});
+    /* arr = target.getParent(0).nextUntil(".numeroRiga");
+    arra = target.getParent(0).nextUntil(".numeroRiga").contents();
+
+    for (i = 0; i < arr.length; i++) {
+      $(arr[i]).css("background", "antiquewhite");
+    } 
+
+    for (i = 0; i < arra.length; i++) {
+      $(arra[i]).css("background", "antiquewhite");
+    }  */
+
+   /* const el = document.getElementsByClassName("testoorig");
+    const elNodes = el.childNodes;
+    let plainText = "";
+    for(i=0;i<elNodes.length;i++){
+       if(elNodes[i].nodeName == '#text'){
+         plainText+=elNodes[i].textContent;
+       }
+    }
+    console.log(plainText); // prints TEXT THAT I ONLY NEED */
+  });
+
+  $(document).on("mouseout", ".numeroRiga", function (g) {
+
+    $("#P10_R"+id).css("background", "none");
+    target = $(this);
+    target.css("background", "none");
+
+  });
+
+
+ /* $(document).on("mouseout", ".numeroRiga", function (g) {
+    
+
+    arr = target.getParent(0).nextUntil(".numeroRiga");
+    arra = target.getParent(0).nextUntil(".numeroRiga").contents();
+
+    for (i = 0; i < arr.length; i++) {
+      $(arr[i]).css("background", "none");
+    }
+
+    for (i = 0; i < arra.length; i++) {
+      $(arra[i]).css("background", "none");
+    }
+  }); */ 
+ }); 
