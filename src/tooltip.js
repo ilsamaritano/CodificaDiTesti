@@ -59,7 +59,7 @@ $(document).ready(function () {
     }); // A questo punto faccio apparire il tooltip
   });
 
-  $(document).on("mouseover", ".placeName", function (f) {
+$(document).on("mouseover", ".placeName", function (f) {
     f.preventDefault();
 
     target = $(f.target);
@@ -77,7 +77,7 @@ $(document).ready(function () {
     }); // A questo punto faccio apparire il tooltip
   });
 
-  $(document).on("mouseover", ".author", function (f) {
+$(document).on("mouseover", ".author", function (f) {
     f.preventDefault();
 
     target = $(f.target);
@@ -95,61 +95,24 @@ $(document).ready(function () {
     }); // A questo punto faccio apparire il tooltip
   });
 
- $(document).on("mouseover", ".numeroRiga", function (g) {
+$(document).on("mouseover", ".numeroRiga", function (g) {    // Evidenzia la riga
 
     id = $(this).attr("id");
     rid = "P10_R"+id;
 
     $("#P10_R"+id).css("background", "antiquewhite");
 
-
     target = $(this);
 
     target.css("background", "antiquewhite");
-
-    /* arr = target.getParent(0).nextUntil(".numeroRiga");
-    arra = target.getParent(0).nextUntil(".numeroRiga").contents();
-
-    for (i = 0; i < arr.length; i++) {
-      $(arr[i]).css("background", "antiquewhite");
-    } 
-
-    for (i = 0; i < arra.length; i++) {
-      $(arra[i]).css("background", "antiquewhite");
-    }  */
-
-   /* const el = document.getElementsByClassName("testoorig");
-    const elNodes = el.childNodes;
-    let plainText = "";
-    for(i=0;i<elNodes.length;i++){
-       if(elNodes[i].nodeName == '#text'){
-         plainText+=elNodes[i].textContent;
-       }
-    }
-    console.log(plainText); // prints TEXT THAT I ONLY NEED */
   });
 
   $(document).on("mouseout", ".numeroRiga", function (g) {
 
     $("#P10_R"+id).css("background", "none");
+    target = $(this);
+    target.css("background", "none");
 
   });
 
-
- /* $(document).on("mouseout", ".numeroRiga", function (g) {
-    target = $(this);
-
-    target.css("background", "none");
-
-    arr = target.getParent(0).nextUntil(".numeroRiga");
-    arra = target.getParent(0).nextUntil(".numeroRiga").contents();
-
-    for (i = 0; i < arr.length; i++) {
-      $(arr[i]).css("background", "none");
-    }
-
-    for (i = 0; i < arra.length; i++) {
-      $(arra[i]).css("background", "none");
-    }
-  }); */ 
- }); 
+}); 
