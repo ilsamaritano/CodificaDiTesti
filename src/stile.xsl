@@ -394,7 +394,6 @@
                         height: <xsl:value-of select="concat(($lry - $uly) *0.2, 'px')" />;
                         opacity: 0.5;
                     </xsl:attribute>
-                    
                 </xsl:element>
             </xsl:for-each>
         </xsl:element>
