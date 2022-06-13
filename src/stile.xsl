@@ -393,7 +393,6 @@
                         width: <xsl:value-of select="concat(($lrx - $ulx) *0.2, 'px')" />;
                         height: <xsl:value-of select="concat(($lry - $uly) *0.2, 'px')" />;
                         opacity: 0.5;
-                        background-color: antiquewhite;
                     </xsl:attribute>
                     
                 </xsl:element>
