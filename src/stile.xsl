@@ -372,7 +372,7 @@
                 <xsl:variable name="lry" select="@lry" />
                 <xsl:variable name="width" select="translate(../tei:graphic/@width, 'px', '')" />
                 <xsl:variable name="height" select="translate(../tei:graphic/@height, 'px', '')" />
-                <xsl:variable name="ratio" select="500 div 4032" />
+                <xsl:variable name="ratio" select="400 div 4032" />
                 <xsl:variable name="widthR" select="@width * $ratio" />
                 <xsl:variable name="heightR" select="@height * $ratio" />
                 
@@ -388,7 +388,7 @@
                     <xsl:attribute name="style">
                         position: absolute;
                         left: <xsl:value-of select="concat(90+($ulx * $ratio), 'px')" />;
-                        top: <xsl:value-of select="concat(1797+($uly * $ratio), 'px')" />;
+                        top: <xsl:value-of select="concat(1818+($uly * $ratio), 'px')" />;
                         width: <xsl:value-of select="concat(($lrx - $ulx) * $ratio, 'px')" />;
                         height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
                         opacity: 0.5;
