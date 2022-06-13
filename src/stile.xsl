@@ -91,10 +91,10 @@
                     </div>
                     
                 </div>
-
-
-
-
+                
+                
+                
+                
                 <article id="p10">
                     <h2> Pagina 10 </h2>
                     <button type="button" id="ruotapag10"> Mostra retro </button>
@@ -388,10 +388,10 @@
                     </xsl:attribute>
                     <xsl:attribute name="style">
                         position: absolute;
-                        left: <xsl:value-of select="$ulx *0.2" />;
-                        top: <xsl:value-of select="$uly *0.2" />;
-                        width: <xsl:value-of select="($lrx - $ulx) *0.2" />;
-                        height: <xsl:value-of select="($lry - $uly) *0.2" />;
+                        left: <xsl:value-of select="concat($ulx *0.2, 'px')" />;
+                        top: <xsl:value-of select="concat($uly *0.2, 'px')" />;
+                        width: <xsl:value-of select="concat(($lrx - $ulx) *0.2, 'px')" />;
+                        height: <xsl:value-of select="concat(($lry - $uly) *0.2, 'px')" />;
                     </xsl:attribute>
                     
                 </xsl:element>
