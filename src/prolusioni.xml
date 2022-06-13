@@ -152,7 +152,7 @@
             <zone ulx="283" uly="1875" lrx="3659" lry="2017" xml:id="P10_R12"/>
             <zone ulx="788" uly="2078" lrx="3659" lry="2132" xml:id="P10_R13" />
             <zone ulx="350" uly="2186" lrx="3625" lry="2269" xml:id="P10_R14" />
-            <zone ulx="1020" uly="1777" lrx="3538" lry="1838" xml:id="P10_R15" />
+            <zone ulx="1020" uly="1777" lrx="3538" lry="1838" xml:id="P10_R15" /><!--ERRORE-->
             <zone ulx="824" uly="2354" lrx="3701" lry="2393" xml:id="P10_R16" />
             <zone ulx="839" uly="2478" lrx="3710" lry="2553" xml:id="P10_R17" />
             <zone ulx="869" uly="2592" lrx="3713" lry="2701" xml:id="P10_R18" />
