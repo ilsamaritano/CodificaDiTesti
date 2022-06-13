@@ -95,7 +95,7 @@ $(document).ready(function () {
     }); // A questo punto faccio apparire il tooltip
   });
 
-  $(document).on("mouseover", ".numeroRiga", function (g) {
+  $(document).on("click", ".numeroRiga", function (g) {
 
     id = $(this).attr("id");
     rid = "P10_R"+id;
