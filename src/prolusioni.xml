@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Preambolo definizione XML -->
 <?xml-stylesheet type="text/xsl" href="stile.xsl"?>
-<!--Preambolo definizione di XSLT-->
 <!DOCTYPE TEI SYSTEM "tei_all.dtd">
-<!-- Grammatica -->
+<!-- Prologo -->
 
+<!-- Body -->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -759,14 +758,14 @@
                             <hi rend="bold">Idea</hi> è un termine usato sin dagli albori della filosofia, indicante in origine un'essenza primordiale e sostanziale, ma che oggi ha assunto nel linguaggio comune un significato più ristretto, riferibile in genere ad una rappresentazione o un "disegno" della mente.
                         </gloss>
                     </item>
-                     
-                       <label>
+                    
+                    <label>
                         <term xml:id="cnsqnt" xml:lang="fr">conséquent</term>
                         <term ref="#cnsqnt" xml:lang="it">conseguenza</term>
                     </label>
-                     <item>
+                    <item>
                         <gloss target="#cnsqnt" xml:lang="it" source="https://www.treccani.it/vocabolario/conseguenza_%28Sinonimi-e-Contrari%29/">
-                        Conseguenza: conclusione che si deduce logicamente da una premessa.
+                            Conseguenza: conclusione che si deduce logicamente da una premessa.
                         </gloss>
                     </item>
                     
@@ -1145,8 +1144,8 @@
                             Femminile
                         </gloss>
                     </item>
-
-                     <label>
+                    
+                    <label>
                         <term xml:id="masc" xml:lang="fr">masc.</term>
                         <term ref="#masc" xml:lang="it">masc.</term>
                     </label>
