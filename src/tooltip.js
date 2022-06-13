@@ -100,9 +100,9 @@ $(document).ready(function () {
     id = $(this).attr("id");
     rid = "P10_R"+id;
 
-    $("#P10_R"+id).wrapInner("<div class='new'></div>");
+    /* $("#P10_R"+id).wrapInner("<div class='new'></div>"); */
     /* $(".new").html(`Ciao sono l'area che stai chiamando con id sul testo ${id} e sul manoscritto ${rid}`); */
-    $(".new").css("color", "brown");
+    $("#P10_R"+id).css("background", "antiquewhite");
     $(".new").css("font-weight", "bold");
 
 
