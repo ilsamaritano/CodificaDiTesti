@@ -148,11 +148,11 @@
             <zone ulx="819" uly="1270" lrx="3606" lry="1331" xml:id="P10_R7" />
             <zone ulx="799" uly="1395" lrx="3644" lry="1475" xml:id="P10_R8" />
             <zone ulx="796" uly="1528" lrx="3683" lry="1614" xml:id="P10_R9" />
-            <!-- RIGA 10 -->
+            <zone ulx="325" uly="1564" lrx="3485" lry="1698" xml:id="P10_R10"/>
             <zone ulx="1020" uly="1777" lrx="3538" lry="1838" xml:id="P10_R11" />
-            <!-- RIGA 12 -->
+            <zone ulx="283" uly="1875" lrx="3659" lry="2017" xml:id="P10_R12"/>
             <zone ulx="788" uly="2078" lrx="3659" lry="2132" xml:id="P10_R13" />
-            <!-- RIGA 14 r-->
+            <zone ulx="350" uly="2186" lrx="3625" lry="2269" xml:id="P10_R14" />
             <zone ulx="1020" uly="1777" lrx="3538" lry="1838" xml:id="P10_R15" />
             <zone ulx="824" uly="2354" lrx="3701" lry="2393" xml:id="P10_R16" />
             <zone ulx="839" uly="2478" lrx="3710" lry="2553" xml:id="P10_R17" />
