@@ -372,14 +372,14 @@
                 <xsl:variable name="lry" select="@lry" />
                 <xsl:variable name="width" select="translate(../tei:graphic/@width, 'px', '')" />
                 <xsl:variable name="height" select="translate(../tei:graphic/@height, 'px', '')" />
-                <xsl:variable name="ratio" select="500 div @width" />
+                <xsl:variable name="ratio" select="500 div 4032" />
                 <xsl:variable name="widthR" select="@width * $ratio" />
                 <xsl:variable name="heightR" select="@height * $ratio" />
                 
                 <xsl:element name="area">
                     <xsl:attribute name="shape">rect</xsl:attribute>
                     <xsl:attribute name="coords">
-                        <xsl:value-of select="concat(@ulx*0.2, ',', @uly*0.2, ',', @lrx*0.2, ',', @lry*0.2)" />
+                        <xsl:value-of select="concat(@ulx, ',', @uly, ',', @lrx, ',', @lry)" />
                     </xsl:attribute>
                     
                     <xsl:attribute name="id">
@@ -387,10 +387,10 @@
                     </xsl:attribute>
                     <xsl:attribute name="style">
                         position: absolute;
-                        left: <xsl:value-of select="concat( $ulx *0.2, 'px')" />;
-                        top: <xsl:value-of select="concat(1791 + $uly *0.2, 'px')" />;
-                        width: <xsl:value-of select="concat(($lrx - $ulx) *0.2, 'px')" />;
-                        height: <xsl:value-of select="concat(($lry - $uly) *0.2, 'px')" />;
+                        left: <xsl:value-of select="concat(90+($ulx * $ratio), 'px')" />;
+                        top: <xsl:value-of select="concat(1797+($uly * $ratio), 'px')" />;
+                        width: <xsl:value-of select="concat(($lrx - $ulx) * $ratio, 'px')" />;
+                        height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
                         opacity: 0.5;
                     </xsl:attribute>
                 </xsl:element>
