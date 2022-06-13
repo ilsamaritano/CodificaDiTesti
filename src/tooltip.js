@@ -128,4 +128,5 @@ $(document).on("mouseover", "area", function(){    // Evidenzia la riga
 
   });
 
+
 }); 

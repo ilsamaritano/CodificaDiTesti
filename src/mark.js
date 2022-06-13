@@ -70,7 +70,8 @@ $(document).ready(function () {
     if (click5 % 2 == 1) {
       $("del").fadeIn();
       $(".gaps").fadeIn();
-    }
+
+ }
     if (click5 % 2 == 0) {
       $("del").fadeOut();
       $(".gaps").fadeOut();
