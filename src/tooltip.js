@@ -107,7 +107,9 @@ $(function () {
       $("#P10_R" + lastnum).css("background", "#9c4837");
       $("#P10_R" + lastnum).css("border", "2px solid #4c2f2f");
 
-      } else {
+      } else { 
+        $("#P11_R" + lastnum).attr("style").
+        
         $("#P11_R" + lastnum).css("background", "#9c4837");
         $("#P11_R" + lastnum).css("border", "2px solid #4c2f2f");
       }
@@ -131,7 +133,7 @@ $(function () {
 
       tid = $(this).attr("id");
 
-      alert("hai passato il mouse su " + tid);
+     /* alert("hai passato il mouse su " + tid);  */
     })
     .on("mouseout", "area", function () {
       
