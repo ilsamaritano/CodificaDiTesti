@@ -113,7 +113,7 @@ $(function () {
       $("#P10_R" + id).css("background", "none");
       target = $(this);
       target.css("background", "none");
-      target.css("border", "none");
+      target.css("border", "0");
     });
 
   $(document)
