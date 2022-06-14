@@ -75,14 +75,14 @@ $(document).ready(function () {
 
       if (index < 34) {
 
-          add = parseFloat(init_top) + 10;
+          add = parseFloat(init_top) +10;
 
           $(element).css("top", add);
 
 
           } else {
 
-          $(element).css("top", init_top + 10);
+          $(element).css("top", init_top + 60);
           }
 
       });
@@ -104,7 +104,7 @@ $(document).ready(function () {
     
               } else {
     
-              $(element).css("top", init_top-10);
+              $(element).css("top", init_top-60);
               }
     
           });

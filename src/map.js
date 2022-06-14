@@ -40,9 +40,9 @@ $(function() {
         
                     if (index < 34) {
         
-                        add = parseFloat(init_top) - parseFloat(distance10);
+                        sottr = parseFloat(init_top) - parseFloat(distance10);
         
-                        $(element).css("top", add);
+                        $(element).css("top", sottr);
         
         
                         } else {
