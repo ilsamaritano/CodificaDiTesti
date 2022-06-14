@@ -88,6 +88,7 @@
                                     </label> 
                                 </div>
                             </div>
+                            <button type="button" id="map">Mappa</button>
                         </div>
                     </div>
                     

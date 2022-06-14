@@ -1,5 +1,5 @@
 
-$(window).on("load", () => {
+$("#map").on("click", () => {
 
         immagini10 = $("img[src='P2_10.jpg']");
 
