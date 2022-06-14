@@ -102,8 +102,15 @@ $(function () {
       id = $(this).attr("id");
       lastnum = id.substr(7, );
 
+      if(id.startsWith("P2_10")) {
+
       $("#P10_R" + lastnum).css("background", "#9c4837");
       $("#P10_R" + lastnum).css("border", "2px solid #4c2f2f");
+
+      } else {
+        $("#P11_R" + lastnum).css("background", "#9c4837");
+        $("#P11_R" + lastnum).css("border", "2px solid #4c2f2f");
+      }
 
       target = $(this);
 
