@@ -28,8 +28,7 @@ var nextUntil = function (elem, selector) {
   return siblings;
 };
 
-$(function() {
-
+$(function () {
   $(".tooltipTermine").css("display", "none");
   $(".tooltipLuogo").css("display", "none");
   $(".tooltipPersona").css("display", "none");
@@ -60,7 +59,7 @@ $(function() {
     }); // A questo punto faccio apparire il tooltip
   });
 
-$(document).on("mouseover", ".placeName", function (f) {
+  $(document).on("mouseover", ".placeName", function (f) {
     f.preventDefault();
 
     target = $(f.target);
@@ -78,7 +77,7 @@ $(document).on("mouseover", ".placeName", function (f) {
     }); // A questo punto faccio apparire il tooltip
   });
 
-$(document).on("mouseover", ".author", function (f) {
+  $(document).on("mouseover", ".author", function (f) {
     f.preventDefault();
 
     target = $(f.target);
@@ -96,37 +95,53 @@ $(document).on("mouseover", ".author", function (f) {
     }); // A questo punto faccio apparire il tooltip
   });
 
-$(document).on("mouseover", ".numeroRiga", function() {    // Evidenzia la riga
+  $(document)
+    .on("mouseover", ".numeroRiga", function () {
+      // Evidenzia la riga
 
-    id = $(this).attr("id");
+      id = $(this).attr("id");
 
-    $("#P10_R"+id).css("background", "antiquewhite");
+      $("#P10_R" + id).css("background", "antiquewhite");
 
-    target = $(this);
+      target = $(this);
 
-    target.css("background", "antiquewhite");
-  }).on("mouseout", ".numeroRiga", function () {
+      target.css("background", "antiquewhite");
+    })
+    .on("mouseout", ".numeroRiga", function () {
+      $("#P10_R" + id).css("background", "none");
+      target = $(this);
+      target.css("background", "none");
+    });
 
-    $("#P10_R"+id).css("background", "none");
-    target = $(this);
-    target.css("background", "none");
+  $(document)
+    .on("mouseover", ".numeroRiga", function () {
+      // Evidenzia la riga
 
-  });
+      id = $(this).attr("id");
 
+      $("#P11_R" + id).css("background", "antiquewhite");
 
-$(document).on("mouseover", "area", function(){    // Evidenzia la riga
+      target = $(this);
 
-    aid = $(this).attr("id");
+      target.css("background", "antiquewhite");
+    })
+    .on("mouseout", ".numeroRiga", function () {
+      $("#P11_R" + id).css("background", "none");
+      target = $(this);
+      target.css("background", "none");
+    });
 
-    $(".numeroRiga #"+aid).css("background", "antiquewhite");
+  $(document)
+    .on("mouseover", "area", function () {
+      // Evidenzia la riga
 
-  }).on("mouseout", "area", function() {
+      aid = $(this).attr("id");
 
-    mid = $(this).attr("id");
+      $(".numeroRiga #" + aid).css("background", "antiquewhite");
+    })
+    .on("mouseout", "area", function () {
+      mid = $(this).attr("id");
 
-    $(".numeroRiga #"+mid).css("background", "none");
-
-  });
-
-
-}); 
+      $(".numeroRiga #" + mid).css("background", "none");
+    });
+});
