@@ -127,6 +127,8 @@ $(function () {
     .on("mouseout", ".numeroRiga", function () {
       $(`#P10_R${lastnum}`).css("background", "none");
       $(`#P10_R${lastnum}`).css("border", "");
+      $(`#P11_R${lastnum}`).css("background", "none");
+      $(`#P11_R${lastnum}`).css("border", "");
       target = $(this);
       target.css("background", "none");
       target.css("border", "");

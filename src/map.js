@@ -4,7 +4,6 @@ $(window).on("load", () => {
         immagini10 = $("img[src='P2_10.jpg']");
 
         distance10 = immagini10[0].offsetTop;
-        alert(distance10);
 
         immagini11 = $("img[src='P2_11.jpg']");
 
