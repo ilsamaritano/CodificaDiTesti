@@ -153,8 +153,8 @@
             <zone ulx="788" uly="2078" lrx="3659" lry="2132" xml:id="P10_R13" />
             <zone ulx="350" uly="2186" lrx="3625" lry="2269" xml:id="P10_R14" />
             <zone ulx="812" uly="2278" lrx="3714" lry="2387" xml:id="P10_R15" />
-            <zone ulx="824" uly="2354" lrx="3701" lry="2393" xml:id="P10_R16" />
-            <zone ulx="839" uly="2478" lrx="3710" lry="2553" xml:id="P10_R17" />
+            <zone ulx="808" uly="2450" lrx="3714" lry="2570" xml:id="P10_R16" />
+            <zone ulx="863" uly="2567" lrx="3736" lry="2730"  xml:id="P10_R17" />
             <zone ulx="869" uly="2592" lrx="3713" lry="2701" xml:id="P10_R18" />
             <zone ulx="897" uly="2885" lrx="3683" lry="2948" xml:id="P10_R19" />
             <zone ulx="900" uly="3019" lrx="3710" lry="3119" xml:id="P10_R20" />
@@ -167,7 +167,7 @@
             <zone ulx="1035" uly="4017" lrx="3722" lry="4065" xml:id="P10_R27" />
             <zone ulx="1014" uly="4140" lrx="3689" lry="4180" xml:id="P10_R28" />
             <zone ulx="1035" uly="4279" lrx="3656" lry="4315" xml:id="P10_R29" />
-            <zone ulx="1035" uly="4397" lrx="3622" lry="4409" xml:id="P10_R30" />
+            <zone ulx="994" uly="4370" lrx="3623" lry="4450" xml:id="P10_R30" />
             <zone ulx="1077" uly="4472" lrx="3616" lry="4541" xml:id="P10_R31" />
         </surface>
         
