@@ -111,9 +111,10 @@ $(function () {
     })
     .on("mouseout", ".numeroRiga", function () {
       $("#P10_R" + id).css("background", "none");
+      $("#P10_R" + id).css("border", "");
       target = $(this);
       target.css("background", "none");
-      target.css("border", '');
+      target.css("border", "");
     });
 
   $(document)
