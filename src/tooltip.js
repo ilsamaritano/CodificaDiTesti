@@ -29,9 +29,43 @@ var nextUntil = function (elem, selector) {
 };
 
 $(function () {
+
   $(".tooltipTermine").css("display", "none");
   $(".tooltipLuogo").css("display", "none");
   $(".tooltipPersona").css("display", "none");
+
+  tops = [];
+
+  immagini10 = $("img[src='P2_10.jpg']");
+
+  distance10 = immagini10[0].getBoundingClientRect().top + window.scrollY;
+
+  immagini11 = $("img[src='P2_11.jpg']");
+
+  distance11 = immagini11[0].getBoundingClientRect().top + window.scrollY;
+
+
+  $("area").each(function(index, element) {
+    
+   init_top = parseFloat($(element).css("top"));
+   
+   if(index<34) {
+
+  $(element).css("top", init_top+distance10);
+
+
+   } else {
+
+    $(element).css("top", init_top+distance11);
+   }
+
+  });
+
+   
+
+ // b = a.match(/top: \d*.\d*/)
+
+ // d = b[0].match(/\d+.\d+/);
 
   $(document).on("mouseover", ".termini", function (e) {
     e.preventDefault();
@@ -107,8 +141,7 @@ $(function () {
       $("#P10_R" + lastnum).css("background", "#9c4837");
       $("#P10_R" + lastnum).css("border", "2px solid #4c2f2f");
 
-      } else { 
-        $("#P11_R" + lastnum).attr("style").
+      } else {
         
         $("#P11_R" + lastnum).css("background", "#9c4837");
         $("#P11_R" + lastnum).css("border", "2px solid #4c2f2f");
