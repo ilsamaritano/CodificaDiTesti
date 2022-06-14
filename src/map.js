@@ -1,5 +1,6 @@
+$(function() {
 
-$("#map").on("click", () => {
+ $("#map").one("click", function () {
 
         immagini10 = $("img[src='P2_10.jpg']");
 
@@ -29,3 +30,4 @@ $("#map").on("click", () => {
         });
 
     });
+});
