@@ -129,9 +129,11 @@ $(function () {
     .on("mouseover", "area", function () {
       // Evidenzia la riga dall'area
 
-      alert("hai passato il mouse");
+      tid = $(this).attr("id");
+
+      alert("hai passato il mouse su " + tid);
     })
     .on("mouseout", "area", function () {
-      alert("hai levato il mouse");
+      
     });
 });
