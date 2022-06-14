@@ -301,3 +301,6 @@ body > article:nth-child(6) {
 #map {
   margin-right: 26px;
 }
+.numeroRiga > b {
+  cursor: pointer;
+}
