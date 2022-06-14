@@ -97,7 +97,7 @@ $(function () {
 
   $(document)
     .on("mouseover", ".numeroRiga", function () {
-      // Evidenzia la riga
+      // Evidenzia l'area dalla riga
 
       id = $(this).attr("id");
       lastnum = id.substr(7, );
@@ -127,15 +127,11 @@ $(function () {
 
   $(document)
     .on("mouseover", "area", function () {
-      // Evidenzia la riga
+      // Evidenzia la riga dall'area
 
-      aid = $(this).attr("id");
-
-      $(".numeroRiga #" + aid).css("background", "antiquewhite");
+      alert("hai passato il mouse");
     })
     .on("mouseout", "area", function () {
-      mid = $(this).attr("id");
-
-      $(".numeroRiga #" + mid).css("background", "none");
+      alert("hai levato il mouse");
     });
 });
