@@ -47,11 +47,13 @@ $(function () {
 
   $("area").each(function(index, element) {
     
-   init_top = parseInt($(element).css("top"));
+   init_top = parseFloat($(element).css("top"));
    
    if(index<34) {
 
-  $(element).css("top", init_top+distance10);
+    add = parseFloat(init_top)+parseFloat(distance10);
+
+   $(element).css("top", add);
 
 
    } else {
