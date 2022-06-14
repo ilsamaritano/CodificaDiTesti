@@ -38,11 +38,11 @@ $(function () {
 
   immagini10 = $("img[src='P2_10.jpg']");
 
-  distance10 = immagini10[0].getBoundingClientRect().top;
+  distance10 = immagini10[0].getBoundingClientRect().top + window.scrollY;
 
   immagini11 = $("img[src='P2_11.jpg']");
 
-  distance11 = immagini11[0].getBoundingClientRect().top;
+  distance11 = immagini11[0].getBoundingClientRect().top + window.scrollY;
 
 
   $("area").each(function(index, element) {
