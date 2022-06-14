@@ -101,16 +101,19 @@ $(function () {
 
       id = $(this).attr("id");
 
-      $("#P10_R" + id).css("background", "antiquewhite");
+      $("#P10_R" + id).css("background", "#9c4837");
+      $("#P10_R" + id).css("border", "1px solid #4c2f2f");
 
       target = $(this);
 
-      target.css("background", "antiquewhite");
+      target.css("background", "#9c4837");
+      target.css("border", "1px solid #4c2f2f");
     })
     .on("mouseout", ".numeroRiga", function () {
       $("#P10_R" + id).css("background", "none");
       target = $(this);
       target.css("background", "none");
+      target.css("border", "none");
     });
 
   $(document)
@@ -119,16 +122,19 @@ $(function () {
 
       id = $(this).attr("id");
 
-      $("#P11_R" + id).css("background", "antiquewhite");
+      $("#P11_R" + id).css("background", "#9c4837");
+      $("#P11_R" + id).css("border", "2px solid #4c2f2f");
 
       target = $(this);
 
-      target.css("background", "antiquewhite");
+      target.css("background", "#9c4837");
+      target.css("border", "2px solid #4c2f2f");
     })
     .on("mouseout", ".numeroRiga", function () {
       $("#P11_R" + id).css("background", "none");
       target = $(this);
       target.css("background", "none");
+      target.css("border", "none");
     });
 
   $(document)
