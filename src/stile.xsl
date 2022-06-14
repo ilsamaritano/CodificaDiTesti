@@ -16,6 +16,7 @@
                 <script src="tooltip.js"></script>
                 <script src="imgjs.js"></script>
                 <script src="mark.js"></script>
+                <script src="map.js"></script>
                 <link href="stile.css" rel="stylesheet" type="text/css"/>
             </head>
             <body>
