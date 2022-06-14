@@ -297,3 +297,7 @@ body > article:nth-child(6) {
 #p10 > h2 {
   margin-bottom: 0;
 }
+
+#map {
+  margin-right: 26px;
+}
