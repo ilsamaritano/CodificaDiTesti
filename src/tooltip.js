@@ -47,7 +47,7 @@ $(function () {
 
   $("area").each(function(index, element) {
     
-   init_top = parseFloat($(element).css("top"));
+   init_top = parseInt($(element).css("top"));
    
    if(index<34) {
 
