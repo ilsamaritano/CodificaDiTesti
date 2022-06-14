@@ -100,9 +100,10 @@ $(function () {
       // Evidenzia la riga
 
       id = $(this).attr("id");
+      lastnum = id.substr(7, );
 
-      $("#P10_R" + id).css("background", "#9c4837");
-      $("#P10_R" + id).css("border", "2px solid #4c2f2f");
+      $("#P10_R" + lastnum).css("background", "#9c4837");
+      $("#P10_R" + lastnum).css("border", "2px solid #4c2f2f");
 
       target = $(this);
 
@@ -110,8 +111,8 @@ $(function () {
       target.css("border", "2px solid #4c2f2f");
     })
     .on("mouseout", ".numeroRiga", function () {
-      $("#P10_R" + id).css("background", "none");
-      $("#P10_R" + id).css("border", "");
+      $(`#P10_R${lastnum}`).css("background", "none");
+      $(`#P10_R${lastnum}`).css("border", "");
       target = $(this);
       target.css("background", "none");
       target.css("border", "");
