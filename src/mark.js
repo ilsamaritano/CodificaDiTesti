@@ -67,6 +67,51 @@ $(document).ready(function () {
   $("#del").on("click", () => {
     click5 += 1;
 
+    if ($("#map").prop("checked") == true) {
+
+    $("area").each(function (index, element) {
+
+      init_top = parseFloat($(element).css("top"));
+
+      if (index < 34) {
+
+          add = parseFloat(init_top) + 10;
+
+          $(element).css("top", add);
+
+
+          } else {
+
+          $(element).css("top", init_top + 10);
+          }
+
+      });
+
+    }  else {
+
+    if($("#map").prop("checked") == false) {
+
+        $("area").each(function (index, element) {
+
+          init_top = parseFloat($(element).css("top"));
+    
+          if (index < 34) {
+    
+              sottr = parseFloat(init_top) - 10;
+    
+              $(element).css("top", sottr);
+    
+    
+              } else {
+    
+              $(element).css("top", init_top-10);
+              }
+    
+          });
+      }
+    }
+
+
     if (click5 % 2 == 1) {
       $("del").fadeIn();
       $(".gaps").fadeIn();
@@ -78,7 +123,7 @@ $(document).ready(function () {
     }
   });
 
-  $('input[type="checkbox"]').click(function () {
+  $('#gap').click(function () {
     if ($(this).prop("checked") == true) {
       gaps = $(".gap");
 

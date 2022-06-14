@@ -82,13 +82,17 @@
                                 <button type="button" id="esling">Esempi linguistici</button>
                                 <div class="gaps">
                                     <label class="container">
-                                        <input type="checkbox">
+                                        <input type="checkbox" id="gap">
                                         </input>
                                         Gap
                                     </label> 
                                 </div>
                             </div>
-                            <button type="button" id="map">Mappa</button>
+                            <label class="container">
+                                        <input type="checkbox" id="map">
+                                        </input>
+                                        Visualizza la mappa
+                                    </label> 
                         </div>
                     </div>
                     
