@@ -102,28 +102,7 @@ $(function () {
       id = $(this).attr("id");
 
       $("#P10_R" + id).css("background", "#9c4837");
-      $("#P10_R" + id).css("border", "1px solid #4c2f2f");
-
-      target = $(this);
-
-      target.css("background", "#9c4837");
-      target.css("border", "1px solid #4c2f2f");
-    })
-    .on("mouseout", ".numeroRiga", function () {
-      $("#P10_R" + id).css("background", "none");
-      target = $(this);
-      target.css("background", "none");
-      target.css("border", "none");
-    });
-
-  $(document)
-    .on("mouseover", ".numeroRiga", function () {
-      // Evidenzia la riga
-
-      id = $(this).attr("id");
-
-      $("#P11_R" + id).css("background", "#9c4837");
-      $("#P11_R" + id).css("border", "2px solid #4c2f2f");
+      $("#P10_R" + id).css("border", "2px solid #4c2f2f");
 
       target = $(this);
 
@@ -131,7 +110,7 @@ $(function () {
       target.css("border", "2px solid #4c2f2f");
     })
     .on("mouseout", ".numeroRiga", function () {
-      $("#P11_R" + id).css("background", "none");
+      $("#P10_R" + id).css("background", "none");
       target = $(this);
       target.css("background", "none");
       target.css("border", "none");
