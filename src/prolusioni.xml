@@ -425,7 +425,7 @@
                     <lb xml:id="P2_11_L13" n="13" facs="#P11_R13" />
                     mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <choice><orig></orig><reg resp="#EF">,</reg></choice> nous  <choice><orig></orig><reg resp="#EF">,</reg></choice> <emph rend="underline">lavons</emph></mentioned> et
                     <lb xml:id="P2_11_L14" n="14" facs="#P11_R14" />
-                    et nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph>  <choice><orig></orig><reg resp="#EF">,</reg></choice> nous <emph rend="underline">lavons</emph></mentioned>
+                    nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph>  <choice><orig></orig><reg resp="#EF">,</reg></choice> nous <emph rend="underline">lavons</emph></mentioned>
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_11_Par7">
                     <lb xml:id="P2_11_L15" n="15" facs="#P11_R15" />
