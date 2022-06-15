@@ -1,5 +1,37 @@
 $(function() {
 
+const area = $("area");
+
+function regolaAltezza(aree) {
+
+        immagini10 = $("img[src='P2_10.jpg']");
+    
+        distance10 = immagini10[0].offsetTop;
+    
+        immagini11 = $("img[src='P2_11.jpg']");
+    
+        distance11 = immagini11[0].offsetTop;
+    
+        $(aree).each(function (index, element) {
+    
+          init = parseFloat($(element).css("top"));
+    
+          if (index < 34) {
+    
+              aggiunta = parseFloat(init) + parseFloat(distance10);
+    
+              $(element).css("top", aggiunta);
+    
+    
+              } else {
+    
+              $(element).css("top", init + distance11);
+              }
+    
+          });
+    
+      }
+
  $("#map").on("click", function () {
 
     $("#abbreviazioni").prop("disabled", true);
@@ -16,7 +48,12 @@ $(function() {
 
     if ($(this).prop("checked") == true) {
 
-        $("area").each(function (index, element) {
+        if($("del").css("display") != "none") {
+
+            regolaAltezza($(area));
+        }
+
+        $(area).each(function (index, element) {
 
             init_top = parseFloat($(element).css("top"));
 
@@ -42,7 +79,7 @@ $(function() {
                 $("#del").prop("disabled", false);
                 $("#reg").prop("disabled", false);
 
-                $("area").each(function (index, element) {
+                $(area).each(function (index, element) {
 
                     init_top = parseFloat($(element).css("top"));
         

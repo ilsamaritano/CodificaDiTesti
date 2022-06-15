@@ -7,6 +7,7 @@ $(document).ready(function () {
   click5 = 0;
   frombuttreg = false;
 
+
   function control(click, vettore, color) {
     if (click % 2 == 1) {
       for (i = 0; i <= vettore.length; i++) {
@@ -67,25 +68,9 @@ $(document).ready(function () {
   $("#del").on("click", () => {
     click5 += 1;
 
-    if ($("#map").prop("checked") == true) {
+   /* if ($("#map").prop("checked") == true) {
 
-    $("area").each(function (index, element) {
-
-      init_top = parseFloat($(element).css("top"));
-
-      if (index < 34) {
-
-          add = parseFloat(init_top) +10;
-
-          $(element).css("top", add);
-
-
-          } else {
-
-          $(element).css("top", init_top + 60);
-          }
-
-      });
+      regolaAltezza();
 
     }   else {
 
@@ -109,7 +94,7 @@ $(document).ready(function () {
     
           });
       } 
-    }
+    } */
 
 
     if (click5 % 2 == 1) {
