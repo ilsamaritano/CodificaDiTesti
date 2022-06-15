@@ -429,7 +429,7 @@
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_11_Par7">
                     <lb xml:id="P2_11_L15" n="15" facs="#P11_R15" />
-                    <term ref="#pretforts">Prétérits forts</term> <!--glott--> allemands presque <choice><orig>tj.</orig><reg resp="#EF">toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
+                    <term ref="#pretforts">Prétérits forts</term> <term ref="#allemands"><lang>allemands</lang></term>  presque <choice><orig>tj.</orig><reg resp="#EF">toujours</reg></choice> <mentioned xml:lang="de">zog, <del rend="overstrike"><gap reason="illegible"/></del> wir zogen,
                         <lb xml:id="P2_11_L16" n="16" facs="#P11_R16" />
                         <emph rend="underline">lieh</emph>, <emph rend="underline">liehen</emph> ; <emph rend="underline">band</emph>, <emph rend="underline">banden</emph> ; <emph rend="underline">half</emph>, <emph rend="underline">halfen</emph> ;
                         <lb xml:id="P2_11_L17" n="17" facs="#P11_R17" />
@@ -1157,6 +1157,16 @@
                     <item>
                         <gloss target="#fdanalogie" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
                             Proprio dell’<hi rend="bold">analogia</hi>, che si fonda sull’<hi rend="bold">analogia</hi>, ottenuto o formato per <hi rend="bold">analogia</hi>.
+                        </gloss>
+                    </item>
+                    
+                    <label>
+                        <term xml:id="allemands" xml:lang="fr">allemands</term>
+                        <term ref="#allemands" xml:lang="it">lingua tedesca</term>
+                    </label>
+                    <item>
+                        <gloss target="#allemands" xml:lang="it" source="https://it.wikipedia.org/wiki/Analogia">
+                            Il <hi rend="bold">tedesco</hi> è una lingua indoeuropea appartenente al ramo occidentale delle lingue germaniche.
                         </gloss>
                     </item>
                 </list>
