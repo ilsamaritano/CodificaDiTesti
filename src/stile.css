@@ -228,7 +228,7 @@ img.icon {
 .lang {
   background-color: rgb(0, 29, 0);
   font-weight: bold;
-  color: #fff
+  color: #fff;
 }
 
 div.gaps {
@@ -256,12 +256,16 @@ label.container {
 }
 
 #fenomeni > div.legenda > ul > li:nth-child(3) > span {
-  background: rgb(223, 237, 255);
+  background-color: rgb(0, 29, 0);
 }
 
 #fenomeni > div.legenda > ul > li:nth-child(4) > span {
+  background: rgb(223, 237, 255);
+}
+#fenomeni > div.legenda > ul > li:nth-child(5) > span {
   background-color: green;
 }
+
 #fenomeni > div.legenda > ul {
   font-size: 14px;
   display: flex;

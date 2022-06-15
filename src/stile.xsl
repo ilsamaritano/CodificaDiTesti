@@ -66,6 +66,7 @@
                                 <ul class='legend-labels'>
                                     <li><span></span>Correzione</li>
                                     <li><span></span>Termine</li>
+                                    <li><span></span>Glottonimo</li>
                                     <li><span></span>Es. linguistico</li>
                                     <li><span></span>Gap</li>
                                     <li><b>&lt;&gt;</b><br />Nota a margine</li>
@@ -210,15 +211,15 @@
     <xsl:template match="tei:reg">
         <reg><xsl:apply-templates /></reg>
     </xsl:template>
-
+    
     <!-- Glottonimo -->
     <xsl:template match="tei:lang">
         <xsl:element name="span">
-        <xsl:attribute name="class">lang</xsl:attribute>
-        <xsl:apply-templates />
+            <xsl:attribute name="class">lang</xsl:attribute>
+            <xsl:apply-templates />
         </xsl:element>
     </xsl:template>
-
+    
     
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
