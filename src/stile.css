@@ -113,6 +113,7 @@ ul li a {
 .flexbox div {
   margin: 2%;
   line-height: 1.6em;
+  min-width: 400px;
 }
 #ruotapag10 {
   /* bottom: 300px; */
@@ -230,6 +231,9 @@ div.gaps {
   font-size: 14px;
   height: 10px;
 }
+label.container {
+  margin-right: 30px;
+}
 #fenomeni > div.legenda > ul > li > span {
   width: 35px;
   height: 25px;
@@ -298,9 +302,6 @@ body > article:nth-child(6) {
   margin-bottom: 0;
 }
 
-#map {
-  margin-right: 26px;
-}
 .numeroRiga > b {
   cursor: pointer;
 }

@@ -423,9 +423,9 @@
                     <add place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous <emph rend="underline">trouvons</emph>, <add place="above">comme je <emph rend="underline">meurs</emph>, nous mourons</add> </mentioned>
                     Pourquoi ? il y a une raison excellente
                     <lb xml:id="P2_11_L13" n="13" facs="#P11_R13" />
-                    mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <!--VIRGOLA--> nous <!--VIRGOLA--> <emph rend="underline">lavons</emph></mentioned> et
+                    mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <choice><orig></orig><reg>,</reg></choice> nous  <choice><orig></orig><reg>,</reg></choice> <emph rend="underline">lavons</emph></mentioned> et
                     <lb xml:id="P2_11_L14" n="14" facs="#P11_R14" />
-                    et nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph><!--VIRGOLA--> nous <emph rend="underline">lavons</emph></mentioned>
+                    et nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph>  <choice><orig></orig><reg>,</reg></choice> nous <emph rend="underline">lavons</emph></mentioned>
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_11_Par7">
                     <lb xml:id="P2_11_L15" n="15" facs="#P11_R15" />
@@ -472,7 +472,7 @@
                 </ab>
             </div>
             
-            <!-- Traduzione --> <!-- vanno aggiunti i tag fr -->
+            <!-- Traduzione -->
             <div type="traduzionepag10">
                 <ab n="1" corresp="#P2_10_Par1" xml:lang="it">
                     in forme esistenti fornite dalla memoria;
