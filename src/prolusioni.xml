@@ -219,7 +219,7 @@
                 <!-- Page beginnng -->
                 <ab type="paragrafo" n="1" xml:id="P2_1O_Par1">
                     <lb xml:id="P2_10_L1" n="1" facs="#P10_R1" />
-                    <!-- Line beginnng -->
+                    <!-- Line beginning -->
                     <choice><orig>d</orig><reg resp="#EF">dans</reg></choice> des                    <term ref="#formes">formes</term> existantes fournies par la <term ref="#memoire">mémoire</term>;
                 </ab>
                 <ab type="paragrafo" n="2" xml:id="P2_1O_Par2">
@@ -233,8 +233,23 @@
                     <lb xml:id="P2_10_L3" n="3" facs="#P10_R3" />
                     <term ref="#RdSignification">rapport de <abbr>signific<am>.</am></abbr><expan><ex>ation</ex></expan></term>
                 </ab>
-                <ab type="paragrafo" n="3" xml:id="P2_1O_N1">                    <!-- NOTA A MARGINE -->
-                    Sans la présence de ces <term ref="#el">éléments</term>, <mentioned xml:lang="fr">venirai</mentioned> est <abbr>simpl</abbr><expan><ex>ement</ex></expan>  <abbr>imp<am>.</am></abbr><expan><ex>ossible</ex></expan>
+                <ab type="paragrafo" n="3" xml:id="P2_1O_N1">   
+                    <add resp="#FDS" place="margin">                 <!-- NOTA A MARGINE -->
+                        <lb xml:id="P2_10_N1" n="1" facs="#P10_N1" />
+                        Sans la 
+                        <lb xml:id="P2_10_N2" n="2" facs="#P10_N2" />
+                        présence 
+                        <lb xml:id="P2_10_N3" n="3" facs="#P10_N3" />
+                        de ces 
+                        <lb xml:id="P2_10_N4" n="4" facs="#P10_N4" />
+                        <term ref="#el">éléments</term>, 
+                        <lb xml:id="P2_10_N5" n="5" facs="#P10_N5" />
+                        <mentioned xml:lang="fr">venirai</mentioned> 
+                        <lb xml:id="P2_10_N6" n="6" facs="#P10_N6" />
+                        est 
+                        <lb xml:id="P2_10_N7" n="7" facs="#P10_N7" />
+                        <abbr>simpl</abbr><expan><ex>ement</ex></expan>  <abbr>imp<am>.</am></abbr><expan><ex>ossible</ex></expan>
+                    </add>
                 </ab>
                 <ab type="paragrafo" n="4" xml:id="P2_1O_Par4">
                     Il n’y aura donc jamais de 
@@ -271,7 +286,7 @@
                         <gap reason="illegible" extent="12" atLeast="11" atMost="13" unit="chars"/>
                     </del>
                     <lb xml:id="P2_10_L10" n="10" facs="#P10_R10" />
-                    <add place="margin">sans jamais pouvoir</add> la briser la <term ref="#chn">chaîne</term> des <term ref="#eltr">éléments transmis</term> depuis l'<term ref="#orgndlng"><abbr>orig<am>.</am></abbr><expan><ex>ine</ex></expan> des langues.</term>
+                    <add resp="#FDS" place="margin">sans jamais pouvoir</add> la briser la <term ref="#chn">chaîne</term> des <term ref="#eltr">éléments transmis</term> depuis l'<term ref="#orgndlng"><abbr>orig<am>.</am></abbr><expan><ex>ine</ex></expan> des langues.</term>
                 </ab>
                 <ab type="paragrafo" n="6" xml:id="P2_1O_Par6">
                     <lb xml:id="P2_10_L11" n="11" facs="#P10_R11" />
@@ -323,7 +338,7 @@
                     
                     <mod type="subst">
                         <del rend="overwritten">l</del>     <!-- Modifica particolare: (la) viene sostituta da (sa) cancellando "l", scrivendoci sopra "s"-->
-                        <add place="superimposed">s</add>
+                        <add resp="#FDS" place="superimposed">s</add>
                     </mod>a
                     <term ref="#memoire">mémoire</term> n’a pas eu le temps encore d’<term ref="#emgsnr">emmagasiner</term>
                     <lb xml:id="P2_10_L26" n="26" facs="#P10_R26" />
@@ -332,7 +347,7 @@
                     bien obligé par <term ref="#cnsqnt">conséquent</term> de 
                     <mod type="subst">
                         <del>les</del>
-                        <add place="above">
+                        <add resp="#FDS" place="above">
                             <abbr>confecti</abbr><expan><ex>onner</ex></expan>    <!-- Altra modifica particolare: "les" viene cancellato e sopra scritta un'abbreviazione che sta per "confectionner" (confecti)-->
                         </add>
                     </mod>
@@ -352,13 +367,13 @@
                     
                     <mod type="subst">
                         <del rend="overstrike">nèoquené</del>          <!-- La parola nèoquene viene cancellata e sostituita sopra da un altro termine, illeggibile, che viene a sua volta cancellato -->
-                        <add place="above">
+                        <add resp="#FDS" place="above">
                             <del rend="overstrike"><gap reason="illegible" extent="5"/></del>
                         </add>
                     </mod>
                     <mod type="subst">
                         <del rend="overstrike">de la memoire</del>   <!-- La frase "de la memoire" viene cancellata e sostituita sopra da un'altra -->
-                        <add place="above">
+                        <add resp="#FDS" place="above">
                             et la netteté
                         </add>
                     </mod>
@@ -384,14 +399,14 @@
                 </ab>
                 <ab type="paragrafo" n="2" xml:id="P2_11_Par2">
                     <lb xml:id="P2_11_L5" n="5" facs="#P11_R5" />
-                    <add place="margin"><abbr>Demand</abbr><expan><ex>er</ex></expan> à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#linguiste"><abbr>lingui<am>.</am></abbr><expan><ex>ste</ex></expan></term> <emph rend="underline">de</emph></add> <term ref="#citer">citer</term>
+                    <add resp="#FDS" place="margin"><abbr>Demand</abbr><expan><ex>er</ex></expan> à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#linguiste"><abbr>lingui<am>.</am></abbr><expan><ex>ste</ex></expan></term> <emph rend="underline">de</emph></add> <term ref="#citer">citer</term>
                     
                     <mod type="subst">
                         <del rend="overwritten">l</del>     <!-- Modifica particolare: (les) viene sostituta da (des) cancellando "l", scrivendoci sopra "d"-->
-                        <add place="superimposed">d</add>
+                        <add resp="#FDS" place="superimposed">d</add>
                         
                     </mod>es <term ref="#formanalog">formations analogiques,</term>
-                    <del rend="overstrike">au linguistique</del>, c’est donc <add place="above"><!-- AGGIUNTA --></add> comme 
+                    <del rend="overstrike">au linguistique</del>, c’est donc <add resp="#FDS" place="above"><!-- AGGIUNTA --></add> comme 
                     <lb xml:id="P2_11_L6" n="6" facs="#P11_R6" />
                     si l’on <del rend="overstrike">citait des</del> demandait à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#mineralogiste">minéralogiste</term> de <term ref="#citer">citer</term> des <term ref="#mineraux">minéraux</term>,
                     <lb xml:id="P2_11_L7" n="7" facs="#P11_R7" />
@@ -405,9 +420,9 @@
                     à ces <term ref="#faits">faits</term>:
                 </ab>
                 <ab type="paragrafo" n="4" xml:id="P2_11_Par4">
-                    ce ne sont pas des <term ref="#faits">faits</term> exceptionnels <add place="above">et anecdotiques</add>, ce ne sont pas 
+                    ce ne sont pas des <term ref="#faits">faits</term> exceptionnels <add resp="#FDS" place="above">et anecdotiques</add>, ce ne sont pas 
                     <lb xml:id="P2_11_L10" n="10" facs="#P11_R10" />
-                    des <emph rend="underline">curiosités</emph> <add place="above">ou des <term ref="#anomalies">anomalies</term></add>,
+                    des <emph rend="underline">curiosités</emph> <add resp="#FDS" place="above">ou des <term ref="#anomalies">anomalies</term></add>,
                 </ab>
                 <ab type="paragrafo" n="5" xml:id="P2_11_Par5">
                     mais <del rend="overstrike">ce sont</del> c’est la <term ref="#substance">substance</term> la <choice><orig>+</orig><reg resp="#EF">plus</reg></choice> claire du <term ref="#langage">langage</term>
@@ -415,12 +430,12 @@
                     partout et à <term ref="#tepoque"><choice><orig>tt</orig><reg resp="#EF">toute</reg></choice>  
                         <mod type="subst">
                             <del rend="overwritten"><gap reason="illegible"></gap></del>
-                            <add place="superimposed">époque</add>
+                            <add resp="#FDS" place="superimposed">époque</add>
                         </mod></term> c’est son <term ref="#histoire">histoire</term> de tous les jours et de tous les <term ref="#temps">temps</term>
                 </ab>
                 <ab type="paragrafo" n="6" xml:id="P2_11_Par6">
                     <lb xml:id="P2_11_L12" n="12" facs="#P11_R12" />
-                    <add place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous <emph rend="underline">trouvons</emph>, <add place="above">comme je <emph rend="underline">meurs</emph>, nous mourons</add> </mentioned>
+                    <add resp="#FDS" place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous <emph rend="underline">trouvons</emph>, <add resp="#FDS" place="above">comme je <emph rend="underline">meurs</emph>, nous mourons</add> </mentioned>
                     Pourquoi ? il y a une raison excellente
                     <lb xml:id="P2_11_L13" n="13" facs="#P11_R13" />
                     mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <choice><orig></orig><reg resp="#EF">,</reg></choice> nous  <choice><orig></orig><reg resp="#EF">,</reg></choice> <emph rend="underline">lavons</emph></mentioned> et
@@ -441,7 +456,7 @@
                 </ab>
                 <ab type="paragrafo" n="9" xml:id="P2_11_Par8">
                     <lb xml:id="P2_11_L18" n="18" facs="#P11_R18" />
-                    On a dit <date><add place="above">pendant des</add> siècles</date> <mentioned xml:lang="fr">grand</mentioned>, <term ref="fem">fém.</term> <mentioned xml:lang="fr">grand</mentioned>, contre <mentioned xml:lang="fr" rend="underline">bon</mentioned> <term ref="#fem">fém.</term> <mentioned xml:lang="fr" rend="underline">bone</mentioned>,
+                    On a dit <date><add resp="#FDS" place="above">pendant des</add> siècles</date> <mentioned xml:lang="fr">grand</mentioned>, <term ref="fem">fém.</term> <mentioned xml:lang="fr">grand</mentioned>, contre <mentioned xml:lang="fr" rend="underline">bon</mentioned> <term ref="#fem">fém.</term> <mentioned xml:lang="fr" rend="underline">bone</mentioned>,
                     <lb xml:id="P2_11_L19" n="19" facs="#P11_R19" />
                     parce que
                     <lb xml:id="P2_11_L20" n="20" facs="#P11_R20" />
@@ -468,7 +483,7 @@
                 </ab>
                 <ab type="paragrafo" n="12" xml:id="P2_11_Par11">
                     <lb xml:id="P2_11_L27" n="27" facs="#P11_R27" />
-                    Très possible qu’on dise <choice><orig>1</orig><reg resp="#EF">une</reg></choice> fois <mentioned xml:lang="fr">j’<emph rend="underline">achte</emph></mentioned> (j’ai déjà entendu <add place="below"><mentioned xml:lang="fr">je <emph rend="underline">cachte</emph></mentioned></add> <add place="margin"><mentioned xml:lang="fr" rend="underline">récolter</mentioned></add>
+                    Très possible qu’on dise <choice><orig>1</orig><reg resp="#EF">une</reg></choice> fois <mentioned xml:lang="fr">j’<emph rend="underline">achte</emph></mentioned> (j’ai déjà entendu <add resp="#FDS" place="below"><mentioned xml:lang="fr">je <emph rend="underline">cachte</emph></mentioned></add> <add resp="#FDS" place="margin"><mentioned xml:lang="fr" rend="underline">récolter</mentioned></add>
                 </ab>
             </div>
             
