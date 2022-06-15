@@ -67,7 +67,7 @@ $(document).ready(function () {
   $("#del").on("click", () => {
     click5 += 1;
 
-    /* if ($("#map").prop("checked") == true) {
+    if ($("#map").prop("checked") == true) {
 
     $("area").each(function (index, element) {
 
@@ -109,7 +109,7 @@ $(document).ready(function () {
     
           });
       } 
-    } */
+    }
 
 
     if (click5 % 2 == 1) {
