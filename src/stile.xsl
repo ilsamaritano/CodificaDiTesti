@@ -210,12 +210,12 @@
     <xsl:template match="tei:reg">
         <reg><xsl:apply-templates /></reg>
     </xsl:template>
-
+    
     <!-- Glottonimo -->
     <xsl:template match="tei:lang">
         <xsl:element name="span">
-        <xsl:attribute name="class">lang</xsl:attribute>
-        <b><xsl:value-of select="current()" /></b>
+            <xsl:attribute name="class">lang</xsl:attribute>
+            <b><xsl:apply-templates /></b>
         </xsl:element>
     </xsl:template>
     

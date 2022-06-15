@@ -296,7 +296,7 @@
                     ou <choice><orig>1</orig><reg resp="#EF">une</reg></choice> <term ref="#symt">symétrie</term> entre les <term ref="#formes">formes;</term>
                 </ab>
                 <ab type="paragrafo" n="8" xml:id="P2_1O_Par8">
-                    ainsi <del rend="overstrike">venirai</del> <mentioned xml:lang="fr" rend="underline">vien-<lb break="no"/>drai</mentioned>
+                    ainsi <del rend="overstrike">venirai</del> <mentioned xml:lang="fr" rend="underline">vien<pc>-</pc><lb break="no"/>drai</mentioned>
                     <lb xml:id="P2_10_L18" n="18" facs="#P10_R18" />
                     n'est pas <term ref="#symtrq">symétrique</term> à <mentioned xml:lang="fr" rend="underline">punirai</mentioned>.
                 </ab>
@@ -310,7 +310,7 @@
                     <lb xml:id="P2_10_L20" n="20" facs="#P10_R20" />
                     généralement, ce <term ref="#phnm"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term> représent une <term ref="#asctndformes" rend="underline">association de formes</term>
                     <lb xml:id="P2_10_L21" n="21" facs="#P10_R21" />
-                    dans l'<term ref="#esprt">esprit</term>, qui est dictée par l’<term ref="#adir"><emph rend="underline">association des idées repré-</emph></term>
+                    dans l'<term ref="#esprt">esprit</term>, qui est dictée par l’<term ref="#adir"><emph rend="underline">association des idées repré<pc>-</pc></emph></term>
                     <lb xml:id="P2_10_L22" n="22" facs="#P10_R22" />
                     <term ref="#adir"><emph rend="underline">sentées</emph></term>.<del rend="overstrike"><gap reason="illegible"/></del>
                 </ab>
