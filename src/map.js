@@ -2,8 +2,8 @@ $(function() {
 
  $("#map").one("click", function () {
 
-    $(".abbr").css("font-weight", "normal");
-      $(".expan").fadeOut();
+    $("del").fadeOut();
+    $(".gaps").fadeOut();
 
     immagini10 = $("img[src='P2_10.jpg']");
 

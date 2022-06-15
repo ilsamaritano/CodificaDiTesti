@@ -67,7 +67,7 @@ $(document).ready(function () {
   $("#del").on("click", () => {
     click5 += 1;
 
-    if ($("#map").prop("checked") == true) {
+    /* if ($("#map").prop("checked") == true) {
 
     $("area").each(function (index, element) {
 
@@ -87,9 +87,9 @@ $(document).ready(function () {
 
       });
 
-    } /*  else {
+    }   else {
 
-   /* if($("#map").prop("checked") == false) {
+    if($("#map").prop("checked") == false) {
 
         $("area").each(function (index, element) {
 
@@ -121,7 +121,7 @@ $(document).ready(function () {
       $("del").fadeOut();
       $(".gaps").fadeOut();
     }
-  });
+  }); 
 
   $('#gap').click(function () {
     if ($(this).prop("checked") == true) {
@@ -135,7 +135,7 @@ $(document).ready(function () {
         gaps[i].style.background = "none";
       }
     }
-  });
+  }); 
 
   $(".expan").hide();
 
@@ -173,6 +173,20 @@ $(document).ready(function () {
     $('reg').css("background", "none");
 
     }
+
+  });
+
+
+  $('.abbr').on("mouseover",function () {
+    
+    $(this).css("font-weight", "bold");
+    $(this).next().fadeIn();
+
+  });
+
+  $('.abbr').on("mouseleave",function () {
+  
+    $(this).next().hide();
 
   });
 
