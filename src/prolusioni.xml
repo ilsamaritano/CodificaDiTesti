@@ -137,7 +137,7 @@
         <surface n="1" xml:id="P2_10">
             <graphic url='P2_10.jpg' width='4031.6px' height='4913.6px' />
             <zone ulx="239" uly="298" lrx="3747" lry="4666" xml:id="P10Intera" />
-            <zone ulx="742" uly="414" lrx="3712" lry="605" xml:id="P10_R1" />
+            <zone ulx="681" uly="370" lrx="3721" lry="578" xml:id="P10_R1" />
             <zone ulx="777" uly="582" lrx="3660" lry="691" xml:id="P10_R2" />
             <zone ulx="790" uly="702" lrx="3596" lry="795" xml:id="P10_R3" />
             <zone ulx="268" uly="646" lrx="700" lry="1267" xml:id="P10_N1" /><!-- Nota a margine -->
