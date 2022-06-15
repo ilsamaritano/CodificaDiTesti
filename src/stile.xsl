@@ -392,8 +392,8 @@
                             <xsl:attribute name="style"> <!-- P10 -->
                                 position: absolute;
                                 top: <xsl:value-of select="concat(($uly * $ratio), 'px')" />;
-                                left: <xsl:value-of select="concat(66+($ulx * $ratio), 'px')" />;
-                                width: <xsl:value-of select="concat(18+($lrx - $ulx) * $ratio, 'px')" />;
+                                left: <xsl:value-of select="concat(68+($ulx * $ratio), 'px')" />;
+                                width: <xsl:value-of select="concat(16+($lrx - $ulx) * $ratio, 'px')" />;
                                 height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
                                 opacity: 0.5;
                             </xsl:attribute>
@@ -402,8 +402,8 @@
                             <xsl:attribute name="style">
                                 position: absolute;
                                 top: <xsl:value-of select="concat(($uly * $ratio), 'px')" />;
-                                left: <xsl:value-of select="concat(66+($ulx * $ratio), 'px')" />;
-                                width: <xsl:value-of select="concat(18+($lrx - $ulx) * $ratio, 'px')" />;
+                                left: <xsl:value-of select="concat(68+($ulx * $ratio), 'px')" />;
+                                width: <xsl:value-of select="concat(16+($lrx - $ulx) * $ratio, 'px')" />;
                                 height: <xsl:value-of select="concat(($lry - $uly) * $ratio, 'px')" />;
                                 opacity: 0.5;
                             </xsl:attribute>
