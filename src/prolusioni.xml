@@ -361,7 +361,7 @@
                     Or il le fabriquera <abbr>touj<am>.</am></abbr><expan><ex>ours</ex></expan> d’après le <term ref="#pdanalogie">procédé d’<abbr>anal</abbr><expan><ex>ogie</ex></expan></term>.
                 </ab>
                 <ab type="paragrafo" n="14" xml:id="P2_1O_N3">
-                    Il est possible que <choice><orig></orig><reg resp="#EF">,</reg></choice> si <del rend="overstrike">notre facul</del>
+                    Il est possible que <reg resp="#EF">,</reg> si <del rend="overstrike">notre facul</del>
                     <lb xml:id="P2_10_L29" n="29" facs="#P10_R29" />
                     la puissance
                     
@@ -438,9 +438,9 @@
                     <add resp="#FDS" place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous <emph rend="underline">trouvons</emph>, <add resp="#FDS" place="above">comme je <emph rend="underline">meurs</emph>, nous mourons</add> </mentioned>
                     Pourquoi ? il y a une raison excellente
                     <lb xml:id="P2_11_L13" n="13" facs="#P11_R13" />
-                    mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <choice><orig></orig><reg resp="#EF">,</reg></choice> nous  <choice><orig></orig><reg resp="#EF">,</reg></choice> <emph rend="underline">lavons</emph></mentioned> et
+                    mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <reg resp="#EF">,</reg> nous  <reg resp="#EF">,</reg> <emph rend="underline">lavons</emph></mentioned> et
                     <lb xml:id="P2_11_L14" n="14" facs="#P11_R14" />
-                    nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph>  <choice><orig></orig><reg resp="#EF">,</reg></choice> nous <emph rend="underline">lavons</emph></mentioned>
+                    nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph>  <reg resp="#EF">,</reg> nous <emph rend="underline">lavons</emph></mentioned>
                 </ab>
                 <ab type="paragrafo" n="7" xml:id="P2_11_Par7">
                     <lb xml:id="P2_11_L15" n="15" facs="#P11_R15" />
@@ -452,7 +452,7 @@
                 </ab>
                 <ab type="paragrafo" n="8" xml:id="P2_11_N1"> <!--Nota a margine-->
                     <choice><orig>Tj d</orig><reg resp="#EF">Toujours dans</reg></choice> l'<term ref="#histoire"><abbr>hist<am>.</am></abbr><expan><ex>oire</ex></expan></term> du <term ref="#preterit"><abbr>prét<am>.</am></abbr><expan><ex>érit</ex></expan></term> <orig>1</orig><reg resp="#EF">un</reg> <term ref="#exemple"><abbr>ex<am>.</am></abbr><expan><ex>emple</ex></expan></term>: que même les 
-                    <term ref="#formes">formes</term> les <choice><orig>+</orig><reg resp="#EF">plus</reg></choice> <abbr>famili<am>.</am></abbr><expan><ex>ères</ex></expan> à l’<term ref="#esprt">esprit</term>, <choice><orig>x</orig><reg resp="#EF">ch</reg></choice>ose <abbr>sing<am>.</am></abbr><expan><ex>ulière</ex></expan>, sont sujettes <choice><orig></orig><reg resp="#EF">à l’<term ref="#analogie">analogie</term></reg></choice>
+                    <term ref="#formes">formes</term> les <choice><orig>+</orig><reg resp="#EF">plus</reg></choice> <abbr>famili<am>.</am></abbr><expan><ex>ères</ex></expan> à l’<term ref="#esprt">esprit</term>, <choice><orig>x</orig><reg resp="#EF">ch</reg></choice>ose <abbr>sing<am>.</am></abbr><expan><ex>ulière</ex></expan>, sont sujettes <reg resp="#EF">à l’<term ref="#analogie">analogie</term></reg>
                 </ab>
                 <ab type="paragrafo" n="9" xml:id="P2_11_Par8">
                     <lb xml:id="P2_11_L18" n="18" facs="#P11_R18" />
@@ -460,7 +460,7 @@
                     <lb xml:id="P2_11_L19" n="19" facs="#P11_R19" />
                     parce que
                     <lb xml:id="P2_11_L20" n="20" facs="#P11_R20" />
-                    <choice><orig></orig><reg resp="#EF"><mentioned xml:lang="fr">grandis</mentioned> <term ref="#masc">masc.</term> et <term ref="fem">fém.</term>.</reg></choice>. Déjà au <date>XIe siècle</date> <mentioned xml:lang="fr" rend="underline">grande</mentioned>.
+                    <reg resp="#EF"><mentioned xml:lang="fr">grandis</mentioned> <term ref="#masc">masc.</term> et <term ref="fem">fém.</term>.</reg>. Déjà au <date>XIe siècle</date> <mentioned xml:lang="fr" rend="underline">grande</mentioned>.
                 </ab>
                 <ab type="paragrafo" n="10" xml:id="P2_11_Par9">
                     <lb xml:id="P2_11_L21" n="21" facs="#P11_R21" />
@@ -468,7 +468,7 @@
                     <lb xml:id="P2_11_L22" n="22" facs="#P11_R22" />
                     <del rend="overstrike"></del> Une femme ne dit plus <mentioned xml:lang="fr" rend="underline">je me décollette</mentioned>,
                     <lb xml:id="P2_11_L23" n="23" facs="#P11_R23" />
-                    mais<!-- IN PIU --> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <choice><orig></orig><reg resp="#EF">!</reg></choice> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref="#fdanalogie"><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
+                    mais<!-- IN PIU --> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <reg resp="#EF">!</reg> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref="#fdanalogie"><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
                     <del rend="overstike"><gap reason="illegible" /></del>             
                 </ab>
                 <ab type="paragrafo" n="11" xml:id="P2_11_Par10">
@@ -478,7 +478,7 @@
                     <lb xml:id="P2_11_L25" n="25" facs="#P11_R25" />
                     qu’on dit à sa raison d’être - mais il est clair qu’on a dit
                     <lb xml:id="P2_11_L26" n="26" facs="#P11_R26" />
-                    <date>jusqu’à une époque récente</date> <choice><orig>: /</orig><reg resp="#EF"></reg></choice> <choice><orig></orig><reg resp="#EF"><mentioned xml:lang="fr">je me décollette, nous nous décolletons</mentioned></reg></choice>  comme <mentioned xml:lang="fr" rend="underline">j’achète</mentioned> <choice><orig>-</orig><reg resp="#EF">,</reg></choice> <choice><orig>nous</orig><reg resp="#EF">nous achetons</reg></choice>
+                    <date>jusqu’à une époque récente</date> <choice><orig>: /</orig><reg resp="#EF"></reg></choice> <reg resp="#EF"><mentioned xml:lang="fr">je me décollette, nous nous décolletons</mentioned></reg>  comme <mentioned xml:lang="fr" rend="underline">j’achète</mentioned> <choice><orig>-</orig><reg resp="#EF">,</reg></choice> <choice><orig>nous</orig><reg resp="#EF">nous achetons</reg></choice>
                     
                 </ab>
                 <ab type="paragrafo" n="12" xml:id="P2_11_Par11">
