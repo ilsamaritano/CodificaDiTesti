@@ -104,7 +104,7 @@ $(document).ready(function () {
     
               } else {
     
-              $(element).css("top", init_top-80);
+              $(element).css("top", init_top-60);
               }
     
           });
