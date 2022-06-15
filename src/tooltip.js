@@ -56,6 +56,13 @@ $(function () {
         selett = selettore.replace("#", "").trim(); // Rimuovo l'#
         var desc = $(`#desc_${selett}`).text(); // Ottengo la stringa descrittiva
       }
+      if (target.is(".lang")) {
+        // Bugfix per i glottonimi
+        father = target.getParent(1); // E' necessario risalire il DOM e ritornare al padre span .termini
+        var selettore = father.attr("id"); // Riprendere il suo ID e stesso procedimento
+        selett = selettore.replace("#", "").trim(); // Rimuovo l'#
+        var desc = $(`#desc_${selett}`).text(); // Ottengo la stringa descrittiva
+      }
     }
 
     $(target).attr("title", desc); // aggiungo e ci inserisco la stringa

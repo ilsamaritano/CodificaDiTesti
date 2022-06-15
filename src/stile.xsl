@@ -215,10 +215,10 @@
     <xsl:template match="tei:lang">
         <xsl:element name="span">
         <xsl:attribute name="class">lang</xsl:attribute>
-        <b><xsl:value-of select="current()" /></b>
+        <xsl:apply-templates />
         </xsl:element>
     </xsl:template>
-    
+
     
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
