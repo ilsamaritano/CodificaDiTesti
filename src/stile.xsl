@@ -89,10 +89,10 @@
                                 </div>
                             </div>
                             <label class="container">
-                                        <input type="checkbox" id="map">
-                                        </input>
-                                        Visualizza la mappa
-                                    </label> 
+                                <input type="checkbox" id="map">
+                                </input>
+                                Visualizza la mappa
+                            </label> 
                         </div>
                     </div>
                     
@@ -470,8 +470,5 @@
             </xsl:element>
         </xsl:for-each>
     </xsl:template>
-    
-    
-    
     
 </xsl:stylesheet>
