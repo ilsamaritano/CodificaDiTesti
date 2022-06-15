@@ -87,9 +87,9 @@ $(document).ready(function () {
 
       });
 
-    }  else {
+    } /*  else {
 
-    if($("#map").prop("checked") == false) {
+   /* if($("#map").prop("checked") == false) {
 
         $("area").each(function (index, element) {
 
@@ -104,12 +104,12 @@ $(document).ready(function () {
     
               } else {
     
-              $(element).css("top", init_top-60);
+              $(element).css("top", init_top-80);
               }
     
           });
-      }
-    }
+      } 
+    } */
 
 
     if (click5 % 2 == 1) {

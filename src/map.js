@@ -2,6 +2,9 @@ $(function() {
 
  $("#map").one("click", function () {
 
+    $(".abbr").css("font-weight", "normal");
+      $(".expan").fadeOut();
+
     immagini10 = $("img[src='P2_10.jpg']");
 
     distance10 = immagini10[0].offsetTop;
