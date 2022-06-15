@@ -1,9 +1,10 @@
 $(function() {
 
- $("#map").one("click", function () {
+ $("#map").on("click", function () {
 
-    $("del").fadeOut();
-    $(".gaps").fadeOut();
+    $("#abbreviazioni").prop("disabled", true);
+    $("#del").prop("disabled", true);
+    $("#reg").prop("disabled", true);
 
     immagini10 = $("img[src='P2_10.jpg']");
 
@@ -36,6 +37,10 @@ $(function() {
         } else {
 
             if ($(this).prop("checked") == false) {
+
+                $("#abbreviazioni").prop("disabled", false);
+                $("#del").prop("disabled", false);
+                $("#reg").prop("disabled", false);
 
                 $("area").each(function (index, element) {
 
