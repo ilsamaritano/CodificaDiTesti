@@ -225,6 +225,12 @@ img.icon {
   display: none;
 }
 
+.lang {
+  background-color: rgb(0, 29, 0);
+  font-weight: bold;
+  color: #fff
+}
+
 div.gaps {
   margin-right: 330px;
   text-transform: uppercase;

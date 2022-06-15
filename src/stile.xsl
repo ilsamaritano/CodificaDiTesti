@@ -210,15 +210,15 @@
     <xsl:template match="tei:reg">
         <reg><xsl:apply-templates /></reg>
     </xsl:template>
-    
+
     <!-- Glottonimo -->
     <xsl:template match="tei:lang">
         <xsl:element name="span">
-            <xsl:attribute name="class">lang</xsl:attribute>
-            <b><xsl:apply-templates /></b>
+        <xsl:attribute name="class">lang</xsl:attribute>
+        <xsl:apply-templates />
         </xsl:element>
     </xsl:template>
-    
+
     
     <!-- Esempio linguistico -->
     <xsl:template match="tei:mentioned">
