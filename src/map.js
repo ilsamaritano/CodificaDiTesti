@@ -48,12 +48,23 @@ function regolaAltezza(aree) {
 
     if ($(this).prop("checked") == true) {
 
-        if($("del").css("display") != "none") {
+        if($("del").css("display") == "none" && $("#del").prop("disabled")==true ||
+        $(".abbr").css("display") == "none" && $("#abbreviazioni").prop("disabled")==true ||
+        $("reg").css("display") == "none" && $("#reg").prop("disabled")==true) {
 
             regolaAltezza($(area));
+
+        } else {
+
+            if($("del").css("display") != "none" && $("#del").prop("disabled")==true ||
+            $(".abbr").css("display") != "none" && $("#abbreviazioni").prop("disabled")==true ||
+            $("reg").css("display") != "none" && $("#reg").prop("disabled")==true) {
+
+                regolaAltezza($(area));
+            }
         }
 
-        $(area).each(function (index, element) {
+        /*$(area).each(function (index, element) {
 
             init_top = parseFloat($(element).css("top"));
 
@@ -69,7 +80,7 @@ function regolaAltezza(aree) {
                 $(element).css("top", init_top + distance11);
                  }
 
-           });
+           }); */
     
         } else {
 
