@@ -235,19 +235,12 @@
                 </ab>
                 <ab type="paragrafo" n="3" xml:id="P2_1O_N1">   
                     <add resp="#FDS" place="margin">                 <!-- NOTA A MARGINE -->
-                        <lb xml:id="P2_10_N1" n="1" />
                         Sans la 
-                        <lb xml:id="P2_10_N2" n="2" />
                         présence 
-                        <lb xml:id="P2_10_N3" n="3" />
                         de ces 
-                        <lb xml:id="P2_10_N4" n="4" />
                         <term ref="#el">éléments</term>, 
-                        <lb xml:id="P2_10_N5" n="5" />
                         <mentioned xml:lang="fr">venirai</mentioned> 
-                        <lb xml:id="P2_10_N6" n="6" />
                         est 
-                        <lb xml:id="P2_10_N7" n="7" />
                         <abbr>simpl</abbr><expan><ex>ement</ex></expan>  <abbr>imp<am>.</am></abbr><expan><ex>ossible</ex></expan>
                     </add>
                 </ab>
