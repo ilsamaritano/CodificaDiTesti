@@ -5,6 +5,7 @@ $(document).ready(function () {
   click3 = 0;
   click4 = 0;
   click5 = 0;
+  click6 = 0;
   frombuttreg = false;
 
 
@@ -174,6 +175,27 @@ $(document).ready(function () {
     $(this).next().hide();
     $(this).css("font-weight", '');
 
+  });
+
+
+   $("add").hide();
+
+  $('#add').on("click",function () {
+
+    click6+=1;
+
+    if(click6 % 2 == 1) {
+    
+    $("add").fadeIn();
+
+    }
+
+    if(click6 % 2 == 0) {
+
+      $("add").fadeOut();
+
+    }
+    
 
   });
 

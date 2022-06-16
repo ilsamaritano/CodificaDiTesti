@@ -81,6 +81,7 @@
                                 <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="mark">Terminologia</button>
                                 <button type="button" id="esling">Esempi linguistici</button>
+                                <button type="button" id="add">Aggiunte</button>
                                 <div class="gaps">
                                     <label class="container">
                                         <input type="checkbox" id="gap">

@@ -37,6 +37,7 @@ function regolaAltezza(aree) {
     $("#abbreviazioni").prop("disabled", true);
     $("#del").prop("disabled", true);
     $("#reg").prop("disabled", true);
+    $("#add").prop("disabled", true);
 
     immagini10 = $("img[src='P2_10.jpg']");
 
@@ -50,7 +51,8 @@ function regolaAltezza(aree) {
 
         if($("del").css("display") == "none" && $("#del").prop("disabled")==true ||
         $(".abbr").css("display") == "none" && $("#abbreviazioni").prop("disabled")==true ||
-        $("reg").css("display") == "none" && $("#reg").prop("disabled")==true) {
+        $("reg").css("display") == "none" && $("#reg").prop("disabled")==true ||
+        $("add").css("display") == "none" && $("#add").prop("disabled")==true) {
 
             regolaAltezza($(area));
 
@@ -58,7 +60,8 @@ function regolaAltezza(aree) {
 
             if($("del").css("display") != "none" && $("#del").prop("disabled")==true ||
             $(".abbr").css("display") != "none" && $("#abbreviazioni").prop("disabled")==true ||
-            $("reg").css("display") != "none" && $("#reg").prop("disabled")==true) {
+            $("reg").css("display") != "none" && $("#reg").prop("disabled")==true ||
+            $("add").css("display") != "none" && $("#add").prop("disabled")==true) {
 
                 regolaAltezza($(area));
             }
@@ -89,6 +92,7 @@ function regolaAltezza(aree) {
                 $("#abbreviazioni").prop("disabled", false);
                 $("#del").prop("disabled", false);
                 $("#reg").prop("disabled", false);
+                $("#add").prop("disabled", false);
 
                 $(area).each(function (index, element) {
 
