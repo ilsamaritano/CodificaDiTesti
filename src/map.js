@@ -66,24 +66,6 @@ function regolaAltezza(aree) {
                 regolaAltezza($(area));
             }
         }
-
-        /*$(area).each(function (index, element) {
-
-            init_top = parseFloat($(element).css("top"));
-
-            if (index < 34) {
-
-                add = parseFloat(init_top) + parseFloat(distance10);
-
-                $(element).css("top", add);
-
-
-                } else {
-
-                $(element).css("top", init_top + distance11);
-                 }
-
-           }); */
     
         } else {
 

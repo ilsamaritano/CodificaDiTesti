@@ -69,35 +69,6 @@ $(document).ready(function () {
   $("#del").on("click", () => {
     click5 += 1;
 
-   /* if ($("#map").prop("checked") == true) {
-
-      regolaAltezza();
-
-    }   else {
-
-    if($("#map").prop("checked") == false) {
-
-        $("area").each(function (index, element) {
-
-          init_top = parseFloat($(element).css("top"));
-    
-          if (index < 34) {
-    
-              sottr = parseFloat(init_top) - 10;
-    
-              $(element).css("top", sottr);
-    
-    
-              } else {
-    
-              $(element).css("top", init_top-60);
-              }
-    
-          });
-      } 
-    } */
-
-
     if (click5 % 2 == 1) {
       $("del").fadeIn();
       $(".gaps").fadeIn();
