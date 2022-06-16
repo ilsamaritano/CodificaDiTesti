@@ -235,19 +235,19 @@
                 </ab>
                 <ab type="paragrafo" n="3" xml:id="P2_1O_N1">   
                     <add resp="#FDS" place="margin">                 <!-- NOTA A MARGINE -->
-                        <lb xml:id="P2_10_N1" n="1" facs="#P10_N1" />
+                        <lb xml:id="P2_10_N1" n="1" />
                         Sans la 
-                        <lb xml:id="P2_10_N2" n="2" facs="#P10_N2" />
+                        <lb xml:id="P2_10_N2" n="2" />
                         présence 
-                        <lb xml:id="P2_10_N3" n="3" facs="#P10_N3" />
+                        <lb xml:id="P2_10_N3" n="3" />
                         de ces 
-                        <lb xml:id="P2_10_N4" n="4" facs="#P10_N4" />
+                        <lb xml:id="P2_10_N4" n="4" />
                         <term ref="#el">éléments</term>, 
-                        <lb xml:id="P2_10_N5" n="5" facs="#P10_N5" />
+                        <lb xml:id="P2_10_N5" n="5" />
                         <mentioned xml:lang="fr">venirai</mentioned> 
-                        <lb xml:id="P2_10_N6" n="6" facs="#P10_N6" />
+                        <lb xml:id="P2_10_N6" n="6" />
                         est 
-                        <lb xml:id="P2_10_N7" n="7" facs="#P10_N7" />
+                        <lb xml:id="P2_10_N7" n="7" />
                         <abbr>simpl</abbr><expan><ex>ement</ex></expan>  <abbr>imp<am>.</am></abbr><expan><ex>ossible</ex></expan>
                     </add>
                 </ab>
@@ -325,9 +325,9 @@
                     <lb xml:id="P2_10_L20" n="20" facs="#P10_R20" />
                     généralement, ce <term ref="#phnm"><abbr>phén<am>.</am></abbr><expan><ex>ènomene</ex></expan></term> représent une <term ref="#asctndformes" rend="underline">association de formes</term>
                     <lb xml:id="P2_10_L21" n="21" facs="#P10_R21" />
-                    dans l'<term ref="#esprt">esprit</term>, qui est dictée par l’<term ref="#adir"><emph rend="underline">association des idées repré<pc>-</pc></emph></term>
+                    dans l'<term ref="#esprt">esprit</term>, qui est dictée par l’<term ref="#adir"><emph rend="underline">association des idées repré<pc>-</pc></emph></term><lb break="no"/><term ref="#adir"><emph rend="underline">sentées</emph></term>.
                     <lb xml:id="P2_10_L22" n="22" facs="#P10_R22" />
-                    <term ref="#adir"><emph rend="underline">sentées</emph></term>.<del rend="overstrike"><gap reason="illegible"/></del>
+                    <del rend="overstrike"><gap reason="illegible"/></del>
                 </ab>
                 <ab type="paragrafo" n="12" xml:id="P2_1O_Par12">
                     <lb xml:id="P2_10_L23" n="23" facs="#P10_R23" />
