@@ -169,11 +169,11 @@ $(document).ready(function () {
 
   });
 
-  $('.abbr').on("mouseleave",function () {
+  $('.abbr').on("mouseleave", function () {
   
     $(this).next().hide();
-    $(this).css("font-weight", "none");
-    
+    $(this).css("font-weight", '');
+
 
   });
 
