@@ -69,8 +69,9 @@
                                     <li><span></span>Glottonimo</li>
                                     <li><span></span>Es. linguistico</li>
                                     <li><span></span>Gap</li>
-                                    <li><b>&lt;&gt;</b><br />Aggiunta a margine</li>
-                                    <li><b>^</b> <br />Aggiunta sul testo</li>
+                                    <li><b>&lt;&gt;</b><br />Agg. a margine</li>
+                                    <li><b>^</b> <br />Agg. sul testo</li>
+                                    <li><b>*</b> <br />Supplemento editore</li>
                                 </ul>
                             </div>
                             
@@ -192,7 +193,7 @@
     </xsl:template>
     
     <!-- Aggiunte -->
-    <xsl:template match="tei:add | tei:supplied">
+    <xsl:template match="tei:add">
         <xsl:choose>
             <xsl:when test="current()[@place='margin']">
                 <add><b>&lt;</b><i>(<xsl:apply-templates />)<b>&gt;</b></i></add>
@@ -201,6 +202,11 @@
                 <add><b>^</b><i>(<xsl:apply-templates />)</i></add>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    <!-- Supplied -->
+    <xsl:template match="tei:supplied">
+        <add><b>*</b><i>(<xsl:apply-templates />)</i></add>
     </xsl:template>
     
     <!-- Forma originale -->
