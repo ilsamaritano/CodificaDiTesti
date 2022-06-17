@@ -399,7 +399,7 @@
                         <add resp="#FDS" place="superimposed">d</add>
                         
                     </mod>es <term ref="#formanalog">formations analogiques,</term>
-                    <del rend="overstrike">au linguistique</del>, c’est donc <add resp="#FDS" place="above"><!-- AGGIUNTA --></add> comme 
+                    <del rend="overstrike">au linguistique</del>, c’est donc <add resp="#FDS" place="above"><gap reason="illegible"/></add> comme 
                     <lb xml:id="P2_11_L6" n="6" facs="#P11_R6" />
                     si l’on <del rend="overstrike">citait des</del> demandait à <choice><orig>1</orig><reg resp="#EF">un</reg></choice> <term ref="#mineralogiste">minéralogiste</term> de <term ref="#citer">citer</term> des <term ref="#mineraux">minéraux</term>,
                     <lb xml:id="P2_11_L7" n="7" facs="#P11_R7" />
@@ -422,7 +422,7 @@
                     <lb xml:id="P2_11_L11" n="11" facs="#P11_R11" />
                     partout et à <term ref="#tepoque"><choice><orig>tt</orig><reg resp="#EF">toute</reg></choice>  
                         <mod type="subst">
-                            <del rend="overwritten"><gap reason="illegible"></gap></del>
+                            <del rend="overwritten"><gap reason="illegible"/></del>
                             <add resp="#FDS" place="superimposed">époque</add>
                         </mod></term> c’est son <term ref="#histoire">histoire</term> de tous les jours et de tous les <term ref="#temps">temps</term>
                 </ab>
