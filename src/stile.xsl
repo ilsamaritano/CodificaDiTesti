@@ -192,7 +192,7 @@
     </xsl:template>
     
     <!-- Aggiunte -->
-    <xsl:template match="tei:add">
+    <xsl:template match="tei:add | tei:supplied">
         <xsl:choose>
             <xsl:when test="current()[@place='margin']">
                 <add><b>&lt;</b><i>(<xsl:apply-templates />)<b>&gt;</b></i></add>
