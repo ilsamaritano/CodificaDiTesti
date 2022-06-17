@@ -12,7 +12,7 @@
                 <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
                 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
                 <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-                <script src="JS/zoombar.js"></script>
+                
                 <script src="tooltip.js"></script>
                 <script src="imgjs.js"></script>
                 <script src="mark.js"></script>
@@ -79,9 +79,9 @@
                                 <h3>Visualizza fenomeni notevoli</h3>
                                 <button type="button" id="abbreviazioni">Abbreviazioni</button>
                                 <button type="button" id="del">Cancellazioni</button>
-                                <button type="button" id="reg">Correzioni</button>
+                                <button type="button" id="reg">Correzioni editore</button>
                                 <button type="button" id="mark">Terminologia</button>
-                                <button type="button" id="esling">Esempi linguistici</button>
+                                <button type="button" id="esling">Es. linguistici</button>
                                 <button type="button" id="add">Aggiunte</button>
                                 <div class="gaps">
                                     <label class="container">
