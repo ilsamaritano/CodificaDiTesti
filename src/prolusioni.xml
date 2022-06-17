@@ -431,7 +431,7 @@
                     <add resp="#FDS" place="margin"><del rend="overstrike">je pleure</del></add><mentioned xml:lang="fr"><emph rend="underline">je treuve</emph>, nous <emph rend="underline">trouvons</emph>, <add resp="#FDS" place="above">comme je <emph rend="underline">meurs</emph>, nous mourons</add> </mentioned>
                     Pourquoi ? il y a une raison excellente
                     <lb xml:id="P2_11_L13" n="13" facs="#P11_R13" />
-                    mais <!-- fr.mod JE TREUVE --> On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <reg resp="#EF">,</reg> nous  <reg resp="#EF">,</reg> <emph rend="underline">lavons</emph></mentioned> et
+                    mais <choice><orig></orig><reg resp="#EF">je treuve</reg></choice>. On a dit <mentioned xml:lang="fr"><emph rend="underline">je lève</emph> <reg resp="#EF">,</reg> nous  <reg resp="#EF">,</reg> <emph rend="underline">lavons</emph></mentioned> et
                     <lb xml:id="P2_11_L14" n="14" facs="#P11_R14" />
                     nous disons <mentioned xml:lang="fr"><emph rend="underline">je lave</emph>  <reg resp="#EF">,</reg> nous <emph rend="underline">lavons</emph></mentioned>
                 </ab>
@@ -461,7 +461,7 @@
                     <lb xml:id="P2_11_L22" n="22" facs="#P11_R22" />
                     <del rend="overstrike"></del> Une femme ne dit plus <mentioned xml:lang="fr" rend="underline">je me décollette</mentioned>,
                     <lb xml:id="P2_11_L23" n="23" facs="#P11_R23" />
-                    mais<!-- IN PIU --> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <reg resp="#EF">!</reg> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref="#fdanalogie"><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
+                    <reg resp="#EF">mais</reg> <mentioned xml:lang="fr" rend="underline">je me <emph rend="underline">décolle</emph></mentioned> <reg resp="#EF">!</reg> <abbr>Magnif<am>.</am></abbr><expan><ex>ique</ex></expan> <term ref="#fdanalogie"><abbr>f</abbr><am>.</am><expan><ex>ormation</ex></expan> d' <abbr>anal<am>.</am></abbr><expan><ex>ogie</ex></expan></term>
                     <del rend="overstike"><gap reason="illegible" /></del>             
                 </ab>
                 <ab type="paragrafo" n="11" xml:id="P2_11_Par10">
