@@ -3,7 +3,7 @@ Il progetto contenuto in questo <i>repository</i> è stato realizzato per l'esam
 
 - <i>Corrado Baccheschi</i> (mat. 599107)
 
-- <i>Vincenzo Sammartino</i> (mat. 599203)   (repository : https://github.com/ilsamaritano/CodificaDiTesti)
+- <i>Vincenzo Sammartino</i> (mat. 599203) 
 
 Il progetto è stato validato con Xerces con il seguente comando:
 
