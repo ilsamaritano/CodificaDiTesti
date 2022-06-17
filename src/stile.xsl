@@ -64,7 +64,7 @@
                             <div class='legenda'>
                                 <h3>Legenda</h3>
                                 <ul class='legend-labels'>
-                                    <li><span></span>Correzione</li>
+                                    <li><span></span>Correzione editore</li>
                                     <li><span></span>Termine</li>
                                     <li><span></span>Glottonimo</li>
                                     <li><span></span>Es. linguistico</li>
@@ -79,9 +79,9 @@
                                 <h3>Visualizza fenomeni notevoli</h3>
                                 <button type="button" id="abbreviazioni">Abbreviazioni</button>
                                 <button type="button" id="del">Cancellazioni</button>
-                                <button type="button" id="reg">Correzioni editore</button>
+                                <button type="button" id="reg">Correzioni</button>
                                 <button type="button" id="mark">Terminologia</button>
-                                <button type="button" id="esling">Es. linguistici</button>
+                                <button type="button" id="esling">Esempio linguistico</button>
                                 <button type="button" id="add">Aggiunte</button>
                                 <div class="gaps">
                                     <label class="container">
