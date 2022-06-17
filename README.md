@@ -20,3 +20,7 @@ I file XML e XSL sono stati trasformati con Saxon-HE 10.3 in un file HTML "<i>pr
 ```shell
 $ java -jar ./SaxonHE10-3J/saxon-he-10.3.jar -s:prolusioni.xml -xsl:stile.xsl -o:prolusioni.html
 ```
+Risultato:
+```
+prolusioni.xml: 144;31;1 ms (1142 elems, 3177 attrs, 8633 spaces, 39644 chars)
+```
